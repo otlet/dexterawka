@@ -1,0 +1,111 @@
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  backgroundImage:
+    path: "images/templates/hero"
+    filename:
+      desktop: "#"
+      mobile: "gradient-mobile.webp"
+
+  badge:
+    text: v0.1.0
+    color: primary # primary, secondary, success, danger, warning, info, light, dark
+    pill: false # boolean
+    soft: true # boolean
+
+  title: "Dexterawka"
+  subtitle: Kompendium Wiedzy Kurierskiej
+
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "dexterawka.jpg" # filename of your hero image (including file extension)
+    alt: "Dexterawka" # Optional but recommended
+    boxShadow: true # default 'false' (excludes .svg images)
+    rounded: true # round the image corners? default 'false' (excludes .svg images)
+
+  ctaButton:
+    icon: construction
+    btnText: "Strona w budowie!"
+    url: "#"
+  cta2Button:
+    icon: rocket_launch
+    btnText: "Zacznijmy"
+    url: "docs/"
+
+  info: "**Open Source** MIT Licensed."
+
+# Feature Grid
+featureGrid:
+  enable: true
+  weight: 20
+  template: feature grid
+
+  title: Czego się dowiesz?
+  subtitle: Kompedium Wiedzy Kurierskiej powstało z potrzeby edukacji kurierów aplikacji, powstała z inicjatywy Dexterowskiego, który zauważył brak takiego miejsca w sieci. Z tego powodu kurierzy nie wiedzą jak zacząć, na co uważać, jak się rozliczać.
+
+  items:
+    - title: Znajdź wiedzę
+      icon: search
+      description: Dowiedz się jak działa praca jako kurier, jakie są rodzaje zleceń, jakie są rodzaje płatności, jakie są rodzaje aplikacji.
+
+    - title: Zwiększ dochód
+      icon: trending_up
+      description: Korzystając z dostępnej wiedzy, maksymalizuj swoje zarobki, zwiększaj swoje umiejętności, zwiększaj swoje zadowolenie z pracy.
+
+    - title: Bezpieczna wiedza
+      icon: lock
+      description: Zdobądź wiedzę na bazie doświadczeń wieloletnich kurierów, którzy przeszli przez wiele sytuacji, które mogą spotkać każdego kuriera. Ucz się na błędach innych!
+
+# Image compare
+imageCompare:
+  enable: false
+  weight: 30
+  template: image compare
+
+  title: Customise The Lotus Docs Appearance
+  subtitle: Much of Lotus Docs' appearance can be customised. Dark mode is optional (enabled by default) and you can choose a Google font that suites you via the config parameters.
+
+  items:
+    - title: Dark Mode
+      config:
+        {
+          startingPoint: 50,
+          addCircle: true,
+          addCircleBlur: false,
+          showLabels: true,
+          labelOptions: { before: "Dark", after: "Light", onHover: false },
+        }
+      imagePath: "images/screenshots"
+      imageBefore: "lotusdocs_dark_v0.8.webp"
+      imageAfter: "lotusdocs_light_v0.8.webp"
+
+    - title: Custom Fonts
+      config:
+        {
+          controlColor: "#3C4257",
+          startingPoint: 25,
+          addCircle: true,
+          addCircleBlur: false,
+          showLabels: true,
+          labelOptions:
+            { before: "Inter", after: "Life Saver", onHover: false },
+        }
+      imagePath: "images/screenshots"
+      imageBefore: "lotusdocs_google_font_demo_inter_screenshot.webp"
+      imageAfter: "lotusdocs_google_font_demo_lifesavers_screenshot.webp"
+
+    - title: Accent Color
+      config:
+        {
+          startingPoint: 25,
+          addCircle: true,
+          addCircleBlur: true,
+          showLabels: true,
+          labelOptions: { before: "Blue", after: "Cardinal", onHover: false },
+        }
+      imagePath: "images/screenshots"
+      imageBefore: "lotusdocs_blue_theme_colour.webp"
+      imageAfter: "lotusdocs_cardinal_theme_colour.webp"
