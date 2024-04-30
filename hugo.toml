@@ -1,6 +1,15 @@
 baseURL = 'http://example.org/'
 languageCode = 'pl'
-title = 'Dexterawka'
+title = 'Kompendium Wiedzy Delivery - Dexterawka'
+
+[params.docs]
+darkMode = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[[menu.primary]]
+name = 'Test'
 
 [module]
     # uncomment line below for temporary local development of module
@@ -12,4 +21,3 @@ title = 'Dexterawka'
     [[module.imports]]
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
         disable = false
-

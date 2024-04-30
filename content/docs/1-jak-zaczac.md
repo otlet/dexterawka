@@ -1,16 +1,21 @@
 ---
-weight: 999
+weight: 1
 title: "Jak zacząć pracę na delivery?"
-description: ""
+description: "Dowiedz się jak zacząć swoją przygodę z dostarczaniem. Jakie są różnice między aplikacjami?"
 icon: "article"
 date: "2024-04-26T13:08:32+02:00"
 lastmod: "2024-04-26T13:08:32+02:00"
-draft: true
+draft: false
 toc: true
 ---
+<div style="text-align: center">
 
-[![Film](/assets/images/dexterawka.jpg "Jak zacząć na delivery")](https://www.youtube.com/watch?v=gU5Ok4S0PG8&pp=ygUWamFrIHphY3phYyBuYSBkZWxpdmVyeQ%3D%3D)
-**<p style="text-align: center;">(Materiał z 15 października 2022 roku. Jeżeli będzie aktualizacja, zostanie wrzucony nowy link)</p>**
+# Materiał video:
+
+[![Jak zacząć na delivery](/images/dexterawka.png)](https://www.youtube.com/watch?v=gU5Ok4S0PG8&pp=ygUWamFrIHphY3phYyBuYSBkZWxpdmVye)
+
+</div>
+<p style="text-align: center; font-weight: bold; font-style: italic;">(Materiał z 15 października 2022 roku. Jeżeli będzie aktualizacja, zostanie wrzucony nowy link)</p>
 
 # Gdzie się zarejestrować?
 
@@ -20,9 +25,8 @@ Aby zarejestrować się, potrzebujesz konta u partnera flotowego, który pośred
 
 W Polsce do wyboru mamy paru partnerów flotowych. Działają na zasadzie pośrednictwa pomiędzy dostawcą a aplikacją kurierską.
 
-[Evelstar](https://evelstar.com) - Zatrudniamy na podstawie umowy zlecenie kierowców, dostawców oraz kurierów pracujących na aplikacjach. Dzięki temu osoba pracująca przy pomocy aplikacji nie musi zakładać działalności gospodarczej jednocześnie rozliczając w legalny sposób wszystkie należne podatki.
-
-Inny partnerzy flotowi - Informacje na ich temat znajdziesz wyszukując “Partnerzy flotowi delivery food”
+**Partner flotowy sprawdzony, rekomandowany przez Dexterowskiego oraz wielu innych kurierów:**
+>[Evelstar](https://evelstar.com) - Zatrudniamy na podstawie umowy zlecenie kierowców, dostawców oraz kurierów pracujących na aplikacjach. Dzięki temu osoba pracująca przy pomocy aplikacji nie musi zakładać działalności gospodarczej jednocześnie rozliczając w legalny sposób wszystkie należne podatki.
 
 # Wybór aplikacji kurierskiej
 
@@ -45,7 +49,7 @@ Poniżej tabelka która nam przedstawi główne różnicę między wszystkimi ap
 
 
 
-# <p style="text-align: center;"> Minimalny wiek do pracy</p>
+# Minimalny wiek do pracy
 
 * **Glovo** - minimum 18 lat
 * **Uber Eats** - minimum 18 lat

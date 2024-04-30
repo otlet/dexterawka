@@ -1,6 +1,15 @@
+---
+weight: 6
+title: "Aplikacja Glovo"
+description: "Specyfikacja aplikacji Glovo"
+icon: "article"
+draft: false
+toc: true
+---
+
 <div style="text-align:center">
 
-![](/assets/images/glovo.png)
+![](/images/glovo.png)
 
 # Informacje ogólne o aplikacji
 
@@ -18,7 +27,7 @@ Kurierzy, obok partnerów i klientów, stanowią jeden z trzech typów użytkown
 
 </div>
 
-### Plusy:
+### Plusy
 * Praktyczna ciągłość zamówień
 * Aplikacja z największa ilościa partnerów, czyli restauracji, sklepów itp.
 * Widoczne mnożniki w aplikacji (stawka i kilometry)
@@ -31,7 +40,7 @@ Kurierzy, obok partnerów i klientów, stanowią jeden z trzech typów użytkown
 
 
 
-### Minusy:
+### Minusy
 
 * Brak możliwości przepisywań zamówień (jeżeli nie spełniamy wymaganych minimum, ryzyko blokady konta)
 * Słabe stawki zależne od danego miesiąca
@@ -51,16 +60,16 @@ Kurierzy, obok partnerów i klientów, stanowią jeden z trzech typów użytkown
 
 
 
-![](/assets/images/glovo_showcase/image10.png)
-![](/assets/images/glovo_showcase/image11.png)
-![](/assets/images/glovo_showcase/image15.png)
-![](/assets/images/glovo_showcase/image17.png)
-![](/assets/images/glovo_showcase/image18.png)
-![](/assets/images/glovo_showcase/image19.png)
+![](/images/glovo_showcase/image10.png)
+![](/images/glovo_showcase/image11.png)
+![](/images/glovo_showcase/image15.png)
+![](/images/glovo_showcase/image17.png)
+![](/images/glovo_showcase/image18.png)
+![](/images/glovo_showcase/image19.png)
 
 
 
-![](/assets/images/glovo_showcase/image24.png)
+![](/images/glovo_showcase/image24.png)
 
 
 **W aplikacji Glovo można wyszczególnić następujące rzeczy:**
@@ -82,11 +91,11 @@ Aplikacja Glovo dla kurierów ma system grafiku aby rozpoczać prace. Należy w 
 > Pamiętaj, że liczba bloków czasowych jest ograniczona. Im wyższy wynik doskonałości, tym wcześniej możesz zarezerwować wybrane przez siebie bloki czasowe.
 >
 > 
-![](/assets/images/glovo_showcase/image21.png)
-![](/assets/images/glovo_showcase/3.png)
-![](/assets/images/glovo_showcase/image20.png)
-![](/assets/images/glovo_showcase/image71.png)
-![](/assets/images/glovo_showcase/image51.png)
+![](/images/glovo_showcase/image21.png)
+![](/images/glovo_showcase/3.png)
+![](/images/glovo_showcase/image20.png)
+![](/images/glovo_showcase/image71.png)
+![](/images/glovo_showcase/image51.png)
 
 Należy następnie wybrać otwarte bloki czasowy by zarezerować grafik.
 Na głównym oknie wyskoczy informacja, kiedy zaczyna się blok czasowy i po naciśnieciu informacji, będzie widoczna mapa z zaznaczonymi obszarami meldunku
@@ -96,8 +105,8 @@ Na głównym oknie wyskoczy informacja, kiedy zaczyna się blok czasowy i po nac
 
 ## Saldo gotówkowe
 
-![](/assets/images/glovo_showcase/image58.png)
-![](/assets/images/glovo_showcase/image70.png)
+![](/images/glovo_showcase/image58.png)
+![](/images/glovo_showcase/image70.png)
 
 </div>
 
@@ -124,9 +133,9 @@ Aplikacja poinformuje o wybranym przez partnera rodzaju płatności:
 
 <div style="text-align:center">
 
-![](/assets/images/glovo_showcase/image2.png)
-![](/assets/images/glovo_showcase/image15.png)
-![](/assets/images/glovo_showcase/image18.png)
+![](/images/glovo_showcase/image2.png)
+![](/images/glovo_showcase/image15.png)
+![](/images/glovo_showcase/image18.png)
 
 </div>
 
@@ -136,7 +145,7 @@ Aplikacja poinformuje o wybranym przez partnera rodzaju płatności:
 
  <div style="text-align:center">
 
-## Wypłata gotówka na koniec okresu rozliczeniowego
+### Wypłata gotówka na koniec okresu rozliczeniowego
 (skumulowana codzienna wypłata gotówki)
 
 </div>
@@ -160,7 +169,7 @@ Jest ono wyszczególnione w raporcie **<span style="color:red;">MAILOWYM</span>*
 
 <div style="text-align:center">
 
-## Wpłata na Glovocash.pl
+### Wpłata na Glovocash.pl
 
 
 </div>
@@ -182,7 +191,7 @@ Wynik Doskonałości (tzw. Excellence Score) został stworzony w celu oceny repu
 
 <div style="text-align:center">
 
-![](/assets/images/glovo_showcase/image73.png)
+![](/images/glovo_showcase/image73.png)
 
 </div>
 
@@ -207,7 +216,7 @@ Na Wynik Doskonałości składa się kilka elementów. Jednym z nich jest częst
 <div style="text-align:center">
 
 ## Auto-akceptacja zamówień (Mogę pracować)
-![](/assets/images/glovo_showcase/image37.png)
+![](/images/glovo_showcase/image37.png)
 </div>
 
 
@@ -215,5 +224,5 @@ Należy pamiętać, aby w profilu mieć włączony tryb “Mogę pracować”.
 
 W innym przypadku, moga nie wpadać nam zamówienia a konto moze zostać zablokowane. Opcję tę należy używać jako “przerwę” maksymalnie 10-15min dziennie.
 > Opcje tą znajdziemy w zakładce profil
-> ![](/assets/images/glovo_showcase/image77.png)
+> ![](/images/glovo_showcase/image77.png)
 
