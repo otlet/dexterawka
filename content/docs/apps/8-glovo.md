@@ -94,8 +94,9 @@ Aplikacja Glovo dla kurierów ma system grafiku aby rozpoczać prace. Należy w 
 ![](/images/glovo_showcase/image21.png)
 ![](/images/glovo_showcase/3.png)
 ![](/images/glovo_showcase/image20.png)
-![](/images/glovo_showcase/image71.png)
 ![](/images/glovo_showcase/image51.png)
+
+![](/images/glovo_showcase/image71.png)
 
 Należy następnie wybrać otwarte bloki czasowy by zarezerować grafik.
 Na głównym oknie wyskoczy informacja, kiedy zaczyna się blok czasowy i po naciśnieciu informacji, będzie widoczna mapa z zaznaczonymi obszarami meldunku
@@ -134,6 +135,7 @@ Aplikacja poinformuje o wybranym przez partnera rodzaju płatności:
 <div style="text-align:center">
 
 ![](/images/glovo_showcase/image2.png)
+
 ![](/images/glovo_showcase/image15.png)
 ![](/images/glovo_showcase/image18.png)
 
@@ -223,6 +225,10 @@ Na Wynik Doskonałości składa się kilka elementów. Jednym z nich jest częst
 Należy pamiętać, aby w profilu mieć włączony tryb “Mogę pracować”.
 
 W innym przypadku, moga nie wpadać nam zamówienia a konto moze zostać zablokowane. Opcję tę należy używać jako “przerwę” maksymalnie 10-15min dziennie.
+
+
+
 > Opcje tą znajdziemy w zakładce profil
 > ![](/images/glovo_showcase/image77.png)
+
 

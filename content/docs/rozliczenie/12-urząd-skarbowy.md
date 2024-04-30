@@ -38,4 +38,6 @@ Umowa zlecenie = Pit 37 (otrzymujemy od partnera flotowego PIT 11) i w pozycji 7
 
 Umowa najmu pojazdu = Pit 28 i w tym przypadku rozliczamy się SAMI, partner za nas tego nie robi. Wprowadzamy tam wszystkie potrzebne informacje, jak sume przychodu, pozycje z zaplaconego ryczałtu. Instrukcja wideo ponizej: 
 
-[![Film](/images/pit28.png)](https://www.youtube.com/watch?v=qPPrZSi7ey8)
+<div style="text-align: center">
+<a href="https://www.youtube.com/watch?v=qPPrZSi7ey8"><img src="../../../images/pit28.png" width="25%"></a>
+</div>

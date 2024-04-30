@@ -70,12 +70,14 @@ Aby rozpocząć prace w Stuart [potrzebne następujące rzeczy](https://help.stu
 
 
 
-Przykład strefy na bazie Trójmiasta (Gdańsk)
+*Przykład strefy na bazie Trójmiasta (Gdańsk)*
+
 ![](/images/stuart_showcase/showcase.png)
 
 </div>
 
 <div style="text-align:center">
+<br>
 
 ## Prezentacja aplikacji
 

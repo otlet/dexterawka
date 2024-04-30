@@ -21,7 +21,7 @@ hero:
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'
-    filename: "dexterawka.png" # filename of your hero image (including file extension)
+    filename: "dexterawka.jpg" # filename of your hero image (including file extension)
     alt: "Dexterawka" # Optional but recommended
     boxShadow: true # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
@@ -29,7 +29,7 @@ hero:
   ctaButton:
     icon: construction
     btnText: "Strona w budowie!"
-    url: "#"
+    url: "https://google.com"
   cta2Button:
     icon: rocket_launch
     btnText: "Zacznijmy"

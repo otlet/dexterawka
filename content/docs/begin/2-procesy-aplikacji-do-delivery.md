@@ -6,7 +6,7 @@ icon: "article"
 date: "2024-04-26T13:08:32+02:00"
 lastmod: "2024-04-26T13:08:32+02:00"
 draft: false
-toc: true
+toc: true 
 ---
 
 # <p style="text-align: center;">Rodzaje umów</p>

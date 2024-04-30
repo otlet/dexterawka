@@ -2,14 +2,17 @@ baseURL = 'http://example.org/'
 languageCode = 'pl'
 title = 'Kompendium Wiedzy Delivery - Dexterawka'
 
+[params.footer]
+copyright = "DX STUDIO 2024"
+
 [params.docs]
+themeColor = "yellow"
 darkMode = true
+lastMod = true
+lastModRelative = true
 
 [markup.goldmark.renderer]
 unsafe = true
-
-[[menu.primary]]
-name = 'Test'
 
 [module]
     # uncomment line below for temporary local development of module

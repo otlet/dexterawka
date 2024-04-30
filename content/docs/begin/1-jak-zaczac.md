@@ -8,27 +8,28 @@ lastmod: "2024-04-26T13:08:32+02:00"
 draft: false
 toc: true
 ---
+
 <div style="text-align: center">
 
-# Materiał video:
+## Materiał video:
 
 [![Jak zacząć na delivery](/images/dexterawka.png)](https://www.youtube.com/watch?v=gU5Ok4S0PG8&pp=ygUWamFrIHphY3phYyBuYSBkZWxpdmVye)
 
 </div>
 <p style="text-align: center; font-weight: bold; font-style: italic;">(Materiał z 15 października 2022 roku. Jeżeli będzie aktualizacja, zostanie wrzucony nowy link)</p>
 
-# Gdzie się zarejestrować?
+## Gdzie się zarejestrować?
 
 Aby zarejestrować się, potrzebujesz konta u partnera flotowego, który pośredniczy między kurierem a aplikacją kurierską, następnie musisz zarejestrować się w danej aplikacji kurierskiej, przejść weryfikacje (poczekać dany okres czasu, jeżeli nie ma aktualnie rekrutacji), otrzymać lub kupić sprzęt (torbę termiczną).
 
-# Wybór partnera flotowego
+## Wybór partnera flotowego
 
 W Polsce do wyboru mamy paru partnerów flotowych. Działają na zasadzie pośrednictwa pomiędzy dostawcą a aplikacją kurierską.
 
 **Partner flotowy sprawdzony, rekomandowany przez Dexterowskiego oraz wielu innych kurierów:**
 >[Evelstar](https://evelstar.com) - Zatrudniamy na podstawie umowy zlecenie kierowców, dostawców oraz kurierów pracujących na aplikacjach. Dzięki temu osoba pracująca przy pomocy aplikacji nie musi zakładać działalności gospodarczej jednocześnie rozliczając w legalny sposób wszystkie należne podatki.
 
-# Wybór aplikacji kurierskiej
+## Wybór aplikacji kurierskiej
 
 Do wyboru ma się poszczególne aplikacje kurierskie: Glovo, Wolt, Uber Eats, Bolt Food, Stuart, Szama Express. W zależności w którym mieście chcesz jeździć musisz się zorientować czy dana aplikacja tam działa. Pytanie te najlepiej zadać swojemu partnerowi flotowemu drogą mailową.
 
@@ -49,7 +50,7 @@ Poniżej tabelka która nam przedstawi główne różnicę między wszystkimi ap
 
 
 
-# Minimalny wiek do pracy
+## Minimalny wiek do pracy
 
 * **Glovo** - minimum 18 lat
 * **Uber Eats** - minimum 18 lat

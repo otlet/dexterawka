@@ -33,7 +33,7 @@ Całe przydatne F.A.Q znajduje się [na stronie Wolta](https://partnerswolt.pl/f
 
 </div>
 
-### Plusy:
+### Plusy
 * Brak grafiku, możliwość rozpoczęcie i zakończenie pracy w dowolnym momencie
 * Odrzucanie zamówień (jedynie w momencie pierwszego wyświetlenia)
 * Brak obrotu gotówki
@@ -43,7 +43,7 @@ Całe przydatne F.A.Q znajduje się [na stronie Wolta](https://partnerswolt.pl/f
 * Wyświetlanie adresu lokalizacji restauracji oraz miejsce klienta (przybliżona wartość zamówienia oraz kilometraż)
 * Całkiem sprawny support.
 
-### Minusy:
+### Minusy
 
 * Brak informacji o jednoznacznej stawce za przebyty dystans (stawka za zamówienie zmienia sie w zależności od godziny)
 * Brak możliwości odrzucenia zaakceptowanego zamówienia (jedynie support)
@@ -59,7 +59,7 @@ Całe przydatne F.A.Q znajduje się [na stronie Wolta](https://partnerswolt.pl/f
 
 ## Prezentacja aplikacji
 
-</div>
+
 
 ![](/images/wolt_showcase/1.png)![](/images/wolt_showcase/2.png)![](/images/wolt_showcase/3.png)![](/images/wolt_showcase/4.png)
 
@@ -71,6 +71,10 @@ Niebieska strefa, to strefa dostarczania i dzialania aplikacji
 Strona ze hotspotami znajduje sie ponizej: 
 https://partnerswolt.pl/hotspots
 
-Na przykładzie Gdyni. (obszar zaznaczony na różowo, to hotspoty, reszta to obszar dostaw)
+Na przykładzie Gdyni. 
+
+*(obszar zaznaczony na różowo, to hotspoty, reszta to obszar dostaw)*
 
 ![](/images/wolt_showcase/5.png)
+
+</div>
