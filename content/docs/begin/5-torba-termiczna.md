@@ -14,9 +14,11 @@ Do rozpoczęcia pracy jako kurier, wymagana jest torba lub plecak termiczny. Bez
 Dzielimy torby na dwa rodzaje:
 <div style="text-align:center;">
 
-## <p style="text-align: center;">Plecak teleskopowy</p>
- >Cechuje sie tym, ze jest możliwość rozłożenia plecaka w kostke, by zwiekszyć miejsce na jedzenie. 
- 
+## <span style="text-align: center;">Plecak teleskopowy</span>
+
+> Cechuje sie tym, ze jest możliwość rozłożenia plecaka w kostke, by zwiekszyć miejsce na jedzenie. 
+ <hr>
+
  Przykladowe torby teleskopowe:
 
 ### Glovo
@@ -26,7 +28,7 @@ Dzielimy torby na dwa rodzaje:
 ![](/images/backpack_glovo/2.jpg)
 ![](/images/backpack_glovo/3.jpg)
 ![](/images/backpack_glovo/4.jpg)
-
+![](/images/backpack_glovo/1.jpg)
 ### Uber Eats
 
 ![](/images/backpack_uber/1.png)
@@ -37,12 +39,12 @@ Dzielimy torby na dwa rodzaje:
 
 ### Stuart
 
-![](/images/backpack_stuart/1.png)
+{{<figure src="/images/backpack_stuart/1.png" width="30%">}}
 ![](/images/backpack_stuart/2.png)
 
 <hr>
 
-## <p style="text-align: center;">Plecak "Kostka"</p>
+## <span style="text-align: center;">Plecak "Kostka"</span>
 
  >W tym rodzaju plecaka nie musimy go rozkładać aby zmieścić np. pizze. Plecy po dłuższym użytkowaniu takiej konstrukcji mogą boleć, odradza się jego używania.
 
@@ -60,7 +62,7 @@ Dzielimy torby na dwa rodzaje:
 
 ## Torba samochodowa
 
-
+{{<alert context="light" text="Do toreb samochodowych warto doposażyć się w [pad grzewczy](https://mmgastro.pl/pl/products/pad-grzewczy-do-torby-lunchbox-furmmis-pad_lunchbox6-137108?cd=17381469358&ad=&kd=&gad_source=1&gclid=Cj0KCQjw0MexBhD3ARIsAEI3WHIW0e9qMgg4nI3sA1qpyONXYgj-1-z3iXXKaJ7evJkKQFMSQi5seMAaAmpnEALw_wcB)"/>}}
 
 ### Uber
 

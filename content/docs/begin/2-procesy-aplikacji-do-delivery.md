@@ -14,17 +14,17 @@ toc: true
 ## Umowy potrzebne do rozpoczęcia pracy
 
 
-* ### Umowa zlecenie
+### Umowa zlecenie
   Dzięki umowie zlecenie będziesz zatrudniony jako kurier i zgłoszony do
 ZUS-u. Nie ustalamy czasu pracy, ani żadnych innych obostrzeń dotyczących
 Twojej pracy. Pracujesz kiedy i gdzie chcesz. Koszty ponosisz jedynie w dni aktywne,
 jeśli w danym okresie rozliczeniowym nie będziesz pracował to nie zostaniesz
 obciążony żadnymi kosztami
 
-* ### Umowa najmu samochodu 
-  > **<span style="color: red">Nie dotyczy studentów/uczniów przed 26 rokiem życia!</span>**
+### Umowa najmu samochodu 
+ {{< alert context="danger" text="<strong>Nie dotyczy studentów/uczniów przed 26 rokiem życia!</strong>" />}}
 
-    Dzięki umowie najmu samochodu posiadamy formę prawną do dysponowania
+Dzięki umowie najmu samochodu posiadamy formę prawną do dysponowania
 samochodem i możemy traktować Twój samochód jak samochód służbowy, a Ty
 możesz korzystać z benefitów takich jak zniżki na paliwo czy na części
 samochodowe. Wiele osób obawia się najmować samochodu osobom trzecim,
@@ -32,8 +32,8 @@ jednak bez obaw – w umowie jest zapis, że nikt bez Twojej zgody nie może
 użytkować najmowanego pojazdu. Dodatkowo umowa zostaje podpisana na czas
 nieokreślony, możesz więc ją zerwać w każdej chwili, bez ponoszenia jakichkolwiek kosztów oraz bez podania przyczyny
 
-* ### Umowa najmu pojazdu jednośladowego
-  > **<span style="color: red">Nie dotyczy studentów/uczniów przed 26 rokiem życia!</span>**
+### Umowa najmu pojazdu jednośladowego
+ {{< alert context="danger" text="<strong>Nie dotyczy studentów/uczniów przed 26 rokiem życia!</strong>" />}}
   
   Dotyczy skuterów i motocykli - dzięki umowie najmu pojazdu
 jednośladowego możemy traktować Twój pojazd jak pojazd służbowy. Umowa
@@ -43,13 +43,17 @@ Twojej zgody nie może użytkować najmowanego pojazdu. Dodatkowo umowa
 zostaje podpisana na czas nieokreślony, możesz więc ją zerwać w każdej chwili, bez
 ponoszenia jakichkolwiek kosztów oraz bez podania przyczyny.
 
-* ### Umowa najmu roweru
-    > **<span style="color: red">Nie dotyczy studentów/uczniów przed 26 rokiem życia!</span>**
+### Umowa najmu roweru
+ {{< alert context="danger" text="<strong>Nie dotyczy studentów/uczniów przed 26 rokiem życia!</strong>" />}}
 
-     Dzięki umowie najmu roweru możemy traktować Twój rower jak rower służbowy.
+Dzięki umowie najmu roweru możemy traktować Twój rower jak rower służbowy.
 Umowa najmu optymalizuje podatkowo Twoje zarobki. Wiele osób obawia się
 najmować rower osobom trzecim, jednak bez obaw – w umowie jest zapis, że nikt
 bez Twojej zgody nie może użytkować najmowanego roweru. Dodatkowo umowa
 zostaje podpisana na czas nieokreślony, możesz więc ją zerwać w każdej chwili, bez
 ponoszenia jakichkolwiek kosztów oraz bez podania przyczyny.
+
+### Kontrakt B2B
+
+{{< alert context="light" text="Informacje do uzupełnienia" />}}
    

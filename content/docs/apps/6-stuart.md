@@ -17,7 +17,7 @@ toc: true
 
 </div>
 
-Stuart to aplikacja kurierska, która łączy przedsiębiorców z największą niezależną flotą kurierską w Twoim mieście. Oferuje pracę jako kurier rowerowy, motorowy i samochodowy. Dzięki dedykowanej aplikacji Stuart, kurierzy otrzymują wskazówki dotyczące odbioru i dostarczenia zamówień. Wiecej informacji na temat Stuart [tutaj](https://blog.stuart.com/pl/czym-jest-stuart). .
+Stuart to aplikacja kurierska, która łączy przedsiębiorców z największą niezależną flotą kurierską w Twoim mieście. Oferuje pracę jako kurier rowerowy, motorowy i samochodowy. Dzięki dedykowanej aplikacji Stuart, kurierzy otrzymują wskazówki dotyczące odbioru i dostarczenia zamówień. Wiecej informacji na temat Stuart [tutaj](https://blog.stuart.com/pl/czym-jest-stuart)
 
 ### [FAQ](https://help.stuart.com/pl/collections/3836404-courier)
 
@@ -32,13 +32,13 @@ Stuart to aplikacja kurierska, która łączy przedsiębiorców z największą n
 ## Potrzebne rzeczy do rozpoczęcia pracy
 
 </div>
-
+{{% alert context="light" %}}
 Aby rozpocząć prace w Stuart [potrzebne następujące rzeczy](https://help.stuart.com/pl/articles/6999399-obowiazkowe-wyposazenie):
-* Czytnik Viva | Terminal (jeśli posiadasz telefon z iOS lub systemem operacyjnym Android bez funkcji NFC)✅
-* 150 zł w gotówce ✅
-* torba termiczna ✅
-* sprawny środek transportu ✅
-
+1. Czytnik Viva | Terminal (jeśli posiadasz telefon z iOS lub systemem operacyjnym Android bez funkcji NFC)✅
+2. 150 zł w gotówce ✅
+3. torba termiczna ✅
+4. sprawny środek transportu ✅
+{{% /alert %}}
 
 
 
@@ -48,12 +48,17 @@ Aby rozpocząć prace w Stuart [potrzebne następujące rzeczy](https://help.stu
 
 </div>
 
+{{% alert icon="🟢"context="success" %}}
+
 ### Plusy
 * ~~Stawka gwarantowana~~ ***(obecnie jej nie ma, na sezon jesień/zima pewnie ją przywrócą)***
 * Dosyć fajne stawki za zamówienie bo mnożniki są przyjemne
 * Zniżki na jedzenie
 
+{{% /alert %}}
 
+
+{{% alert icon="🔴"context="danger" %}}
 ### Minusy
 
 * Nie możesz odrzucić nawet jednego zamówienia na slocie bo od razu zaliczony cały slot i tracisz gwarant
@@ -61,7 +66,7 @@ Aby rozpocząć prace w Stuart [potrzebne następujące rzeczy](https://help.stu
 * Mało zamówień
 * Problemy z rozliczeniem
 * Brak informacji na stronie co oznacza Strefa Czasowa
-
+{{% /alert %}}
 
 
 <div style="text-align:center">
@@ -80,6 +85,7 @@ Aby rozpocząć prace w Stuart [potrzebne następujące rzeczy](https://help.stu
 <br>
 
 ## Prezentacja aplikacji
+
 
 
 ![](/images/stuart_showcase/1.png)![](/images/stuart_showcase/2.png)![](/images/stuart_showcase/3.png)

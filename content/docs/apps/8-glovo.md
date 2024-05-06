@@ -9,7 +9,7 @@ toc: true
 
 <div style="text-align:center">
 
-![](/images/glovo.png)
+{{<figure src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Glovo_logo.png" width="25%">}}
 
 # Informacje ogólne o aplikacji
 
@@ -26,7 +26,7 @@ Kurierzy, obok partnerów i klientów, stanowią jeden z trzech typów użytkown
 ## Plusy i minusy aplikacji
 
 </div>
-
+{{% alert icon="🟢"context="success" %}}
 ### Plusy
 * Praktyczna ciągłość zamówień
 * Aplikacja z największa ilościa partnerów, czyli restauracji, sklepów itp.
@@ -37,9 +37,9 @@ Kurierzy, obok partnerów i klientów, stanowią jeden z trzech typów użytkown
 * Wysokie mnożniki w mniejszych miejscowościach
 * Wyzwania (możliwy dodatkowy zarobek za zrealizowanie danej ilości dostaw) [jeżeli są]
 * Przejrzysta aplikacja
+{{% /alert %}}
 
-
-
+{{% alert icon="🔴"context="danger" %}}
 ### Minusy
 
 * Brak możliwości przepisywań zamówień (jeżeli nie spełniamy wymaganych minimum, ryzyko blokady konta)
@@ -52,7 +52,8 @@ Kurierzy, obok partnerów i klientów, stanowią jeden z trzech typów użytkown
 * System napiwków zależnych procentami od wartości zamówienia
 * Źle dopasowana ilość slotów (grafiku) do danego dnia
 * Biedronka, Carrefour, Auchan i inne markety. Bardzo często z tych punktów są same problematyczne zamówienia -> trzeba pisać na support z prośba o pomoc do zamówienia, często nie jest gotowe i czeka się po 30 minut itp.
-
+* Brak możliwości współpracy na zasadach [B2B](../begin/2-procesy-aplikacji-do-delivery.md#kontrakt-b2b)
+{{% /alert %}}
 
 <div style="text-align:center">
 
@@ -87,16 +88,18 @@ Kurierzy, obok partnerów i klientów, stanowią jeden z trzech typów użytkown
 </div>
 
 Aplikacja Glovo dla kurierów ma system grafiku aby rozpoczać prace. Należy w aplikacji wybrać Kalendarz i w zależności od miasta, trzeba wybrać odpowiednią strefę meldunku.
-
-> Pamiętaj, że liczba bloków czasowych jest ograniczona. Im wyższy wynik doskonałości, tym wcześniej możesz zarezerwować wybrane przez siebie bloki czasowe.
+> <center>
+>{{<alert context="warning" text="Pamiętaj, że liczba bloków czasowych jest ograniczona. Im wyższy wynik doskonałości, tym wcześniej możesz zarezerwować wybrane przez siebie bloki czasowe."/>}} 
 >
 > 
-![](/images/glovo_showcase/image21.png)
-![](/images/glovo_showcase/3.png)
-![](/images/glovo_showcase/image20.png)
-![](/images/glovo_showcase/image51.png)
+> 
+>![](/images/glovo_showcase/image21.png)
+>![](/images/glovo_showcase/3.png)
+>![](/images/glovo_showcase/image20.png)
+>![](/images/glovo_showcase/image51.png)
+>![](/images/glovo_showcase/image71.png)
 
-![](/images/glovo_showcase/image71.png)
+</center>
 
 Należy następnie wybrać otwarte bloki czasowy by zarezerować grafik.
 Na głównym oknie wyskoczy informacja, kiedy zaczyna się blok czasowy i po naciśnieciu informacji, będzie widoczna mapa z zaznaczonymi obszarami meldunku
@@ -134,17 +137,21 @@ Aplikacja poinformuje o wybranym przez partnera rodzaju płatności:
 
 <div style="text-align:center">
 
-![](/images/glovo_showcase/image2.png)
+{{% alert context="light" %}}
+{{<figure src="/images/glovo_showcase/image2.png" width="25%">}}
+*Przykładowa informacja gdy kurier musi zapłacić pieniędzmi Glovo za zamówienie*
+{{% /alert %}}
 
 ![](/images/glovo_showcase/image15.png)
 ![](/images/glovo_showcase/image18.png)
 
 </div>
 
-> **Dobrym pomysłem jest używanie dwóch portfeli, by oddzielić osobiste pieniądze od tych otrzymanych od klientów. Dzięki temu możesz uniknąć nieporozumień.**
+> {{<alert context="success" text="**Dobrym pomysłem jest używanie dwóch portfeli, by oddzielić osobiste pieniądze od tych otrzymanych od klientów. Dzięki temu możesz uniknąć nieporozumień.**"/>}}
 
- # <span style="color: red; text-align:center"> NALEŻY PAMIĘTAĆ, SALDO GOTÓWKOWE JEST WŁASNOŚCIĄ GLOVO, NIE NALEŻY TRAKTOWAĆ TYCH PIENIĘDZY JAKO SWOICH WŁASNYCH</span>
-
+<center>
+{{<alert context="danger" text="# NALEŻY PAMIĘTAĆ, SALDO GOTÓWKOWE JEST WŁASNOŚCIĄ GLOVO, NIE NALEŻY TRAKTOWAĆ TYCH PIENIĘDZY JAKO SWOICH WŁASNYCH"/>}} 
+</center>
  <div style="text-align:center">
 
 ### Wypłata gotówka na koniec okresu rozliczeniowego
@@ -160,13 +167,19 @@ Potrącenia gotówkowe, czyli kolumna wyszczególniona w raporcie Glovo składa 
 
 Jest ono wyszczególnione w raporcie **<span style="color:red;">MAILOWYM</span>**, który otrzymujesz od Glovo po zakończonym okresie rozliczeniowym.
 
-**Pamiętaj**, *gotówka Glovo nie przechodzi przez partnera flotowego!*
+{{% alert context="warning" %}}
+**Pamiętaj!** Gotówka Glovo **NIE PRZECHODZI** przez partnera flotowego! Oznacza to:
+* W razie nieprawidłowości w jej rozliczeniu partner flotowy w żadnym stopniu Ci ni pomoże. Będziesz musiał się kontaktować z supportem Glovo lub opiekunem miasta w celu wyjaśnienia sytuacji.
+* Aby dokonać rozliczenia podatku musisz ująć ją w rozliczeniu rocznym PIT-37 w rubryce inne dochody
+{{% /alert %}}
+
 <div style="text-align:center">
 
 ![](https://media.discordapp.net/attachments/1003345607647301682/1161929056137269289/CosTam.png?ex=66309e42&is=662f4cc2&hm=3dbfe16b2d6b628ace64d714c2d51e23ae3ef217f0a2524c8597217ab2882692&=&format=webp&quality=lossless&width=810&height=644)
 
 </div>
 
+{{<alert context="info" text="Jeżeli chcesz uniknąć zaliczek gotówkowych wpłacaj na Glovocash.pl całe saldo, które masz powyżej 70zł przed zakończeniem dnia. Czyli najbezpieczniejszą uniwersalną godziną na każdem miasto będzie przed 22:00"/>}}
 
 
 <div style="text-align:center">
@@ -227,8 +240,28 @@ Należy pamiętać, aby w profilu mieć włączony tryb “Mogę pracować”.
 W innym przypadku, moga nie wpadać nam zamówienia a konto moze zostać zablokowane. Opcję tę należy używać jako “przerwę” maksymalnie 10-15min dziennie.
 
 
+<center>
+{{% alert context="light" %}}
+{{<figure src="/images/glovo_showcase/image77.png" width="25%">}}
+*Opcję tą znajdziemy w zakładce profil*
+{{% /alert %}}
 
-> Opcje tą znajdziemy w zakładce profil
-> ![](/images/glovo_showcase/image77.png)
+</center>
 
+## Glovo+
+
+Glovo+ to program nagród, który wspiera Cię zarówno na drodze, jak i poza nią. Zdobędziesz 1 punkt za każdą zrealizowaną dostawę, a po osiągnięciu kolejnych poziomów otrzymasz odpowiednie nagrody.
+
+<center>
+
+![](/images/glovo_showcase/glovoplus.png)
+
+</center>
+
+
+W zaleznosci od miasta, wymagana jest różna ilość punktów do zdobycia by odblokować nagrody. Sprawdzić swój poziom punktów można na stronie: 
+
+https://delivery.glovoapp.com/pl/loyalty_program
+
+{{<alert context="warning" text="Wygląda na to, że na dzień dzisiejszy (06.05.2024) sprawdzarka do punktów nie działa"/>}}
 

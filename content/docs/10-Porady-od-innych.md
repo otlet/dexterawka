@@ -33,15 +33,20 @@ toc: true
 * Unikać sklepów na każdej aplikacji (Biedronki, Auchan itd)
 
 ## __Multiapping - łączenie aplikacji__
+Multiapping w skrocie to korzystanie z więcej niż jednej aplikacji delivery w tym samym czasie. Sposob ten jest dosyć często wykorzystywany przez doświadczonych kurierów, aby zmaksymalizować zyski. Należy mieć na uwadze, żeby robic to z głową oraz praktycznie wszystkie aplikacje nie zgadzają się na taką forme użytkowania ich aplikacji (do wykrycia przez lokalizacje GPS [np w momencie, gdy jedziemy w przeciwnym kierunku niz do restauracji / klienta, lub zgłoszenie przez innego użyszkodnika / klienta itd])
+
+
 Które ze sobą łączyć?
 * Wolt i Stuart
 * Wolt i Uber
 * Uber i Stuart
 * Uber i Bolt Food
 
-*(TODO: Zrobić cały artykuł nt. multiappingu)*
+Rozsadnym pomysłem jest w momencie braku zamówień, odpalenie tylu aplikacji ile sie ma i w momencie przydzielenia zamówienia na jednej z nich, wylogowanie sie z innych aplikacji (mowimy tu o aplikacjach bez grafiku). Realizujemy zamowienie a po zakonczonym zamowieniu, odpalamy sie znowu na reszcie.
+
+Jeżeli lubimy adrenalinę to możemy próbować łączyć Glovo z aplikacjami gdzie znamy adres odbioru oraz dostawy. Najbardziej praktycznie jest dobierać zamówienia w momencie kiedy na Glovo jedno już mamy aktywne i wiemy, że np. z Wolta będziemy mieli całość po drodze.
 
 ## __Co w przypadku awarii pojazdu, co zrobić, co zgłosić__?
 
 * W zależności od aplikacji, w przypadku awarii pojazdu, należy w aplikacji wybrać odpowiednią opcję z kontaktem z supportem.
-* W [Glovo](8-glovo.md) podczas awarii, zrzuci wszystkie aktywne godziny grafiku.
+* W [Glovo](apps/8-glovo.md) podczas awarii, zrzuci wszystkie aktywne godziny grafiku.

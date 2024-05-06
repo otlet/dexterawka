@@ -1,6 +1,6 @@
 # Hero
 hero:
-  enable: true
+  enable: false
   weight: 10
   template: hero
 
@@ -39,7 +39,7 @@ hero:
 
 # Feature Grid
 featureGrid:
-  enable: true
+  enable: false
   weight: 20
   template: feature grid
 
@@ -109,3 +109,27 @@ imageCompare:
       imagePath: "images/screenshots"
       imageBefore: "lotusdocs_blue_theme_colour.webp"
       imageAfter: "lotusdocs_cardinal_theme_colour.webp"
+
+imageText:
+        enable: true
+        weight: 5
+        template: image text
+        title: Kompendium Wiedzy Delivery
+        subtitle: Zbiór informacji na temat środowiska Delivery - dostarczania jedzenia na aplikacjach mobilnych. Zgromadzona i zrobione przez kurierów dla kurierów
+
+        list:
+        - text: Znajdziesz tutaj informacje których szukasz w temacie delivery, czym jest partner flotowy, czym się różnią poszczgólne platformy od siebie itp.
+          icon: search
+
+        ctaButton:
+          text: Otwórz Kompendium Delivery
+          url: "docs/"
+
+        image:
+          path: "images/"
+          filename: "dexterawka_av.png"
+          alt: "Logo"
+
+        imgOrder:
+          desktop: 2
+          mobile: 1

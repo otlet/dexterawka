@@ -3,8 +3,7 @@ weight: 7
 title: "Aplikacja Wolt"
 description: "Specyfikacja aplikacji Wolt"
 icon: "article"
-date: "2024-04-26T13:08:32+02:00"
-lastmod: "2024-04-26T13:08:32+02:00"
+
 draft: false
 toc: true
 ---
@@ -32,6 +31,7 @@ Całe przydatne F.A.Q znajduje się [na stronie Wolta](https://partnerswolt.pl/f
 ## Plusy i minusy aplikacji
 
 </div>
+{{% alert icon="🟢"context="success" %}}
 
 ### Plusy
 * Brak grafiku, możliwość rozpoczęcie i zakończenie pracy w dowolnym momencie
@@ -42,6 +42,10 @@ Całe przydatne F.A.Q znajduje się [na stronie Wolta](https://partnerswolt.pl/f
 * Łatwa aplikacja
 * Wyświetlanie adresu lokalizacji restauracji oraz miejsce klienta (przybliżona wartość zamówienia oraz kilometraż)
 * Całkiem sprawny support.
+
+{{% /alert %}}
+
+{{% alert icon="🔴"context="danger" %}}
 
 ### Minusy
 
@@ -54,6 +58,7 @@ Całe przydatne F.A.Q znajduje się [na stronie Wolta](https://partnerswolt.pl/f
 * ~~Brak bonusów~~ ***(na dzień 29.04.2024r Wolt oferuje bonusy w "godzinach szczytu", zależy jaki ustalą. Zwykle jest to 15%)***
 * Brak jednoznacznej informacji o zamówieniach łączonych (w aplikacji pojawia się informacja, ale nie jest to zapewnienie, że wpadnie)
 
+{{% /alert %}}
 
 <div style="text-align:center">
 
