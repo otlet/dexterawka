@@ -1,7 +1,7 @@
 ---
 weight: 4
 title: "Torba termiczna"
-description: "Zobacz jakie są rodzaje plecaków, toreb termicznych. Który będzie dla Ciebie najlepszy?"
+description: "Zobacz jakie są rodzaje plecaków, toreb termicznych. Który będzie dla Ciebie najlepszy? Gdzie je kupić?"
 icon: "article"
 date: "2024-04-26T13:08:32+02:00"
 lastmod: "2024-04-26T13:08:32+02:00"
@@ -74,4 +74,29 @@ Dzielimy torby na dwa rodzaje:
 
 *(wiem - zajebista rozdzielczość tego obrazka!)*
 
+
+
+## Gdzie kupić?
+
 </div>
+
+
+Torbę termiczną można pozyskać na pare sposobów:
+
+* Rejestrując sie w Glovo, jest możliwość zaznaczenia opcji (nie posiadam torby / sprzętu) w tym przypadku Glovo wyśle nam plecak, który bedzie do spłaty w dwóch kolejnych rozliczeniach z aplikacji (2 x 60zl)
+
+* Kupując lokalnie lub po kontakcie od partnera flotowego (dostępne torby oraz ceny moga sie roznic)
+
+Plecak lub Torbę Uber Eats można zakupić z oficjalnego sklepu: https://uberpl.wearyourebrand.com/
+
+Plecak lub Torbę Bolt Food można zakupić z oficjalnego sklepu: https://pl.boltfoodgear.com/pl
+
+Plecak lub Torbę Wolt: https://partnerswolt.pl/gear
+
+{{<alert context="warning" text="Obecnie nie ma możliwości zamówienia / zakupu sprzętu po wykonaniu 100 dostaw. Wolt planuje wprowadzic inna opcje kupna, informacje mozna śledzić na stronie (w przyszłości jak otworzą sklep, zaktualizujemy stronę)"/>}} 
+
+
+
+Sprzęt Stuart można zakupić z oficjalnego sklepu: https://stuartdeliverypl.myshopify.com/
+
+{{<alert context="info" text="Rowniez mozna kupic uzywane torby z drugiej ręki na platformie OLX, FB Marketplace lub innych użytkowników np z serwera Dexterawka, jeżeli ktoś ma na sprzedaż."/>}}

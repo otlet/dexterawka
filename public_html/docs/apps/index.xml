@@ -1,50 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Aplikacje kurierskie on Kompendium Wiedzy Delivery - Dexterawka</title>
-    <link>https://dexterowski.pl/docs/apps/</link>
-    <description>Recent content in Aplikacje kurierskie on Kompendium Wiedzy Delivery - Dexterawka</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>pl</language>
-    <lastBuildDate>Fri, 26 Apr 2024 13:08:32 +0200</lastBuildDate>
-    <atom:link href="https://dexterowski.pl/docs/apps/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Aplikacja Glovo</title>
-      <link>https://dexterowski.pl/docs/apps/8-glovo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dexterowski.pl/docs/apps/8-glovo/</guid>
-      <description>Informacje ogólne o aplikacji linkGlovo to aplikacja, która pozwala na przesłanie dowolnego przedmiotu z punktu A do punktu B, zamówienie dowolnej potrawy lub dowolnego produktu w wybranych sklepach i restauracjach z dostawą do domu, jak również dowolnej niestandardowej rzeczy. Glovo to usługa dostawy, która dostarcza wszystko – pobierz aplikację i wypróbuj ją teraz! Wybieraj spośród 20.000 sklepów i restauracji w aplikacji Glovo, a my zajmiemy się resztą. Dostarczamy wszystko.</description>
-    </item>
-    <item>
-      <title>Aplikacja Wolt</title>
-      <link>https://dexterowski.pl/docs/apps/9-wolt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dexterowski.pl/docs/apps/9-wolt/</guid>
-      <description>Informacje ogólne o aplikacji linkAplikacja kurierska WOLT to usługa, która umożliwia zamawianie posiłków z restauracji oraz zakupów w sklepie za pomocą smartfona. Aplikacja łączy klientów, restauracje, sklepy i kurierów, którzy dostarczają zamówienia w wybrane miejsce. Aplikacja WOLT jest dostępna w wielu miastach w Polsce i na świecie.
-Aplikacja WOLT ma dwie wersje: dla klientów i dla kurierów. Klienci mogą wybierać spośród różnych opcji gastronomicznych i sklepowych, płacić za zamówienia online i śledzić status dostawy na mapie.</description>
-    </item>
-    <item>
-      <title>Aplikacja Uber Eats</title>
-      <link>https://dexterowski.pl/docs/apps/7-uber-eats/</link>
-      <pubDate>Fri, 26 Apr 2024 13:08:32 +0200</pubDate>
-      <guid>https://dexterowski.pl/docs/apps/7-uber-eats/</guid>
-      <description>Informacje ogólne o aplikacji linkUber Eats to nasza platforma, dzięki której zamawianie jedzenia z Twoich ulubionych lokalnych restauracji jest teraz równie łatwe, jak zamówienie przejazdu. Dzięki aplikacji Uber Eats masz w zasięgu ręki szereg lokalnych restauracji i serwowanych przez nie dań. Możesz w każdej chwili zamówić dowolne danie z całego menu. Aplikacja UBER EATS ma dwie wersje: dla klientów i dla kurierów. Klienci mogą wybierać spośród różnych opcji gastronomicznych, płacić za zamówienia online i śledzić status dostawy na mapie.</description>
-    </item>
-    <item>
-      <title>Aplikacja Stuart</title>
-      <link>https://dexterowski.pl/docs/apps/6-stuart/</link>
-      <pubDate>Fri, 26 Apr 2024 13:08:32 +0200</pubDate>
-      <guid>https://dexterowski.pl/docs/apps/6-stuart/</guid>
-      <description>Informacje ogólne o aplikacji linkStuart to aplikacja kurierska, która łączy przedsiębiorców z największą niezależną flotą kurierską w Twoim mieście. Oferuje pracę jako kurier rowerowy, motorowy i samochodowy. Dzięki dedykowanej aplikacji Stuart, kurierzy otrzymują wskazówki dotyczące odbioru i dostarczenia zamówień. Wiecej informacji na temat Stuart tutaj
-FAQ linkJak zostać kurierem? linkJak realizować zamowienia? linkPotrzebne rzeczy do rozpoczęcia pracy linkAby rozpocząć prace w Stuart potrzebne następujące rzeczy:
-Czytnik Viva | Terminal (jeśli posiadasz telefon z iOS lub systemem operacyjnym Android bez funkcji NFC)✅ 150 zł w gotówce ✅ torba termiczna ✅ sprawny środek transportu ✅ Plusy i minusy aplikacji link🟢</description>
-    </item>
-    <item>
-      <title>Aplikacja Bolt Food</title>
-      <link>https://dexterowski.pl/docs/apps/bolt-food/</link>
-      <pubDate>Fri, 26 Apr 2024 13:08:32 +0200</pubDate>
-      <guid>https://dexterowski.pl/docs/apps/bolt-food/</guid>
-      <description>Rejestracja w Bolt Food linkCzym jest Bolt Food? linkBolt Food jest jedną z najmniej znanych platform do rozwożenia jedzenia. Wynika to z okrojnej liczby współprac z restauracjami. Aplikacja ta funkcjonuje w miastach:* Warszawa* Łódź* Kraków* Trójmiasto (Gdańsk)* Poznań* Wrocław* Toruń (od 18 marca 2024r)Kurierzy zazwyczaj tą aplikacje traktują jako dodatek ze względu na bardzo małą ilość kursów. Aplikacja swojego czasu oferowała dostawy gotówkowe, lecz się z tego wycofała.</description>
-    </item>
-  </channel>
-</rss>

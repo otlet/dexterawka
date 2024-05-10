@@ -3,7 +3,7 @@ languageCode = 'pl'
 title = 'Kompendium Wiedzy Delivery - Dexterawka'
 
 [params.footer]
-copyright = "DX STUDIO 2024"
+copyright = "DX STUDIO 2024 & Przygotowanie treści: Kicaken"
 
 [params.docs]
 themeColor = "yellow"

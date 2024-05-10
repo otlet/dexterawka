@@ -7,7 +7,7 @@ draft: false
 toc: true
 ---
 
-{{<alert context="warning" text=" **Pamiętaj!** Częstotliwość wypłat aplikacji delivery, a częstotliwość wypłat partnera flotowego to **dwie różne rzeczy** - aplikacje najpierw przelewają pieniądze do partnera flotowego, potem partner wysyła je do Ciebie po odliczeniu odpowiednej prowizji, odprowadzenia składek ZUS jeśli jest wymagana. Partner flotowy zazwyczaj umożliwia ustawienia sobie częstotliwość wypłat np. na miesięczną, wtedy trzymają Twoje pieniądze, które mimo wszystko jednak są wypłacane przez np. Glovo co tydzień"/>}}
+{{<alert context="warning" text=" **Pamiętaj!** Częstotliwość wypłat aplikacji delivery, a częstotliwość wypłat partnera flotowego to **dwie różne rzeczy** - aplikacje najpierw przelewają pieniądze do partnera flotowego, potem partner wysyła je do Ciebie po odliczeniu odpowiednej prowizji, odprowadzenia składek ZUS jeśli jest wymagana. Partner flotowy zazwyczaj umożliwia ustawienia sobie częstotliwość wypłat np. na miesięczną, wtedy trzymają Twoje pieniądze, które mimo wszystko jednak są wypłacane przez np. Glovo co tydzień. [Więcej informacji znajdziesz tutaj](/content/docs/begin/1-jak-zaczac.md#jak-wypłacane-są-pieniądze)"/>}}
 
 ## Glovo
 W Glovo okres rozliczeniowy trwa tydzień – zaczyna się o północy w poniedziałek i kończy o godz. 23:59 w niedzielę. Po zakończeniu okresu rozliczeniowego otrzymasz wynagrodzenie za wszystkie zamówienia zrealizowane w tym okresie. Raporty mozna sprawdzić w aplikacji w zakładce **raporty** oraz po zakończeniu okresu rozliczeniowego w ciagu 3 dni (najczęściej w srody) trafia raport do partnera rozliczeniowego i na maila podsumowanie rozliczenia. 

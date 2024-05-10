@@ -55,5 +55,10 @@ ponoszenia jakichkolwiek kosztów oraz bez podania przyczyny.
 
 ### Kontrakt B2B
 
-{{< alert context="light" text="Informacje do uzupełnienia" />}}
+Kontrakt B2B polega na podpisaniu umowy na współpracę pomiędzy dwiema firmami. **Nie jest to stosunek pracy**. Taki kontrakt możemy podpisać bezpośrednio z aplikacjami* delivery bądź partnerem flotowym. Jest to opcja dla osób które prowadzą już jakiś biznes. Otwierać działalnośc by jeździć na aplikacjach delivery kompletnie się nie opłaca, ponieważ "zjedzą" nas opłaty np. za ZUS w momencie gdy u partnera flotowego na podpisanej umowie zlecenie + najem wyniesie on maksymalnie 200zł.
+
+{{<alert context="warning" text="Działalność nierejestrowana nie może być podmiotem kontraktu B2B ze względu na brak wpisu do CEIDG lub KRS"/>}}
+
+Taka forma współpracy wiąże się z większymi kosztami księgowości z tego względu, że wystawiamy więcej faktur do rozliczenia (w zależności ile będziemy jeździć i na ilu aplikacjach). Np. jeżdżąc na dwóch aplikacjach przez cały miesiąc mamy w ciągu miesiąca 4 faktury za jedną aplikacje co łącznie da nam ich 8 sztuk.
    
+\*Te aplikacje nie akceptują współprac B2B: Glovo, Wolt, Bolt Food.

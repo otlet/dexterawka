@@ -22,6 +22,9 @@ toc: true
 
 Aby zarejestrować się, potrzebujesz konta u partnera flotowego, który pośredniczy między kurierem a aplikacją kurierską, następnie musisz zarejestrować się w danej aplikacji kurierskiej, przejść weryfikacje (poczekać dany okres czasu, jeżeli nie ma aktualnie rekrutacji), otrzymać lub kupić sprzęt (torbę termiczną).
 
+## Po co mi partner flotowy?
+Przeczytaj: [Jak wypłacane są pieniądze?](#jak-wypłacane-są-pieniądze)
+
 ## Wybór partnera flotowego
 
 W Polsce do wyboru mamy paru partnerów flotowych. Działają na zasadzie pośrednictwa pomiędzy dostawcą a aplikacją kurierską.
@@ -77,5 +80,29 @@ Poniżej tabelka która nam przedstawi główne różnicę między wszystkimi ap
 {{<alert context="info" text="Konieczna do rozpoczęcia współpracy w takim wypadku jest zgoda od prawnego opiekuna oraz zaświadczenie lekarskie o braku przeciwwskazań do wykonywania pracy" />}}
 
 
+## Jak wypłacane są pieniądze?
+
+Aplikacje delivery np. Glovo czy Uber Eats rozliczają się na podstawie wystawianych faktur za wykonane usługi przewozowe. Oznacza to, że one nie zatrudniają bezpośrednio ludzi i jedyną podstawą do wypłacenia pieniędzy jest **Faktura VAT** oraz [kontraktu B2B](/content/docs/begin/2-procesy-aplikacji-do-delivery.md#kontrakt-b2b). Z tego powodu dla ułatwienia całego procesu potrzebny jest nam **partner flotowy**, który to właśnie zatrudni nas na podstawie danej umowy. Taka firma potem wystawia aplikacji kurierskiej FV w naszym imieniu na kwotę zarobionych przez nas pieniędzy.
+
+Poniżej znajduje się przykładowa sekwencja rozliczania pieniędzy z aplikacji delivery
+
+```mermaid
+    flowchart TD
+    A[Partner flotowy np. Evelstar] -->|Wystawia fakturę| B(Aplikacja kurierska np. Glovo)
+    B -->|Wysyła pieniądze| A
+    A ----> C(Rozliczenie kuriera)
+    C --> D(Opłacenie ZUS raz w miesiącu)
+    C --> E(Potrącenia komornicze jeżeli są)
+    C --> F(Potrącenia za sprzęt do pracy jeżeli wzięty na raty np. w Glovo)
+    C --> G(Prowizja za rozliczenie)
+
+    D ----> H{Wysłanie przelewu na konto kuriera}
+    E ----> H
+    F ----> H
+    G ----> H
+    H --> I[Konto bankowe kuriera]-->|Opłacenie ryczałtu jeżeli wymagane| J[Urząd skarbowy]
+```
+
+*Trzeba pamiętać, że czynników jest bardzo dużo - można sobie obliczyć przykładową wypłatę na [kalkulatorze rozliczeń](https://dexterowski.pl/misc/kurier.php)*
 
 

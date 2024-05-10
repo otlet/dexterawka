@@ -179,7 +179,7 @@ Jest ono wyszczególnione w raporcie **<span style="color:red;">MAILOWYM</span>*
 
 </div>
 
-{{<alert context="info" text="Jeżeli chcesz uniknąć zaliczek gotówkowych wpłacaj na Glovocash.pl całe saldo, które masz powyżej 70zł przed zakończeniem dnia. Czyli najbezpieczniejszą uniwersalną godziną na każdem miasto będzie przed 22:00"/>}}
+{{<alert context="info" text="Jeżeli chcesz uniknąć zaliczek gotówkowych wpłacaj na [Glovocash.pl](https://glovocash.pl) całe saldo, które masz powyżej 70zł przed zakończeniem dnia. Czyli najbezpieczniejszą uniwersalną godziną na każdem miasto będzie przed 22:00"/>}}
 
 
 <div style="text-align:center">
@@ -252,6 +252,8 @@ W innym przypadku, moga nie wpadać nam zamówienia a konto moze zostać zabloko
 
 Glovo+ to program nagród, który wspiera Cię zarówno na drodze, jak i poza nią. Zdobędziesz 1 punkt za każdą zrealizowaną dostawę, a po osiągnięciu kolejnych poziomów otrzymasz odpowiednie nagrody.
 
+Punkty są przyznawane od momentu wprowadzenia programu, więc co zmianę programu będziemy musieli na nowo je sobie zdobywać.
+
 <center>
 
 ![](/images/glovo_showcase/glovoplus.png)
@@ -265,3 +267,34 @@ https://delivery.glovoapp.com/pl/loyalty_program
 
 {{<alert context="warning" text="Wygląda na to, że na dzień dzisiejszy (06.05.2024) sprawdzarka do punktów nie działa"/>}}
 
+## Zamówienia ze sklepów
+
+Najbardziej uciążliwimi zamówieniami są te z **Auchan, Biedronka, Carrefour**. Z tego względu, że:
+
+1. Nie są one gotowe i zrobione na czas - musimy czekać
+2. Są one zbyt wielkie/cięzkie by zabrać je w pojedynkę
+
+W drugim przypadku należy skontaktować się z supportem. Jest do tego specjalna opcja w drzewku wyboru problemu. Poniżej znajduje się tabelka którą posługują się ludzie z supportu i jakiego werdyktu możemy się spodziewać po danej wadze zamówienia. 
+
+<center>
+
+| Pojazd   | 0 - 4.0 kg | 4.1 - 9.0 kg     | 9.1 - 12 kg      | 12.1 - 15 kg     | 15.1 - 20 kg     | 20.1 - 50 kg     | > 50 kg     |
+|----------|------------|------------------|------------------|------------------|------------------|------------------|-------------|
+| SAMOCHÓD | <span style="color:red">**ODRZUCAMY**</span>  | <span style="color:red">**ODRZUCAMY**</span>        | <span style="color:ORANGE">**<span style="color:ORANGE">**TYLKO PREMIA**</span>**</span>     | <span style="color:ORANGE">**<span style="color:ORANGE">**TYLKO PREMIA**</span>**</span>     | <span style="color:yellow">**<span style="color:yellow">**PREMIA LUB POMOC**</span>**</span> | <span style="color:yellow">**<span style="color:yellow">**PREMIA LUB POMOC**</span>**</span> | <span style="color:green">**TYLKO POMOC**</span> |
+| MOTOCYKL | <span style="color:red">**ODRZUCAMY**</span>  | <span style="color:red">**ODRZUCAMY**</span>        | <span style="color:ORANGE">**TYLKO PREMIA**</span>     | <span style="color:yellow">**<span style="color:yellow">**PREMIA LUB POMOC**</span>**</span> | <span style="color:yellow">**PREMIA LUB POMOC**</span> | <span style="color:green">**TYLKO POMOC**</span>      | <span style="color:green">**TYLKO POMOC**</span> |
+| ROWER    | <span style="color:red">**ODRZUCAMY**</span>  | <span style="color:red">**ODRZUCAMY**</span>        | <span style="color:yellow">**PREMIA LUB POMOC**</span> | <span style="color:yellow">**PREMIA LUB POMOC**</span> | <span style="color:green">**TYLKO POMOC**</span>      | <span style="color:green">**TYLKO POMOC**</span>      | <span style="color:green">**TYLKO POMOC**</span> |
+| PIESZY   | <span style="color:red">**ODRZUCAMY**</span>  | <span style="color:yellow">**<span style="color:yellow">**PREMIA LUB POMOC**</span>**</span> | <span style="color:yellow">**PREMIA LUB POMOC**</span> | <span style="color:green">**TYLKO POMOC**</span>      | <span style="color:green">**TYLKO POMOC**</span>      | <span style="color:green">**TYLKO POMOC**</span>      | <span style="color:green">**TYLKO POMOC**</span> |
+
+</center>
+
+{{<alert context="success" text="**PRO TIP:** Warto wyposażyć się w własną [wagę ręczną](https://allegro.pl/oferta/waga-hakowa-lcd-bagazowa-wedkarska-do-40-kg-lodz-13071809307?utm_feed=aa34192d-eee2-4419-9a9a-de66b9dfae24&utm_source=google&utm_medium=cpc&utm_campaign=_elktrk_rtvagd_pla_pmax&ev_campaign_id=17966335829&gad_source=1&gclid=Cj0KCQjw_-GxBhC1ARIsADGgDjv4LOFGtgl_wMOq2_TVgtMHFWbUbB04MnZGx7HFoke0WfGFfRnmLFgaApgaEALw_wcB) by móc na miejscu zważyć dane zakupy - support ma często problemy z dodawaniem wagi produktów które widzą na liście zakupów."/>}}
+
+W przypadku gdy jesteśmy pierwszym przypisanym kurierem do zamówienia z zakupami i wzywamy do pomocy innego kuriera to jesteśmy zoobowiązanie do:
+* Zabrania w naszej części zamówienia paragonu oraz zrobienia jego zdjęcia
+* Jeżeli zamóweinie jest do opłacenia gotówką - my je opłacamy bo system potem redukuje nasze saldo gotówkowe
+
+Jeżeli dostaniemy zamówienie i w nazwie punktu widnieje **GLOVO REFUND PL** to możemy już wiedzieć, że jesteśmy jako kurier do pomocy bądź, jedziemy odebrać zamówienie od innego kuriera któremu uległ awarii np. rower.
+
+<center>
+{{<figure src="https://i.imgur.com/ORDsUAO.png" width="25%">}}
+</center>

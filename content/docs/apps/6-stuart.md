@@ -53,7 +53,6 @@ Aby rozpocząć prace w Stuart [potrzebne następujące rzeczy](https://help.stu
 ### Plusy
 * ~~Stawka gwarantowana~~ ***(obecnie jej nie ma, na sezon jesień/zima pewnie ją przywrócą)***
 * Dosyć fajne stawki za zamówienie bo mnożniki są przyjemne
-* Zniżki na jedzenie
 
 {{% /alert %}}
 
