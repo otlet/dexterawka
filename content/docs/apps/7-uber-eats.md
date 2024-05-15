@@ -146,9 +146,9 @@ To jest bardzo częsty przypadek, ponieważ aplikacja Uber Eats jest pod tym wzg
 ### Dostaję bardzo mało zamówień / Nie dostaję zamówień / Inni dostają więcej zamówień
 Powodów może byc mnóstwo tego typu problemu. Wszystko zależy od miasta, pory roku, dnia, czy jest to dzień roboczy, gdzie stoisz itd. Wśród dostawców krąży mit odnośnie otrzymywania większej ilości zamówień przez osoby które mają zaznaczony środek transportu jako skuter / auto. To jest prawda. Sam Uber twierdzi, że to jest nieprawda lecz praktyka pokazuje często inaczej. Wynika to z działania algorytmu Ubera*. Algorytm "spasowuje" czas kiedy zamówienie będzie zrealizowane przez restauracje z czasem kiedy kurier przyjedzie na miejsce - najczęściej te czasy pokrywają się właśnie dla osób które jeżdżą skuterem/autem i będą od restauracji 3 - 5 minut drogi. W momencie gdy poruszasz się rowerem, nawigacja widzi że jesteś "<1 minuta" drogi od restauracji - żadna restauracja nie zaznaczy, że zamówienie będzie gotowe za tyle czasu.
 
-{{<figure src="https://dexterowski.pl/images/ubereats_showcase/ALGORYTM_AUTO.png" title="Czas dojazdu wg. mapy dla auta">}}
+{{<figure src="https://kurierpedia.pl/images/ubereats_showcase/ALGORYTM_AUTO.png" title="Czas dojazdu wg. mapy dla auta">}}
 
-{{<figure src="https://dexterowski.pl/images/ubereats_showcase/algorytm_rower.png" title="Czas dojazdu wg. mapy dla auta">}}
+{{<figure src="https://kurierpedia.pl/images/ubereats_showcase/algorytm_rower.png" title="Czas dojazdu wg. mapy dla auta">}}
 
  \**sposób działania algorytmu jest oparty na domysłach i własnych obserwacji*
 
@@ -161,6 +161,8 @@ Powodów może byc mnóstwo tego typu problemu. Wszystko zależy od miasta, pory
  Jeżeli chcemy uniknąć takiej sytuacji i mamy wszystko zaplanowane - możemy zgłosić zmianę miasta przez support. 
  
  Musimy wejść w: ``Pomoc -> Aplikacja -> Zmiana ustawień konta -> Chcę dostarczać w nowym mieście``
+
+{{<alert context="warning" text="Gdy support zrobi Wam zmiane miasta to niestety oferta mnożników oraz bonusów z poprzedniego miasta znika"/>}}
 
  {{<alert context="info" text="Na Uber Eats wystarczy, że wykonamy czynności wymienione powyżej, nie musimy tworzyć żadnego dodatkowego konta ani nic z tych rzeczy. Oznacza to, że zarobione pieniądze z nowego miasta trafią w to samo rozliczenie co nasze standardowe miasto. Nic więcej nie musimy robić"/>}}
 
