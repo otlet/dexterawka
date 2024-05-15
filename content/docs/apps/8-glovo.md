@@ -298,3 +298,15 @@ Jeżeli dostaniemy zamówienie i w nazwie punktu widnieje **GLOVO REFUND PL** to
 <center>
 {{<figure src="https://i.imgur.com/ORDsUAO.png" width="25%">}}
 </center>
+
+## Zamówienie "Customer"
+<center>
+{{<figure src="https://i.imgur.com/lep5pY2.png" width="25%">}}
+</center>
+Jest tzw. zamówienie pozycjonujące. Powstało to, ponieważ gdy Glovo kurierom wskazywało obszary wysokiego zapotrzebowania to kurierzy to ignorowali i nie jechali tam, więc zaczęli ich ściągać siłą właśnie takimi zamówieniami. Po dojechaniu na miejsce po maksymalnie 10ciu minutach powinno się to zamienić na prawidłowe zamówienie do klienta już. 
+
+## Jak mogę dostarczać w nowym mieście?
+
+W Glovo aby dostarczać w nowym mieście niż dotychczas musimy założyć nowe konto kuriera na inne miasto. Niestety oznacza to, że musimy przejść cały proces rejestracji, rekrutacji od samego początku i czekać na aktywację konta w innym mieście. 
+
+{{<alert context="info" text="Konto może posiadać ten sam numer telefonu, musi być tylko inny adres e-mail na który chcemy je zarejestrować. Można je również podpiąć **do tego samego partnera flotowego**"/>}}

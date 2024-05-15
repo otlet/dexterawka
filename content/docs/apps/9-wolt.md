@@ -51,7 +51,6 @@ Całe przydatne F.A.Q znajduje się [na stronie Wolta](https://partnerswolt.pl/f
 
 * Brak informacji o jednoznacznej stawce za przebyty dystans (stawka za zamówienie zmienia sie w zależności od godziny)
 * Brak możliwości odrzucenia zaakceptowanego zamówienia (jedynie support)
-* Brak zaplaty za dojazd do restauracji i oczekiwanie na zamówienie
 * Mniejsza ilość zamówień
 * Konieczność realizacji jednego zamówienia na 60 dni żeby konto pozostało aktywne* 
 * **Małe stawki**
@@ -83,3 +82,12 @@ Na przykładzie Gdyni.
 ![](/images/wolt_showcase/5.png)
 
 </div>
+
+## Jak mogę dostarczać w innym mieście?
+
+Na Wolt aby dostarczać w innym miescie niż jeździmy domyślnie trzeba zgłosić taką chęć na support. Wolt nie ma dedykowanej opcji w aplikacji na to.
+
+Trzeba zrobić to w ten sposób: ``Support -> Informacje o koncie i zmiany -> Zmień numer telefonu / e-mail``.
+Tutaj napiszmy naszą prośbę o zmianę miasta.
+
+{{<alert context="warning" text="Musimy pamiętać o tym, że support przełączy nam miasto tylko w momencie kiedy jest aktywna rekrutacja w nim. Więc praktycznie jest to niemożliwe, ponieważ rekrutacje są bardzo często zamknięte. Ale próbować nie zaszkodzi!"/>}}
