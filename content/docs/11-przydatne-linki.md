@@ -36,7 +36,7 @@ toc: true
 
 **FAQ Bolt Food:** https://bolt.eu/pl-pl/support/categories/360001224880/
 
-**Kalkulator rozliczeń:** https://dexterowski.pl/misc/kurier.php/
+**Kalkulator rozliczeń:** /docs/rozliczenie/kalkulator/
 
 
 

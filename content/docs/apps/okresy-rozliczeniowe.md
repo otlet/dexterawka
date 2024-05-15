@@ -35,7 +35,7 @@ W Wolt okres rozliczeniowy trwa 7 dni roboczych, gdzie następnie w przeciągu (
 ## Uber Eats
 
 W Uber Eats okres rozliczeniowy trwa 7 dni, trwa od poniedziałku do niedzieli. Raporty oraz pieniądze do partnerów są wysyłane w następny dzień (poniedziałek). 
-{{<alert context="warning" text="Pamiętaj, że zarobki wyświetlane w aplikacji Uber Eats są wyświetlane w kwotach BRUTTO. Oznacza to, że trzeba odjąć od tych kwot podatek VAT. Aby to zrobić wystarczy podzielić zarobioną kwotę przez 1.23 lub możesz skorzystać sobie z [kalkulatora zarobków](https://dexterowski.pl/misc/kurier.php)"
+{{<alert context="warning" text="Pamiętaj, że zarobki wyświetlane w aplikacji Uber Eats są wyświetlane w kwotach BRUTTO. Oznacza to, że trzeba odjąć od tych kwot podatek VAT. Aby to zrobić wystarczy podzielić zarobioną kwotę przez 1.23 lub możesz skorzystać sobie z [kalkulatora zarobków](/docs/rozliczenie/kalkulator)"
 />}}
 <center>
 {{<figure src="/images/uber_showcase/rozliczenie.png" width="25%">}}
@@ -44,7 +44,7 @@ W Uber Eats okres rozliczeniowy trwa 7 dni, trwa od poniedziałku do niedzieli. 
 ## Bolt Food
 
 W Bolt Food okres rozliczeniowy trwa 7 dni, trwa od poniedziałku do niedzieli. Raporty oraz pieniądze do partnerów są wysyłane w **ŚRODĘ następnego tygodnia**.
-{{<alert context="warning" text="Pamiętaj, że zarobki wyświetlane w aplikacji Bolt Food są wyświetlane w kwotach BRUTTO. Oznacza to, że trzeba odjąć od tych kwot podatek VAT. Aby to zrobić wystarczy podzielić zarobioną kwotę przez 1.23 lub możesz skorzystać sobie z [kalkulatora zarobków](https://dexterowski.pl/misc/kurier.php)"
+{{<alert context="warning" text="Pamiętaj, że zarobki wyświetlane w aplikacji Bolt Food są wyświetlane w kwotach BRUTTO. Oznacza to, że trzeba odjąć od tych kwot podatek VAT. Aby to zrobić wystarczy podzielić zarobioną kwotę przez 1.23 lub możesz skorzystać sobie z [kalkulatora zarobków](/docs/rozliczenie/kalkulator)"
 />}}
 <center>
 {{<figure src="https://i.imgur.com/0eKhAwH.jpg" width="25%">}}

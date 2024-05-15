@@ -103,6 +103,6 @@ Poniżej znajduje się przykładowa sekwencja rozliczania pieniędzy z aplikacji
     H --> I[Konto bankowe kuriera]-->|Opłacenie ryczałtu jeżeli wymagane| J[Urząd skarbowy]
 ```
 
-*Trzeba pamiętać, że czynników jest bardzo dużo - można sobie obliczyć przykładową wypłatę na [kalkulatorze rozliczeń](https://dexterowski.pl/misc/kurier.php)*
+*Trzeba pamiętać, że czynników jest bardzo dużo - można sobie obliczyć przykładową wypłatę na [kalkulatorze rozliczeń](/docs/rozliczenie/kalkulator)*
 
 
