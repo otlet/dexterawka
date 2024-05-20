@@ -18,6 +18,28 @@ toc: true
 </div>
 <p style="text-align: center; font-weight: bold; font-style: italic;">(Materiał z 15 października 2022 roku. Jeżeli będzie aktualizacja, zostanie wrzucony nowy link)</p>
 
+## Rejestracja na aplikacjach Delivery
+
+<center>
+
+> [Rejestracja w Glovo](https://couriers.glovoapp.com/pl/?utm_campaign=3PL-134) - link partnera flotowego*
+
+> [Rejestracja w Uber Eats](https://www.uber.com/signup/drive/deliver/?invite_code=1f6jf7v2mbz2) - link polecający**
+
+> [Rejestracja w Wolt](https://wo.lt/evelstar)
+
+> [Rejestracja w Stuart](https://couriers.stuart.com/pl/zostan-kurierem/)
+
+> [Rejestracja w Bolt Food](https://bolt.eu/pl-pl/food/courier/)
+
+> [Rejestracja w Szama Express](https://dostawca.szamaexpress.pl/)
+
+</center>
+
+\* Link partnera flotowego - link referencyjny partnera Evelstar, jeżeli zarejestrujesz się przez ten link nie musisz się martiwć o podpięcie do floty przez Glovo, ponieważ będzie to zrobione automatycznie
+
+\** Link polecający - rejestrując się z tego linku dostaniesz bonus pieniężny za realizację pierwszych zamówień w określonym terminie. Warunki oraz wysokość bonusu jest zależna od miasta
+
 ## Gdzie się zarejestrować?
 
 Aby zarejestrować się, potrzebujesz konta u partnera flotowego, który pośredniczy między kurierem a aplikacją kurierską, następnie musisz zarejestrować się w danej aplikacji kurierskiej, przejść weryfikacje (poczekać dany okres czasu, jeżeli nie ma aktualnie rekrutacji), otrzymać lub kupić sprzęt (torbę termiczną).
@@ -31,7 +53,7 @@ W Polsce do wyboru mamy paru partnerów flotowych. Działają na zasadzie pośre
 
 **Partner flotowy sprawdzony, rekomandowany przez Dexterowskiego oraz wielu innych kurierów:**
 
-<center><img src="https://evelstar.com/wp-content/uploads/2021/05/Zasob-3LOGO-WHITE.png" width="25%"></center>
+<center><img src="https://i.imgur.com/pcGjkEl.png" width="50%"></center>
 
 >[Evelstar](https://evelstar.com) - Zatrudniamy na podstawie umowy zlecenie kierowców, dostawców oraz kurierów pracujących na aplikacjach. Dzięki temu osoba pracująca przy pomocy aplikacji nie musi zakładać działalności gospodarczej jednocześnie rozliczając w legalny sposób wszystkie należne podatki.
 
@@ -58,8 +80,11 @@ Poniżej tabelka która nam przedstawi główne różnicę między wszystkimi ap
 | Tryb pracy                        | Grafik                       | Offslot (kiedy chcesz)           | Offslot (kiedy chcesz)                   | Offslot (kiedy chcesz) | Grafik            |
 | Dopłata za dojazd do restauracji  | Tak                          | Tak                              | Częściowo                                | Tak                    | Tak               |
 | Tryby pojazdu które można ustawić | Pieszo, Rower, Skuter, Auto  | Rower, Skuter, Auto              | Rower, Skuter, Auto                      | Rower, Skuter, Auto    | Rower, Auto       |
+| Okresy rekrutacyjne?              | Tak                          | Tak                              | Nie                                      | Tak                    | Nie               |
+
 {{</table>}}
 
+\* Okresy rekrutacyjne - czy dana aplikacja przeprowadza rekrutacje raz na jakiś czas. Jeżeli Tak to trzeba czekać na taki okres, jeżeli nie to aktywacja konta powinna odbyć się w przeciągu 7 dni roboczych.
 
 
 ## Minimalny wiek do pracy

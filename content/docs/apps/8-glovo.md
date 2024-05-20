@@ -193,6 +193,45 @@ Jeżeli kurier ma za wysokie saldo gotówkowe, aplikacja da informacje, aby wpł
 
 <div style="text-align:center">
 
+### Nieczytelna wypłata gotówki w aplikacji - co robić?
+
+</div>
+
+Po zakończonej pracy, następnego dnia jeżeli mielismy znaczne saldo gotówkowe, Glovo może nam rozliczyć część wypłaty w formie gotówki, potrącając z salda gotówkowego.
+Jeżeli mamy problem z odczytaniem ile powinniśmy wypłacić sobie pieniędzy, bo w raporcie dziennym wygląda np tak:
+
+<center>
+
+![](https://i.imgur.com/ZKM2P5G.png)
+
+</center>
+
+Najprostszym sposobem jest:
+
+Odjąć od **Dziennych zarobków, Zarobki oczekujące = Skumulowana codzienna wypłata Glovo.** 
+
+Na przykładzie wyżej: **233,86zl MINUS 116,79 co nam daje 117,07.**
+Taka kwote pobieramy z gotówki GLOVO dla siebie. 
+
+{{% alert context="warning" %}}
+
+Trzeba pamiętać o tym, że kwota do wypłaty na konto zostanie odpowiednio pomniejszona o wypłaconą gotówkę
+
+{{% /alert %}}
+
+
+Drugim sposobem jaki warto wiedzieć to: Wejście na główną strone aplikacji Glovo i sprawdzenie ile wyświetla saldo gotówkowe. Np:
+
+![](https://i.imgur.com/2xG1At6.png)
+
+
+To wypłacamy (bierzemy) sobie dla siebie tyle pieniędzy aby na saldzie gotówkowym pozostało tyle ile wyświetla się na aplikacji.
+
+Jeżeli nie chcesz martwić się o to, by na koniec dnia zbijać saldo gotówkowe do poziomu 35zl lub 70zl - wpłacaj pieniądze na Glovo Cash, informacje znajdziesz [tutaj](#wpłata-na-glovocashpl). Zrób to przed końcem dnia aby mieć pewnośc, że twoje saldo gotówkowe nie zostanie rozliczone.
+
+
+<div style="text-align:center">
+
 ## Wynik doskonałości
 
 
@@ -310,3 +349,4 @@ Jest tzw. zamówienie pozycjonujące. Powstało to, ponieważ gdy Glovo kurierom
 W Glovo aby dostarczać w nowym mieście niż dotychczas musimy założyć nowe konto kuriera na inne miasto. Niestety oznacza to, że musimy przejść cały proces rejestracji, rekrutacji od samego początku i czekać na aktywację konta w innym mieście. 
 
 {{<alert context="info" text="Konto może posiadać ten sam numer telefonu, musi być tylko inny adres e-mail na który chcemy je zarejestrować. Można je również podpiąć **do tego samego partnera flotowego**"/>}}
+

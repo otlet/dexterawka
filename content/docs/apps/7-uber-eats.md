@@ -148,7 +148,7 @@ Powodów może byc mnóstwo tego typu problemu. Wszystko zależy od miasta, pory
 
 {{<figure src="https://i.imgur.com/GYpTk5F.png" title="Czas dojazdu wg. mapy dla auta">}}
 
-{{<figure src="https://i.imgur.com/syk3Iw9.png" title="Czas dojazdu wg. mapy dla auta">}}
+{{<figure src="https://i.imgur.com/syk3Iw9.png" title="Czas dojazdu wg. mapy dla roweru">}}
 
  \**sposób działania algorytmu jest oparty na domysłach i własnych obserwacji*
 
