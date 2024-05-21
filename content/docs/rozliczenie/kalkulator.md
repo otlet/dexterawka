@@ -72,10 +72,6 @@ toc: true
 
         /* Jasny motyw */
         @media (prefers-color-scheme: light) {
-            body {
-                background-color: #f7f7f7;
-                color: #333;
-            }
             #calculator {
                 background-color: #ffffff;
             }

@@ -86,6 +86,16 @@ Poniżej tabelka która nam przedstawi główne różnicę między wszystkimi ap
 
 \* Okresy rekrutacyjne - czy dana aplikacja przeprowadza rekrutacje raz na jakiś czas. Jeżeli Tak to trzeba czekać na taki okres, jeżeli nie to aktywacja konta powinna odbyć się w przeciągu 7 dni roboczych.
 
+## Oczekiwanie na rejestrację
+
+Jak długo muszę czekać na aktywację konta w aplikacji?
+
+**Glovo:** Zapotrzebowanie jest bardzo dynamiczne, czas oczekiwania od 1 do X dni. 
+**Uber Eats**: Od 24h do 72h po ukończeniu wszystkich wymaganych kroków 
+**Wolt**: Aktualne zapotrzebowanie znajdziesz na stronie: https://partnerswolt.pl/aktywacje 
+**Bolt Food**: Aktualne zapotrzebowanie znajdziesz na stronie: https://sites.google.com/bolt.eu/rates-model/page_1/rejestracja 
+**Stuart**: Od 24h do 72h po ukończeniu wszystkich wymaganych kroków 
+
 
 ## Minimalny wiek do pracy
 
