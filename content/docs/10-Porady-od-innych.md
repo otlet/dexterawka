@@ -51,3 +51,8 @@ Jeżeli lubimy adrenalinę to możemy próbować łączyć Glovo z aplikacjami g
 
 * W zależności od aplikacji, w przypadku awarii pojazdu, należy w aplikacji wybrać odpowiednią opcję z kontaktem z supportem.
 * W [Glovo](apps/8-glovo.md) podczas awarii, zrzuci wszystkie aktywne godziny grafiku.
+
+
+## Co w przypadku gdy klient nie odbierze zamówienia?
+
+Najczęściej zamówienie zostaje u kuriera więc - **smacznego**, chyba że support stwierdzi inaczej. Jeżeli faktycznie będzie potrzeba odwiezienia jedzenia do restauracji warto zapytać czy można sobie to zachować bo punkty zazwyczaj to jedzenie wyrzucają do śmietnika, **ponieważ prawnie nie mogą nic innego z nim zrobić**

@@ -162,6 +162,8 @@ Powodów może byc mnóstwo tego typu problemu. Wszystko zależy od miasta, pory
  
  Musimy wejść w: ``Pomoc -> Aplikacja -> Zmiana ustawień konta -> Chcę dostarczać w nowym mieście``
 
+{{<alert context="danger" text="Sposób nie zadziała w przypadku jeżdzenia w **INNYM KRAJU** - do tego jest potrzebne nowe konto Uber Eats. Więcej informacji brak."/>}}
+
 {{<alert context="warning" text="Gdy support zrobi Wam zmiane miasta to niestety oferta mnożników oraz bonusów z poprzedniego miasta znika"/>}}
 
  {{<alert context="info" text="Na Uber Eats wystarczy, że wykonamy czynności wymienione powyżej, nie musimy tworzyć żadnego dodatkowego konta ani nic z tych rzeczy. Oznacza to, że zarobione pieniądze z nowego miasta trafią w to samo rozliczenie co nasze standardowe miasto. Nic więcej nie musimy robić"/>}}

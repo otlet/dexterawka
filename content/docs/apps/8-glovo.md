@@ -344,6 +344,22 @@ Jeżeli dostaniemy zamówienie i w nazwie punktu widnieje **GLOVO REFUND PL** to
 </center>
 Jest tzw. zamówienie pozycjonujące. Powstało to, ponieważ gdy Glovo kurierom wskazywało obszary wysokiego zapotrzebowania to kurierzy to ignorowali i nie jechali tam, więc zaczęli ich ściągać siłą właśnie takimi zamówieniami. Po dojechaniu na miejsce po maksymalnie 10ciu minutach powinno się to zamienić na prawidłowe zamówienie do klienta już. 
 
+
+<hr>
+
+## Przepisywanie zamówień
+
+W Glovo istnieje opcja przepisywania zamówień, lecz nie można jej ~~używać~~ nadużywać. Niestety w praktyce wygląda to często tak, że za przepisanei zamówienia są konsekwencje w postaci: Obniżonego wyniku doskonałości, tymczasowej blokady konta (następna może być permamentna). 
+
+
+{{% alert context="info" %}}
+
+W Glovo **jedyną możliwością** przepisania zamówienia jest moment w którym czekamy w restauracji ponad 5 minut na przygotowanie zamówienia, wtedy możemy przepisać zamówienie bez konsekwencji - powinna być to widoczna opcja na czacie z supportem
+
+{{% /alert %}}
+
+<hr>
+
 ## Jak mogę dostarczać w nowym mieście?
 
 W Glovo aby dostarczać w nowym mieście niż dotychczas musimy założyć nowe konto kuriera na inne miasto. Niestety oznacza to, że musimy przejść cały proces rejestracji, rekrutacji od samego początku i czekać na aktywację konta w innym mieście. 

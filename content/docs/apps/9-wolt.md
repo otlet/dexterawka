@@ -55,11 +55,14 @@ Całe przydatne F.A.Q znajduje się [na stronie Wolta](https://partnerswolt.pl/f
 * Konieczność realizacji jednego zamówienia na 60 dni żeby konto pozostało aktywne* 
 * **Małe stawki**
 * ~~Brak bonusów~~ ***(na dzień 29.04.2024r Wolt oferuje bonusy w "godzinach szczytu", zależy jaki ustalą. Zwykle jest to 15%)***
-* Brak jednoznacznej informacji o zamówieniach łączonych (w aplikacji pojawia się informacja, ale nie jest to zapewnienie, że wpadnie)
+* Brak jednoznacznej informacji o zamówieniach łączonych (w aplikacji pojawia się informacja, ale nie jest to zapewnienie, że wpadnie) - [więcej informacji tutaj](#jak-rozpoznać-podwójne-zamówienie)
+
+
 
 {{% /alert %}}
 
 <div style="text-align:center">
+
 
 ## Prezentacja aplikacji
 
@@ -91,3 +94,18 @@ Trzeba zrobić to w ten sposób: ``Support -> Informacje o koncie i zmiany -> Zm
 Tutaj napiszmy naszą prośbę o zmianę miasta.
 
 {{<alert context="warning" text="Musimy pamiętać o tym, że support przełączy nam miasto tylko w momencie kiedy jest aktywna rekrutacja w nim. Więc praktycznie jest to niemożliwe, ponieważ rekrutacje są bardzo często zamknięte. Ale próbować nie zaszkodzi!"/>}}
+
+<div style="text-align:center">
+
+## Jak rozpoznać podwójne zamówienie?
+
+Wcześniej kurier był informowany, że może zostać przydzielone podwójne zamówienie dopiskiem "*2 inne zadania*" w osi czasu dostaw, jednak od jakiegoś czasu Wolt zmienił wygląd tej osi czasu w ten sposób, że podwójne zamówienie wyświetla się na niej dopiero po odebraniu pierwszego zamówienia i zaakceptowaniu drugiego.
+
+![](https://i.imgur.com/yRBjmkV.png)
+
+Jednak jest jeszcze jeden sposób na rozpoznanie tego czy podwójne zamówienie nie wisi na kurierze, czasem algorytm jest niezdecydowany i zmienia pinezki na mapie do którego klienta kurier musi pierw pojechać nawet gdy nie odebrał pierwszego zamówienia
+
+
+{{<figure src="https://i.imgur.com/gFZxPNE.jpeg" width="15%">}} {{<figure src="https://i.imgur.com/FogTBl9.jpeg" width="15%">}}
+
+</div>
