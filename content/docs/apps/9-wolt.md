@@ -16,13 +16,13 @@ toc: true
 
 </div>
 
-Aplikacja kurierska WOLT to usługa, która umożliwia zamawianie posiłków z restauracji oraz zakupów w sklepie za pomocą smartfona. Aplikacja łączy klientów, restauracje, sklepy i kurierów, którzy dostarczają zamówienia w wybrane miejsce. Aplikacja WOLT jest dostępna w [wielu miastach w Polsce](https://partnerswolt.pl/hotspots) i na świecie.
+Aplikacja kurierska WOLT to usługa, która umożliwia zamawianie posiłków z restauracji oraz zakupów w sklepie za pomocą smartfona. Aplikacja łączy klientów, restauracje, sklepy i kurierów, którzy dostarczają zamówienia w wybrane miejsce. Aplikacja WOLT jest dostępna w [wielu miastach w Polsce](https://woltpartners.pl/) i na świecie.
 
 Aplikacja WOLT ma dwie wersje: dla klientów i dla kurierów. Klienci mogą wybierać spośród różnych opcji gastronomicznych i sklepowych, płacić za zamówienia online i śledzić status dostawy na mapie. [Kurierzy mogą zarabiać pieniądze za realizowanie zamówień w dowolnych godzinach, korzystając z własnego pojazdu i sprzętu](https://explore.wolt.com/pl/pol/couriers/faq#2J9MywOGrSQqkjeJw9XBbb). 
 
 Aplikacja dla kurierów ma nazwe **Wolt Courier Partner** i jest do pobrania na urządzenia [Android](https://play.google.com/store/apps/details?id=com.wolt.courierapp&hl=pl&gl=US&pli=1) oraz [iOS](https://apps.apple.com/pl/app/wolt-courier-partner/id1477299281?l=pl).
 
-Całe przydatne F.A.Q znajduje się [na stronie Wolta](https://partnerswolt.pl/faq)
+Całe przydatne F.A.Q znajduje się [na stronie Wolta](https://explore.wolt.com/pl/pol/couriers/faq#2J9MywOGrSQqkjeJw9XBbb)
 
 ### [Jak zostać kurierem?](https://evelstar.com/wolt-jak-zostac-kurierem/)
 
@@ -76,7 +76,7 @@ Całe przydatne F.A.Q znajduje się [na stronie Wolta](https://partnerswolt.pl/f
 Hotspoty sa to obszary gdzie najczesciej w danym miescie wpadaja zamowienia.
 Niebieska strefa, to strefa dostarczania i dzialania aplikacji
 Strona ze hotspotami znajduje sie ponizej: 
-https://partnerswolt.pl/hotspots
+https://woltpartners.pl/ - należy kliknąć dane miasto aby zobaczyć
 
 Na przykładzie Gdyni. 
 

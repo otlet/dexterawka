@@ -20,13 +20,8 @@ toc: true
 
 ## Wolt
 
-**FAQ Wolt:** https://explore.wolt.com/pl/pol/couriers/faq
+**FAQ Wolt:** https://woltpartners.pl/help-center-pl/
 
-**FAQ Wolt:** https://partnerswolt.pl/faq
-
-**Termin wypłat Wolt:** https://partnerswolt.pl/payouts
-
-**Aktywacje Wolt Miasta:** https://partnerswolt.pl/aktywacje
 
 ## Inne
 

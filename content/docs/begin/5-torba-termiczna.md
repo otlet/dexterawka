@@ -91,7 +91,7 @@ Plecak lub Torbę Uber Eats można zakupić z oficjalnego sklepu: https://uberpl
 
 Plecak lub Torbę Bolt Food można zakupić z oficjalnego sklepu: https://pl.boltfoodgear.com/pl
 
-Plecak lub Torbę Wolt: https://partnerswolt.pl/gear
+Plecak lub Torbę Wolt: https://wolt-store.com/pl/
 
 {{<alert context="warning" text="Obecnie nie ma możliwości zamówienia / zakupu sprzętu po wykonaniu 100 dostaw. Wolt planuje wprowadzic inna opcje kupna, informacje mozna śledzić na stronie (w przyszłości jak otworzą sklep, zaktualizujemy stronę)"/>}} 
 

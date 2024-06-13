@@ -32,7 +32,7 @@ toc: true
 
 > [Rejestracja w Bolt Food](https://bolt.eu/pl-pl/food/courier/)
 
-> [Rejestracja w Szama Express](https://dostawca.szamaexpress.pl/)
+> ~~Rejestracja w Szama Express~~
 
 </center>
 
@@ -92,7 +92,7 @@ Jak długo muszę czekać na aktywację konta w aplikacji?
 
 **Glovo:** Zapotrzebowanie jest bardzo dynamiczne, czas oczekiwania od 1 do X dni. 
 **Uber Eats**: Od 24h do 72h po ukończeniu wszystkich wymaganych kroków 
-**Wolt**: Aktualne zapotrzebowanie znajdziesz na stronie: https://partnerswolt.pl/aktywacje 
+**Wolt**: Aktualne zapotrzebowanie znajdziesz na stronie: https://woltpartners.pl/ 
 **Bolt Food**: Aktualne zapotrzebowanie znajdziesz na stronie: https://sites.google.com/bolt.eu/rates-model/page_1/rejestracja 
 **Stuart**: Od 24h do 72h po ukończeniu wszystkich wymaganych kroków 
 
@@ -117,7 +117,7 @@ Jak długo muszę czekać na aktywację konta w aplikacji?
 
 ## Jak wypłacane są pieniądze?
 
-Aplikacje delivery np. Glovo czy Uber Eats rozliczają się na podstawie wystawianych faktur za wykonane usługi przewozowe. Oznacza to, że one nie zatrudniają bezpośrednio ludzi i jedyną podstawą do wypłacenia pieniędzy jest **Faktura VAT** oraz [kontraktu B2B](/content/docs/begin/2-procesy-aplikacji-do-delivery.md#kontrakt-b2b). Z tego powodu dla ułatwienia całego procesu potrzebny jest nam **partner flotowy**, który to właśnie zatrudni nas na podstawie danej umowy. Taka firma potem wystawia aplikacji kurierskiej FV w naszym imieniu na kwotę zarobionych przez nas pieniędzy.
+Aplikacje delivery np. Glovo czy Uber Eats rozliczają się na podstawie wystawianych faktur za wykonane usługi przewozowe. Oznacza to, że one nie zatrudniają bezpośrednio ludzi i jedyną podstawą do wypłacenia pieniędzy jest **Faktura VAT** oraz [kontraktu B2B](/docs/begin/2-procesy-aplikacji-do-delivery.md#kontrakt-b2b). Z tego powodu dla ułatwienia całego procesu potrzebny jest nam **partner flotowy**, który to właśnie zatrudni nas na podstawie danej umowy. Taka firma potem wystawia aplikacji kurierskiej FV w naszym imieniu na kwotę zarobionych przez nas pieniędzy.
 
 Poniżej znajduje się przykładowa sekwencja rozliczania pieniędzy z aplikacji delivery
 
