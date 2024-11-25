@@ -31,12 +31,13 @@ Całe przydatne F.A.Q znajduje się [na stronie Wolta](https://explore.wolt.com/
 ## Plusy i minusy aplikacji
 
 </div>
+
 {{% alert icon="🟢"context="success" %}}
 
 ### Plusy
 * Brak grafiku, możliwość rozpoczęcie i zakończenie pracy w dowolnym momencie
 * Odrzucanie zamówień (jedynie w momencie pierwszego wyświetlenia)
-* Brak obrotu gotówki
+* Możliwość odrzucania zamówień gotówkowych
 * Informacja o statusie realizacji zamówienia
 * Szybki czas wydawania zamówień
 * Łatwa aplikacja
@@ -55,7 +56,7 @@ Całe przydatne F.A.Q znajduje się [na stronie Wolta](https://explore.wolt.com/
 * Konieczność realizacji jednego zamówienia na 60 dni żeby konto pozostało aktywne* 
 * **Małe stawki**
 * ~~Brak bonusów~~ ***(na dzień 29.04.2024r Wolt oferuje bonusy w "godzinach szczytu", zależy jaki ustalą. Zwykle jest to 15%)***
-* Brak jednoznacznej informacji o zamówieniach łączonych (w aplikacji pojawia się informacja, ale nie jest to zapewnienie, że wpadnie) - [więcej informacji tutaj](#jak-rozpoznać-podwójne-zamówienie)
+* ~~Brak jednoznacznej informacji o zamówieniach łączonych (w aplikacji pojawia się informacja, ale nie jest to zapewnienie, że wpadnie) - [więcej informacji tutaj](#jak-rozpoznać-podwójne-zamówienie)~~
 
 
 
@@ -66,12 +67,11 @@ Całe przydatne F.A.Q znajduje się [na stronie Wolta](https://explore.wolt.com/
 
 ## Prezentacja aplikacji
 
-
-
-![](/images/wolt_showcase/1.png)![](/images/wolt_showcase/2.png)![](/images/wolt_showcase/3.png)![](/images/wolt_showcase/4.png)
+![](https://i.imgur.com/okQU9vd.png) ![](https://i.imgur.com/RHSJoHI.png) ![](https://i.imgur.com/HaaMQqS.png)![](https://i.imgur.com/TxAxTjI.png)
 
 
 ## Hotspoty
+</div>
 
 Hotspoty sa to obszary gdzie najczesciej w danym miescie wpadaja zamowienia.
 Niebieska strefa, to strefa dostarczania i dzialania aplikacji
@@ -82,30 +82,136 @@ Na przykładzie Gdyni.
 
 *(obszar zaznaczony na różowo, to hotspoty, reszta to obszar dostaw)*
 
+<center>
+
 ![](/images/wolt_showcase/5.png)
 
-</div>
 
 ## Jak mogę dostarczać w innym mieście?
+</center>
 
 Na Wolt aby dostarczać w innym miescie niż jeździmy domyślnie trzeba zgłosić taką chęć na support. Wolt nie ma dedykowanej opcji w aplikacji na to.
 
 Trzeba zrobić to w ten sposób: ``Support -> Informacje o koncie i zmiany -> Zmień numer telefonu / e-mail``.
 Tutaj napiszmy naszą prośbę o zmianę miasta.
 
+<center>
+
+<div style="width: 50%;">
+
 {{<alert context="warning" text="Musimy pamiętać o tym, że support przełączy nam miasto tylko w momencie kiedy jest aktywna rekrutacja w nim. Więc praktycznie jest to niemożliwe, ponieważ rekrutacje są bardzo często zamknięte. Ale próbować nie zaszkodzi!"/>}}
 
-<div style="text-align:center">
+</div>
 
 ## Jak rozpoznać podwójne zamówienie?
 
-Wcześniej kurier był informowany, że może zostać przydzielone podwójne zamówienie dopiskiem "*2 inne zadania*" w osi czasu dostaw, jednak od jakiegoś czasu Wolt zmienił wygląd tej osi czasu w ten sposób, że podwójne zamówienie wyświetla się na niej dopiero po odebraniu pierwszego zamówienia i zaakceptowaniu drugiego.
+</center>
 
-![](https://i.imgur.com/yRBjmkV.png)
+Obecnie Wolt wyświetla w przypadku zamówień podwójnych od razu informacje o dwóch punktach do odbioru i stawkę za całość, również w podsumowaniu traktowane jest to jako jedna pozycja.
 
-Jednak jest jeszcze jeden sposób na rozpoznanie tego czy podwójne zamówienie nie wisi na kurierze, czasem algorytm jest niezdecydowany i zmienia pinezki na mapie do którego klienta kurier musi pierw pojechać nawet gdy nie odebrał pierwszego zamówienia
+Dodatkowo podczas pojedyńczych zamówień jest możliwość otrzymania dodatkowego przy starych zasadach, czyli w momencie akceptacji może wskoczyć kolejne.
+</div>
 
+<center>
+<div style="width: 50%">
 
-{{<figure src="https://i.imgur.com/gFZxPNE.jpeg" width="15%">}} {{<figure src="https://i.imgur.com/FogTBl9.jpeg" width="15%">}}
+{{<alert context="warning" text="Z wyjątkiem zamówienia które zostało dorzucone w trakcie wykonywania pojedyńczego - wtedy będą wyświetlać się jako dwa osobne"/>}}
 
 </div>
+</center>
+
+<div style="text-align:center">
+
+{{<figure src="https://i.imgur.com/uLDStxp.png" width="15%">}}
+
+Zdarzają się dwa różne zamówienia **do tego samego klienta**, wtedy Wolt w jasny sposób informuje o takiej sytuacji, lecz u klienta trzeba "przeklikać" dwie osobne dostawy.
+
+![](https://i.imgur.com/DUOjNwj.png)
+
+
+## Zamówienia gotówkowe
+
+{{<figure src="https://i.imgur.com/31oJpkj.png" width="20%">}} {{<figure src="https://i.imgur.com/1eH3aM3.png" width="20%">}}
+
+Zamówienia gotówkowe to nowość w Wolt, które działają obecnie w całej Polsce.
+
+Pełne FAQ znajdziecie tutaj: https://woltpartners.pl/help-center-pl/#faq-9
+
+Całe FAQ AirCash znajdziecie tutaj: https://woltpartners.pl/help-center-pl/#faq-8
+
+{{<figure src="https://i.imgur.com/Umg58qr.png" text="W przypadku zamówienia gotówkowego, na aplikacji przy akceptacji zamówienia zostanie wyświetlona stosowna informacja">}}
+
+Dodatkowo, gotówkę obracamy tylko na linii **kurier - klient**, czyli wydajemy resztę klientowi i zbieramy od niego gotówkę. **W RESTAURACJI NIGDY NIE PŁACIMY!** 
+
+<center>
+<div style="width:50%">
+
+{{<alert context="danger" text="W przypadku aplikacji Glovo mamy z tytułu zbieranej gotówki wypłacane zaliczki na poczet przyszłej wypłaty w gotówce. TUTAJ NIE MA TO ZASTOSOWANIA!"/>}}
+
+</div></center>
+
+Jeśli natrafisz na zamówienie gotówkowe, łatwo je rozpoznasz po specjalnie ikonie z napisem "Cash". Przed zaakceptowaniem takiego zamówienia pamiętaj, aby mieć przy sobie odpowiednią ilośc reszty do wydania dla klienta.
+
+Dodatkowo, do obsługi tych zamówień potrzebne jest aktywne konto w aplikacji (https://play.google.com/store/apps/details?id=com.aircash.aircash)[Aircash], dzięki któremu możesz bezpiecznie dokonywać wpłat gotówki.
+
+**Musisz posiadać resztę przy zamówieniach gotówkowych**.
+
+Minimalna kwota, jaką powinieneś mieć przy sobie to 45zł. Pozwoli Ci to na bezproblemowe wydawanie reszty klientom.
+<center>
+<div style="width:50%">
+
+{{<alert context="warning" text="Jeśli nie masz wystarczającej gotówki aby wydać reszty - nie akceptuj zamówień gotówkowych! Nie ma z tego tytułu żadnych konsekwencji."/>}}
+
+</div></center></div>
+
+Przede wszystkim, zwróćcie uwagę, że jeśli kwota gotówki którą macie przy sobie przekroczy 300zł, Wasze konto automatycznie przełączy się w tryb offline. W praktyce oznacza to, że nie będziecie mogli przyjmować kolejnych zamówień, dopóki nie zmniejszycie tej kwoty dokonując wpłaty przez aplikację Aircash.
+
+### Jak się przygotować do przyjmowania zamówień gotówkowych?
+
+Nic skomplikowanego. Wystarczy, że:
+
+{{% alert context="light" %}}
+1. Pobierzecie aplikację (https://play.google.com/store/apps/details?id=com.aircash.aircash)[Aircash] i zarejestrujecie się w niej.
+2. Doładujecie swoje konto za pomocą przelewu lub BLIK.
+{{% /alert %}}
+
+Następnie:
+
+1. Kliknijcie w aplikacji Aircash opcję "Rynek"
+2. Z listy wybierzcie Wolt.
+3. Podajcie swoje ID Kuriera.
+
+### Gdzie sprawdzę swoje ID kuriera w Wolt?
+
+W aplikacji Wolt Partner:
+`` Support Wolt -> Informacje o koncie/Zmiana danych -> Mój Courier ID ``
+
+lub
+
+``Support Wolt -> Zamówienia gotówkowe -> Zamówienia gotówkowe - Jak zrobić offloading ``
+
+### Aplikacja AirCash
+
+Należy pobrać aplikacje na telefon, a następnie utworzyć konto
+
+
+{{<alert context="danger" text="**UWAGA** - Trzeba pamiętać by konto założone w AirCash było NA TEN SAM ADRES E-MAIL co konto w Wolt Partner!"/>}}
+
+<center>
+
+![Instrukcja AirCash](https://i.imgur.com/UqsInrh.png)
+
+</center>
+
+<center>
+
+#### Jak wpłacić gotówkę przez AirCash?
+
+
+![Jak wpłacić gotówkę przez AirCash](https://i.imgur.com/X3h2ICG.png)
+
+</center></div>
+
+{{% alert context="warning" %}}
+W polu `Nazwa użytkownika` **ZAWSZE WPISUJ SWOJE ID KURIERA**, które znajdziesz zgodnie z powyższymi informacjami
+{{% /alert %}}

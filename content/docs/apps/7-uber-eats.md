@@ -36,26 +36,25 @@ Aplikacja UBER EATS ma dwie wersje: dla klientów i dla kurierów. Klienci mogą
 ### Plusy:
 * Pracujesz kiedy chcesz i jak chcesz (offslot)
 * Dowolność w przyjmowaniu zamówień
-* Spoko stawki ***(W lato najczęściej mają najwyższe ze wszystkich aplikacji)***
+* ~~Spoko stawki ***(W lato najczęściej mają najwyższe ze wszystkich aplikacji)***~~ (do sprawdzenia na nowym modelu)
 * Questy
 * Częste i wysokie napiwki
+* Widać miejsce dostawy przed akceptacją zamówienia oraz kwotę za jaką pojedziemy
   
 {{% /alert %}}
 
 {{% alert icon="🔴"context="danger" %}}
 
 ### Minusy:
-
-* Brak widoczności dystansu i stawki za kurs
-* Brak widoczności gdzie się dostarcza (informacja pojawia się dopiero po odbiorze zamówienia)
-* Brak dopłaty za dojazd do restauracji
+* Dynamiczne stawki (w zależności od zapotrzebowania, ten sam kurs może być raz gorzej, a raz lepiej płatny)
 * Brak ciągłości zamówień
 * Zgłaszanie problemów do supportu
 * Często daleki dojazd
-* **Mniejsza ilość kursów dla pojazdu typu ROWER**
+* ~~**Mniejsza ilość kursów dla pojazdu typu ROWER**~~ *(do weryfikacji na nowym modelu)*
+  
 {{% /alert %}}
 
-{{<alert context="info" text="Uber Eats wyświetla zarobki w kwotach **BRUTTO** - należy zarobioną kwotę podzielić przez 1.23 aby uzyskać kwotę netto"/>}}
+{{<alert context="info" text="Uber Eats wyświetla w **PODSUMOWANIU** zarobki w kwotach **BRUTTO** - należy zarobioną kwotę podzielić przez 1.23 aby uzyskać kwotę netto. Kwota netto jest wyświetlana tylko w momencie akceptowania zamówienia!"/>}}
 
 <div style="text-align:center">
 
@@ -64,10 +63,11 @@ Aplikacja UBER EATS ma dwie wersje: dla klientów i dla kurierów. Klienci mogą
 
 ![](/images/ubereats_showcase/1.png)
 ![](/images/ubereats_showcase/2.png)
-![](/images/ubereats_showcase/4.png)
+![](https://i.imgur.com/kqisznC.png)
 ![](/images/ubereats_showcase/7.png)
 ![](/images/ubereats_showcase/8.png)
 ![](/images/ubereats_showcase/9.png)
+![](/images/ubereats_showcase/image-2.png)
 
 
 
@@ -75,7 +75,7 @@ Aplikacja UBER EATS ma dwie wersje: dla klientów i dla kurierów. Klienci mogą
 
 </div>
 
-* Podczas akceptacji zamówienia, wyświetlany jest mnożnik i zaznaczone miejsce odbioru z restauracji (najbliższa trasa od punktu obecnego do restauracji)
+* Podczas akceptacji wyświetlany jest adres dostawy i stawka za kurs. **Warto zwrócić uwagę, że ponoć kursy są bardziej wyceniane pod względem czasu jego realizacji aniżeli dystansu.**
 * Lista produktów wraz z numerem zamówienia.
 * Możliwość Nie przyjmowania kolejnych zamówień
 * Questy (możliwość dodatkowego zarobku po spełnieniu danych wymagań)
@@ -83,16 +83,13 @@ Aplikacja UBER EATS ma dwie wersje: dla klientów i dla kurierów. Klienci mogą
 
 <div style="text-align:center">
 
-## Przykład stref i zwiększenie przychodów
+## Obszary wysokiego zapotrzebowania
 
-![](/images/ubereats_showcase/10.png)
 ![](/images/ubereats_showcase/5.png)
-![](/images/ubereats_showcase/zones.png)
 </div>
 
 * Na mapie w zależności od miasta, mogą wyświetlać się “domki”, jest to informacja o zapotrzebowaniu na kurierach w danej restauracji / obszarze. Aktualizacja tego zmienia się co około 5 minut
   {{<alert context="warning" text="Niestety zazwyczaj ten obszar wysokiego zapotrzebowania nie ma nic wspólnego z rzeczywistością. Nie gwarantuje nam to zamówienia jeżeli będziemy siedzieć w jego miejscu"/>}} 
-* Również na mapie sa wyszczególnione obszary w danym miescie, jakie w danym momencie obowiązują mnożniki za zamówienie.
 <div style="text-align:center">
 
 
@@ -131,9 +128,9 @@ Jeżeli jesteś użytkownikiem naszego serwera Discord **Dexterawka**, możesz p
 
 {{% /alert %}}
 
-### Nie zrobiłem żadnego zamówienia, a zostałem rozliczony z aplikacji Uber Eats
+### ~~Nie zrobiłem żadnego zamówienia, a zostałem rozliczony z aplikacji Uber Eats~~
 
-To jest bardzo częsty przypadek, ponieważ aplikacja Uber Eats jest pod tym względem delikatnie mówiąc źle zrobiona. Dopłaty za dojazd do restauracji są wypłacane w czwartek następnego tygodnia. Zazwyczaj są to groszowe sprawy, partner potem widząc przychód na aplikacji i tak i tak ją rozliczy i jesteśmy na minusie z rozliczeniem bo prowizja została pobrana mimo, że nie jeździliśmy na aplikacji Uber Eats. 
+~~To jest bardzo częsty przypadek, ponieważ aplikacja Uber Eats jest pod tym względem delikatnie mówiąc źle zrobiona. Dopłaty za dojazd do restauracji są wypłacane w czwartek następnego tygodnia. Zazwyczaj są to groszowe sprawy, partner potem widząc przychód na aplikacji i tak i tak ją rozliczy i jesteśmy na minusie z rozliczeniem bo prowizja została pobrana mimo, że nie jeździliśmy na aplikacji Uber Eats.~~ 
 
 <center>
 
@@ -141,7 +138,12 @@ To jest bardzo częsty przypadek, ponieważ aplikacja Uber Eats jest pod tym wzg
 
 </center>
 
-**Rozwiązanie dla kurierów [Evelstar](https://evelstar.com):** Należy zgłosić reklamację rozliczenia w takim wypadku. Trzeba napisać maila na **[rozliczenia@evelstar.com](mailto:rozliczenia@evelstar.com)** i poprosić o zwrot prowizji, ponieważ nie wykonaliśmy ani jednego zamówienia. Należy to zrobić w ciągu 30 dni. Po tym okresie czasu nasza reklamacja nie zostanie uwzględniona.
+~~**Rozwiązanie dla kurierów [Evelstar](https://evelstar.com):** Należy zgłosić reklamację rozliczenia w takim wypadku. Trzeba napisać maila na **[rozliczenia@evelstar.com](mailto:rozliczenia@evelstar.com)** i poprosić o zwrot prowizji, ponieważ nie wykonaliśmy ani jednego zamówienia. Należy to zrobić w ciągu 30 dni. Po tym okresie czasu nasza reklamacja nie zostanie uwzględniona.~~
+
+
+{{<alert context="info" text="**Problem już aktualnie nie występuje, ponieważ opłata za dojazd jest wliczona w stawkę bazową i nie jest doliczana osobno - 25.11.2024r**"/>}}
+
+
 
 ### Dostaję bardzo mało zamówień / Nie dostaję zamówień / Inni dostają więcej zamówień
 Powodów może byc mnóstwo tego typu problemu. Wszystko zależy od miasta, pory roku, dnia, czy jest to dzień roboczy, gdzie stoisz itd. Wśród dostawców krąży mit odnośnie otrzymywania większej ilości zamówień przez osoby które mają zaznaczony środek transportu jako skuter / auto. To jest prawda. Sam Uber twierdzi, że to jest nieprawda lecz praktyka pokazuje często inaczej. Wynika to z działania algorytmu Ubera*. Algorytm "spasowuje" czas kiedy zamówienie będzie zrealizowane przez restauracje z czasem kiedy kurier przyjedzie na miejsce - najczęściej te czasy pokrywają się właśnie dla osób które jeżdżą skuterem/autem i będą od restauracji 3 - 5 minut drogi. W momencie gdy poruszasz się rowerem, nawigacja widzi że jesteś "<1 minuta" drogi od restauracji - żadna restauracja nie zaznaczy, że zamówienie będzie gotowe za tyle czasu.

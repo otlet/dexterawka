@@ -32,11 +32,12 @@ Kurierzy, obok partnerów i klientów, stanowią jeden z trzech typów użytkown
 * Aplikacja z największa ilościa partnerów, czyli restauracji, sklepów itp.
 * Widoczne mnożniki w aplikacji (stawka i kilometry)
 * Możliwość wypłat codziennych z operacji salda gotówkowego (gotówką) [ Zaliczki gotówkowe ]
-* Dodatkowy mnożnik za zła pogodę, za oczekiwanie w punkcie, za dojazd do punktu.
+* Dodatkowy mnożnik za zła pogodę (40%), za oczekiwanie w punkcie, za dojazd do punktu.
 * Dodatkowy mnożnik za większe zamówienie.
 * Wysokie mnożniki w mniejszych miejscowościach
 * Wyzwania (możliwy dodatkowy zarobek za zrealizowanie danej ilości dostaw) [jeżeli są]
 * Przejrzysta aplikacja
+* Program Glovo+ który zapewnia m.in. ubezpieczenie w pracy i L4
 {{% /alert %}}
 
 {{% alert icon="🔴"context="danger" %}}
@@ -289,6 +290,12 @@ W innym przypadku, moga nie wpadać nam zamówienia a konto moze zostać zabloko
 
 ## Glovo+
 
+{{% alert context="warning" %}}
+
+Glovo+ nie jest dostępne w każdym mieście!
+
+{{% /alert %}}
+
 Glovo+ to program nagród, który wspiera Cię zarówno na drodze, jak i poza nią. Zdobędziesz 1 punkt za każdą zrealizowaną dostawę, a po osiągnięciu kolejnych poziomów otrzymasz odpowiednie nagrody.
 
 Punkty są przyznawane od momentu wprowadzenia programu, więc co zmianę programu będziemy musieli na nowo je sobie zdobywać.
@@ -304,9 +311,9 @@ W zaleznosci od miasta, wymagana jest różna ilość punktów do zdobycia by od
 
 https://delivery.glovoapp.com/pl/loyalty_program
 
-{{<alert context="warning" text="Wygląda na to, że na dzień dzisiejszy (06.05.2024) sprawdzarka do punktów nie działa"/>}}
-
 ## Zamówienia ze sklepów
+
+Będąc kurierem w Glovo, dla różnego typu pojazdu którym się poruszamy, mamy różne limity wagowe, które możemy wziąć jako zamówienie. W przypadkach gdy dane zamówienie jest za ciężkie, możemy wezwać wsparcie (kontakt przez support na aktywnym zamówieniu) lub otrzymać bonus za ciężkie zamówienie.
 
 Najbardziej uciążliwimi zamówieniami są te z **Auchan, Biedronka, Carrefour**. Z tego względu, że:
 
@@ -338,12 +345,18 @@ Jeżeli dostaniemy zamówienie i w nazwie punktu widnieje **GLOVO REFUND PL** to
 {{<figure src="https://i.imgur.com/ORDsUAO.png" width="25%">}}
 </center>
 
-## Zamówienie "Customer"
+## ~~Zamówienie "Customer"~~
 <center>
 {{<figure src="https://i.imgur.com/lep5pY2.png" width="25%">}}
 </center>
-Jest tzw. zamówienie pozycjonujące. Powstało to, ponieważ gdy Glovo kurierom wskazywało obszary wysokiego zapotrzebowania to kurierzy to ignorowali i nie jechali tam, więc zaczęli ich ściągać siłą właśnie takimi zamówieniami. Po dojechaniu na miejsce po maksymalnie 10ciu minutach powinno się to zamienić na prawidłowe zamówienie do klienta już. 
 
+~~Jest tzw. zamówienie pozycjonujące. Powstało to, ponieważ gdy Glovo kurierom wskazywało obszary wysokiego zapotrzebowania to kurierzy to ignorowali i nie jechali tam, więc zaczęli ich ściągać siłą właśnie takimi zamówieniami. Po dojechaniu na miejsce po maksymalnie 10ciu minutach powinno się to zamienić na prawidłowe zamówienie do klienta już~~
+
+{{% alert context="info" %}}
+
+Informacja nieaktualna, zamówienia pozycjonujące zostały usunięte z Glovo
+
+{{% /alert %}}
 
 <hr>
 
@@ -365,4 +378,3 @@ W Glovo **jedyną możliwością** przepisania zamówienia jest moment w którym
 W Glovo aby dostarczać w nowym mieście niż dotychczas musimy założyć nowe konto kuriera na inne miasto. Niestety oznacza to, że musimy przejść cały proces rejestracji, rekrutacji od samego początku i czekać na aktywację konta w innym mieście. 
 
 {{<alert context="info" text="Konto może posiadać ten sam numer telefonu, musi być tylko inny adres e-mail na który chcemy je zarejestrować. Można je również podpiąć **do tego samego partnera flotowego**"/>}}
-
