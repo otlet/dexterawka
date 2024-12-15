@@ -62,6 +62,8 @@ Całe przydatne F.A.Q znajduje się [na stronie Wolta](https://explore.wolt.com/
 
 {{% /alert %}}
 
+
+
 <div style="text-align:center">
 
 
@@ -71,6 +73,7 @@ Całe przydatne F.A.Q znajduje się [na stronie Wolta](https://explore.wolt.com/
 
 
 ## Hotspoty
+
 </div>
 
 Hotspoty sa to obszary gdzie najczesciej w danym miescie wpadaja zamowienia.
@@ -110,14 +113,16 @@ Tutaj napiszmy naszą prośbę o zmianę miasta.
 Obecnie Wolt wyświetla w przypadku zamówień podwójnych od razu informacje o dwóch punktach do odbioru i stawkę za całość, również w podsumowaniu traktowane jest to jako jedna pozycja.
 
 Dodatkowo podczas pojedyńczych zamówień jest możliwość otrzymania dodatkowego przy starych zasadach, czyli w momencie akceptacji może wskoczyć kolejne.
-</div>
+
 
 <center>
+
 <div style="width: 50%">
 
 {{<alert context="warning" text="Z wyjątkiem zamówienia które zostało dorzucone w trakcie wykonywania pojedyńczego - wtedy będą wyświetlać się jako dwa osobne"/>}}
 
 </div>
+
 </center>
 
 <div style="text-align:center">
@@ -127,6 +132,7 @@ Dodatkowo podczas pojedyńczych zamówień jest możliwość otrzymania dodatkow
 Zdarzają się dwa różne zamówienia **do tego samego klienta**, wtedy Wolt w jasny sposób informuje o takiej sytuacji, lecz u klienta trzeba "przeklikać" dwie osobne dostawy.
 
 ![](https://i.imgur.com/DUOjNwj.png)
+
 
 
 ## Zamówienia gotówkowe
@@ -148,7 +154,8 @@ Dodatkowo, gotówkę obracamy tylko na linii **kurier - klient**, czyli wydajemy
 
 {{<alert context="danger" text="W przypadku aplikacji Glovo mamy z tytułu zbieranej gotówki wypłacane zaliczki na poczet przyszłej wypłaty w gotówce. TUTAJ NIE MA TO ZASTOSOWANIA!"/>}}
 
-</div></center>
+</div>
+</center>
 
 Jeśli natrafisz na zamówienie gotówkowe, łatwo je rozpoznasz po specjalnie ikonie z napisem "Cash". Przed zaakceptowaniem takiego zamówienia pamiętaj, aby mieć przy sobie odpowiednią ilośc reszty do wydania dla klienta.
 
@@ -162,7 +169,9 @@ Minimalna kwota, jaką powinieneś mieć przy sobie to 45zł. Pozwoli Ci to na b
 
 {{<alert context="warning" text="Jeśli nie masz wystarczającej gotówki aby wydać reszty - nie akceptuj zamówień gotówkowych! Nie ma z tego tytułu żadnych konsekwencji."/>}}
 
-</div></center></div>
+</div>
+</center>
+
 
 Przede wszystkim, zwróćcie uwagę, że jeśli kwota gotówki którą macie przy sobie przekroczy 300zł, Wasze konto automatycznie przełączy się w tryb offline. W praktyce oznacza to, że nie będziecie mogli przyjmować kolejnych zamówień, dopóki nie zmniejszycie tej kwoty dokonując wpłaty przez aplikację Aircash.
 
