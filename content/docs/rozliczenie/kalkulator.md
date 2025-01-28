@@ -284,13 +284,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 <label for="zus">Wybierz składkę ZUS:</label>
                 <select name="zus" id="zus">
                     <option value="0" disabled>------- Osoby powyżej 26 lat --------</option>
-                    <option value="145.90">Osoba nigdzie nie pracująca bez rezygnacji z PPK - 145.90zł</option>
-                    <option value="135.40">Osoba nigdzie nie pracująca po rezygnacji z PPK - 135.40zł</option>
-                    <option value="56.00">Osoba pracująca</option>
+                    <option value="169.81">Osoba nigdzie nie pracująca bez rezygnacji z PPK - 169.81zł</option>
+                    <option value="157.56">Osoba nigdzie nie pracująca po rezygnacji z PPK - 157.56zł</option>
+                    <option value="65.5">Osoba pracująca - 65.50zł</option>
                     <option value="0" disabled>------- Osoby PONIŻEJ 26 lat --------</option>
-                    <option value="119.90">Osoba nigdzie nie pracująca bez rezygnacji z PPK - 119.90zł</option>
-                    <option value="109.40">Osoba nigdzie nie pracująca po rezygnacji z PPK - 109.40zł</option>
-                    <option value="27.00">Osoba pracująca - 27.00zł</option>
+                    <option value="139.81">Osoba nigdzie nie pracująca bez rezygnacji z PPK - 139.81zł</option>
+                    <option value="127.56">Osoba nigdzie nie pracująca po rezygnacji z PPK - 127.56zł</option>
+                    <option value="31.500">Osoba pracująca - 31.50zł</option>
                     <option value="0.00">Student, uczeń - 0.00zł</option>
                 </select>
             </div>
