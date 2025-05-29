@@ -1,7 +1,7 @@
 ---
 weight: 6
-title: "Aplikacja Glovo"
-description: "Specyfikacja aplikacji Glovo"
+title: "Aplikacja Glovo Rider"
+description: "Specyfikacja aplikacji Glovo Rider"
 icon: "article"
 draft: false
 toc: true
