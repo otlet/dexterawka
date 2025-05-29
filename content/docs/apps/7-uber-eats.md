@@ -170,5 +170,23 @@ Powodów może byc mnóstwo tego typu problemu. Wszystko zależy od miasta, pory
 
  {{<alert context="info" text="Na Uber Eats wystarczy, że wykonamy czynności wymienione powyżej, nie musimy tworzyć żadnego dodatkowego konta ani nic z tych rzeczy. Oznacza to, że zarobione pieniądze z nowego miasta trafią w to samo rozliczenie co nasze standardowe miasto. Nic więcej nie musimy robić"/>}}
 
- 
+ ### Regiony dla miast
+
+ W Uber Eats mniejsze miasta są podpięte pod większe. Dlatego np. w **Zakopanem** kurier może jeździć na koncie gdzie ma aktywne miasto **Kraków**. Wystarczy, że po prostu pojedzie i zaloguje się w tym mieście. Mowa tutaj oczywiście o questach jeżeli takowe istnieją.
+
+ Więcej regionów dla innych miast:
+
+ * Rybnik - dla Silesi
+ * Przemyśl - dla Rzeszowa
+ * Ostrów Wielkopolski - dla Kalisza
+ * Zakopane - dla Krakowa
+
+ ### Nowe miasta na Uber Eats
+
+ Od **27.05.2025** Uber Eats dodał do swoich usług nowe miasta takie jak:
+
+ * Piła
+ * Wałbrzych
+ * Grudziądz
+ * Kołobrzeg
 

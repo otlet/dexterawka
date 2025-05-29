@@ -24,6 +24,10 @@ Aplikacja dla kurierów ma nazwe **Wolt Courier Partner** i jest do pobrania na 
 
 Całe przydatne F.A.Q znajduje się [na stronie Wolta](https://explore.wolt.com/pl/pol/couriers/faq#2J9MywOGrSQqkjeJw9XBbb)
 
+### Godziny działania aplikacji
+
+W każdym mieście godziny otwarcia aplikacji Wolt to: **08:00 - 23:00** - w tych godzinach możecie realizować zamówienia **Z WYJĄTKIEM WARSZAWY**, w której od **02 czerwca** aplikacja wydłużyła godziny pracy na **06:00 - 02:00**.
+
 ### [Jak zostać kurierem?](https://evelstar.com/wolt-jak-zostac-kurierem/)
 
 <div style="text-align:center">

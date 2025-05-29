@@ -26,13 +26,14 @@ toc: true
 
 </center>
 Bolt Food jest jedną z najmniej znanych platform do rozwożenia jedzenia. Wynika to z okrojnej liczby współprac z restauracjami. Aplikacja ta funkcjonuje w miastach:
-* Warszawa
-* Łódź
-* Kraków
-* Trójmiasto (Gdańsk)
-* Poznań
-* Wrocław
-* Toruń (od 18 marca 2024r)
+
+* **Warszawa** | Działa w godzinach: 07:00 - 01:00
+* **Łódź** | Działa w godzinach: 10:00 - 23:00
+* **Kraków** | Działa w godzinach: 07:00 - 23:00
+* **Trójmiasto (Gdańsk)** | Działa w godzinach 08:00 - 23:00
+* **Poznań** | Działa w godzinach: 08:00 - 23:00
+* **Wrocław** | Działa w godzinach: 09:00 - 23:00 (jedna strefa prawdopodobnie 08:00 - 00:00)
+* **Toruń** (od 18 marca 2024r) | Działa w godzinach: 09:00 - 00:00
 
 Kurierzy zazwyczaj tą aplikacje traktują jako dodatek ze względu na bardzo małą ilość kursów. Aplikacja swojego czasu oferowała dostawy gotówkowe, lecz się z tego wycofała.
 
