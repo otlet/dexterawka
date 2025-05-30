@@ -333,4 +333,10 @@ W Glovo istnieje opcja przepisywania zamówień, lecz nie można jej ~~używać~
 
 W Glovo aby dostarczać w nowym mieście niż dotychczas musimy założyć nowe konto kuriera na inne miasto. Niestety oznacza to, że musimy przejść cały proces rejestracji, rekrutacji od samego początku i czekać na aktywację konta w innym mieście. 
 
-{{<alert context="dantger" text="Konto musi być zarejestrowane na OSOBNY numer telefonu i OSOBNY adres e-mail. Można je również podpiąć **do tego samego partnera flotowego**"/>}}
+{{<alert context="danger" text="Konto musi być zarejestrowane na OSOBNY numer telefonu i OSOBNY adres e-mail. Można je również podpiąć **do tego samego partnera flotowego**"/>}}
+
+## Sprawdzenie swojego partnera flotowego
+
+Aby sprawdzić pod jaką flote jest podpięte twoje konto glovo, należy wejść w ``Menu -> Profil `` i pod numerem dowodu tożsamości na UŁAMEK SEKUNDY pojawi się nazwa partnera flotowego.
+
+{{<alert context="info" text="Dla ułatwienia najlepiej jest sobie włączyć nagrywanie ekranu"/>}}
