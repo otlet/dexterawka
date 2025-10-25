@@ -36,10 +36,11 @@ Aplikacja UBER EATS ma dwie wersje: dla klientów i dla kurierów. Klienci mogą
 ### Plusy:
 * Pracujesz kiedy chcesz i jak chcesz (offslot)
 * Dowolność w przyjmowaniu zamówień
-* ~~Spoko stawki ***(W lato najczęściej mają najwyższe ze wszystkich aplikacji)***~~ (do sprawdzenia na nowym modelu)
+* Bardzo wysokie stawki w złą pogodę i w dużym zapotrzebowaniu (nawet 120zł za podwójne/potrójne zamówienie)
 * Questy
 * Częste i wysokie napiwki
 * Widać miejsce dostawy przed akceptacją zamówienia oraz kwotę za jaką pojedziemy
+* W 2025 weszły nowe mniejsze miasta do obsługi aplikacji Uber Eats takie jak np. Zakopane, Piła
   
 {{% /alert %}}
 
@@ -50,7 +51,6 @@ Aplikacja UBER EATS ma dwie wersje: dla klientów i dla kurierów. Klienci mogą
 * Brak ciągłości zamówień
 * Zgłaszanie problemów do supportu
 * Często daleki dojazd
-* ~~**Mniejsza ilość kursów dla pojazdu typu ROWER**~~ *(do weryfikacji na nowym modelu)*
   
 {{% /alert %}}
 
@@ -190,3 +190,184 @@ Powodów może byc mnóstwo tego typu problemu. Wszystko zależy od miasta, pory
  * Grudziądz
  * Kołobrzeg
 
+### Pełna lista miast
+
+- Aleksandrów Łódzki
+- Andrespol
+- Belchatów
+- Będzin
+- Białystok
+- Biesiekierz
+- Bieruń
+- Bielsko-Biała
+- Błonie
+- Błonie gmina
+- Bolesławiec
+- Bolesławiec gmina
+- Bytom
+- Bydgoszcz
+- Chorzów
+- Czechowice-Dziedzice
+- Czeladź
+- Czernica
+- Częstochowa
+- Dąbrowa Górnicza
+- Dobra (Szczecińska)
+- Dopiewo
+- Dzierżoniów
+- Elbląg
+- Ełk
+- Gdańsk
+- Gdynia
+- Gliwice
+- Głogów
+- Głogów gmina
+- Głusk
+- Gmina Grodzisk Mazowiecki
+- Gmina Mińsk Mazowiecki
+- Gmina Ożarów Mazowiecki
+- Gmina Piaseczno
+- Gmina Pruszcz Gdański
+- Gmina Siedlce
+- Gmina Sochaczew
+- Gniezno
+- Gorzów Wielkopolski
+- Grodzisk Mazowiecki
+- Grudziądz
+- Halinów gmina
+- Inowrocław
+- Jabłonna
+- Jaktorów
+- Jastrzębie-Zdrój
+- Jaworzno
+- Jelenia Góra
+- Józefów
+- Juchnowiec Kościelny
+- Kalisz
+- Karczew
+- Katowice
+- Kąty Wrocławskie
+- Kielce
+- Knurów
+- Kobierzyce
+- Kobyłka
+- Kolbudy
+- Kołbaskowo
+- Kołobrzeg
+- Kołobrzeg gmina
+- Komorniki
+- Konin
+- Konstancin-Jeziorna
+- Konstancin-Jeziorna gmina
+- Kosakowo
+- Koszalin
+- Kraków
+- Ksawerów
+- Legnica
+- Legnickie Pole
+- Legionowo
+- Lędziny
+- Leszno
+- Lesznowola
+- Liszki
+- Lubin
+- Luboń
+- Lublin
+- Łomża
+- Łomianki
+- Łódź
+- Marki
+- Mielec
+- Michałowice
+- Mikołów
+- Milanówek
+- Mińsk Mazowiecki
+- Mogilany
+- Morawica
+- Mysłowice
+- Nadarzyn
+- Nieporęt
+- Nowy Sącz
+- Nysa
+- Olsztyn
+- Opole
+- Opatówek
+- Osieczna gmina
+- Ostrów Wielkopolski
+- Otwock
+- Ożarów Mazowiecki
+- Pabianice
+- Pawłowice
+- Piastów
+- Piaseczno
+- Piekary Śląskie
+- Piła
+- Piotrków Trybunalski
+- Płock
+- Podkowa Leśna
+- Poznań
+- Pruszcz Gdański
+- Pruszków
+- Przodkowo
+- Przemyśl
+- Radom
+- Radzionków
+- Raszyn
+- Reda
+- Ruda Śląska
+- Rumia
+- Rybnik
+- Rzeszów
+- Siemianowice Śląskie
+- Siechnice gmina
+- Sitkówka-Nowiny
+- Skarszewy
+- Skierniewice
+- Słupsk
+- Sochaczew
+- Sopot
+- Sosnowiec
+- Stare Babice
+- Stare Miasto
+- Stargard
+- Starogard Gdański
+- Stawiguda
+- Suchy Las
+- Sulejówek
+- Suwałki
+- Swarzędz
+- Świętochłowice
+- Świeciechowa
+- Swidnik
+- Świnoujście
+- Szczecin
+- Tarnów
+- Tarnów gmina
+- Tarnowo Podgórne
+- Tarnowskie Góry
+- Tczew
+- Turośń Kościelna
+- Turawa
+- Tychy
+- Warszawa
+- Wałbrzych
+- Wasilków
+- Wejherowo
+- Wieliczka gmina
+- Wieliszew
+- Wisznia Mała
+- Włocławek
+- Wołomin
+- Wrocław
+- Wiązowna
+- Zakopane
+- Zakroczym
+- Zabrze
+- Ząbki
+- Zamość
+- Zbrosławice
+- Zielona Góra
+- Zielonka
+- Zielonki
+- Żory
+- Żyrardów

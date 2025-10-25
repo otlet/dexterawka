@@ -28,7 +28,7 @@ Całe przydatne F.A.Q znajduje się [na stronie Wolta](https://explore.wolt.com/
 
 W każdym mieście godziny otwarcia aplikacji Wolt to: **08:00 - 23:00** - w tych godzinach możecie realizować zamówienia **Z WYJĄTKIEM WARSZAWY**, w której od **02 czerwca** aplikacja wydłużyła godziny pracy na **06:00 - 02:00**.
 
-### [Jak zostać kurierem?](https://evelstar.com/wolt-jak-zostac-kurierem/)
+### [Jak zostać kurierem?](https://evelstar.com/wolt/)
 
 <div style="text-align:center">
 
@@ -40,7 +40,7 @@ W każdym mieście godziny otwarcia aplikacji Wolt to: **08:00 - 23:00** - w tyc
 
 ### Plusy
 * Brak grafiku, możliwość rozpoczęcie i zakończenie pracy w dowolnym momencie
-* Odrzucanie zamówień (jedynie w momencie pierwszego wyświetlenia)
+* Odrzucanie zamówień
 * Możliwość odrzucania zamówień gotówkowych
 * Informacja o statusie realizacji zamówienia
 * Szybki czas wydawania zamówień
@@ -55,9 +55,11 @@ W każdym mieście godziny otwarcia aplikacji Wolt to: **08:00 - 23:00** - w tyc
 ### Minusy
 
 * Brak informacji o jednoznacznej stawce za przebyty dystans (stawka za zamówienie zmienia sie w zależności od godziny)
-* Brak możliwości odrzucenia zaakceptowanego zamówienia (jedynie support)
+* ~~Brak możliwości odrzucenia zaakceptowanego zamówienia (jedynie support)~~ ***Na dzień 20.10.2025 kurier ma możliwość anulować samodzielnie zamówienie X razy w ciągu miesiąca***
 * Mniejsza ilość zamówień
-* Konieczność realizacji jednego zamówienia na 60 dni żeby konto pozostało aktywne* 
+* Konieczność realizacji jednego zamówienia na 21 dni aby konto pozostało aktywne, patrz: [Co muszę wiedzdieć?](#co-musisz-wiedzieć)
+* Mocno restrykcyjne podedjście do kurierów.
+* Wolt wymaga aby utrzymać poziom akceptacji zamówień na poziomie **60% w przeciągu ostatniego miesiąca**.
 * **Małe stawki**
 * ~~Brak bonusów~~ ***(na dzień 29.04.2024r Wolt oferuje bonusy w "godzinach szczytu", zależy jaki ustalą. Zwykle jest to 15%)***
 * ~~Brak jednoznacznej informacji o zamówieniach łączonych (w aplikacji pojawia się informacja, ale nie jest to zapewnienie, że wpadnie) - [więcej informacji tutaj](#jak-rozpoznać-podwójne-zamówienie)~~
@@ -228,3 +230,41 @@ Należy pobrać aplikacje na telefon, a następnie utworzyć konto
 {{% alert context="warning" %}}
 W polu `Nazwa użytkownika` **ZAWSZE WPISUJ SWOJE ID KURIERA**, które znajdziesz zgodnie z powyższymi informacjami
 {{% /alert %}}
+
+## Co musisz wiedzieć?
+
+Od paźddziernika 2025 Wolt zaczął wprowadzać dziwne restrykcje odnośnie aktywności kurierów, oraz to w jaki sposób traktowani są nowi kurierzy po aktywacji. Co trzeba wiedzieć?
+
+### Okres nieaktywności
+Wolt od dawna posiadał minimalną ilość dostaw do zrealizowana w danym czasie. Obecnie na 25.10.2025 jest to **jedno zamówienie** na okres **21 dni**. Więc jeżeli nie zrobimy **ani jednego** zamówienia przez 22 dni, nasze konto zostanie wyłączone i konto będzie miało status "Do aktywacji" - czyli tak jakbyście składali "papiery" raz jeszcze. Wiąże się to po prostu z długim czasem oczekiwania na reaktywację konta.
+
+### Nowi kurierzy
+Nowy kurier od dnia w którym zostało mu aktywowane konto musi wykonać **30 zamówien** w ciągu **miesiąca**. Jest to najbardziej restrykcyjne podejście do świeżo aktywowanego kuriera spośród wszystkich aplikacji.
+
+### Gotówka
+Gotówka musi być wpłacana przez aplikację AirCash nabieżąco. Jeżeli nie wpłacimy gotówki przez **ponad tydzień czasu** konto zostanie zdeaktywowane i saldo wyzerowane - krótko mówiąc: **Wolt nie będzie potrzebował ani tych pieniędzy, ani Was**.
+
+## Lista miast
+
+Lista miast w których można zatrudnić się na Wolt **jeżeli prowadzona jest rekrutacja**:
+
+- Białystok
+- Bydgoszcz
+- Chorzów
+- Częstochowa
+- Gdańsk & Sopot
+- Gdynia
+- Gliwice
+- Katowice
+- Kraków
+- Lublin
+- Łódź
+- Olsztyn
+- Poznań
+- Rzeszów
+- Sosnowiec
+- Szczecin
+- Toruń
+- Warszawa
+- Wrocław
+- Zielona Góra

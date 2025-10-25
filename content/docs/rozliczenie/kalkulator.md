@@ -7,12 +7,14 @@ draft: false
 toc: true
 ---
 
-<center><img src="https://evelstar.com/wp-content/uploads/2021/05/Zasob-3LOGO-WHITE.png" width="25%"></center>
+<center><img src="https://evelstar.com/wp-content/uploads/2023/07/logo_black-4-1-1.svg" width="25%"></center>
 
 <br><br>
 <center>
 
-> Jeżeli nie masz pewności jak wyglądają rozliczenia przez partnera flotowego, możesz tutaj sprawdzić. Kalkulator jest zrobiony pod obowiązujące prowizje i stawki ZUS  partnera flotowego [Evelstar](https://evelstar.com/)
+> Jeżeli nie masz pewności jak wyglądają rozliczenia przez partnera flotowego, możesz tutaj sprawdzić. Kalkulator jest zrobiony pod obowiązujące prowizje i stawki ZUS  partnera flotowego [Evelstar](https://evelstar.com/). 
+
+> U innego partnera flotowego może to wyglądać zupełnie inaczej.
 
 <br>
 <br>
@@ -307,11 +309,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
   <div id="alert"></div>
 
+<br>
+
+{{% alert icon=""context="warning" %}}
+Od października 2025 kwota minimalna w Evelstar została wyłączona, oznacza to że **nie trzeba zbierać minimum 350zł** aby wypłacić pieniądze. Wiąże się to ze zmianą pobierania pieniędzy na składkę ZUS. Jeżeli nie zarobicie pełnej kwoty na składkę ZUS które są wypisane na liście powyżej, to przy wypłacaniu pieniędzy zostanie pobrany % na składkę ZUS. Ile ten % wynosi możesz sprawdzić w [zasadach współpracy z Evelstar](https://evelstar.com/docs/zasady_wspolpracy.pdf)
+
+{{% /alert %}}
+
  </main>
 
 
 
    <div class="footer">
 
+
 </div>
+
+
 </center>

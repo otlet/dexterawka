@@ -35,10 +35,10 @@ Kurierzy, obok partnerów i klientów, stanowią jeden z trzech typów użytkown
 * Możliwość wypłat codziennych z operacji salda gotówkowego (gotówką) [ Zaliczki gotówkowe ]
 * Dodatkowy mnożnik za zła pogodę, za dojazd do punktu.
 * Dodatkowy mnożnik za większe zamówienie.
-* Wysokie mnożniki w mniejszych miejscowościach
+* ~~Wysokie mnożniki w mniejszych miejscowościach~~
 * Wyzwania (możliwy dodatkowy zarobek za zrealizowanie danej ilości dostaw) [jeżeli są]
 * Przejrzysta aplikacja
-* Program Glovo+ który zapewnia m.in. ubezpieczenie w pracy i L4
+* Program Glovo+ który zapewnia m.in. ubezpieczenie w pracy i L4(ograniczone)
 {{% /alert %}}
 
 {{% alert icon="🔴"context="danger" %}}
@@ -340,3 +340,176 @@ W Glovo aby dostarczać w nowym mieście niż dotychczas musimy założyć nowe 
 Aby sprawdzić pod jaką flote jest podpięte twoje konto glovo, należy wejść w ``Menu -> Profil `` i pod numerem dowodu tożsamości na UŁAMEK SEKUNDY pojawi się nazwa partnera flotowego.
 
 {{<alert context="info" text="Dla ułatwienia najlepiej jest sobie włączyć nagrywanie ekranu"/>}}
+
+## Dostępne miasta w Glovo
+
+Lista miast w których działa Glovo i można się zatrudnić **jeżeli jest prowadzona rekrutacja**. Do mniejszych miast jest ciężej się dostać.
+
+- Augustów
+- Bełchatów
+- Biała Podlaska
+- Białystok
+- Bielsko-Biała
+- Bolesławiec
+- Brodnica
+- Brzeg
+- Bydgoszcz
+- Bytom
+- Chełm
+- Chojnice
+- Chrzanów
+- Ciechanów
+- Cieszyn
+- Czechowice-Dziedzice
+- Czeczewo
+- Częstochowa
+- Dębica
+- Dziekanowice
+- Dzierżoniów
+- Elbląg
+- Ełk
+- FakePoland
+- Gdańsk
+- Giżycko
+- Gliwice
+- Głogów
+- Gniezno
+- Gorzów Wielkopolski
+- Grodzisk Mazowiecki
+- Grójec
+- Grudziądz
+- Iława
+- Inowrocław
+- Jarocin
+- Jarosław
+- Jastrzębie-Zdrój
+- Jaworzno
+- Jelenia-Góra
+- Kalisz
+- Katowice
+- Kędzierzyn-Koźle
+- Kielce
+- Kiełczów
+- Kłodzko
+- Koło
+- Kołobrzeg
+- Konin
+- Kostrzyn nad Odrą
+- Koszalin
+- Kościerzyna
+- Kozienice
+- Krakow okolice
+- Kraków
+- Kraśnik
+- Krosno
+- Krotoszyn
+- Krzeszowice
+- Kutno
+- Kwidzyn
+- Legnica
+- Leszno
+- Lębork
+- Lubin
+- Lublin
+- Lubliniec
+- Luboń
+- Łask
+- Łaziska Górne
+- Łomża
+- Łowicz
+- Łódź
+- Łuków
+- Malbork
+- Mielec
+- Mielno
+- Międzyzdroje
+- Mikołów
+- Mińsk Mazowiecki
+- Mława
+- Mrągowo
+- Nakło nad Notecią
+- Nekla
+- Nowa Sól
+- Nowy Dwór Mazowiecki
+- Nowy Sącz
+- Nowy Targ
+- Nysa
+- Okolice Łodzi
+- Oleśnica
+- Olkusz
+- Olsztyn
+- Oława
+- Opoczno
+- Opole
+- Ostrołęka
+- Ostrowiec Świętokrzyski
+- Ostróda
+- Ostrów Wielkopolski
+- Oświęcim
+- Piastów
+- Piła
+- Piotrków Trybunalski
+- Płock
+- Płońsk
+- Polkowice
+- Poznań
+- Prawobrzeże
+- Przemyśl
+- Puck
+- Puławy
+- Racibórz
+- Radom
+- Radomsko
+- Rybnik
+- Rzeszów
+- Sanok
+- Siedlce
+- Sieradz
+- Skarżysko-Kamienna
+- Skierniewice
+- Słubice
+- Słupsk
+- Sochaczew
+- Sosnowiec
+- Starachowice
+- Stargard
+- Starogard Gdański
+- Sulechów
+- Suwałki
+- Szczecin
+- Szczecinek
+- Szczytno
+- Szklarska Poręba
+- Śrem
+- Środa Wielkopolska
+- Świdnica
+- Świebodzin
+- Świecie
+- Świnoujście
+- Tarnobrzeg
+- Tarnowskie Góry
+- Tarnów
+- Tczew
+- Tomaszów Mazowiecki
+- Toruń
+- Turek
+- Tychy
+- Ustka
+- Wałbrzych
+- Wałcz
+- Warszawa
+- Wągrowiec
+- Władysławowo
+- Włocławek
+- Wodzisław Śląski
+- Wrocław
+- Września
+- Wyszków
+- Zakopane
+- Zamość
+- Zawiercie
+- Zduńska Wola
+- Zgorzelec
+- Zielona Góra
+- Żagań
+- Żary

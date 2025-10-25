@@ -44,7 +44,7 @@ featureGrid:
   template: feature grid
 
   title: Czego się dowiesz?
-  subtitle: Kompedium Wiedzy Kurierskiej powstało z potrzeby edukacji kurierów aplikacji, powstała z inicjatywy Dexterowskiego, który zauważył brak takiego miejsca w sieci. Z tego powodu kurierzy nie wiedzą jak zacząć, na co uważać, jak się rozliczać.
+  subtitle: Kompedium Wiedzy Kurierskiej powstało z potrzeby edukacji kurierów aplikacji, powstała z inicjatywy Dexterowskiego, który zauważył brak takiego miejsca w sieci. Z tego powodu kurierzy nie wiedzą jak zacząć, na co uważać, jak się rozliczać. Content NIE JEST napisany przez AI.
 
   items:
     - title: Znajdź wiedzę
@@ -115,7 +115,7 @@ imageText:
         weight: 5
         template: image text
         title: Kompendium Wiedzy Delivery
-        subtitle: Zbiór informacji na temat środowiska Delivery - dostarczania jedzenia na aplikacjach mobilnych. Zgromadzona i zrobione przez kurierów dla kurierów
+        subtitle: Zbiór informacji na temat środowiska Delivery - dostarczania jedzenia na aplikacjach mobilnych. Zgromadzona i zrobione przez kurierów dla kurierów, a nie jakieś tam EJAJ.
 
         list:
         - text: Znajdziesz tutaj informacje których szukasz w temacie delivery, czym jest partner flotowy, czym się różnią poszczgólne platformy od siebie itp.
