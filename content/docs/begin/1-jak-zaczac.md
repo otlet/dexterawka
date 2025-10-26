@@ -22,7 +22,7 @@ toc: true
 
 <center>
 
-> [Rejestracja w Glovo](https://couriers.glovoapp.com/pl/?utm_campaign=3PL-134) - link partnera flotowego*
+> [Rejestracja w Glovo](https://to.glovoapp.com/a/mzxoty3) - link polecający i link partnera flotowego***
 
 > [Rejestracja w Uber Eats](https://www.uber.com/signup/drive/deliver/?invite_code=1f6jf7v2mbz2) - link polecający**
 
