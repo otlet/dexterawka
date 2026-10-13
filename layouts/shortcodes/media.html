@@ -1,0 +1,25 @@
+{{- $src := .Get "src" -}}
+{{- $caption := .Get "caption" -}}
+{{- $alt := .Get "alt" | default $caption | default "Ilustracja do artykułu" -}}
+{{- $size := .Get "size" | default "lg" -}}
+{{- $align := .Get "align" | default "center" -}}
+{{- $width := .Get "width" -}}
+{{- $imageSrc := $src -}}
+{{- $resourceWidth := 0 -}}
+{{- $resourceHeight := 0 -}}
+{{- if not (or (hasPrefix $src "/") (hasPrefix $src "http://") (hasPrefix $src "https://")) -}}
+  {{- $imageSrc = printf "/%s" $src -}}
+{{- end -}}
+{{- if not (or (hasPrefix $src "http://") (hasPrefix $src "https://") (hasPrefix $src "//")) -}}
+  {{- with resources.Get (strings.TrimPrefix "/" $src) -}}
+    {{- $imageSrc = .RelPermalink -}}
+    {{- if in (slice "image/jpeg" "image/png" "image/webp" "image/gif") .MediaType.Type -}}
+      {{- $resourceWidth = .Width -}}
+      {{- $resourceHeight = .Height -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+<figure class="article-image size-{{ $size }} align-{{ $align }}"{{ with $width }} style="--image-width: min(100%, {{ . }});"{{ end }}>
+  <img src="{{ $imageSrc | safeURL }}" alt="{{ $alt }}"{{ if $resourceWidth }} width="{{ $resourceWidth }}" height="{{ $resourceHeight }}"{{ end }} loading="lazy">
+  {{- with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end -}}
+</figure>

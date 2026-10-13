@@ -4,7 +4,7 @@ title: "Aplikowanie do delivery"
 description: "Rodzaje umów jakie podpisujemy"
 icon: "article"
 date: "2024-04-26T13:08:32+02:00"
-lastmod: "2024-04-26T13:08:32+02:00"
+lastmod: "2026-10-08T20:30:00+02:00"
 draft: false
 toc: true 
 ---
@@ -15,231 +15,79 @@ toc: true
 
 </center>
 
-## Umowy potrzebne do rozpoczęcia pracy
+## Formy współpracy w delivery
 
-Dokument przedstawa rodzaje umów dostępne u większości partnerów flotowych. Ta wiedza jest ważna przed rozpoczęciem procesu rejestracyjnego u partnera flotowego.
+Praca przez aplikację delivery nie oznacza automatycznie zatrudnienia bezpośrednio przez daną aplikację. W Polsce kurierzy współpracują przede wszystkim na **umowie zlecenia z partnerem flotowym (rozliczeniowym)** albo jako przedsiębiorcy na **B2B**. Platforma udostępnia aplikację i zlecenia, a partner obsługuje umowę i rozliczenie kuriera. Warunki zależą od platformy i partnera, dlatego przed rejestracją sprawdź rodzaj umowy, opłaty oraz zasady wypłat.
 
 ### Umowa zlecenie
-  Dzięki umowie zlecenie będziesz zatrudniony jako kurier i zgłoszony do
-ZUS-u. Nie ustalamy czasu pracy, ani żadnych innych obostrzeń dotyczących
-Twojej pracy. Pracujesz kiedy i gdzie chcesz. Koszty ponosisz jedynie w dni aktywne,
-jeśli w danym okresie rozliczeniowym nie będziesz pracował to nie zostaniesz
-obciążony żadnymi kosztami
 
-### Umowa najmu samochodu 
- {{< alert context="danger" text="<strong>Nie dotyczy studentów/uczniów przed 26 rokiem życia!</strong>" />}}
+Umowę zlecenia podpisujesz z partnerem, który rozlicza Twoje wynagrodzenie, zaliczki na podatek i należne składki.
 
-Dzięki umowie najmu samochodu posiadamy formę prawną do dysponowania
-samochodem i możemy traktować Twój samochód jak samochód służbowy, a Ty
-możesz korzystać z benefitów takich jak zniżki na paliwo czy na części
-samochodowe. Wiele osób obawia się najmować samochodu osobom trzecim,
-jednak bez obaw – w umowie jest zapis, że nikt bez Twojej zgody nie może
-użytkować najmowanego pojazdu. Dodatkowo umowa zostaje podpisana na czas
-nieokreślony, możesz więc ją zerwać w każdej chwili, bez ponoszenia jakichkolwiek kosztów oraz bez podania przyczyny
+{{<alert context="danger" text="**Zlecenie nie jest umową o pracę**: nie daje automatycznie płatnego urlopu ani wszystkich uprawnień pracowniczych. Obowiązek zgłoszenia do ZUS zależy od Twojej sytuacji, m.in. statusu ucznia lub studenta, wieku i innych tytułów ubezpieczenia." />}}
 
-### Umowa najmu pojazdu jednośladowego
- {{< alert context="danger" text="<strong>Nie dotyczy studentów/uczniów przed 26 rokiem życia!</strong>" />}}
-  
-  Dotyczy skuterów i motocykli - dzięki umowie najmu pojazdu
-jednośladowego możemy traktować Twój pojazd jak pojazd służbowy. Umowa
-najmu optymalizuje podatkowo Twoje zarobki. Wiele osób obawia się najmować
-swój pojazd osobom trzecim, jednak bez obaw – w umowie jest zapis, że nikt bez
-Twojej zgody nie może użytkować najmowanego pojazdu. Dodatkowo umowa
-zostaje podpisana na czas nieokreślony, możesz więc ją zerwać w każdej chwili, bez
-ponoszenia jakichkolwiek kosztów oraz bez podania przyczyny.
+W modelu elastycznym sam wybierasz, kiedy realizujesz dostawy, a wynagrodzenie zależy od wykonanych zleceń. Nie każda aplikacja działa jednak tak samo - mogą występować grafiki, rezerwacje godzin lub dodatkowe warunki bonusów.
 
-### Umowa najmu roweru
- {{< alert context="danger" text="<strong>Nie dotyczy studentów/uczniów przed 26 rokiem życia!</strong>" />}}
+{{<alert context="warning" text="**Minimalna stawka godzinowa i wyjątek:** od 1 stycznia 2026 r. stawka dla objętych nią zleceń i usług wynosi **31,40 zł brutto za godzinę**. Ustawowe wyłączenie może mieć zastosowanie, jeżeli spełnione są **łącznie trzy warunki**: sam decydujesz o **czasie**, sam decydujesz o **miejscu** wykonania usług i przysługuje Ci **wyłącznie wynagrodzenie prowizyjne**. " />}}
 
-Dzięki umowie najmu roweru możemy traktować Twój rower jak rower służbowy.
-Umowa najmu optymalizuje podatkowo Twoje zarobki. Wiele osób obawia się
-najmować rower osobom trzecim, jednak bez obaw – w umowie jest zapis, że nikt
-bez Twojej zgody nie może użytkować najmowanego roweru. Dodatkowo umowa
-zostaje podpisana na czas nieokreślony, możesz więc ją zerwać w każdej chwili, bez
-ponoszenia jakichkolwiek kosztów oraz bez podania przyczyny.
+### Umowa najmu samochodu
+
+Umowa najmu pojawia się obecnie tylko w kategorii TAXI i nie jest jakkolwiek brana pod uwagę w aplikacjach kurierskich.
 
 ### Kontrakt B2B
 
-Kontrakt B2B polega na podpisaniu umowy na współpracę pomiędzy dwiema firmami. **Nie jest to stosunek pracy**. Taki kontrakt możemy podpisać bezpośrednio z aplikacjami* delivery bądź partnerem flotowym. Jest to opcja dla osób które prowadzą już jakiś biznes. Otwierać działalnośc by jeździć na aplikacjach delivery kompletnie się nie opłaca, ponieważ "zjedzą" nas opłaty np. za ZUS w momencie gdy u partnera flotowego na podpisanej umowie zlecenie + najem wyniesie on maksymalnie 200zł.
+B2B to współpraca między firmami. Kurier prowadzi działalność gospodarczą i świadczy usługi na rzecz platformy lub partnera, zgodnie z dostępnym modelem współpracy.
 
-{{<alert context="warning" text="Działalność nierejestrowana nie może być podmiotem kontraktu B2B ze względu na brak wpisu do CEIDG lub KRS"/>}}
+Na B2B Ty jako podmiot wystawiasz partnerowi rozliczeniowemu fakturę za wykonane usług kurierskie/taxi na kwotę NETTO które widzisz w aplikacji lub tego co partner uwzględni w dokumencie który jest wzorem do wystawienia faktury.
 
-Taka forma współpracy wiąże się z większymi kosztami księgowości z tego względu, że wystawiamy więcej faktur do rozliczenia (w zależności ile będziemy jeździć i na ilu aplikacjach). Np. jeżdżąc na dwóch aplikacjach przez cały miesiąc mamy w ciągu miesiąca 4 faktury za jedną aplikacje co łącznie da nam ich 8 sztuk.
+{{<alert context="danger" text="**UWAŻAJ**: Niektórzy partnerzy mogą Ci powiedzieć, że masz wystawić fakturę na kwotę **BRUTTO** zamiast NETTO - jest to niepoprawne!"/>}}
 
-Te aplikacje nie akceptują współprac B2B: Glovo, Wolt, Bolt Food.
+To ile podatku dochodowego zapłacisz zależy od Twojego rodzaju opodatkowania. Tyczy się to również składek ZUS i składki zdrowotnej.
+
+{{<alert context="warning" text="Jeżeli myślisz o otwarciu działalności tylko po to aby pracować na delivery - dobrze się zastanów. W Polsce są atrakcyjne zniżki na składki ZUS przez pierwsze lata działalności, ale potem te kwoty potrafią wynosić 2700zł miesięcznie **niezależnie** od tego ile zarobisz! W przypadku jeżeli masz inną główną działalność, a delviery byłoby dorywcze - jak najbardziej. Pamiętaj tylko o dopisaniu kodów PKD!"/>}}
+
+## Składki i potrącenia - ile zostanie z 2500 zł brutto?
+
+Na zleceniu wypłata zależy od Twojego statusu. Poniższe przykłady dotyczą **2500 zł brutto wynagrodzenia ze zlecenia**, przed opłatą partnera i kosztami pojazdu. Kwota zarobiona w aplikacji nie zawsze jest tożsama z brutto na rachunku do umowy - sprawdź to w rozliczeniu partnera.
+
+### Co jest potrącane na umowie zlecenia?
+
+| Składnik | Zasada naliczania po stronie kuriera | Przykład dla 2500 zł brutto |
+| --- | --- | --- |
+| Składka emerytalna | 9,76% brutto, gdy zlecenie podlega ubezpieczeniom społecznym | 244,00 zł |
+| Składka rentowa | 1,50% brutto przy obowiązkowych ubezpieczeniach społecznych | 37,50 zł |
+| Składka chorobowa | Dobrowolna, 2,45% brutto, gdy można do niej przystąpić | 61,25 zł, jeśli ją wybierzesz |
+| Składka zdrowotna | 9% podstawy po odjęciu składek społecznych finansowanych przez kuriera | 199,67 zł bez chorobowej; 194,16 zł z chorobową |
+| Zaliczka PIT | W typowym przykładzie 12% podstawy po odjęciu składek społecznych i 20% kosztów uzyskania przychodu; możliwe ulgi i pomniejszenie zaliczki | 213 zł bez chorobowej, bez PIT-2 i bez ulg |
+| Wpłata własna do PPK | Standardowo 2% wynagrodzenia będącego podstawą składek emerytalno-rentowych, jeśli uczestniczysz w PPK | 50,00 zł przy podstawie 2500 zł |
+
+
+**PPK nie jest składką ZUS ani podatkiem** - jest wpłatą na oszczędności. W tabeli przyjmujemy standardowe 2%; przy spełnieniu warunków można wnioskować o obniżenie wpłaty do 0,5%. Wpłata finansowana przez partnera jest odrębna i może wpływać na PIT. Składki finansowane przez zleceniodawcę także są odrębne od powyższych potrąceń z brutto kuriera.
+
+### Przykładowe stawki według statusu kuriera
+
+Poniższe procenty to **uproszczone łączne potrącenia do szacowania wypłaty**, a nie jednolita stawka ZUS. Warianty z pełnymi składkami społecznymi przyjmują **brak dobrowolnej składki chorobowej**. Warianty opodatkowane przyjmują 12% PIT, 20% kosztów uzyskania przychodu i brak pomniejszenia zaliczki na podstawie PIT-2. Warianty poniżej 26 lat zakładają prawo do ulgi dla młodych i niewyczerpany limit zwolnienia.
+
+| Sytuacja kuriera | Szacunkowe potrącenie | Potrącenie z 2500 zł | Pozostaje przed opłatą partnera |
+| --- | --- | --- | --- |
+| Nie pracuję na etacie, bez rezygnacji z PPK | 29,82% | 745,50 zł | **1754,50 zł** |
+| Nie pracuję na etacie, po rezygnacji z PPK | 27,82% | 695,50 zł | **1804,50 zł** |
+| Nie pracuję na etacie, poniżej 26 lat, bez statusu ucznia/studenta, z PPK | 21,25% | 531,25 zł | **1968,75 zł** |
+| Nie pracuję na etacie, poniżej 26 lat, bez statusu ucznia/studenta, bez PPK | 19,25% | 481,25 zł | **2018,75 zł** |
+| Pracuję na etacie spełniającym warunki zwolnienia ze składek społecznych na zleceniu | 18,72% | 468,00 zł | **2032,00 zł** |
+| Pracuję na takim etacie, poniżej 26 lat, z prawem do ulgi dla młodych | 9,00% | 225,00 zł | **2275,00 zł** |
+| Uczeń lub student przed ukończeniem 26 lat, z prawem do zwolnień ZUS i PIT | 0,00% | 0,00 zł | **2500,00 zł** |
+
+**Pracuję na etacie** oznacza tu zatrudnienie zapewniające co najmniej minimalne wynagrodzenie i zlecenie u innego podmiotu, niewykonywane na rzecz własnego pracodawcy. Sam fakt posiadania innej pracy nie wystarcza do zastosowania 18,72% lub 9%. Inne zlecenia i działalność również mogą zmieniać obowiązek ubezpieczeń.
+
+**Sam wiek poniżej 26 lat nie zwalnia z ZUS.** Zwolnienie ze składek na zleceniu dotyczy uczniów i studentów przed ukończeniem 26 lat, z wyjątkami dotyczącymi pracy na rzecz własnego pracodawcy. Ulga dla młodych w PIT jest osobnym zwolnieniem, z limitem **85 528 zł przychodów rocznie**. Nie obejmuje przychodów z działalności gospodarczej. Zlecenie studenta zwolnione ze składek nie zapewnia samo w sobie ubezpieczenia zdrowotnego - potrzebne jest np. zgłoszenie przez rodzinę lub uczelnię.
+
+{{<alert context="info" text="**Tabela służy do szacowania wypłaty.** Rzeczywiste rozliczenie może się różnić przez zaokrąglenia, PIT-2, ulgę dla młodych, dobrowolną składkę chorobową, wysokość wpłat PPK i inne tytuły ubezpieczenia. Przykładowo przy 2500 zł brutto, pełnych obowiązkowych składkach społecznych, bez chorobowej, PPK, PIT-2 i ulg wypłata wynosi **1804,33 zł**, a uproszczenie 27,82% daje **1804,50 zł**. Opłatę partnera i pozostałe koszty trzeba uwzględnić osobno, według zasad jego rozliczenia." />}}
 
 ## Jak się zatrudnić?
 
-Chcąc zatrudnić się w aplikacjach delivery, będziesz potrzebować **partnera rozliczeniowego**. Aplikacje delivery typu Uber Eats, Glovo nie zatrudniają ludzi bezpośrednio. Jedyną aplikacją która zezwala na współpracę bezpośrednio z ludźmi na działalności gospodarczej (czyli [B2B](./2-procesy-aplikacji-do-delivery.md#kontrakt-b2b)) są **Stuart i Uber Eats**. Oznacza to, że będziesz ponosić koszty prowadzenia działalności gospodarczej takiej jak: ZUS, księgowość itp.
+Najpierw wybierz **model współpracy**: zlecenie przez partnera albo B2B, jeśli dana platforma dopuszcza taki wariant. Jeżeli nie prowadzisz firmy, partner rozliczeniowy obsłuży umowę i wypłaty. Porównaj jego cennik, częstotliwość rozliczeń, warunki rezygnacji oraz ewentualne koszty sprzętu i pojazdu.
 
-By uniknąć problematycznego procesu i małej dostępności do aplikacji delivery w kwestii działalności gospodarczej z pomocą przychodzą **floty** takie jak Evelstar. To floty wtedy Cię zatrudniają i pośredniczą w rozliczaniu cię z konkretną aplikacją. Oczywiście biorą za to pieniądze czyt. prowizje bo jest to ich praca i usługa którą wykonują. W Evelstar koszt rozliczenia jednej aplikacji wynosi 30zł. Jeżeli chcesz dowiedzieć się jak wygląda całościowo rozliczenie czyli ile zostanie ci pieniędzy, możesz skorzystać z [symulatora rozliczeń](../rozliczenie/kalkulator.md) i "zasymulować" sobie wypłątę. Przejdźmy więc do rejestracji w takiej flocie. Następnie możemy zająć się rejestracją w aplikacjach delivery.
-
-### Rejestracja w Evelstar
-
-Aby zarejestrować się u partnera flotowego Evelstar klikamy w ten link: [Rejestracja w Evelstar z reflinku Dexterowskiego](https://app.evelstar.com/pl/register?code=ZGV4dGVyb3dza2lvZmZpY2lhbEBnbWFpbC5jb20=)
-Bez ref-linku: [Rejestracja w Evelstar](https://app.evelstar.com/pl/register)
-
- {{< alert context="danger" text="Jeżeli zdecydujesz, że chcesz się rejestrować u <u>innego partnera flotowego</u> - dokładnie sprawdź jego warunki ponieważ niektórzy partnerzy flotowi na rynku <strong>naliczają opłaty już za samo założenie konta!</strong>" />}}
-
-  {{< alert context="success" text="<strong>W Evelstar założenie konta nic nie kosztuje i nie ma żadnych ukrytych opłat. Nie jeździsz = nic nie płacisz!</strong>" />}}
-
-<center>
-{{<figure src="images/registration_tutorial/evelstar/reg_evel1.png" text="Panel rejestracyjnyy Evelstar" width="20%">}}
-</center>
-
-Wypełniamy w formularzu odpowiednio: Adres Email, numer telefonu (w razie jakiś błędów przy rejestracji czy coś podobnego obsługa będzie się na niego kontaktować), hasło zgodnie z wymogami bezpieczeństwa oraz **nieobowiązkowo** kod polecający. Jeżeli otworzyłeś panel rejestracji z linku w którym jest zawarty reflink, pole powinno być automatycznie wypełnione.
-
-{{<alert context="success" text="Partner flotowy Evelstar posiada program lojalnościowy EvelPlus dzięki któremu możecie zbierać punkty m.in. za polecanie znajomych do tego partnera flotowego. W panelu użytkownika na portalu Evelstar znajdziecie swój kod oraz link w zakładce Polecenie po lewej stronie w menu. Punkty można wymieniać m.in. na darmowe rozliczenia bądź inne przydatne przedmioty typu uchwyt na telefon, światła do roweru, karta paliwowa i wiele innych" />}}
-
-Po kliknięciu przycisku ``Zarejestruj się`` przeniesie nas na stronę logowania. Wpisujemy odpowiednie informacje których użyliśmy podczas rejestracji. Dostaniemy komunikat o konieczności zweryfikowania adresu e-mail. Aby tego dokonać zaloguj się na swoją skrzynykę e-mail i kliknij w link który dostałeś
-
-<center>
-{{<figure src="images/registration_tutorial/evelstar/reg_evel2.png" text="Weryfikacja adresu e-mail" width="20%">}}
-</center>
-
-Po zweryfikowaniu adresu e-mail powinniśmy zobaczyć to:
-
-<center>
-{{<figure src="images/registration_tutorial/evelstar/reg_evel3.png" text="Proces rejestracji" width="50%">}}
-</center>
-
-W następnych krokach wypełniamy wymagane informacje, trochę tego będzie. Możesz przyszykować sobie również dowód osobisty oraz numer konta bankowego na który będą wypłacane pieniądze
-
-<center>
-{{<figure src="images/registration_tutorial/evelstar/reg_evel4.png" text="Proces rejestracji" width="50%">}}
-</center>
-
-W następnym kroku `Adresy` będziemy musieli podać swój adres: **zamieszkania, korespondencyjny oraz zameldowania**. Jeżeli wszystkie adresy są takie same jak zamieszkania, to automatycznie je sobie przekopiuje, musisz to tylko potwierdzić. 
-<center>
-{{<figure src="images/registration_tutorial/evelstar/reg_evel6.png" text="Proces rejestracji" width="50%">}}
-</center>
-
-<center>
-{{<figure src="images/registration_tutorial/evelstar/reg_evel5.png" text="Proces rejestracji" width="50%">}}
-</center>
-
- {{< alert context="danger" text="<strong>Ważne jest aby wybrać odpowiedni urząd skarbowy przynależny do naszego adresu zamieszkania!</strong>" />}}
-
-W następnym kroku system nas poprosi o złożenie podpisu - robimy to normalnie myszką, podpis zostanie użyty na każdej umowie którą zdecydujemy się podpisać.
-
-<center>
-{{<figure src="images/registration_tutorial/evelstar/reg_evel7.png" text="Proces rejestracji" width="50%">}}
-</center>
-
-Po podpisaniu się następnie wybieramy z listę naszą sytuację odnośnie posiadania działalności gospodarczej. Musimy zaznaczyć czy takową posiadamy, jeżeli posiadamy to czy chcemy rozliczać się na [B2B](#kontrakt-b2b), czy jednak chcemy zostać przy [umowie zlecenie](#umowa-zlecenie).
-
-<center>
-{{<figure src="images/registration_tutorial/evelstar/reg_evel8.png" text="Proces rejestracji" width="50%">}}
-</center>
-
-Teraz pojawi nam się dość sporo informacji na raz, tutaj musimy wypełnić **oświaddczenie zleceniobiorcy**. Jest to potrzebne do umowy zlecenie m.in. do tego aby ustalić w jakiej wysokości powinny być odprowadzane składki ZUS. 
-
-<center>
-{{<figure src="images/registration_tutorial/evelstar/osw_zleceniobiorcy.png" text="Proces rejestracji" width="50%">}}
-</center>
-
-Następnie zostaniemy poproszenie o wybranie miasta w którym będziemy **pracować.**. Po wybraniu miasta przechodzdimy do wybrania "floty" którą będziemy się poruszać - krótko mówiąc czy chcemy wynajmowac auto od Evelstar czy będziemy jeździć własnym pojazdem. W przypadku rozwożenia jedzenia będzie to zawsze nasz prywatny pojazd, samochody od Evelstar wynajmuje się w przypadku pracy na TAXI jeżeli ktoś takową ofertą jest zaintneresowany.
-
-<center>
-{{<figure src="images/registration_tutorial/evelstar/reg_evel_flota.png" text="Proces rejestracji" width="50%">}}
-</center>
-
-Po wybraniu prywatnego pojazdu musimy uzupełnić informacje na jego temat, jeżeli jest to rower to trzeba wpisać markę i model tego roweru.
-
-{{<alert context="info" text="Jeżeli jest to samoróbka to marką i modelem będzie po prostu rama na której rower stoi." />}}
-
-
-<center>
-{{<figure src="images/registration_tutorial/evelstar/reg_evel_pojazd.png" text="Proces rejestracji" width="50%">}}
-</center>
-
-W tym kroku wybieramy aplikacje na których chcemy pracować. Zaznaczcie wszystkie możliwe - nie ma żadnych konsekwencji z tego tytułu. Służy to do tego aby na twojego maila zostały wysłane wiadomości z linkami do rejestracji tych że aplikacji. Linki te znajdziesz również na tej stronie, po rejestracji u partnera rozliczeniowego.
-
-<center>
-{{<figure src="images/registration_tutorial/evelstar/reg_evel15.png" text="Proces rejestracji" width="50%">}}
-</center>
-
-W następnym kroku wybieramy częstotliwość w jakiej chcemy otrzymywać wypłaty. Mamy do wyboru:
-
-* Tygodniowe
-* Miesięczne
-* Na żądanie
-
-Wypłaty na żądanie działają w taki sposób, że możemy sobie w panelu użytkownika Evelstar kliknąć, że chcemy zostać rozliczeni - w następny najbliższy okres rozliczeniowy pieniądze zostaną wysłane na twoje konto bankowe.
-
-{{<alert context="warning" text="W przypadku wypłąt na żądanie, pieniądze na saldzie Evelstar mogą być trzymane maksymalnie MIESIĄC KALENDARZOWY czasu. Daty rozliczeń wymuszonych/miesięcznych są podane na portalu w dziale Aktualności." />}}
-
-Częstotliwości wypłat można potem zmieniać w panelu użytkownika.
-
-<center>
-{{<figure src="images/registration_tutorial/evelstar/reg_evel_wyplaty.png" text="Proces rejestracji" width="50%">}}
-</center>
-
-Następnie przechodzimy do sekcji ``13. Umowy``. Najpierw musimy ze wszystkimi umowami się zapoznać klikając ``Zapoznaj się``. Otworzy się okienko do pobrania dokumentu na dysk. Jeżeli go przeczytaliśmy, następnie klikamy ``Akceptuj``. W taki sposób właśnie umowa została przez ciebie podpisana za pomocą podpisu który wcześniej uzupełniłeś. Wszystkie dokumenty muszą mieć status ``Zaakceptowane`` byśmy mogli przejść do dalszego procesu rejestracji
-
-{{<alert context="success" text="Umowy masz możliwość w każdym momencie wypowiedzieć, usunąć z panelu użytkownika Evelstar. Jeżeli się rozmyślisz - możesz to zrobić zaraz po rejestracji." />}}
-
-
- {{< alert context="warning" text="Osoby, które zaznaczyły że są uczniem/studentem do 26 roku życia <strong>pojawi się opcja NIE GENERUJ UMOWY NAJMU</strong>" />}}
-
-
-<center>
-{{<figure src="images/registration_tutorial/evelstar/reg_evel_umowy2.png" text="Umowy przed podpisaniem" width="50%">}}
-</center>
-
-
-<center>
-{{<figure src="images/registration_tutorial/evelstar/reg_evel_umowy1.png" text="Umowy" width="50%">}}
-</center>
-
-Na samym końcu pozostaje nam zaakceptować oświadczenie woli, oraz potwierdzić numer telefonu kodem z SMSa który nam przyjdzie.
-
-<center>
-{{<figure src="images/registration_tutorial/evelstar/reg_evel16.png" text="Umowy" width="50%">}}
-</center>
-
-
-<center>
-{{<figure src="images/registration_tutorial/evelstar/reg_evel14.png" text="Umowy" width="50%">}}
-</center>
-
-Po pomyślnej rejestracji powinniśmy zostać przeniesieni do naszego panelu użytkownika:
-
-<center>
-{{<figure src="images/registration_tutorial/evelstar/reg_evel10.png" text="Panel użytkownika Evelstar" width="70%">}}
-</center>
-
-### Rejestracja w Glovo
-
-Jeżeli chcesz zarejestrować się z ref-linku Dexterowskiego to kliknij tu: [Rejestracja do Glovo z Reflinku](https://to.glovoapp.com/a/mzxoty3)
-
-{{<alert context="success" text="Rejestrując się z ref-linku otrzymasz bonus pieniężny w wysokości zależnej od miasta do którego się rejestrujesz za wykonanie danej ilości dostaw w danym czasie (Wszystko zależne od miasta, zazwyczaj jest to 30 dni). Osoba polecająca również dostanie bonus. Dodatkowo będziesz podpięty pod flotę Evelstar" />}}
-
-Jeżeli nie chcesz rejestrować się z ref-linku, możesz zrobić to [tutaj](https://pl.rider.glovoapp.com/)
-
-Wchodząc na stronę wypełniamy wszelkie potrzebne informacje takie jak: Miasto w którym chcemy pracować, rodzaj pojazdu którym będziemy się poruszać (można potem zmienić po aktywacji konta), imię i nazwisko, email, numer telefonu.
-
-<center>
-{{<figure src="images/registration_tutorial/glovo/reg_glovo1.png" text="Formularz rejestracyjny Glovo" width="20%">}}
-</center>
-
-Po kliknięciu przycisku ``Prześlij`` zobaczymy ekran z konkretnymi etapami rejestracji do Glovo.
-
-<center>
-{{<figure src="images/registration_tutorial/glovo/reg_glovo2.png" text="Etapy rejestracji w Glovo" width="50%">}}
-</center>
-
-Najpierw wysyłamy swoje dokumenty. Np. dowód osobisty, trzeba zrobić zdjęcie tego dowodu z przodu i z tyłu. Dodatkowo będzie również potrzebne "selfie z dowodem osobistym" - jest to wymagane ze względów bezpieczeństwa, aby przypadkiem ktoś nie założył konta "na kogoś".
-
-Następnie Glovo będzie weryfikować wasze zgłoszenie, czyli sprawdzi czy na zdjęciu nie znajduje się podrobiony dokument, czy dokument jest napewno dokumentem osoby ze zdjęcia itp.
-
-Po zweryfikowaniu dostaniemy informację, o tym czy musimy zaczekać na rekrutację w danym mieście. Jeżeli **widzimy komunikat o zamówieniu/zakupieniu plecaka** oznacza to, że zostaliśmy przyjęci i czekamy na dalsze kroki.
-
-{{<alert context="warning" text="Nie musicie kupować plecaka ze sklepu Glovo, jeżeli go nie macie - możecie go zakupić np. na OLX, bądź z drugiej ręki od kogoś bądź od partnera flotowego. Nie musi być to zrobione z oficjalnego sklepu Glovo. Jeżeli macie plecak termiczny to czekacie i ignorujecie tą wiadomość" />}}
-
-Jeżeli rejestrowaliście się ze zwykłego linku niereferencyjnego to zostaniecie poproszeni o wybór partnera flotowego. Jeżeli na liście nie ma partnera flotowego którym jesteście zainteresowani - proponuję po prostu do takiej floty zadzwonić i poinformować, że zarejestrowaliście się już na Glovo ale przy wyborze floty nie ma ich na liście, a chcielibyście u nich jeździć.
-
-Na samym końcu dostaniecie maila od Glovo z loginem i hasłem do aplikacji [Glovo Rider](../apps/8-glovo-new.md). Na tym etapie możecie się już zalogować i rezerwować swoje pierwsze sesje.
+Następnie zarejestruj się u wybranego partnera i w aplikacji delivery, zgodnie z jej procesem. Dane w obu zgłoszeniach powinny być zgodne. Partner pomaga przypisać konto do floty, ale aktywacja zależy także od dokumentów i dostępności rekrutacji w danym mieście.
 
 ### Rejestracja w Wolt
 
@@ -314,7 +162,6 @@ Następnie:
 
 Aplikować do aplikacji Stuart możemy [klikając w ten link.](https://couriers.stuart.com/pl/zostan-kurierem/)
 
- {{< alert context="success" text="Aplikacja Stuart jako jedyna pozwala pracować osobom od 16 roku życia. Takie osoby potrzebują również partnera flotowego który zatrudnia takie osoby, takim partnerem jest wczceśniej wspomniany Evelstar. [Przeczytaj więcej tutaj](#mam-16-lat-i-chcę-pracować)" />}}
 
 <center>
 {{<figure src="images/registration_tutorial/stuart/reg_stuart1.png" text="Rejestracja Stuart" width="25%">}}
@@ -327,26 +174,3 @@ W nastepnym kroku będziesz musiał wskazać swojego partnera flotowego, wypełn
 Następnie twoje konto jest przesyłane do aktywacji. Partner rozliczeniowy zweryfikuje twoją aplikację - jeżeli wszystko się zgadza twoje konto zostanie aktywowane i możesz zacząć pracę na aplikacji [Stuart](../apps/6-stuart.md). 
 
 {{<alert context="warning" text="Na ostatnim etapie rejestracji możesz zostać przeniesiony do sklepu Stuart gdzie można zakupić torbę. Nie musisz tego robić, konto będzie aktywne bez tego. Torbę możesz nabyć na własny sposób kupując np. na OLX bądź od partnera flotowego lub od osoby trzeciej." />}}
-
-
-## Mam 16 lat i chcę pracować
-
-Jedyną aplikacją na rynku delivery, która zezwala na pracę młodym to jest [Stuart](../apps/6-stuart.md). Jednakże takie osoby mają trochę więcej rzeczy do ogarnięcia aniżeli tylko zarejestrowanie się u [partnera flotowego który zatrudnia młodociane osoby](#rejestracja-w-evelstar) i w [aplikacji Stuart](#rejestracja-w-stuart).
-
-Dokumenty które taka osoba musi dostarczyć do partnera flotowego:
-
-- **Zgodę na podjęcie zlecenia** (pracy). Taką zgodę w formie pisemnej musi wyrazić rodzic lub opiekun prawny osoby która chce zacząć pracę na aplikacjach delivery.
-
- {{< alert context="info" text="Taka zgoda może być napisana odręcznie, lub można skorzystać ze [wzoru który pobierzecie tutaj](https://old.evelstar.com/nieletni/zgoda_rodzica.pdf)" />}}
- 
- - **Świadectwo szkolne**. Konkretnie świadectwo ukończenia 8 klasy szkoły podstawowej lub aktualne świadectwo wyższej klasy lub szkoły
- - **Zaświadczenia lekarskie**. Udaj się do lekarza i poproś o zaświadczenie o braku przeciwskazać do poddjęcia pracy na stanowisku `Kurier rowerowy`
-  
-  W przypadku gdy nie możesz uzyskać odpowiedniego zaświadczenia od lekarza rodzinnego możesz skorzystać z procesu opisanego poniżej:
-
-  [Karta badania profilaktycznego](https://old.evelstar.com/nieletni/karta_badania.doc) - Pobierz i wypełnij ten druk. Wypełnij wyłącznie pola zaznaczone kolorem **czerwonym**. 
-
-   {{< alert context="warning" text="Pamiętaj że dokument musi być podpisany ręcznie!" />}}
-
-Następnie z tym dokumentem udajecie się zrobić badania online ddo AMYGdala, instrukcje powinniście otrzymać jak tego wszystkiego dokonać po rejestracji na panelu Evelstar w momencie gdy zaznaczyliście, że macie mniej niż 18 lat.
-

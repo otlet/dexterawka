@@ -4,7 +4,7 @@ title: "Aplikacja Uber Eats"
 description: "Specyfikacja aplikacji Uber Eats"
 icon: "article"
 date: "2024-04-26T13:08:32+02:00"
-lastmod: "2024-04-26T13:08:32+02:00"
+lastmod: "2026-08-28T13:08:32+02:00"
 draft: false
 toc: true
 ---
@@ -17,9 +17,7 @@ toc: true
 
 </div>
 
-Uber Eats to nasza platforma, dzięki której zamawianie jedzenia z Twoich ulubionych lokalnych restauracji jest teraz równie łatwe, jak zamówienie przejazdu.
-Dzięki aplikacji Uber Eats masz w zasięgu ręki szereg lokalnych restauracji i serwowanych przez nie dań. Możesz w każdej chwili zamówić dowolne danie z całego menu.
-Aplikacja UBER EATS ma dwie wersje: dla klientów i dla kurierów. Klienci mogą wybierać spośród różnych opcji gastronomicznych, płacić za zamówienia online i śledzić status dostawy na mapie. Aplikacja dla kurierów ma nazwe Uber Driver i jest do pobrania na urządzenia [Android](https://play.google.com/store/apps/details?id=com.ubercab.driver&hl=pl&gl=US) oraz [iOS](https://apps.apple.com/pl/app/uber-driver-drive-deliver/id1131342792). 
+Aplikacja UBER EATS ma dwie wersje: dla klientów i dla kurierów. Klienci mogą wybierać spośród różnych opcji gastronomicznych, płacić za zamówienia online i śledzić status dostawy na mapie. Aplikacja dla kurierów ma nazwe Uber Driver i jest do pobrania na urządzenia [Android](https://play.google.com/store/apps/details?id=com.ubercab.driver&hl=pl&gl=US) oraz [iOS](https://apps.apple.com/pl/app/uber-driver-drive-deliver/id1131342792). Aplikacja dla klientów od jakiegoś czasu oferuje usługi wysyłki paczek.
 
 {{<alert context="info" text="Aplikacja **[Uber Driver](https://play.google.com/store/apps/details?id=com.ubercab.driver)** jest używana zarówno do usług dostaw jedzenia jak i taxi, nie ma osobnych aplikacji."/>}}
 
@@ -40,7 +38,7 @@ Aplikacja UBER EATS ma dwie wersje: dla klientów i dla kurierów. Klienci mogą
 * Questy
 * Częste i wysokie napiwki
 * Widać miejsce dostawy przed akceptacją zamówienia oraz kwotę za jaką pojedziemy
-* W 2025 weszły nowe mniejsze miasta do obsługi aplikacji Uber Eats takie jak np. Zakopane, Piła
+* Wypłaty w zaliczkach gotówkowych
   
 {{% /alert %}}
 
@@ -48,9 +46,8 @@ Aplikacja UBER EATS ma dwie wersje: dla klientów i dla kurierów. Klienci mogą
 
 ### Minusy:
 * Dynamiczne stawki (w zależności od zapotrzebowania, ten sam kurs może być raz gorzej, a raz lepiej płatny)
-* Brak ciągłości zamówień
-* Zgłaszanie problemów do supportu
-* Często daleki dojazd
+* Brak ciągłości zamówień dla kurierów rowerowych
+* Kompletny brak supportu
   
 {{% /alert %}}
 
@@ -115,35 +112,6 @@ W przypadku kiedy chcesz jeździć skuterem lub autem należy przesłać dokumen
 {{% /alert %}}
 
 {{<alert context="warning" text="Jeżeli chcesz jeździć skuterem, a kwalifikujesz się do jazdy na dowód osobisty (urodziłeś się przed 1995r) to niestety według Ubera musisz mieć prawo jazdy"/>}}
-
-
-### [PARTNER] Wpis do CEIDG/KRS
-{{%alert context="light" %}}
-
-Należy skontaktować się ze swoim partnerem rozliczeniowym aby dodał do floty.
-
-Jeżeli jesteś użytkownikiem naszego serwera Discord **Dexterawka**, możesz poprosić o zaproszenie do floty [na tym kanale](https://discord.com/channels/1003287844825075762/1049309845448314900) wybierając opcje ``Zaproszenie do floty Uber Eats``. Musisz uzupełnić w następnym oknie swój adres e-mail oraz numer telefonu którego użyłeś do rejestracji konta na Uber Eats.
-
-*Te informacje widzą tylko pracownicy floty Evelstar, oraz administracja/moderacja serwera*.
-
-{{% /alert %}}
-
-### ~~Nie zrobiłem żadnego zamówienia, a zostałem rozliczony z aplikacji Uber Eats~~
-
-~~To jest bardzo częsty przypadek, ponieważ aplikacja Uber Eats jest pod tym względem delikatnie mówiąc źle zrobiona. Dopłaty za dojazd do restauracji są wypłacane w czwartek następnego tygodnia. Zazwyczaj są to groszowe sprawy, partner potem widząc przychód na aplikacji i tak i tak ją rozliczy i jesteśmy na minusie z rozliczeniem bo prowizja została pobrana mimo, że nie jeździliśmy na aplikacji Uber Eats.~~ 
-
-<center>
-
-{{<figure src="https://i.imgur.com/hG5r3pi.png" width="25%" caption="Tak wygląda rozliczenie w momencie gdy wypłacona jest opłata za dojazd do restauracji. Jak widzicie jest to całe 1.30zł brutto, a nie zrobiłem ani jednego zamówienia">}}
-
-</center>
-
-~~**Rozwiązanie dla kurierów [Evelstar](https://evelstar.com):** Należy zgłosić reklamację rozliczenia w takim wypadku. Trzeba napisać maila na **[rozliczenia@evelstar.com](mailto:rozliczenia@evelstar.com)** i poprosić o zwrot prowizji, ponieważ nie wykonaliśmy ani jednego zamówienia. Należy to zrobić w ciągu 30 dni. Po tym okresie czasu nasza reklamacja nie zostanie uwzględniona.~~
-
-
-{{<alert context="info" text="**Problem już aktualnie nie występuje, ponieważ opłata za dojazd jest wliczona w stawkę bazową i nie jest doliczana osobno - 25.11.2024r**"/>}}
-
-
 
 ### Dostaję bardzo mało zamówień / Nie dostaję zamówień / Inni dostają więcej zamówień
 Powodów może byc mnóstwo tego typu problemu. Wszystko zależy od miasta, pory roku, dnia, czy jest to dzień roboczy, gdzie stoisz itd. Wśród dostawców krąży mit odnośnie otrzymywania większej ilości zamówień przez osoby które mają zaznaczony środek transportu jako skuter / auto. To jest prawda. Sam Uber twierdzi, że to jest nieprawda lecz praktyka pokazuje często inaczej. Wynika to z działania algorytmu Ubera*. Algorytm "spasowuje" czas kiedy zamówienie będzie zrealizowane przez restauracje z czasem kiedy kurier przyjedzie na miejsce - najczęściej te czasy pokrywają się właśnie dla osób które jeżdżą skuterem/autem i będą od restauracji 3 - 5 minut drogi. W momencie gdy poruszasz się rowerem, nawigacja widzi że jesteś "<1 minuta" drogi od restauracji - żadna restauracja nie zaznaczy, że zamówienie będzie gotowe za tyle czasu.

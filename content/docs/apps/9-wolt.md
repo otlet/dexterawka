@@ -28,7 +28,7 @@ Całe przydatne F.A.Q znajduje się [na stronie Wolta](https://explore.wolt.com/
 
 W każdym mieście godziny otwarcia aplikacji Wolt to: **08:00 - 23:00** - w tych godzinach możecie realizować zamówienia **Z WYJĄTKIEM WARSZAWY**, w której od **02 czerwca** aplikacja wydłużyła godziny pracy na **06:00 - 02:00**.
 
-### [Jak zostać kurierem?](https://evelstar.com/wolt/)
+### [Jak zostać kurierem?](https://explore.wolt.com/pl/pol/couriers)
 
 <div style="text-align:center">
 
@@ -61,8 +61,11 @@ W każdym mieście godziny otwarcia aplikacji Wolt to: **08:00 - 23:00** - w tyc
 * Mocno restrykcyjne podedjście do kurierów.
 * Wolt wymaga aby utrzymać poziom akceptacji zamówień na poziomie **60% w przeciągu ostatniego miesiąca**.
 * **Małe stawki**
-* ~~Brak bonusów~~ ***(na dzień 29.04.2024r Wolt oferuje bonusy w "godzinach szczytu", zależy jaki ustalą. Zwykle jest to 15%)***
+* ~~Brak bonusów~~ ***(na dzień 29.04.2024r Wolt oferuje bonusy w "godzinach szczytu", zależy jaki ustalą. Zwykle jest to 15% - które najczęściej nie jest doliczane)***
 * ~~Brak jednoznacznej informacji o zamówieniach łączonych (w aplikacji pojawia się informacja, ale nie jest to zapewnienie, że wpadnie) - [więcej informacji tutaj](#jak-rozpoznać-podwójne-zamówienie)~~
+* Zamówienia na zasadzie "kto pierwszy ten lepszy" - zamówienie jest wyświetlane wielu kurierom w tym samym czasie, kto pierwszy je zaakceptuje ten je będzie mógł zrealizować
+* Aplikacja na androida ssie pałe i tnie się gorzej niż n...
+
 
 
 

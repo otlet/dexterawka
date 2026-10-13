@@ -1,0 +1,238 @@
+/* Kurierpedia: restrained editorial layer over LotusDocs.
+   Keep utility colours in alerts untouched on purpose. */
+
+:root {
+  --kp-surface: #17191d;
+  --kp-surface-raised: #20242a;
+  --kp-rule: #343b45;
+  --kp-text: #e8ebef;
+  --kp-muted: #a6adb8;
+  --kp-accent: #f3c623;
+}
+
+html[data-dark-mode] body {
+  background: var(--kp-surface);
+  color: var(--kp-text);
+}
+
+html[data-dark-mode] .page-content,
+html[data-dark-mode] .main-content,
+html[data-dark-mode] .docs-content {
+  color: var(--kp-text);
+}
+
+html[data-dark-mode] .page-wrapper .sidebar-wrapper,
+html[data-dark-mode] #top-header,
+html[data-dark-mode] .sidebar-wrapper .sidebar-content,
+html[data-dark-mode] .sidebar-wrapper .sidebar-brand {
+  background: #111316;
+  border-color: var(--kp-rule);
+}
+
+html[data-dark-mode] .sidebar-wrapper .sidebar-menu .sidebar-root-link,
+html[data-dark-mode] .sidebar-wrapper .sidebar-menu a,
+html[data-dark-mode] .sidebar-wrapper .sidebar-menu button,
+html[data-dark-mode] #top-header .btn,
+html[data-dark-mode] .breadcrumb-item,
+html[data-dark-mode] .breadcrumb-item a {
+  color: #d7dbe0;
+}
+
+html[data-dark-mode] .sidebar-wrapper .sidebar-menu .current > a,
+html[data-dark-mode] .sidebar-wrapper .sidebar-menu .current > .sidebar-section-link,
+html[data-dark-mode] .sidebar-wrapper .sidebar-menu .current > button,
+html[data-dark-mode] .sidebar-wrapper .sidebar-menu a:hover {
+  color: #111316 !important;
+  background: var(--kp-accent);
+}
+
+html[data-dark-mode] .sidebar-wrapper .sidebar-menu .current > a *,
+html[data-dark-mode] .sidebar-wrapper .sidebar-menu .current > .sidebar-section-link *,
+html[data-dark-mode] .sidebar-wrapper .sidebar-menu .current > button *,
+html[data-dark-mode] .sidebar-wrapper .sidebar-menu a:hover * {
+  color: #111316 !important;
+}
+
+html[data-dark-mode] .content-title {
+  color: #fff;
+  font-size: clamp(2rem, 4vw, 3rem);
+  letter-spacing: -.035em;
+  line-height: 1.1;
+  padding-bottom: .7rem;
+  border-bottom: 2px solid var(--kp-accent);
+}
+
+html[data-dark-mode] .main-content {
+  max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.04rem;
+  line-height: 1.72;
+}
+
+html[data-dark-mode] .docs-content > .mb-0.d-flex {
+  max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html[data-dark-mode] .main-content h2,
+html[data-dark-mode] .main-content h3 {
+  color: #fff;
+  letter-spacing: -.02em;
+  margin-top: 2.75rem;
+}
+
+html[data-dark-mode] .main-content h2 {
+  border-bottom: 1px solid var(--kp-rule);
+  padding-bottom: .45rem;
+}
+
+html[data-dark-mode] .main-content a:not(.btn) {
+  color: #ffd84a;
+  text-decoration: underline !important;
+  text-decoration-thickness: 1px !important;
+  text-underline-offset: .16em;
+}
+
+/* Images emitted from Markdown and the new media shortcode. */
+.article-image {
+  --image-width: min(100%, 760px);
+  display: block;
+  width: var(--image-width);
+  margin: 1.8rem auto;
+}
+
+.article-image.align-left { margin-left: 0; margin-right: auto; }
+.article-image.align-right { margin-left: auto; margin-right: 0; }
+.article-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(255,255,255,.15);
+  border-radius: 6px;
+  background: #0d0f12;
+  box-shadow: 0 12px 30px rgba(0,0,0,.25);
+  cursor: zoom-in;
+}
+
+.article-image figcaption,
+.article-image-caption {
+  display: block;
+  color: var(--kp-muted);
+  font-size: .9rem;
+  line-height: 1.45;
+  margin-top: .6rem;
+  padding-left: .8rem;
+  border-left: 2px solid var(--kp-accent);
+}
+
+.article-image.size-sm { --image-width: min(100%, 360px); }
+.article-image.size-md { --image-width: min(100%, 620px); }
+.article-image.size-lg { --image-width: min(100%, 620px); }
+.article-image.size-full { --image-width: 100%; }
+
+/* A sequence of adjacent Markdown images is promoted to a gallery by the
+   small script in the base layout. Single instructional screenshots stay put. */
+.main-content .article-gallery {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: .9rem;
+  width: min(100%, 880px);
+  margin: 1.75rem auto !important;
+  padding: 0;
+  text-align: initial !important;
+}
+.main-content .article-gallery .article-image {
+  --image-width: 100% !important;
+  width: 100%;
+  margin: 0;
+}
+.main-content .article-gallery .article-image img {
+  width: 100%;
+  height: 270px;
+  object-fit: contain;
+  background: #0d0f12;
+}
+.main-content .article-gallery .article-image figcaption,
+.main-content .article-gallery .article-image-caption { font-size: .78rem; }
+
+/* News archive: compact editorial cards, not a generic dashboard. */
+.news-archive { max-width: 960px; display: grid; gap: 1rem; margin-top: 1.5rem; }
+.news-card {
+  display: grid;
+  grid-template-columns: 8.5rem 1fr auto;
+  gap: 1.25rem;
+  align-items: start;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--kp-rule);
+  border-left: 4px solid var(--kp-accent);
+  background: var(--kp-surface-raised);
+  border-radius: 4px;
+}
+.news-card:hover { border-color: #697381; border-left-color: var(--kp-accent); }
+.news-card time { color: var(--kp-muted); font-size: .88rem; padding-top: .2rem; }
+.news-card h2 { font-size: 1.18rem; margin: 0 0 .35rem; border: 0; padding: 0; }
+.news-card p { color: var(--kp-muted); font-size: .95rem; margin: 0; line-height: 1.55; }
+.news-card .news-arrow { color: var(--kp-accent); font-size: 1.2rem; padding-top: .2rem; }
+
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown { position: relative; }
+.sidebar-wrapper .sidebar-menu .sidebar-section-link {
+  display: block;
+  padding: 8px 44px 8px 15px;
+  color: var(--sidebar-text-color);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown.nested > .sidebar-section-link { font-size: 14px; font-weight: 400; }
+.sidebar-wrapper .sidebar-menu .sidebar-toggle {
+  position: absolute !important;
+  z-index: 1;
+  top: 0 !important;
+  right: 0;
+  width: 42px !important;
+  height: 40px !important;
+  padding: 0;
+  background: transparent !important;
+  margin: 0 !important;
+  display: block !important;
+}
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown > .sidebar-toggle:after { right: 13px; }
+
+.kp-image-lightbox {
+  width: min(96vw, 1440px);
+  max-width: none;
+  height: min(94vh, 1100px);
+  max-height: none;
+  border: 1px solid #4b535e;
+  border-radius: 8px;
+  padding: 1rem;
+  background: #111316;
+  box-shadow: 0 24px 90px rgba(0,0,0,.7);
+}
+.kp-image-lightbox::backdrop { background: rgba(0,0,0,.78); backdrop-filter: blur(3px); }
+.kp-image-lightbox img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.kp-image-lightbox button {
+  position: absolute;
+  right: .45rem;
+  top: .45rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  border: 1px solid #5a6470;
+  border-radius: 50%;
+  color: #fff;
+  background: #20242a;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+@media (max-width: 640px) {
+  .article-image { --image-width: 100% !important; width: 100%; }
+  .article-image img { border-radius: 4px; }
+  .main-content .article-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem; }
+  .main-content .article-gallery .article-image img { height: 220px; }
+  .kp-image-lightbox { width: 100vw; height: 100dvh; border: 0; border-radius: 0; padding: .5rem; }
+  .news-card { grid-template-columns: 1fr auto; gap: .55rem 1rem; }
+  .news-card time { grid-column: 1 / -1; padding: 0; }
+}

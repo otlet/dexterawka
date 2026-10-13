@@ -19,7 +19,7 @@ Glovo to aplikacja, która pozwala na przesłanie dowolnego przedmiotu z punktu 
 Kurierzy, obok partnerów i klientów, stanowią jeden z trzech typów użytkowników na platformie Glovo. Kurierami Glovo są osoby, które chcą pomagać innym oszczędzać czas, jednocześnie ułatwiając im życie. Z szerokim uśmiechem na twarzy dzielą się z klientami pozytywną energią i pogodą ducha.
 
 ### [Zarejestruj się](https://to.glovoapp.com/a/mzxoty3)
-*jest to link flotowy który automatycznie po rejestracji podepnie Cię pod partnera Evelstar oraz jest to link polecajcy Dexterowskiego - ty dostaniesz bonus $$$ jak i on po zrealizowaniu konkretnej ilości dostaw określonym czasie*, jeżeli chcesz zarejestrować się bez referencji [możesz zrobić to tutaj](https://pl.rider.glovoapp.com/)
+*jest to link flotowy który automatycznie po rejestracji podepnie Cię pod partnera Eternis oraz jest to link polecajcy Dexterowskiego - ty dostaniesz bonus $$$ jak i on po zrealizowaniu konkretnej ilości dostaw określonym czasie*, jeżeli chcesz zarejestrować się bez referencji [możesz zrobić to tutaj](https://pl.rider.glovoapp.com/)
 
 
 <div style="text-align:center">

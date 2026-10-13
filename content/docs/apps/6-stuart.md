@@ -4,7 +4,7 @@ title: "Aplikacja Stuart"
 description: "Specyfikacja aplikacji Stuart"
 icon: "article"
 date: "2024-04-26T13:08:32+02:00"
-lastmod: "2024-04-26T13:08:32+02:00"
+lastmod: "2026-08-26T13:08:32+02:00"
 draft: false
 toc: true
 ---
@@ -21,7 +21,7 @@ Stuart to aplikacja kurierska, która łączy przedsiębiorców z największą n
 
 ### [FAQ](https://help.stuart.com/pl/collections/3836404-courier)
 
-### [Jak zostać kurierem?](https://evelstar.com/stuart/)
+### [Jak zostać kurierem?](https://couriers.stuart.com/pl/zostan-kurierem/)
 
 ### [Jak realizować zamowienia?](https://help.stuart.com/pl/articles/6999594-jak-zrealizowac-zamowienie)
 
@@ -51,10 +51,10 @@ Aby rozpocząć prace w Stuart [potrzebne następujące rzeczy](https://help.stu
 {{% alert icon="🟢"context="success" %}}
 
 ### Plusy
-* ~~Stawka gwarantowana~~ ***(obecnie jej nie ma, na sezon jesień/zima pewnie ją przywrócą)***
 * Bardzo wysokie stawki w porównaniu do innych aplikacji.
 * Dynamiczne stawki w złą pogodę, Stuart podnosi mnożniki na strefach jak i poszczególnych zamówieniach
-* W 2025 doszło dużo nowych punktów = więcej zamówień
+* Można odrzucać zamówienia do woli
+* Jako jedyna oferuje możliwośc pracy dla małoletnich (min. 16 lat)
 
 {{% /alert %}}
 
@@ -62,10 +62,7 @@ Aby rozpocząć prace w Stuart [potrzebne następujące rzeczy](https://help.stu
 {{% alert icon="🔴"context="danger" %}}
 ### Minusy
 
-* Nie możesz odrzucić nawet jednego zamówienia na slocie bo od razu zaliczony cały slot i tracisz gwarant (**NIE DOTYCZY OFFSLOTU**)
-* ~~Gdy jeździsz na off slocie to nawet jak odrzucasz zamówienia liczy się to do rankingu z którego jest liczony werdykt o której dostajesz dostęp do staffomatica czyli apki gdzie bierzesz grafik/sloty.~~ 
-* Mało zamówień
-* Problemy z rozliczeniem - Na dzień .25.10.2025 dalej się utrzymują. Zdarza się że, wyświetlają się zamówienia z kwotą powiększoną o mnożnik, ale stuart w rozliczeniu tego nie nalicza
+* Występowanie problematycznych "zwrotów" zamówień do restauracji jeżeli klient nie odbierze jedzenia.
 {{% /alert %}}
 
 

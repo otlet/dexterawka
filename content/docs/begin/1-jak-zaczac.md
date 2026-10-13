@@ -26,7 +26,7 @@ toc: true
 
 > [Rejestracja w Uber Eats](https://www.uber.com/signup/drive/deliver/?invite_code=1f6jf7v2mbz2) - link polecający**
 
-> [Rejestracja w Wolt](https://wo.lt/evelstar)
+> [Rejestracja w Wolt](https://explore.wolt.com/pl/pol/couriers)
 
 > [Rejestracja w Stuart](https://couriers.stuart.com/pl/zostan-kurierem/)
 
@@ -36,9 +36,7 @@ toc: true
 
 </center>
 
-\* Link partnera flotowego - link referencyjny partnera Evelstar, jeżeli zarejestrujesz się przez ten link nie musisz się martiwć o podpięcie do floty przez Glovo, ponieważ będzie to zrobione automatycznie
-
-\** Link polecający - rejestrując się z tego linku dostaniesz bonus pieniężny za realizację pierwszych zamówień w określonym terminie. Warunki oraz wysokość bonusu jest zależna od miasta
+\* Link polecający - rejestrując się z tego linku dostaniesz bonus pieniężny za realizację pierwszych zamówień w określonym terminie. Warunki oraz wysokość bonusu jest zależna od miasta
 
 ## Gdzie się zarejestrować?
 
@@ -50,15 +48,6 @@ Przeczytaj: [Jak wypłacane są pieniądze?](#jak-wypłacane-są-pieniądze)
 ## Wybór partnera flotowego
 
 W Polsce do wyboru mamy paru partnerów flotowych. Działają na zasadzie pośrednictwa pomiędzy dostawcą a aplikacją kurierską.
-
-**Partner flotowy sprawdzony, rekomandowany przez Dexterowskiego oraz wielu innych kurierów:**
-
-<center><img src="https://i.imgur.com/pcGjkEl.png" width="50%"></center>
-
->[Evelstar](https://evelstar.com) - Zatrudniamy na podstawie umowy zlecenie kierowców, dostawców oraz kurierów pracujących na aplikacjach. Dzięki temu osoba pracująca przy pomocy aplikacji nie musi zakładać działalności gospodarczej jednocześnie rozliczając w legalny sposób wszystkie należne podatki.
-
-{{<alert context="info" text="**EVELSTAR** jako jeden z __niewielu__ partnerów flowotych zatrudnia osoby **od 16 roku życia** - nie każdy partner flotowy oferuje tą możliwość!" />}}
-
 
 <br><br>
 
@@ -123,7 +112,7 @@ Poniżej znajduje się przykładowa sekwencja rozliczania pieniędzy z aplikacji
 
 ```mermaid
     flowchart TD
-    A[Partner flotowy np. Evelstar] -->|Wystawia fakturę| B(Aplikacja kurierska np. Glovo)
+    A[Partner flotowy] -->|Wystawia fakturę| B(Aplikacja kurierska np. Glovo)
     B -->|Wysyła pieniądze| A
     A ----> C(Rozliczenie kuriera)
     C --> D(Opłacenie ZUS raz w miesiącu)

@@ -83,8 +83,6 @@ Dzielimy torby na dwa rodzaje:
 
 Torbę termiczną można pozyskać na pare sposobów:
 
-* Rejestrując sie w Glovo, jest możliwość zaznaczenia opcji (nie posiadam torby / sprzętu) w tym przypadku Glovo wyśle nam plecak, który bedzie do spłaty w dwóch kolejnych rozliczeniach z aplikacji (2 x 60zl)
-
 * Kupując lokalnie lub po kontakcie od partnera flotowego (dostępne torby oraz ceny moga sie roznic)
 
 Plecak lub Torbę Uber Eats można zakupić z oficjalnego sklepu: https://uberpl.wearyourebrand.com/
@@ -93,10 +91,5 @@ Plecak lub Torbę Bolt Food można zakupić z oficjalnego sklepu: https://pl.bol
 
 Plecak lub Torbę Wolt: https://wolt-store.com/pl/
 
-{{<alert context="warning" text="Obecnie nie ma możliwości zamówienia / zakupu sprzętu po wykonaniu 100 dostaw. Wolt planuje wprowadzic inna opcje kupna, informacje mozna śledzić na stronie (w przyszłości jak otworzą sklep, zaktualizujemy stronę)"/>}} 
-
-
-
-Sprzęt Stuart można zakupić z oficjalnego sklepu: https://stuartdeliverypl.myshopify.com/
 
 {{<alert context="info" text="Rowniez mozna kupic uzywane torby z drugiej ręki na platformie OLX, FB Marketplace lub innych użytkowników np z serwera Dexterawka, jeżeli ktoś ma na sprzedaż."/>}}

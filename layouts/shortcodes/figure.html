@@ -1,0 +1,14 @@
+{{- $src := .Get "src" -}}
+{{- $caption := .Get "caption" | default (.Get "title") | default (.Get "text") -}}
+{{- $alt := .Get "alt" | default $caption | default "Ilustracja do artykułu" -}}
+{{- $size := .Get "size" | default "lg" -}}
+{{- $align := .Get "align" | default "center" -}}
+{{- $width := .Get "width" -}}
+{{- $imageSrc := $src -}}
+{{- if not (or (hasPrefix $src "/") (hasPrefix $src "http://") (hasPrefix $src "https://")) -}}
+  {{- $imageSrc = printf "/%s" $src -}}
+{{- end -}}
+<figure class="article-image size-{{ $size }} align-{{ $align }}"{{ with $width }} style="--image-width: min(100%, {{ . }});"{{ end }}>
+  <img src="{{ $imageSrc | safeURL }}" alt="{{ $alt }}" loading="lazy">
+  {{- with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end -}}
+</figure>

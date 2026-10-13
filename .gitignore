@@ -12,3 +12,9 @@ hugo.linux
 
 # Temporary lock file while building
 /.hugo_build.lock
+
+# Local reports, dependencies and generated previews
+/reports/
+/node_modules/
+/dist/
+/.astro/

@@ -1,0 +1,5 @@
+{{- $caption := .Title -}}
+<span class="article-image size-lg">
+  <img src="{{ .Destination | safeURL }}" alt="{{ .PlainText }}" loading="lazy">
+  {{- with $caption }}<span class="article-image-caption">{{ . | markdownify }}</span>{{ end -}}
+</span>

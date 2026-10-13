@@ -49,7 +49,6 @@ Platforma Bolt jest znana również ze swoich usług **TAXI** w dużej części 
 {{% alert icon="🟢"context="success" %}}
 
 ### Plusy
-* Duża swoboda - odrzucamy zamówienia dowoli, logujemy się kiedy chcemy
 * Duży zasięg działania w miastach
 * Program [zimowe hot-spoty](https://sites.google.com/bolt.eu/rates-model/page_1/zimowe-hotspoty)
 * Płacą za oczekiwanie w restauracji na zamówienie (0.22gr/min brutto)
@@ -70,13 +69,14 @@ Platforma Bolt jest znana również ze swoich usług **TAXI** w dużej części 
 * Brak przejrzystości stawek
 * Brak możliwości współpracy na zasadach [B2B](../begin/2-procesy-aplikacji-do-delivery.md#kontrakt-b2b)
 * **Mniejsza ilość kursów dla pojazdu typu ROWER**
+* Blokują konta za zbytu dużo odrzuconych zamówień
 {{% /alert %}}
 
 {{<alert context="info" text="Bolt Food wyświetla zarobki w kwotach **BRUTTO** - należy zarobioną kwotę podzielić przez 1.23 aby uzyskać kwotę netto"/>}}
 
 ## Strefy i mnożniki
 
-Bolt Food reguluje zarobki na zasadzie mnożników tak samo jak [Uber Eats](7-uber-eats.md). Różnią się one wysokością w zależności od pory dnia, oraz miasta.
+Bolt Food reguluje zarobki na zasadzie mnożników.
 
 Ostatnio Bolt wprowadził coś takiego jak **dynamiczne mnożniki** . Reprezentuje on współczynnik, który jest stosowany do standardowych mnożników widocznych w aplikacji Bolt Courier.
 
