@@ -1,5 +1,18 @@
+{{- $src := .Destination -}}
 {{- $caption := .Title -}}
+{{- $imageSrc := $src -}}
+{{- $resourceWidth := 0 -}}
+{{- $resourceHeight := 0 -}}
+{{- if not (or (hasPrefix $src "http://") (hasPrefix $src "https://") (hasPrefix $src "//")) -}}
+  {{- with resources.Get (strings.TrimPrefix "/" $src) -}}
+    {{- $imageSrc = .RelPermalink -}}
+    {{- if in (slice "image/jpeg" "image/png" "image/webp" "image/gif") .MediaType.Type -}}
+      {{- $resourceWidth = .Width -}}
+      {{- $resourceHeight = .Height -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 <span class="article-image size-lg">
-  <img src="{{ .Destination | safeURL }}" alt="{{ .PlainText }}" loading="lazy">
+  <img src="{{ $imageSrc | safeURL }}" alt="{{ .PlainText }}"{{ if $resourceWidth }} width="{{ $resourceWidth }}" height="{{ $resourceHeight }}"{{ end }} loading="lazy">
   {{- with $caption }}<span class="article-image-caption">{{ . | markdownify }}</span>{{ end -}}
 </span>

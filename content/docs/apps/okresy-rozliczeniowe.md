@@ -38,7 +38,7 @@ W Uber Eats okres rozliczeniowy trwa 7 dni, trwa od poniedziałku do niedzieli. 
 {{<alert context="warning" text="Pamiętaj, że zarobki wyświetlane w aplikacji Uber Eats są wyświetlane w kwotach BRUTTO. Oznacza to, że trzeba odjąć od tych kwot podatek VAT. Aby to zrobić wystarczy podzielić zarobioną kwotę przez 1.23 lub możesz skorzystać sobie z [kalkulatora zarobków](/docs/rozliczenie/kalkulator)"
 />}}
 <center>
-{{<figure src="/images/uber_showcase/rozliczenie.png" width="25%">}}
+{{<figure src="/images/ubereats_showcase/rozliczenie.png" width="25%">}}
 </center>
 
 ## Bolt Food
