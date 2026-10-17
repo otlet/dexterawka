@@ -1,0 +1,72 @@
+{{- $styles := resources.Get "docs/css/earnings-calculator.css" | minify | fingerprint -}}
+{{- $script := resources.Get "docs/js/earnings-calculator.js" | js.Build (dict "target" "es2018") | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
+<div class="kp-calculator" data-earnings-calculator>
+  <div class="kp-calc-grid">
+    <form class="kp-calc-form" aria-label="Dane do kalkulatora zarobków" novalidate>
+      <h2 class="kp-calc-title">Dane do obliczeń</h2>
+      <div class="kp-calc-field">
+        <label for="kp-calc-platform">Platforma</label>
+        <select id="kp-calc-platform" name="platform" aria-describedby="kp-calc-glovo-hint">
+          <option value="glovo">Glovo</option>
+          <option value="uber-eats">Uber Eats</option>
+          <option value="wolt">Wolt</option>
+          <option value="pyszne">Pyszne.pl</option>
+          <option value="bolt-food">Bolt Food</option>
+          <option value="stuart">Stuart</option>
+        </select>
+        <p class="kp-calc-hint" id="kp-calc-glovo-hint" data-glovo-hint>Od wyniku odejmiemy jednorazowo 4,92 zł opłaty za używanie aplikacji.</p>
+      </div>
+      <div class="kp-calc-field">
+        <label for="kp-calc-status">Status / umowa</label>
+        <select id="kp-calc-status" name="status"><option value="employed">Osoba pracująca w innej firmie (18,72%)</option></select>
+      </div>
+      <div class="kp-calc-field">
+        <label for="kp-calc-income">Przychód netto</label>
+        <div class="kp-calc-money-input"><input id="kp-calc-income" name="income" type="text" inputmode="decimal" value="6000" placeholder="np. 1 000,00" autocomplete="off" aria-describedby="kp-calc-income-hint kp-calc-income-error" required><span aria-hidden="true">zł</span></div>
+        <p class="kp-calc-hint" id="kp-calc-income-hint">Kwota bez VAT, przed potrąceniami i rozliczeniem gotówki.</p>
+        <p class="kp-calc-error" id="kp-calc-income-error"></p>
+      </div>
+      <div class="kp-calc-field">
+        <label for="kp-calc-cash">Pobrana gotówka</label>
+        <div class="kp-calc-money-input"><input id="kp-calc-cash" name="cash" type="text" inputmode="decimal" value="0" placeholder="0,00" autocomplete="off" aria-describedby="kp-calc-cash-hint kp-calc-cash-error"><span aria-hidden="true">zł</span></div>
+        <p class="kp-calc-hint" id="kp-calc-cash-hint">Gotówka, którą już masz. Pomniejsza przelew, ale nie łączny zarobek.</p>
+        <p class="kp-calc-error" id="kp-calc-cash-error"></p>
+      </div>
+      <p class="kp-calc-auto">Wynik aktualizuje się po każdej zmianie.</p>
+    </form>
+
+    <section class="kp-calc-summary" aria-label="Wynik obliczeń" aria-live="polite" aria-atomic="true">
+      <h2 class="kp-calc-title">Twoje rozliczenie</h2>
+      <dl class="kp-calc-breakdown">
+        <div><dt>Przychód netto</dt><dd data-result="income">—</dd></div>
+        <div><dt data-result="tax-label">Podatek i składki / PPK</dt><dd data-result="tax">—</dd></div>
+        <div data-glovo-row><dt>Opłata za aplikację Glovo</dt><dd data-result="app-fee">—</dd></div>
+        <div><dt>Pobrana gotówka</dt><dd data-result="cash">—</dd></div>
+      </dl>
+      <div class="kp-calc-transfer"><span data-result="transfer-label">Przelew na konto</span><strong data-result="transfer">—</strong></div>
+      <div class="kp-calc-profit"><span data-result="profit-label">Zarobek po potrąceniach</span><strong data-result="profit">—</strong><small>Przelew / pozostała kwota + pobrana gotówka</small></div>
+      <p class="kp-calc-hint" data-empty-note>Wpisz przychód, aby zobaczyć wynik.</p>
+      <p class="kp-calc-notice" data-negative-note hidden>Wynik jest ujemny: potrącenia i pobrana gotówka przekraczają kwotę do przelewu. To kwota do rozliczenia, a nie wypłata.</p>
+    </section>
+  </div>
+
+  <div class="kp-calc-notice" data-b2b-note hidden><strong>B2B: liczymy tylko podatek dochodowy do zapłaty.</strong> ZUS, w tym składkę zdrowotną, opłacasz samodzielnie w ramach działalności gospodarczej. Nie odejmujemy go od wyniku. Kwota w podsumowaniu uwzględnia już odłożenie pieniędzy na podatek.</div>
+
+  <details class="kp-calc-details">
+    <summary>Jak liczymy wynik?</summary>
+    <div class="kp-calc-method">
+      <ol data-equations hidden>
+        <li>Podatek / potrącenia: <strong data-result="tax-equation"></strong></li>
+        <li>Zarobek po potrąceniach i opłacie za aplikację: <strong data-result="profit-equation"></strong></li>
+        <li>Kwota po rozliczeniu gotówki: <strong data-result="transfer-equation"></strong></li>
+      </ol>
+      <p>Stawka dla wybranego statusu: <strong data-result="rate">18,72%</strong>. Potrącenie liczymy od wpisanego przychodu netto i zaokrąglamy do groszy. Następnie odejmujemy opłatę Glovo (4,92 zł przy dodatnim przychodzie) oraz pobraną gotówkę. Prowizja partnera nie jest uwzględniona.</p>
+      <p data-stuart-note hidden>Stuart ma odrębne stawki potrąceń dla osób bez innej pracy. Zmiana platformy aktualizuje dostępne statusy i stawki.</p>
+      <p data-scale-note hidden>Skala B2B to uproszczone 12% wpisanego przychodu, bez kosztów uzyskania przychodu, kwoty wolnej i rocznego progu 32%. Nie jest to pełne wyliczenie zaliczki PIT.</p>
+      <p>To szacunek według stawek wybranego statusu, bez indywidualnych ulg, limitów i kosztów pracy. Ryczałt B2B liczymy jako 8,5% przychodu. Przy zleceniu dobierz status do swoich warunków ubezpieczenia i umowy z partnerem.</p>
+    </div>
+  </details>
+  <noscript><p class="kp-calc-notice">Włącz JavaScript w przeglądarce, aby korzystać z kalkulatora.</p></noscript>
+</div>
+<script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>
