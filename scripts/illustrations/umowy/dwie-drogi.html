@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="render-size" content="1000x672">
+<link rel="stylesheet" href="base.css">
+<style>
+  .frame { width: 1000px; height: 672px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 26px; }
+  .card { padding: 24px 26px 22px; }
+  .card h2 { margin-top: 14px; font-size: 26px; line-height: 1.2; letter-spacing: -.015em; color: #fff; }
+  .flow { display: flex; align-items: center; gap: 8px; margin: 18px 0 18px; font-size: 15px; font-weight: 600; }
+  .flow span { padding: 7px 11px; border-radius: 6px; background: var(--card-2); border: 1px solid var(--rule); white-space: nowrap; }
+  .flow span.you { border-color: var(--accent); color: var(--accent); }
+  .flow i { font-style: normal; color: var(--muted); }
+  ul { list-style: none; display: grid; gap: 11px; }
+  li { display: grid; grid-template-columns: 26px 1fr; font-size: 18px; line-height: 1.35; }
+  li::before { font-weight: 800; }
+  li.ok::before { content: '✓'; color: #4cc38a; }
+  li.no::before { content: '✕'; color: #f07a6a; }
+  li b { color: #fff; }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="title">Umowa zlecenie czy B2B?</div>
+  <div class="subtitle">Ta sama praca w aplikacji, dwa zupełnie różne sposoby rozliczenia.</div>
+
+  <div class="grid">
+    <div class="card">
+      <span class="chip">Umowa zlecenie</span>
+      <h2>Partner flotowy rozlicza wszystko za Ciebie</h2>
+      <div class="flow"><span>Aplikacja</span><i>→</i><span>Partner</span><i>→</i><span class="you">Ty (na rękę)</span></div>
+      <ul>
+        <li class="ok"><span><b>ZUS i zaliczkę na podatek</b> potrąca i wpłaca partner</span></li>
+        <li class="ok"><span>Na konto dostajesz kwotę <b>„na rękę”</b></span></li>
+        <li class="ok"><span>Raz w roku tylko <b>PIT-37</b> na podstawie PIT-11</span></li>
+        <li class="no"><span><b>VAT</b> rozlicza partner, nie trafia do Ciebie</span></li>
+        <li class="no"><span>Wydatków na paliwo czy telefon nie odliczysz</span></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <span class="chip ghost">B2B / własna firma</span>
+      <h2>Ty jesteś firmą i sam płacisz daniny</h2>
+      <div class="flow"><span>Aplikacja</span><i>→</i><span>Partner</span><i>→</i><span class="you">Twoja firma</span></div>
+      <ul>
+        <li class="ok"><span>Dostajesz kwotę z faktury, a jako VAT-owiec <b>+23% VAT</b></span></li>
+        <li class="ok"><span>Odliczasz VAT z zakupów, na skali i liniowym też <b>koszty</b></span></li>
+        <li class="no"><span><b>ZUS płacisz sam</b>, co miesiąc, nawet bez zleceń</span></li>
+        <li class="no"><span>Sam wpłacasz <b>podatek i VAT</b> i pilnujesz terminów</span></li>
+        <li class="no"><span>Księgowość, faktury w <b>KSeF</b>, deklaracje</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="brand"><b>KURIER</b>PEDIA</div>
+</div>
+</body>
+</html>

@@ -4,7 +4,7 @@ title: "Rejestracja u partnera flotowego"
 description: "Rejestracja w Eternis krok po kroku ze zrzutami ekranu. Gdzie wpisać DEXTER300 i jakie warunki trzeba spełnić, aby otrzymać do 300 zł brutto premii."
 icon: "article"
 date: "2026-10-05"
-lastmod: "2026-10-05"
+lastmod: "2026-10-26"
 slug: "rejestracja-eternis-dexter300"
 draft: false
 toc: true
@@ -57,7 +57,7 @@ Formularz rozdziela aplikacje dla **kierowców taxi** i dla **dostawców oraz ku
 
 Wybór aplikacji w Eternis jest etapem zgłoszenia do partnera. Aktywacja konta w konkretnej aplikacji kurierskiej wymaga przejścia jej procesu rejestracji lub przeniesienia do floty. Więcej znajdziesz w artykule [Aplikowanie do delivery]({{< relref "2-procesy-aplikacji-do-delivery.md" >}}).
 
-{{<alert context="success" text="Rejestrując się w Eternis i wybierając aplikacje na których chcesz pracować to na tych wymienionych: Glovo - konto zostanie utworzone automatycznie. Nie musisz przechodzić procesu rejestracji. W przypadku reszty aplikacji wymagana jest rejestracja manualna." />}}
+{{<alert context="success" text="Po wybraniu **Glovo** w formularzu Eternis konto jest zakładane automatycznie. Sprawdź wiadomości od Glovo i dokończ wymagane czynności. Jeśli po wybraniu **Uber Eats** otrzymasz wiadomość od Ubera lub zaproszenie do floty, kontynuuj na tym koncie. Do **Pyszne.pl** zgłoś się przez BOK Eternis. Procesy opisuje podlinkowany wyżej artykuł **Aplikowanie do delivery**." />}}
 
 
 {{<alert context="warning" text="Jeżeli chcesz skorzystać z bonusu za polecenie na aplikacji GLOVO należy zarejestrować się MANUALNIE **PRZED REJESTRACJĄ W ETERNIS** - [Zgarnij nawet 500zł za 100 zamówień w 30 dni od dnia aktywacji!](https://to.glovoapp.com/a/mzxoty3) - bonus łączy się z kodem do Eternis **DEXTER300** - wypłacają je dwa różne podmioty" />}}

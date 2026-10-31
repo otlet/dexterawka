@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="render-size" content="1000x620">
+<link rel="stylesheet" href="../umowy/base.css">
+<style>
+  .frame { width: 1000px; height: 620px; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 26px; }
+  .card { padding: 20px 22px 18px; }
+  .card svg { width: 46px; height: 46px; padding: 8px; border-radius: 10px; background: var(--card-2); border: 1px solid var(--rule); fill: none; stroke: var(--accent); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+  .card h2 { margin-top: 12px; font-size: 21px; line-height: 1.15; color: #fff; }
+  .card .sub { margin-top: 3px; font-size: 14px; color: var(--muted); min-height: 19px; }
+  dl { margin-top: 14px; display: grid; gap: 11px; }
+  dt { font-size: 12.5px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
+  dd { margin-top: 2px; font-size: 15.5px; line-height: 1.38; color: var(--text); }
+  dd b { color: #fff; font-weight: 600; }
+  dd.none { color: #4cc38a; font-weight: 600; }
+  .mode { position: absolute; left: 40px; right: 40px; bottom: 26px; padding: 12px 16px; border-left: 3px solid var(--accent); font-size: 15px; line-height: 1.45; color: var(--text); background: var(--card); border-radius: 0 8px 8px 0; }
+  .mode b { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="title">Czym jeździsz i co musisz mieć?</div>
+  <div class="subtitle">Uprawnienia, dokumenty i wyposażenie dla każdego trybu dostaw.</div>
+
+  <div class="grid">
+    <div class="card">
+      <svg viewBox="0 0 24 24"><circle cx="5.5" cy="16.5" r="3.5"/><circle cx="18.5" cy="16.5" r="3.5"/><path d="M5.5 16.5 9 9h6.5l3 7.5"/><path d="M9 9l3.5 7.5H5.5"/><path d="M7.5 6.5h3M15.5 9l-.8-3h2.3"/></svg>
+      <h2>Rower</h2>
+      <div class="sub">także elektryczny: 250 W, 25 km/h, 48 V</div>
+      <dl>
+        <div><dt>Uprawnienia</dt><dd>dorosły nie potrzebuje, <b>do 18 lat karta rowerowa</b></dd></div>
+        <div><dt>Dokumenty</dt><dd class="none">nie potrzebujesz</dd></div>
+        <div><dt>Wyposażenie</dt><dd><b>hamulec, dzwonek, czerwony odblask</b>, po zmroku lampki z przodu i z tyłu</dd></div>
+      </dl>
+    </div>
+
+    <div class="card">
+      <svg viewBox="0 0 24 24"><circle cx="5.5" cy="17" r="2.8"/><circle cx="18.5" cy="17" r="2.8"/><path d="M8.3 17h7.4"/><path d="M15.7 17 13.5 8h3"/><path d="M5.5 14.2V12.5h7.8"/><path d="M4.5 12.5h3.5"/></svg>
+      <h2>Skuter</h2>
+      <div class="sub">motorower do 50 cm³</div>
+      <dl>
+        <div><dt>Uprawnienia</dt><dd>prawo jazdy <b>AM lub B</b>, na dowód tylko urodzeni przed 19.01.1995</dd></div>
+        <div><dt>Dokumenty</dt><dd><b>dowód rejestracyjny, OC</b>, aktualny przegląd</dd></div>
+        <div><dt>Wyposażenie</dt><dd><b>kask</b> (obowiązkowy), uchwyt na telefon</dd></div>
+      </dl>
+    </div>
+
+    <div class="card">
+      <svg viewBox="0 0 24 24"><path d="M3 16.5v-4L5.5 7h13l2.5 5.5v4z"/><path d="M3 12.5h18"/><circle cx="7.5" cy="16.5" r="1.9"/><circle cx="16.5" cy="16.5" r="1.9"/></svg>
+      <h2>Samochód</h2>
+      <div class="sub">osobowy</div>
+      <dl>
+        <div><dt>Uprawnienia</dt><dd>prawo jazdy <b>kat. B</b></dd></div>
+        <div><dt>Dokumenty</dt><dd><b>dowód rejestracyjny, OC</b>, aktualny przegląd</dd></div>
+        <div><dt>Wyposażenie</dt><dd>torba samochodowa, uchwyt i ładowarka do telefonu</dd></div>
+      </dl>
+    </div>
+  </div>
+
+  <div class="mode"><b>Tryb pojazdu w aplikacji musi zgadzać się z tym, czym jeździsz.</b> Jazda w złym trybie grozi blokadą konta, szczególnie w Uber Eats.</div>
+  <div class="brand"><b>KURIER</b>PEDIA</div>
+</div>
+</body>
+</html>

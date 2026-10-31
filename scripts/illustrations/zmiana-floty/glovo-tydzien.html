@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="render-size" content="1000x410">
+<link rel="stylesheet" href="../umowy/base.css">
+<style>
+  .frame { width: 1000px; height: 410px; }
+  .week { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; margin-top: 30px; }
+  .day { height: 92px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; font-size: 28px; font-weight: 800; color: #fff; }
+  .day small { font-size: 13px; font-weight: 600; letter-spacing: .04em; color: var(--muted); }
+  .day.go { background: var(--accent); border-color: var(--accent); color: var(--ink); }
+  .day.go small { color: #3a3000; }
+  .day.off { background: transparent; border-style: dashed; color: #6b7380; }
+  .day.change { background: #4cc38a; border-color: #4cc38a; color: var(--ink); }
+  .day.change small { color: #0d3b26; }
+  .notes { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; margin-top: 10px; }
+  .note { padding-top: 10px; border-top: 3px solid; font-size: 14px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; text-align: center; }
+  .note.go { grid-column: 1 / 3; border-color: var(--accent); color: var(--accent); }
+  .note.off { grid-column: 4 / 6; border-color: #6b7380; color: var(--muted); }
+  .note.change { grid-column: 6 / 7; border-color: #4cc38a; color: #4cc38a; }
+  .tip { position: absolute; left: 40px; right: 40px; bottom: 28px; padding: 13px 16px; border-left: 4px solid var(--accent); border-radius: 6px; background: var(--card); font-size: 15px; line-height: 1.4; }
+  .tip b { color: #fff; }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="title">Glovo przepina konta tylko w poniedziałki</div>
+  <div class="subtitle">Zgłoś się w środę lub czwartek, żeby biuro obsługi zdążyło przed weekendem.</div>
+
+  <div class="week">
+    <div class="card day go">ŚR<small>środa</small></div>
+    <div class="card day go">CZ<small>czwartek</small></div>
+    <div class="card day">PT<small>piątek</small></div>
+    <div class="card day off">SB<small>sobota</small></div>
+    <div class="card day off">ND<small>niedziela</small></div>
+    <div class="card day change">PN<small>poniedziałek</small></div>
+  </div>
+  <div class="notes">
+    <div class="note go">Zgłoś zmianę</div>
+    <div class="note off">BOK może nie pracować</div>
+    <div class="note change">Zmiana</div>
+  </div>
+
+  <div class="tip"><b>Licz się z przerwą.</b> Do przepięcia konto Glovo może być nieaktywne. Zaplanuj wolne albo jazdę w innej aplikacji.</div>
+  <div class="brand"><b>KURIER</b>PEDIA</div>
+</div>
+</body>
+</html>

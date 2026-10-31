@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="render-size" content="1000x754">
+<link rel="stylesheet" href="base.css">
+<style>
+  .frame { width: 1000px; height: 754px; }
+  .legend { display: flex; gap: 24px; margin-top: 22px; font-size: 16px; color: var(--muted); }
+  .legend i { display: inline-block; width: 14px; height: 14px; margin-right: 8px; border-radius: 3px; vertical-align: -2px; }
+  .chart { position: relative; margin-top: 18px; }
+  /* 4000 zł = 600 px, więc 1 zł = 0,15 px */
+  .grid { position: absolute; left: 300px; top: 0; bottom: 0; width: 600px; }
+  .grid span { position: absolute; top: 0; bottom: 0; border-left: 1px solid #2b3038; }
+  .grid em { position: absolute; bottom: -24px; transform: translateX(-50%); font-size: 13px; font-style: normal; color: #7d8590; white-space: nowrap; }
+  .row { position: relative; display: grid; grid-template-columns: 300px 600px; align-items: center; height: 74px; }
+  .row h3 { padding-right: 18px; font-size: 17px; line-height: 1.25; color: #fff; }
+  .row h3 small { display: block; margin-top: 2px; font-size: 14px; font-weight: 400; color: var(--muted); }
+  .row.sep { border-top: 1px dashed var(--rule); }
+  .bar { position: relative; display: flex; gap: 2px; height: 42px; }
+  .seg { display: flex; align-items: center; padding-left: 12px; font-size: 16px; font-weight: 700; color: var(--ink); white-space: nowrap; overflow: hidden; }
+  .seg:first-child { border-radius: 4px 0 0 4px; }
+  .seg:last-child { border-radius: 0 4px 4px 0; }
+  .seg:only-child { border-radius: 4px; }
+  .hand { background: var(--money); }
+  .zus { background: var(--zus); }
+  .health { background: var(--health); }
+  .tax { background: var(--tax); }
+  .note { position: absolute; left: 40px; right: 40px; bottom: 22px; font-size: 14px; line-height: 1.4; color: #7d8590; }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="title">Ile zostaje z 4000 zł miesięcznie?</div>
+  <div class="subtitle">Ten sam zarobek z aplikacji (netto), różne umowy i etapy działalności.</div>
+  <div class="legend">
+    <span><i class="hand"></i>Zostaje dla Ciebie</span>
+    <span><i class="zus"></i>Składki społeczne ZUS</span>
+    <span><i class="health"></i>Składka zdrowotna</span>
+    <span><i class="tax"></i>Podatek (PIT / ryczałt)</span>
+  </div>
+
+  <div class="chart">
+    <div class="grid">
+      <span style="left: 0;"><em>0 zł</em></span>
+      <span style="left: 150px;"><em>1000 zł</em></span>
+      <span style="left: 300px;"><em>2000 zł</em></span>
+      <span style="left: 450px;"><em>3000 zł</em></span>
+      <span style="left: 600px;"><em>4000 zł</em></span>
+    </div>
+
+    <div class="row">
+      <h3>Zlecenie: uczeń lub student<small>do 26 lat, bez ZUS i PIT</small></h3>
+      <div class="bar"><div class="seg hand" style="width: 600px;">4000 zł</div></div>
+    </div>
+    <div class="row">
+      <h3>Zlecenie: bez innej pracy<small>powyżej 26 lat, bez PPK i PIT-2</small></h3>
+      <div class="bar">
+        <div class="seg hand" style="width: 429px;">2889 zł</div>
+        <div class="seg zus" style="width: 67px;"></div>
+        <div class="seg health" style="width: 47px;"></div>
+        <div class="seg tax" style="width: 51px;"></div>
+      </div>
+    </div>
+    <div class="row">
+      <h3>Zlecenie: bez innej pracy, z PIT-2<small>lub po zwrocie podatku w PIT-37</small></h3>
+      <div class="bar">
+        <div class="seg hand" style="width: 474px;">3189 zł</div>
+        <div class="seg zus" style="width: 67px;"></div>
+        <div class="seg health" style="width: 47px;"></div>
+        <div class="seg tax" style="width: 6px;"></div>
+      </div>
+    </div>
+    <div class="row sep">
+      <h3>B2B: ulga na start<small>miesiące 1–6, ryczałt 8,5%</small></h3>
+      <div class="bar">
+        <div class="seg hand" style="width: 474px;">3183 zł</div>
+        <div class="seg health" style="width: 74px;"></div>
+        <div class="seg tax" style="width: 48px;"></div>
+      </div>
+    </div>
+    <div class="row">
+      <h3>B2B: preferencyjny ZUS<small>miesiące 7–30, ryczałt 8,5%</small></h3>
+      <div class="bar">
+        <div class="seg hand" style="width: 415px;">2798 zł</div>
+        <div class="seg zus" style="width: 63px;"></div>
+        <div class="seg health" style="width: 74px;"></div>
+        <div class="seg tax" style="width: 42px;"></div>
+      </div>
+    </div>
+    <div class="row">
+      <h3>B2B: duży ZUS<small>po uldze, ryczałt 8,5%</small></h3>
+      <div class="bar">
+        <div class="seg hand" style="width: 228px;">1534 zł</div>
+        <div class="seg zus" style="width: 265px;">ZUS 1788 zł</div>
+        <div class="seg health" style="width: 74px;"></div>
+        <div class="seg tax" style="width: 27px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="note">Stawki 2026, bez dobrowolnej chorobowej, opłat partnera, księgowości i kosztów pojazdu. Na B2B VAT jest neutralny: otrzymany VAT oddajesz do urzędu.</div>
+  <div class="brand"><b>KURIER</b>PEDIA</div>
+</div>
+</body>
+</html>

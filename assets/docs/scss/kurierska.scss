@@ -235,4 +235,6 @@ html[data-dark-mode] .main-content a:not(.btn) {
   .kp-image-lightbox { width: 100vw; height: 100dvh; border: 0; border-radius: 0; padding: .5rem; }
   .news-card { grid-template-columns: 1fr auto; gap: .55rem 1rem; }
   .news-card time { grid-column: 1 / -1; padding: 0; }
+  /* Wide comparison tables scroll inside the article instead of widening the page. */
+  .main-content table { display: block; max-width: 100%; overflow-x: auto; }
 }

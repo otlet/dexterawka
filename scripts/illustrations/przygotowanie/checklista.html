@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="render-size" content="1000x700">
+<link rel="stylesheet" href="../umowy/base.css">
+<style>
+  .frame { width: 1000px; height: 700px; }
+  .grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 16px; margin-top: 26px; }
+  .card { grid-column: span 2; padding: 18px 20px 18px; }
+  .card.wide { grid-column: span 3; }
+  .head { display: flex; align-items: center; gap: 12px; }
+  .head svg { width: 38px; height: 38px; padding: 7px; border-radius: 9px; background: var(--card-2); border: 1px solid var(--rule); fill: none; stroke: var(--accent); stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+  .head h2 { font-size: 20px; letter-spacing: -.01em; color: #fff; }
+  ul { list-style: none; display: grid; gap: 8px; margin-top: 14px; }
+  li { display: grid; grid-template-columns: 24px 1fr; font-size: 16px; line-height: 1.35; }
+  li::before { content: ''; width: 15px; height: 15px; margin-top: 2px; border-radius: 4px; box-shadow: inset 0 0 0 1.5px #5d6571; }
+  li b { color: #fff; font-weight: 600; }
+  .note { position: absolute; left: 40px; right: 40px; bottom: 26px; font-size: 14px; color: #7d8590; }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="title">Gotowy do pierwszej zmiany?</div>
+  <div class="subtitle">Przejdź przez tę listę, zanim zalogujesz się do aplikacji.</div>
+
+  <div class="grid">
+    <div class="card">
+      <div class="head">
+        <svg viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2"/><path d="M11 18.5h2"/></svg>
+        <h2>Telefon</h2>
+      </div>
+      <ul>
+        <li><span><b>Internet mobilny</b> z dużym pakietem</span></li>
+        <li><span>Lokalizacja ustawiona na <b>„zawsze”</b></span></li>
+        <li><span>Aplikacja <b>bez ograniczeń baterii</b></span></li>
+        <li><span><b>NFC</b> do płatności zbliżeniowych</span></li>
+        <li><span><b>Powerbank</b>, kabel i uchwyt</span></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <svg viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="13.5" rx="1.5"/><path d="M9 7V5.5a3 3 0 0 1 6 0V7"/><path d="M4 11.5h16"/><path d="M10.5 15h3"/></svg>
+        <h2>Torba termiczna</h2>
+      </div>
+      <ul>
+        <li><span><b>Torba lub plecak</b> termiczny</span></li>
+        <li><span>Czyste i suche wnętrze</span></li>
+        <li><span>Sprawne <b>zamki i paski</b></span></li>
+        <li><span>Pad grzewczy do torby w aucie</span></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <svg viewBox="0 0 24 24"><circle cx="5.5" cy="16.5" r="3.5"/><circle cx="18.5" cy="16.5" r="3.5"/><path d="M5.5 16.5 9 9h6.5l3 7.5"/><path d="M9 9l3.5 7.5H5.5"/><path d="M7.5 6.5h3M15.5 9l-.8-3h2.3"/></svg>
+        <h2>Pojazd</h2>
+      </div>
+      <ul>
+        <li><span>Właściwy <b>tryb pojazdu</b> w aplikacji</span></li>
+        <li><span>Sprawne <b>hamulce i oświetlenie</b></span></li>
+        <li><span>Zapięcie do roweru</span></li>
+        <li><span>Skuter i auto: <b>dokumenty i OC</b></span></li>
+      </ul>
+    </div>
+
+    <div class="card wide">
+      <div class="head">
+        <svg viewBox="0 0 24 24"><rect x="2.5" y="6" width="19" height="12" rx="1.5"/><circle cx="12" cy="12" r="2.6"/><path d="M6 9.5v.01M18 14.5v.01"/></svg>
+        <h2>Gotówka</h2>
+      </div>
+      <ul>
+        <li><span><b>Drobne</b> do wydawania reszty</span></li>
+        <li><span>Glovo: <b>saldo gotówkowe</b></span></li>
+        <li><span>Wolt: konto w <b>Aircash</b></span></li>
+        <li><span>Stuart: <b>150 zł</b> i aplikacja do obsługi płatności</span></li>
+      </ul>
+    </div>
+
+    <div class="card wide">
+      <div class="head">
+        <svg viewBox="0 0 24 24"><path d="M7 15a4 4 0 0 1 .4-8A5 5 0 0 1 17 8.6 3.3 3.3 0 0 1 17 15z"/><path d="M8.5 18l-1 2.5M12.5 18l-1 2.5M16.5 18l-1 2.5"/></svg>
+        <h2>Na siebie</h2>
+      </div>
+      <ul>
+        <li><span>Ubranie na <b>deszcz i zimno</b></span></li>
+        <li><span>Rękawiczki i <b>kalosze</b></span></li>
+        <li><span><b>Kask</b>, odblaski lub kamizelka</span></li>
+        <li><span>Woda i coś do jedzenia</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="note">Gotówka dotyczy tylko aplikacji, w których przyjmujesz zamówienia płatne przy odbiorze. Szczegóły w dalszej części artykułu.</div>
+  <div class="brand"><b>KURIER</b>PEDIA</div>
+</div>
+</body>
+</html>

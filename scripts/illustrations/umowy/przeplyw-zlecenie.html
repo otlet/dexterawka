@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="render-size" content="1000x620">
+<link rel="stylesheet" href="base.css">
+<style>
+  .frame { width: 1000px; height: 620px; }
+  .node, .box { position: absolute; padding: 14px 16px; }
+  .node { top: 160px; width: 200px; height: 124px; text-align: center; }
+  .node small { display: block; font-size: 14px; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; font-weight: 600; }
+  .node strong { display: block; margin-top: 6px; font-size: 21px; line-height: 1.2; color: #fff; }
+  .node em { display: block; margin-top: 6px; font-size: 15px; font-style: normal; color: var(--muted); }
+  .node.you { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+  .node.you .big { display: block; margin-top: 2px; font-size: 30px; font-weight: 800; color: var(--accent); }
+  .box { top: 400px; width: 250px; height: 132px; border-left-width: 4px; }
+  .box small { display: block; font-size: 14px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .06em; }
+  .box strong { display: block; margin-top: 4px; font-size: 26px; font-weight: 800; }
+  .box span { display: block; margin-top: 4px; font-size: 15px; line-height: 1.35; color: var(--text); }
+  .callout { position: absolute; top: 400px; left: 760px; width: 200px; padding: 2px 0 0 16px; border-left: 3px solid var(--accent); font-size: 16px; line-height: 1.4; color: var(--text); }
+  .callout b { color: var(--accent); }
+  .lbl { position: absolute; width: 160px; text-align: center; font-size: 14px; line-height: 1.3; color: var(--muted); }
+  .lbl b { display: block; font-size: 21px; color: #fff; }
+  svg { position: absolute; inset: 0; }
+  .note { position: absolute; left: 40px; right: 40px; bottom: 22px; font-size: 14px; color: #7d8590; }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="title">Umowa zlecenie: dokąd idzie 615 zł?</div>
+  <div class="subtitle">Przykład: w aplikacji (np. Glovo) widzisz zarobek 500 zł netto.</div>
+
+  <svg width="1000" height="620" viewBox="0 0 1000 620">
+    <defs>
+      <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#a6adb8"/></marker>
+      <marker id="v" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#9085e9"/></marker>
+      <marker id="z" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#3987e5"/></marker>
+      <marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#f3c623"/></marker>
+    </defs>
+    <path d="M242 222H396" stroke="#a6adb8" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+    <path d="M602 222H756" stroke="#f3c623" stroke-width="2.5" fill="none" marker-end="url(#m)"/>
+    <path d="M455 286V340H165V396" stroke="#9085e9" stroke-width="2.5" fill="none" marker-end="url(#v)"/>
+    <path d="M545 286V396" stroke="#3987e5" stroke-width="2.5" fill="none" marker-end="url(#z)"/>
+  </svg>
+
+  <div class="node card" style="left: 40px;"><small>Aplikacja</small><strong>Glovo, Wolt…</strong><em>płaci partnerowi za Twoje dostawy</em></div>
+  <div class="node card" style="left: 400px;"><small>Partner flotowy</small><strong>płatnik ZUS i PIT</strong><em>fakturuje aplikację</em></div>
+  <div class="node card you" style="left: 760px;"><small>Kurier</small><span class="big">≈ 361 zł</span><em>z 500 zł brutto</em></div>
+
+  <div class="lbl" style="left: 239px; top: 172px;"><b>615 zł</b></div>
+  <div class="lbl" style="left: 239px; top: 232px;">500 zł + 115 zł VAT</div>
+  <div class="lbl" style="left: 599px; top: 172px;"><b style="color:#f3c623">361 zł</b></div>
+  <div class="lbl" style="left: 599px; top: 232px;">przelew na konto*</div>
+
+  <div class="box card" style="left: 40px; border-left-color: var(--tax);"><small>Urząd skarbowy</small><strong class="c-tax">115 zł VAT</strong><span>Partner odprowadza VAT od faktury dla aplikacji.</span></div>
+  <div class="box card" style="left: 420px; border-left-color: var(--zus);"><small>ZUS i urząd skarbowy</small><strong class="c-zus">139 zł za Ciebie</strong><span>ZUS 56 zł, zdrowotna 40 zł, zaliczka PIT 43 zł.</span></div>
+  <div class="callout"><b>VAT nie trafia do kuriera.</b> Partner jest ostatnią firmą w łańcuchu i to on płaci go do urzędu.</div>
+
+  <div class="note">* Przed opłatą partnera. Zleceniobiorca bez innej pracy, powyżej 26 lat, bez PPK, PIT-2 i chorobowej. Stawki 2026.</div>
+  <div class="brand"><b>KURIER</b>PEDIA</div>
+</div>
+</body>
+</html>

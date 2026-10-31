@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="render-size" content="1000x600">
+<link rel="stylesheet" href="../umowy/base.css">
+<style>
+  .frame { width: 1000px; height: 600px; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 26px; }
+  .card { padding: 18px 20px 18px; }
+  .head { display: flex; align-items: center; gap: 12px; padding-bottom: 14px; border-bottom: 1px solid var(--rule); }
+  .head img { width: 44px; height: 44px; border-radius: 10px; }
+  .head h2 { font-size: 22px; color: #fff; }
+  dl { margin-top: 14px; display: grid; gap: 13px; }
+  dt { font-size: 12.5px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); }
+  dd { margin-top: 3px; font-size: 16px; line-height: 1.38; color: var(--text); }
+  dd b { color: #fff; font-weight: 600; }
+  dd .big { font-size: 22px; font-weight: 800; color: var(--accent); }
+  dd.no b { color: #f07a6a; }
+  .note { position: absolute; left: 40px; right: 40px; bottom: 26px; font-size: 14px; line-height: 1.4; color: #7d8590; }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="title">Gotówka w aplikacjach</div>
+  <div class="subtitle">Ile mieć przy sobie i co robić z pieniędzmi od klientów.</div>
+
+  <div class="grid">
+    <div class="card">
+      <div class="head"><img src="../../../assets/images/delivery-apps/glovo.png" alt=""><h2>Glovo</h2></div>
+      <dl>
+        <div><dt>Ile mieć przy sobie</dt><dd><span class="big">drobne</span><br>do wydawania reszty</dd></div>
+        <div><dt>W restauracji</dt><dd>płacisz z gotówki od klientów, gdy aplikacja pokaże <b>„Potrzebna gotówka”</b></dd></div>
+        <div><dt>Co z gotówką</dt><dd>co noc Glovo zalicza ją na poczet Twoich <b>zarobków</b>, nadwyżkę wpłacasz na <b>glovocash.pl</b></dd></div>
+      </dl>
+    </div>
+
+    <div class="card">
+      <div class="head"><img src="../../../assets/images/delivery-apps/wolt.png" alt=""><h2>Wolt</h2></div>
+      <dl>
+        <div><dt>Ile mieć przy sobie</dt><dd><span class="big">min. 45 zł</span><br>reszty dla klienta</dd></div>
+        <div><dt>W restauracji</dt><dd class="no"><b>nigdy nie płacisz</b></dd></div>
+        <div><dt>Co z gotówką</dt><dd>wpłacasz na bieżąco przez <b>Aircash</b>, powyżej <b>300 zł</b> konto przechodzi w tryb offline</dd></div>
+      </dl>
+    </div>
+
+    <div class="card">
+      <div class="head"><img src="../../../assets/images/delivery-apps/stuart.png" alt=""><h2>Stuart</h2></div>
+      <dl>
+        <div><dt>Ile mieć przy sobie</dt><dd><span class="big">150 zł</span><br>wymóg z listy wyposażenia</dd></div>
+        <div><dt>W restauracji</dt><dd class="no">za zamówienia „Card” <b>nie płacisz</b></dd></div>
+        <div><dt>Płatność kartą</dt><dd>klient płaci przez <b>Viva.com | Terminal</b> na Twoim telefonie z <b>NFC</b>, bez osobnego terminala</dd></div>
+      </dl>
+    </div>
+  </div>
+
+  <div class="note">Na podstawie artykułów o aplikacjach w Kurierpedii i centrum pomocy Stuart. Zasady i limity potrafią się zmieniać, aktualne znajdziesz w aplikacji.</div>
+  <div class="brand"><b>KURIER</b>PEDIA</div>
+</div>
+</body>
+</html>

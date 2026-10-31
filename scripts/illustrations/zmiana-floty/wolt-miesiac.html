@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="render-size" content="1000x510">
+<link rel="stylesheet" href="../umowy/base.css">
+<style>
+  .frame { width: 1000px; height: 510px; }
+  .month { display: grid; grid-template-columns: repeat(8, 1fr); gap: 10px; margin-top: 28px; }
+  .day { height: 72px; display: flex; align-items: center; justify-content: center; font-size: 26px; font-weight: 800; color: #fff; }
+  .day.go { background: var(--accent); border-color: var(--accent); color: var(--ink); }
+  .day.change { background: #4cc38a; border-color: #4cc38a; color: var(--ink); }
+  .notes { display: grid; grid-template-columns: repeat(8, 1fr); gap: 10px; margin-top: 10px; }
+  .note { padding-top: 9px; border-top: 3px solid; font-size: 14px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; text-align: center; }
+  .note.go { grid-column: 4 / 8; border-color: var(--accent); color: var(--accent); }
+  .note.change { grid-column: 8 / 9; border-color: #4cc38a; color: #4cc38a; }
+  .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 30px; }
+  .step { position: relative; padding: 16px 16px 14px; min-height: 168px; }
+  .step .n { font-size: 26px; font-weight: 800; color: var(--accent); }
+  .step h3 { margin-top: 6px; font-size: 18px; line-height: 1.2; color: #fff; }
+  .step p { margin-top: 6px; font-size: 14.5px; line-height: 1.38; color: var(--muted); }
+  .step:not(:last-child)::after { content: '→'; position: absolute; right: -14px; top: 22px; width: 14px; text-align: center; font-size: 16px; color: var(--accent); }
+  .step.last { background: rgba(76, 195, 138, .12); border-color: #4cc38a; }
+  .step.last .n { color: #4cc38a; }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="title">Wolt zmienia flotę raz w miesiącu</div>
+  <div class="subtitle">Zgłoś się jeszcze przed końcem miesiąca: najpierw w obecnej flocie, potem w nowej.</div>
+
+  <div class="month">
+    <div class="card day">25</div><div class="card day">26</div><div class="card day">27</div>
+    <div class="card day go">28</div><div class="card day go">29</div><div class="card day go">30</div><div class="card day go">31</div>
+    <div class="card day change">1</div>
+  </div>
+  <div class="notes">
+    <div class="note go">Zgłoś zmianę</div>
+    <div class="note change">Zmiana</div>
+  </div>
+
+  <div class="steps">
+    <div class="card step"><div class="n">01</div><h3>Obecna flota</h3><p>Powiedz, że odchodzisz. To ona składa wniosek i informuje Wolta.</p></div>
+    <div class="card step"><div class="n">02</div><h3>Nowa flota</h3><p>Daj znać, że stara flota już wie o zmianie.</p></div>
+    <div class="card step"><div class="n">03</div><h3>1. dzień miesiąca</h3><p>Wolt przepina konto do nowej floty.</p></div>
+    <div class="card step last"><div class="n">04</div><h3>Potwierdź</h3><p>Zapytaj BOK nowej floty, czy zmiana weszła.</p></div>
+  </div>
+  <div class="brand"><b>KURIER</b>PEDIA</div>
+</div>
+</body>
+</html>

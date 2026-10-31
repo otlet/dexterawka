@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="render-size" content="1000x640">
+<link rel="stylesheet" href="../umowy/base.css">
+<style>
+  .frame { width: 1000px; height: 640px; }
+  .phone { position: absolute; left: 60px; top: 140px; width: 300px; height: 520px; padding: 12px; border-radius: 36px 36px 0 0; background: #0b0d10; border: 1px solid #3a414c; border-bottom: none; }
+  .screen { height: 100%; border-radius: 26px 26px 0 0; background: var(--card); overflow: hidden; }
+  .bar { display: flex; justify-content: space-between; padding: 10px 20px 0; font-size: 12px; font-weight: 600; color: var(--muted); }
+  .app { display: flex; align-items: center; gap: 10px; padding: 18px 18px 14px; border-bottom: 1px solid var(--rule); }
+  .app i { width: 36px; height: 36px; border-radius: 9px; background: var(--accent); }
+  .app b { display: block; font-size: 15px; color: #fff; }
+  .app span { font-size: 12px; color: var(--muted); }
+  .row { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 13px 18px 13px 48px; border-bottom: 1px solid var(--rule); }
+  .row b { display: block; font-size: 14px; font-weight: 600; color: #fff; }
+  .row span { font-size: 12.5px; color: var(--accent); }
+  .row .n { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); }
+  .n { font-style: normal; display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; font-size: 13px; font-weight: 800; color: var(--ink); background: var(--accent); }
+  .tg { flex: none; width: 38px; height: 22px; border-radius: 11px; background: #4b525d; position: relative; }
+  .tg::after { content: ''; position: absolute; top: 3px; left: 3px; width: 16px; height: 16px; border-radius: 50%; background: #c9ced6; }
+  .tg.on { background: var(--accent); }
+  .tg.on::after { left: 19px; background: var(--ink); }
+  .list { position: absolute; left: 420px; top: 146px; width: 540px; display: grid; gap: 16px; }
+  .item { display: grid; grid-template-columns: 34px 1fr; }
+  .item .n { margin-top: 1px; }
+  .item b { display: block; font-size: 18px; color: #fff; }
+  .item p { margin-top: 3px; font-size: 15.5px; line-height: 1.4; color: var(--text); }
+  .ios { position: absolute; left: 420px; right: 40px; bottom: 30px; padding: 12px 16px; border-left: 3px solid var(--accent); font-size: 15px; line-height: 1.45; color: var(--text); background: var(--card); border-radius: 0 8px 8px 0; }
+  .ios b { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="title">Ustaw telefon przed pierwszą zmianą</div>
+  <div class="subtitle">Nazwy opcji różnią się między telefonami, ale wszędzie chodzi o to samo.</div>
+
+  <div class="phone"><div class="screen">
+    <div class="bar"><span>12:00</span><span>LTE  87%</span></div>
+    <div class="app"><i></i><div><b>Aplikacja kurierska</b><span>Informacje o aplikacji</span></div></div>
+    <div class="row"><em class="n">1</em><div><b>Lokalizacja</b><span>Zezwalaj zawsze</span></div></div>
+    <div class="row"><em class="n">2</em><div><b>Bateria</b><span>Bez ograniczeń</span></div></div>
+    <div class="row"><em class="n">3</em><div><b>Powiadomienia</b></div><i class="tg on"></i></div>
+    <div class="row"><em class="n">4</em><div><b>Dane mobilne w tle</b></div><i class="tg on"></i></div>
+    <div class="row"><em class="n">5</em><div><b>Oszczędzanie baterii</b></div><i class="tg"></i></div>
+  </div></div>
+
+  <div class="list">
+    <div class="item"><em class="n">1</em><div><b>Lokalizacja „zawsze”</b><p>Aplikacja widzi, gdzie jesteś, także przy zgaszonym ekranie.</p></div></div>
+    <div class="item"><em class="n">2</em><div><b>Bateria bez ograniczeń</b><p>System nie uśpi aplikacji w tle, więc nie przegapisz zamówienia.</p></div></div>
+    <div class="item"><em class="n">3</em><div><b>Powiadomienia z dźwiękiem</b><p>Usłyszysz nowe zamówienie w trakcie jazdy. Wyłącz tryb „Nie przeszkadzać”.</p></div></div>
+    <div class="item"><em class="n">4</em><div><b>Dane w tle</b><p>Mapa i status zamówienia odświeżają się na bieżąco.</p></div></div>
+    <div class="item"><em class="n">5</em><div><b>Oszczędzanie baterii wyłączone</b><p>Ten tryb ogranicza GPS i działanie aplikacji w tle.</p></div></div>
+  </div>
+
+  <div class="ios"><b>iPhone:</b> lokalizacja „Zawsze”, włączone odświeżanie w tle, wyłączony tryb niskiego zużycia energii.</div>
+  <div class="brand"><b>KURIER</b>PEDIA</div>
+</div>
+</body>
+</html>

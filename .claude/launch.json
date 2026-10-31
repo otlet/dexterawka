@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "kurierpedia",
+      "runtimeExecutable": "hugo",
+      "runtimeArgs": ["server", "--disableFastRender", "--noHTTPCache", "--port", "1313"],
+      "port": 1313
+    }
+  ]
+}

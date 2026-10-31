@@ -1,0 +1,16 @@
+{{/* Replaces the theme landing page: the home page sends visitors straight to the docs. */}}
+{{ $docs := "docs/" | relURL }}
+<!doctype html>
+<html lang="{{ site.LanguageCode }}">
+<head>
+  <meta charset="utf-8">
+  <title>{{ site.Title }}</title>
+  <link rel="canonical" href="{{ "docs/" | absURL }}">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url={{ $docs }}">
+  <script>location.replace({{ $docs }});</script>
+</head>
+<body>
+  <p><a href="{{ $docs }}">Otwórz Kompendium Delivery</a></p>
+</body>
+</html>

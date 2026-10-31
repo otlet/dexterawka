@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="render-size" content="1000x650">
+<link rel="stylesheet" href="base.css">
+<style>
+  .frame { width: 1000px; height: 650px; }
+  .legend { display: flex; gap: 22px; margin-top: 20px; font-size: 15px; color: var(--muted); }
+  .legend i { display: inline-block; width: 14px; height: 14px; margin-right: 8px; border-radius: 3px; vertical-align: -2px; }
+  .legend .hatch { background: repeating-linear-gradient(135deg, var(--zus) 0 3px, transparent 3px 7px); box-shadow: inset 0 0 0 1.5px var(--zus); }
+  svg { position: absolute; left: 0; top: 0; }
+  svg text { font-family: 'Segoe UI', Roboto, Arial, sans-serif; }
+  .note { position: absolute; left: 40px; right: 40px; bottom: 20px; font-size: 14px; line-height: 1.4; color: #7d8590; }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="title">Ile co miesiąc kosztuje ZUS w JDG?</div>
+  <div class="subtitle">Składki rosną etapami, niezależnie od tego, ile zarobisz w danym miesiącu.</div>
+  <div class="legend">
+    <span><i style="background: var(--zus);"></i>Składki społeczne</span>
+    <span><i class="hatch"></i>Mały ZUS Plus: zakres zależny od dochodu</span>
+    <span><i style="background: var(--health);"></i>Zdrowotna (ryczałt do 60 tys. zł)</span>
+  </div>
+
+  <!-- Oś X: 84 miesiące = 840 px (x 110–950). Oś Y: 2500 zł = 320 px (y 520–200). -->
+  <svg width="1000" height="650" viewBox="0 0 1000 650">
+    <defs>
+      <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+        <rect width="8" height="8" fill="#17191d"/>
+        <rect width="3" height="8" fill="#3987e5"/>
+      </pattern>
+    </defs>
+    <g stroke="#2b3038" stroke-width="1">
+      <path d="M110 456H950M110 392H950M110 328H950M110 264H950M110 200H950"/>
+    </g>
+    <g fill="#7d8590" font-size="13" text-anchor="end">
+      <text x="100" y="524">0 zł</text>
+      <text x="100" y="460">500</text>
+      <text x="100" y="396">1000</text>
+      <text x="100" y="332">1500</text>
+      <text x="100" y="268">2000</text>
+      <text x="100" y="204">2500 zł</text>
+    </g>
+
+    <!-- zdrowotna 498,35 zł = 63,8 px -->
+    <rect x="110" y="456.2" width="59" height="63.8" fill="#199e70"/>
+    <rect x="171" y="456.2" width="238" height="63.8" fill="#199e70"/>
+    <rect x="411" y="456.2" width="358" height="63.8" fill="#199e70"/>
+    <rect x="771" y="456.2" width="179" height="63.8" fill="#199e70"/>
+
+    <!-- społeczne: preferencyjny i minimum Małego ZUS Plus 420,86 zł = 53,9 px; duży ZUS 1788,29 zł = 228,9 px -->
+    <rect x="171" y="400.3" width="238" height="53.9" fill="#3987e5"/>
+    <rect x="411" y="400.3" width="358" height="53.9" fill="#3987e5"/>
+    <rect x="411" y="225.3" width="358" height="173" fill="url(#hatch)" stroke="#3987e5" stroke-width="1.5"/>
+    <rect x="771" y="225.3" width="179" height="228.9" fill="#3987e5"/>
+
+    <path d="M110 520H950" stroke="#a6adb8" stroke-width="1.5"/>
+
+    <g fill="#ffffff" font-size="17" font-weight="700" text-anchor="middle">
+      <text x="140" y="444">498 zł</text>
+      <text x="290" y="388">919 zł</text>
+      <text x="590" y="215">919–2287 zł</text>
+      <text x="860" y="213">2287 zł</text>
+    </g>
+    <rect x="478" y="296" width="224" height="34" rx="17" fill="#17191d" stroke="#3987e5"/>
+    <text x="590" y="318" fill="#e8ebef" font-size="14" text-anchor="middle">zależy od dochodu z zeszłego roku</text>
+
+    <g font-size="15" font-weight="700" fill="#e8ebef" text-anchor="middle">
+      <text x="140" y="548">Ulga na start</text>
+      <text x="290" y="548">Preferencyjny ZUS</text>
+      <text x="590" y="548">Mały ZUS Plus</text>
+      <text x="860" y="548">Duży ZUS</text>
+    </g>
+    <g font-size="13" fill="#a6adb8" text-anchor="middle">
+      <text x="140" y="567">mies. 1–6</text>
+      <text x="290" y="567">mies. 7–30</text>
+      <text x="590" y="567">do 36 mies., przychód ≤ 120 tys. zł</text>
+      <text x="860" y="567">bez limitu czasu</text>
+    </g>
+
+    <g font-size="15" fill="#e8ebef">
+      <path d="M126 236V306" stroke="#f3c623" stroke-width="3"/>
+      <text x="140" y="254"><tspan font-weight="700" fill="#f3c623">Płacisz nawet w miesiącu</tspan></text>
+      <text x="140" y="276"><tspan font-weight="700" fill="#f3c623">bez ani jednego zlecenia.</tspan></text>
+      <text x="140" y="298" fill="#a6adb8">Kwota nie zależy od zarobków.</text>
+    </g>
+  </svg>
+
+  <div class="note">Stawki 2026, bez dobrowolnej chorobowej. Duży ZUS obejmuje Fundusz Pracy. Zdrowotna na skali i liniowym zależy od dochodu, minimum 432,54 zł.</div>
+  <div class="brand"><b>KURIER</b>PEDIA</div>
+</div>
+</body>
+</html>
