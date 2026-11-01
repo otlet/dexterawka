@@ -21,6 +21,11 @@
         <label for="kp-calc-status">Status / umowa</label>
         <select id="kp-calc-status" name="status"><option value="employed">Osoba pracująca w innej firmie (18,72%)</option></select>
       </div>
+      <div class="kp-calc-field" data-pit2-field>
+        <label class="kp-calc-check" for="kp-calc-pit2"><input id="kp-calc-pit2" name="pit2" type="checkbox" aria-describedby="kp-calc-pit2-hint">Złożone oświadczenie PIT-2</label>
+        <p class="kp-calc-hint" id="kp-calc-pit2-hint">Obniża zaliczkę na podatek maksymalnie o 300 zł na miesiąc, a nie na każde rozliczenie. Przy rozliczeniach co tydzień wpisz sumę z całego miesiąca.</p>
+        <p class="kp-calc-hint" data-pit2-employed-hint>Sprawdź, czy PIT-2 nie jest już złożony u pracodawcy w drugiej pracy.</p>
+      </div>
       <div class="kp-calc-field">
         <label for="kp-calc-income">Przychód netto</label>
         <div class="kp-calc-money-input"><input id="kp-calc-income" name="income" type="text" inputmode="decimal" value="6000" placeholder="np. 1 000,00" autocomplete="off" aria-describedby="kp-calc-income-hint kp-calc-income-error" required><span aria-hidden="true">zł</span></div>
@@ -41,6 +46,7 @@
       <dl class="kp-calc-breakdown">
         <div><dt>Przychód netto</dt><dd data-result="income">—</dd></div>
         <div><dt data-result="tax-label">Podatek i składki / PPK</dt><dd data-result="tax">—</dd></div>
+        <div data-pit2-active hidden><dt>Niższa zaliczka dzięki PIT-2</dt><dd data-result="pit2">—</dd></div>
         <div data-glovo-row><dt>Opłata za aplikację Glovo</dt><dd data-result="app-fee">—</dd></div>
         <div><dt>Pobrana gotówka</dt><dd data-result="cash">—</dd></div>
       </dl>
@@ -58,10 +64,12 @@
     <div class="kp-calc-method">
       <ol data-equations hidden>
         <li>Podatek / potrącenia: <strong data-result="tax-equation"></strong></li>
+        <li data-pit2-active hidden>Obniżenie zaliczki przez PIT-2: <strong data-result="pit2-equation"></strong></li>
         <li>Zarobek po potrąceniach i opłacie za aplikację: <strong data-result="profit-equation"></strong></li>
         <li>Kwota po rozliczeniu gotówki: <strong data-result="transfer-equation"></strong></li>
       </ol>
       <p>Stawka dla wybranego statusu: <strong data-result="rate">18,72%</strong>. Potrącenie liczymy od wpisanego przychodu netto i zaokrąglamy do groszy. Następnie odejmujemy opłatę Glovo (4,92 zł przy dodatnim przychodzie) oraz pobraną gotówkę. Prowizja partnera nie jest uwzględniona.</p>
+      <p data-pit2-active hidden>PIT-2 obniża tylko zaliczkę na podatek, maksymalnie o 300 zł na miesiąc. Składki i PPK się nie zmieniają. Wyższa wypłata oznacza niższy zwrot w PIT-37, więcej w artykule o <a href="/docs/rozliczenie/umowa-zlecenie-czy-b2b/#rozliczenie-roczne-i-zwrot-podatku">rozliczeniu rocznym</a>.</p>
       <p data-stuart-note hidden>Stuart ma odrębne stawki potrąceń dla osób bez innej pracy. Zmiana platformy aktualizuje dostępne statusy i stawki.</p>
       <p data-scale-note hidden>Skala B2B to uproszczone 12% wpisanego przychodu, bez kosztów uzyskania przychodu, kwoty wolnej i rocznego progu 32%. Nie jest to pełne wyliczenie zaliczki PIT.</p>
       <p>To szacunek według stawek wybranego statusu, bez indywidualnych ulg, limitów i kosztów pracy. Ryczałt B2B liczymy jako 8,5% przychodu. Przy zleceniu dobierz status do swoich warunków ubezpieczenia i umowy z partnerem.</p>

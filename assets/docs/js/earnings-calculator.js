@@ -1,10 +1,11 @@
-import { calculateEarnings, getStatuses, parseMoney } from './earnings-calculator-model.mjs';
+import { calculateEarnings, getStatuses, parseMoney, PIT2_MONTHLY_CENTS } from './earnings-calculator-model.mjs';
 
 const root = document.querySelector('[data-earnings-calculator]');
 if (root) {
   const form = root.querySelector('form');
   const platform = form.elements.platform;
   const status = form.elements.status;
+  const pit2 = form.elements.pit2;
   const income = form.elements.income;
   const cash = form.elements.cash;
   const currency = new Intl.NumberFormat('pl-PL', { style: 'currency', currency: 'PLN' });
@@ -40,6 +41,10 @@ if (root) {
     const selected = getStatuses(platform.value).find(item => item.id === status.value);
     const rate = `${percent.format(selected.rateBps / 100)}%`;
     const b2b = selected.b2b;
+    const pit2Active = selected.pitBps > 0 && pit2.checked;
+    root.querySelector('[data-pit2-field]').hidden = selected.pitBps === 0;
+    root.querySelector('[data-pit2-employed-hint]').hidden = selected.id !== 'employed';
+    root.querySelectorAll('[data-pit2-active]').forEach(item => { item.hidden = !pit2Active; });
     root.querySelector('[data-b2b-note]').hidden = !b2b;
     root.querySelector('[data-scale-note]').hidden = selected.id !== 'b2b-skala';
     root.querySelector('[data-glovo-hint]').hidden = platform.value !== 'glovo';
@@ -56,24 +61,27 @@ if (root) {
     root.querySelector('[data-empty-note]').hidden = ready;
     root.querySelector('[data-equations]').hidden = !ready;
     root.querySelector('[data-negative-note]').hidden = true;
-    for (const name of ['income', 'tax', 'app-fee', 'cash', 'transfer', 'profit']) write(name, '—');
+    for (const name of ['income', 'tax', 'pit2', 'app-fee', 'cash', 'transfer', 'profit']) write(name, '—');
     if (!ready) return;
 
-    const result = calculateEarnings({ platformId: platform.value, statusId: status.value, incomeCents, cashCents });
+    const result = calculateEarnings({ platformId: platform.value, statusId: status.value, incomeCents, cashCents, pit2: pit2Active });
     write('income', money(result.incomeCents));
     write('tax', deduction(result.taxCents));
+    write('pit2', result.pit2Cents > 0 ? `+${money(result.pit2Cents)}` : money(0));
     write('app-fee', deduction(result.appFeeCents));
     write('cash', deduction(result.cashCents));
     write('transfer', money(result.transferCents));
     write('profit', money(result.profitCents));
     write('tax-equation', `${money(result.incomeCents)} × ${rate} = ${money(result.taxCents)}`);
-    write('profit-equation', `${money(result.incomeCents)} − ${money(result.taxCents)} − ${money(result.appFeeCents)} = ${money(result.profitCents)}`);
+    write('pit2-equation', `mniejsza z kwot: zaliczka ${money(result.advanceCents)} (${percent.format(selected.pitBps / 100)}% przychodu) i limit ${money(PIT2_MONTHLY_CENTS)} = ${money(result.pit2Cents)}`);
+    write('profit-equation', `${money(result.incomeCents)} − ${money(result.taxCents)}${pit2Active ? ` + ${money(result.pit2Cents)}` : ''} − ${money(result.appFeeCents)} = ${money(result.profitCents)}`);
     write('transfer-equation', `${money(result.profitCents)} − ${money(result.cashCents)} = ${money(result.transferCents)}`);
     root.querySelector('[data-negative-note]').hidden = result.transferCents >= 0;
   }
 
   platform.addEventListener('change', () => { updateStatuses(); render(); });
   status.addEventListener('change', render);
+  pit2.addEventListener('change', render);
   income.addEventListener('input', render);
   cash.addEventListener('input', render);
   form.addEventListener('submit', event => { event.preventDefault(); render(); });

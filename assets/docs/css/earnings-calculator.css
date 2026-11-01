@@ -30,6 +30,8 @@ html[data-dark-mode] .kp-calculator {
   background: var(--calc-surface); color: var(--calc-text); font: inherit; line-height: 1.4;
 }
 .kp-calc-field select { text-overflow: ellipsis; padding-right: 2rem; }
+.kp-calc-field .kp-calc-check { display: flex; align-items: center; gap: .6rem; min-height: 2.75rem; margin: 0; cursor: pointer; }
+.kp-calc-field .kp-calc-check input { flex: none; width: 1.2rem; height: 1.2rem; min-height: 0; padding: 0; accent-color: var(--calc-accent); }
 .kp-calc-field input::placeholder { color: var(--calc-muted); opacity: 1; }
 .kp-calc-field input:focus-visible, .kp-calc-field select:focus-visible, .kp-calc-details summary:focus-visible { outline: 2px solid var(--calc-accent); outline-offset: 3px; }
 .kp-calc-field input[aria-invalid="true"] { border-color: #dc6262; }

@@ -54,6 +54,35 @@ test('B2B deducts only the requested tax and the explicit application fee', () =
   }
 });
 
+test('PIT-2 lowers only the PIT advance, by at most 300 PLN', () => {
+  const capped = calculate({ statusId: 'unemployed-no-ppk', incomeCents: 600000, pit2: true, cashCents: 10000 });
+  assert.equal(capped.taxCents, 166920);
+  assert.equal(capped.advanceCents, 51420);
+  assert.equal(capped.pit2Cents, 30000);
+  assert.equal(capped.profitCents, 463080);
+  assert.equal(capped.transferCents, 453080);
+
+  const below = calculate({ statusId: 'unemployed-no-ppk', pit2: true });
+  assert.equal(below.pit2Cents, 8570);
+  assert.equal(below.profitCents, calculate({ statusId: 'young-unemployed-no-ppk' }).profitCents);
+  assert.equal(calculate({ pit2: true }).profitCents, calculate({ statusId: 'young-employed' }).profitCents);
+  assert.equal(calculate({ platformId: 'stuart', statusId: 'unemployed-ppk', pit2: true }).pit2Cents, 8570);
+});
+
+test('PIT-2 is off by default and changes nothing for statuses without a PIT advance', () => {
+  assert.equal(calculate().pit2Cents, 0);
+  assert.equal(calculate({ incomeCents: 0, pit2: true }).pit2Cents, 0);
+  for (const platform of PLATFORMS) {
+    for (const status of getStatuses(platform.id).filter(item => item.pitBps === 0)) {
+      const base = calculate({ platformId: platform.id, statusId: status.id });
+      const withPit2 = calculate({ platformId: platform.id, statusId: status.id, pit2: true });
+      assert.deepEqual(withPit2, base);
+    }
+  }
+  const eligible = getStatuses('wolt').filter(item => item.pitBps > 0).map(item => item.id);
+  assert.deepEqual(eligible, ['employed', 'unemployed-ppk', 'unemployed-no-ppk']);
+});
+
 test('money input accepts Polish decimal and grouping separators without converting VAT', () => {
   for (const value of ['1234,56', '1234.56', '1 234,56', '1\u00a0234,56', '1\u202f234,56']) {
     assert.equal(parseMoney(value), 123456);
