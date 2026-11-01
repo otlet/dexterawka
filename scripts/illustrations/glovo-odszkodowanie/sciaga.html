@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="render-size" content="1000x465">
+<link rel="stylesheet" href="../umowy/base.css">
+<style>
+  .frame { width: 1000px; height: 465px; }
+  .cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 26px; }
+  .col { height: 318px; padding: 18px 18px 14px; }
+  .col h2 { margin-top: 12px; font-size: 21px; line-height: 1.15; letter-spacing: -.01em; color: #fff; }
+  .col ul { margin-top: 14px; list-style: none; }
+  .col li { position: relative; margin-bottom: 10px; padding-left: 28px; font-size: 16px; line-height: 1.3; }
+  .col li::before { content: ""; position: absolute; left: 0; top: 2px; width: 16px; height: 16px; border: 2px solid var(--accent); border-radius: 4px; }
+  .col li small { display: block; margin-top: 1px; font-size: 13px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="title">Ściąga: co zebrać po wypadku</div>
+
+  <div class="cols">
+    <div class="card col">
+      <span class="chip">Od razu</span>
+      <h2>Na miejscu wypadku</h2>
+      <ul>
+        <li>Policja, a w razie potrzeby pogotowie</li>
+        <li>Zgłoszenie w czacie Glovo<small>zrób zrzuty rozmowy</small></li>
+        <li>Zrzut ostatniego zamówienia</li>
+        <li>Zdjęcia z miejsca zdarzenia</li>
+        <li>Wizyta u lekarza, nawet przy małych objawach</li>
+      </ul>
+    </div>
+    <div class="card col">
+      <span class="chip">Obowiązkowe</span>
+      <h2>Do formularza</h2>
+      <ul>
+        <li>Dokument tożsamości</li>
+        <li>Dowód własności konta bankowego</li>
+        <li>Zrzut ostatniego zamówienia</li>
+      </ul>
+    </div>
+    <div class="card col">
+      <span class="chip ghost">Gdy poproszą</span>
+      <h2>Mailem, w odpowiedzi na wiadomość</h2>
+      <ul>
+        <li>L4 z datami i liczbą dni</li>
+        <li>Rachunki za leczenie<small>albo informacja, że pokrył je NFZ</small></li>
+        <li>Kopia czatu z dnia wypadku</li>
+        <li>Notatka z policji</li>
+      </ul>
+    </div>
+  </div>
+  <div class="brand"><b>KURIER</b>PEDIA</div>
+</div>
+</body>
+</html>

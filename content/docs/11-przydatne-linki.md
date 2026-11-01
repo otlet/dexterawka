@@ -18,6 +18,8 @@ toc: true
 
 **Glovo Delivery Dashboard:** https://delivery.glovoapp.com/pl/my-dashboard
 
+**Formularz roszczenia po wypadku:** https://ferrerojeda.my.site.com/glovoclaimforms/pl/ ([jak go wypełnić](/docs/apps/odszkodowanie-glovo/))
+
 ## Wolt
 
 **FAQ Wolt:** https://woltpartners.pl/help-center-pl/

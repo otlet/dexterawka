@@ -194,6 +194,8 @@ Glovo przepina konta **tylko w poniedziałki**. To jedna z bardziej problematycz
 - Licz się z tym, że do przepięcia konto Glovo może być przez jakiś czas nieaktywne.
 - **Zgłoś się w środę lub czwartek.** W weekend BOK może nie pracować i możesz nie dostać odpowiedzi.
 
+{{< media src="/images/zmiana-floty/glovo-nieaktywna-umowa.webp" alt="Ekran logowania Glovo z błędem IAL403: Nie udało się zalogować z powodu nieaktywnej umowy. Skontaktuj się z działem obsługi" caption="Tak wygląda konto Glovo z odpiętą umową: przy logowaniu pojawia się błąd **IAL403** o nieaktywnej umowie." size="sm" >}}
+
 ### 2. Zgłoś się do BOK nowej floty
 
 Napisz do BOK nowej floty, że chcesz zmienić partnera flotowego w Glovo, np. na Eternis. Od razu podaj:

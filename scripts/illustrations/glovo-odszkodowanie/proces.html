@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="render-size" content="1000x480">
+<link rel="stylesheet" href="../umowy/base.css">
+<style>
+  .frame { width: 1000px; height: 480px; }
+  .flow { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 28px; }
+  .step { position: relative; height: 232px; padding: 16px 16px 14px; }
+  .day { font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
+  .who { margin-top: 8px; font-size: 21px; font-weight: 700; line-height: 1.15; letter-spacing: -.01em; color: #fff; }
+  .role { margin-top: 3px; font-size: 13px; line-height: 1.3; color: var(--muted); }
+  .step ul { margin-top: 12px; padding-left: 16px; font-size: 15px; line-height: 1.35; }
+  .step li { margin-bottom: 5px; }
+  .tip { position: absolute; left: 40px; right: 40px; bottom: 26px; padding: 12px 16px; border-left: 4px solid var(--accent); border-radius: 6px; background: var(--card); font-size: 15px; line-height: 1.4; }
+  .tip b { color: #fff; }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="title">Kto po kolei zajmuje się Twoją sprawą</div>
+  <div class="subtitle">Dni liczone od wypadku, na przykładzie prawdziwej sprawy z 2025 roku.</div>
+
+  <div class="flow">
+    <div class="card step">
+      <div class="day">Dzień 0</div>
+      <div class="who">Ty i support Glovo</div>
+      <div class="role">Wypadek</div>
+      <ul><li>policja i lekarz</li><li>zgłoszenie w czacie</li><li>zrzut ostatniego zamówienia</li></ul>
+    </div>
+    <div class="card step">
+      <div class="day">Dzień 3 do 28</div>
+      <div class="who">Ferrer&amp;Ojeda</div>
+      <div class="role">Prowadzi zgłoszenie z formularza</div>
+      <ul><li>pierwsza odpowiedź mailem</li><li>L4, rachunki i dowód daty wypadku odsyłasz w odpowiedzi</li></ul>
+    </div>
+    <div class="card step">
+      <div class="day">Dzień 30</div>
+      <div class="who">Glovo</div>
+      <div class="role">Sprawdza, czy sprawa się kwalifikuje</div>
+      <ul><li>potwierdzenie przychodzi mailem</li><li>sprawa idzie do ubezpieczyciela</li></ul>
+    </div>
+    <div class="card step">
+      <div class="day">Dzień 58 do 63</div>
+      <div class="who">Ubezpieczyciel</div>
+      <div class="role">W 2025 r. Crawford w imieniu Allianz Partners</div>
+      <ul><li>nowy numer sprawy</li><li>korespondencja po angielsku</li><li>prośba o notatkę z policji</li></ul>
+    </div>
+  </div>
+
+  <div class="tip"><b>Trzymaj wszystkie dokumenty pod ręką.</b> Ubezpieczyciel może poprosić o nie jeszcze raz.</div>
+  <div class="brand"><b>KURIER</b>PEDIA</div>
+</div>
+</body>
+</html>

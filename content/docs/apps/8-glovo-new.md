@@ -288,6 +288,10 @@ W zaleznosci od miasta, wymagana jest różna ilość punktów do zdobycia by od
 
 https://delivery.glovoapp.com/pl/loyalty_program
 
+## Wypadek w pracy
+
+Glovo ubezpiecza kurierów od skutków wypadków w pracy. Jak zgłosić wypadek i ubiegać się o odszkodowanie, opisujemy w artykule [Odszkodowanie z Glovo po wypadku](/docs/apps/odszkodowanie-glovo/).
+
 ## Zamówienia ze sklepów
 
 Będąc kurierem w Glovo, dla różnego typu pojazdu którym się poruszamy, mamy różne limity wagowe, które możemy wziąć jako zamówienie. W przypadkach gdy dane zamówienie jest za ciężkie, możemy wezwać wsparcie (kontakt przez support na aktywnym zamówieniu) lub otrzymać bonus za ciężkie zamówienie.

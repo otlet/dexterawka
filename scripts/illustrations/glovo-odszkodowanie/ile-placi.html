@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="render-size" content="1000x576">
+<link rel="stylesheet" href="../umowy/base.css">
+<style>
+  .frame { width: 1000px; height: 576px; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 26px; }
+  .tile { min-height: 150px; padding: 16px 18px; }
+  .tile.main { border-color: var(--accent); }
+  .amount { font-size: 31px; font-weight: 800; letter-spacing: -.02em; color: var(--accent); }
+  .amount small { font-size: 16px; font-weight: 600; letter-spacing: 0; color: var(--muted); }
+  .what { margin-top: 6px; font-size: 17px; font-weight: 600; line-height: 1.25; color: #fff; }
+  .note { margin-top: 6px; font-size: 14px; line-height: 1.35; color: var(--muted); }
+  .no { position: absolute; left: 40px; right: 40px; bottom: 28px; padding: 13px 16px; border-left: 4px solid #e5484d; border-radius: 6px; background: var(--card); font-size: 16px; line-height: 1.4; }
+  .no b { color: #fff; }
+</style>
+</head>
+<body>
+<div class="frame">
+  <div class="title">Ile płaci ubezpieczenie Glovo po wypadku</div>
+  <div class="subtitle">Kwoty z warunków polisy dla Polski. Wypłata w złotówkach, po przeliczeniu z euro.</div>
+
+  <div class="grid">
+    <div class="card tile main">
+      <div class="amount">20 € <small>dziennie</small></div>
+      <div class="what">L4 po wypadku</div>
+      <div class="note">Od 8. dnia L4, maksymalnie 30 dni.</div>
+    </div>
+    <div class="card tile main">
+      <div class="amount">do 3000 €</div>
+      <div class="what">Złamania, amputacje, zwichnięcia</div>
+      <div class="note">Procent kwoty zależy od urazu, np. złamanie kończyny to 25%, czyli 750 €.</div>
+    </div>
+    <div class="card tile main">
+      <div class="amount">do 2500 €</div>
+      <div class="what">Koszty leczenia</div>
+      <div class="note">To, co zapłacisz z własnej kieszeni i czego nikt nie zwróci. Na podstawie rachunków.</div>
+    </div>
+    <div class="card tile">
+      <div class="amount">25 € <small>dziennie</small></div>
+      <div class="what">Szpital</div>
+      <div class="note">Minimum 48 godzin. Maksymalnie 5 dni, pierwsze 2 dni nie są objęte.</div>
+    </div>
+    <div class="card tile">
+      <div class="amount">do 26 500 €</div>
+      <div class="what">Trwała niezdolność do pracy</div>
+      <div class="note">Także poważne kalectwo. Przy częściowej niezdolności procent zależy od urazu.</div>
+    </div>
+    <div class="card tile">
+      <div class="amount">do 5000 €</div>
+      <div class="what">Koszty prawne</div>
+      <div class="note">Gdy w wypadku brała udział osoba trzecia.</div>
+    </div>
+  </div>
+
+  <div class="no"><b>Bez wypłaty:</b> rower, skuter, telefon i inne Twoje mienie. Jeżeli masz ubezpieczenie pojazdu, powiadom o wypadku swojego ubezpieczyciela.</div>
+  <div class="brand"><b>KURIER</b>PEDIA</div>
+</div>
+</body>
+</html>
