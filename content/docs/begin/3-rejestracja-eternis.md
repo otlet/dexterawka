@@ -4,7 +4,7 @@ title: "Rejestracja u partnera flotowego"
 description: "Rejestracja w Eternis krok po kroku ze zrzutami ekranu. Gdzie wpisać DEXTER300 i jakie warunki trzeba spełnić, aby otrzymać do 300 zł brutto premii."
 icon: "article"
 date: "2026-10-05"
-lastmod: "2026-10-26"
+lastmod: "2026-10-05"
 slug: "rejestracja-eternis-dexter300"
 draft: false
 toc: true
@@ -28,6 +28,8 @@ Chcesz rozpocząć współpracę z Eternis jako kurier? Poniżej przechodzimy pr
 ### 1. Otwórz formularz rejestracyjny
 
 Otwórz [formularz rejestracji w Eternis](https://join.eter.app/pl?referral=DEXTER300).
+
+{{<alert context="info" text="Jeśli wchodzisz z powyższego linku - kod jest już wpisany automatycznie" />}}
 
 {{< media src="/images/registration_tutorial/eternis/01-start-rejestracji.webp" alt="Ekran logowania Eternis z odnośnikiem do założenia konta" caption="Na ekranie logowania wybierz odnośnik do rejestracji nowego konta." size="sm" >}}
 
@@ -57,16 +59,16 @@ Formularz rozdziela aplikacje dla **kierowców taxi** i dla **dostawców oraz ku
 
 Wybór aplikacji w Eternis jest etapem zgłoszenia do partnera. Aktywacja konta w konkretnej aplikacji kurierskiej wymaga przejścia jej procesu rejestracji lub przeniesienia do floty. Więcej znajdziesz w artykule [Aplikowanie do delivery]({{< relref "2-procesy-aplikacji-do-delivery.md" >}}).
 
-{{<alert context="success" text="Po wybraniu **Glovo** w formularzu Eternis konto jest zakładane automatycznie. Sprawdź wiadomości od Glovo i dokończ wymagane czynności. Jeśli po wybraniu **Uber Eats** otrzymasz wiadomość od Ubera lub zaproszenie do floty, kontynuuj na tym koncie. Do **Pyszne.pl** zgłoś się przez BOK Eternis. Procesy opisuje podlinkowany wyżej artykuł **Aplikowanie do delivery**." />}}
+{{<alert context="success" text="Rejestrując się w Eternis i wybierając aplikacje na których chcesz pracować to na tych wymienionych: Glovo - konto zostanie utworzone automatycznie. Nie musisz przechodzić procesu rejestracji. W przypadku reszty aplikacji wymagana jest rejestracja manualna." />}}
 
 
-{{<alert context="warning" text="Jeżeli chcesz skorzystać z bonusu za polecenie na aplikacji GLOVO należy zarejestrować się MANUALNIE **PRZED REJESTRACJĄ W ETERNIS** - [Zgarnij nawet 500zł za 100 zamówień w 30 dni od dnia aktywacji!](https://to.glovoapp.com/a/mzxoty3) - bonus łączy się z kodem do Eternis **DEXTER300** - wypłacają je dwa różne podmioty" />}}
+{{<alert context="warning" text="Jeżeli chcesz skorzystać z bonusu za polecenie na aplikacji GLOVO należy zarejestrować się MANUALNIE **PRZED REJESTRACJĄ W ETERNIS** - [Zgarnij nawet 500zł za 100 zamówień w 30 dni od dnia aktywacji!](https://to.glovoapp.com/a/q26fgne) - bonus łączy się z kodem do Eternis **DEXTER300** - wypłacają je dwa różne podmioty" />}}
 
 ### 5. Uzupełnij dane, miasto i informacje o pojeździe
 
 Podaj imię i nazwisko, wybierz miasto pracy oraz zaznacz, czy dysponujesz własnym lub wypożyczonym pojazdem. Możesz też skorzystać z oferty wynajmu pojazdu. Jeśli masz już pojazd, wybierz kontynuowanie bez wynajmu.
 
-Następnie formulęarz przechodzi do danych potrzebnych do umowy: pyta m.in. o działalność gospodarczą, obywatelstwo, język, PESEL, datę urodzenia, rachunek bankowy i adres zamieszkania. Uzupełnij pola wymagane w Twoim wariancie rejestracji i dokładnie sprawdź numer konta do wypłat.
+Następnie formularz przechodzi do danych potrzebnych do umowy: pyta m.in. o działalność gospodarczą, obywatelstwo, język, PESEL, datę urodzenia, rachunek bankowy i adres zamieszkania. Uzupełnij pola wymagane w Twoim wariancie rejestracji i dokładnie sprawdź numer konta do wypłat.
 
 <div class="article-gallery">
 {{< media src="/images/registration_tutorial/eternis/05-miasto-i-pojazd.webp" alt="Wybór miasta pracy i deklaracja posiadania pojazdu w Eternis" caption="Wybierz swoje miasto i określ, czy masz pojazd." size="sm" >}}
@@ -141,15 +143,6 @@ To trzy części jednej premii, a nie 300 zł za samo założenie konta. Zasady 
 - Przy rozliczeniach tygodniowych potrzebujesz co najmniej dwóch raportów tygodniowych z różnych tygodni.
 - Rozliczenia mogą pochodzić z jednej lub z różnych aplikacji partnerskich.
 - Pierwsze rozliczenie zalicza się również do warunku aktywności w pierwszym okresie.
-
-
-### Aktywna umowa i zmiana umowy
-
-Co do zasady w dniu osiągnięcia progu musisz mieć **co najmniej jedną aktywną umowę**. Zmiana jej rodzaju, podpisanie nowej albo posiadanie kilku umów nie zeruje postępu: jest on przypisany do uczestnika.
-
-Jeżeli przestaniesz mieć jakąkolwiek aktywną umowę, masz **48 godzin na zawarcie nowej, która stanie się aktywna**. Wtedy udział trwa dalej, ale licznik okresów 30-dniowych nie zatrzymuje się ani nie wydłuża. Jeśli w tej przerwie osiągniesz próg, premia za niego jest przyznawana po zawarciu nowej umowy, aktywnej w tym terminie.
-
-Jeśli termin minie bez skutku, tracisz prawo do premii za progi, których do tego czasu nie osiągnąłeś. Części przyznane przed utratą aktywnej umowy pozostają należne. Szczegóły określa **§ 5 regulaminu**.
 
 ### Jak premia trafia na konto?
 

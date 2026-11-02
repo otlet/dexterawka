@@ -176,7 +176,7 @@ Do pracy na Glovo pobieramy aplikację **Glovo Rider**.
 Jeżeli partner flotowy założył nam konto w Glovo, sprawdzamy wiadomości od Glovo i postępujemy według otrzymanych instrukcji. W aplikacji wybieramy wtedy **„Zaloguj się”**. Jeżeli nie mamy danych do logowania, kontaktujemy się z partnerem.
 {{% /alert %}}
 
-{{<alert context="warning" text="Jeżeli chcecie skorzystać z [linku polecającego Dexterowskiego](https://to.glovoapp.com/a/mzxoty3), zróbcie to **zanim partner flotowy założy Wam konto**. Wysokość i warunki bonusu mogą zależeć od miasta, dlatego sprawdzamy je przed wysłaniem zgłoszenia." />}}
+{{<alert context="warning" text="Jeżeli chcecie skorzystać z [linku polecającego Dexterowskiego](https://to.glovoapp.com/a/q26fgne), zróbcie to **zanim partner flotowy założy Wam konto**. Wysokość i warunki bonusu mogą zależeć od miasta, dlatego sprawdzamy je przed wysłaniem zgłoszenia." />}}
 
 #### 1. Pobieramy Glovo Rider i wybieramy język
 

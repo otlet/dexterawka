@@ -18,7 +18,7 @@ toc: true
 Glovo to aplikacja, która pozwala na przesłanie dowolnego przedmiotu z punktu A do punktu B, zamówienie dowolnej potrawy lub dowolnego produktu w wybranych sklepach i restauracjach z dostawą do domu, jak również dowolnej niestandardowej rzeczy. Glovo to usługa dostawy, która dostarcza wszystko – pobierz aplikację i wypróbuj ją teraz! Wybieraj spośród 20.000 sklepów i restauracji w aplikacji Glovo, a my zajmiemy się resztą. Dostarczamy wszystko. Ponad 7 mln użytkowników. Ponad 20 tys. sklepów.
 Kurierzy, obok partnerów i klientów, stanowią jeden z trzech typów użytkowników na platformie Glovo. Kurierami Glovo są osoby, które chcą pomagać innym oszczędzać czas, jednocześnie ułatwiając im życie. Z szerokim uśmiechem na twarzy dzielą się z klientami pozytywną energią i pogodą ducha.
 
-### [Zarejestruj się](https://to.glovoapp.com/a/mzxoty3)
+### [Zarejestruj się](https://to.glovoapp.com/a/q26fgne)
 *jest to link flotowy który automatycznie po rejestracji podepnie Cię pod partnera Eternis oraz jest to link polecajcy Dexterowskiego - ty dostaniesz bonus $$$ jak i on po zrealizowaniu konkretnej ilości dostaw określonym czasie*, jeżeli chcesz zarejestrować się bez referencji [możesz zrobić to tutaj](https://pl.rider.glovoapp.com/)
 
 
