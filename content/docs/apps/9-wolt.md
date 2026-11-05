@@ -249,25 +249,6 @@ Gotówka musi być wpłacana przez aplikację AirCash nabieżąco. Jeżeli nie w
 
 ## Lista miast
 
-Lista miast w których można zatrudnić się na Wolt **jeżeli prowadzona jest rekrutacja**:
+Można się zatrudnić na Wolt **jeżeli prowadzona jest rekrutacja**.
 
-- Białystok
-- Bydgoszcz
-- Chorzów
-- Częstochowa
-- Gdańsk & Sopot
-- Gdynia
-- Gliwice
-- Katowice
-- Kraków
-- Lublin
-- Łódź
-- Olsztyn
-- Poznań
-- Rzeszów
-- Sosnowiec
-- Szczecin
-- Toruń
-- Warszawa
-- Wrocław
-- Zielona Góra
+Miasta tej aplikacji sprawdzisz na [mapie aplikacji](/mapa-delivery/).

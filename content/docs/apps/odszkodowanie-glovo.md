@@ -4,7 +4,7 @@ title: "Odszkodowanie z Glovo po wypadku"
 description: "Jak krok po kroku zgłosić wypadek w pracy i ubiegać się o odszkodowanie z ubezpieczenia Glovo: formularz, potrzebne dokumenty, kwoty i kontakt z ubezpieczycielem."
 icon: "article"
 date: "2026-11-01"
-lastmod: "2026-11-01"
+lastmod: "2026-11-05"
 slug: "odszkodowanie-glovo"
 draft: false
 toc: true
@@ -68,11 +68,11 @@ Później trzeba będzie udowodnić datę i godzinę wypadku. Potwierdza je doku
 
 ### 2. Zgłoś wypadek na czacie z Glovo
 
-Napisz do supportu w aplikacji jeszcze z miejsca zdarzenia. Konsultant anuluje zamówienie, które masz przy sobie, i może dać Ci przerwę do końca sesji. Sama rozmowa też jest dowodem, bo ma dokładną godzinę. Gdzie znaleźć support, opisujemy w artykule [Kontakt z supportem aplikacji](/docs/apps/support-aplikacji/).
+Napisz do supportu w aplikacji jeszcze z miejsca zdarzenia. Konsultant anuluje zamówienie, które masz przy sobie. Sama rozmowa też jest dowodem, bo ma dokładną godzinę. Gdzie znaleźć support, opisujemy w artykule [Kontakt z supportem aplikacji](/docs/apps/support-aplikacji/).
 
 <div class="article-gallery">
 {{< media src="/images/glovo-odszkodowanie/czat-zgloszenie.webp" alt="Czat z supportem Glovo: zgłoszenie wypadku, kurier pisze o szoku i zamówieniu klienta w plecaku" caption="Zgłoszenie wypadku na czacie." size="md" >}}
-{{< media src="/images/glovo-odszkodowanie/czat-przerwa.webp" alt="Czat z supportem Glovo: kurier pisze, że boli ręka, konsultant anuluje zamówienie i daje przerwę do końca sesji" caption="Konsultant anuluje zamówienie i daje przerwę." size="md" >}}
+{{< media src="/images/glovo-odszkodowanie/czat-przerwa.webp" alt="Czat z supportem Glovo: kurier pisze, że boli ręka, konsultant anuluje zamówienie i daje przerwę" caption="Konsultant anuluje zamówienie i daje przerwę." size="md" >}}
 </div>
 
 {{<alert context="success" text="**Protip:** Zrób zrzuty ekranu rozmowy od razu. W opisanej sprawie na kopię czatu trzeba było czekać ponad tydzień." />}}

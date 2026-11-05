@@ -4,7 +4,7 @@ title: "Zmiana partnera flotowego"
 description: "Jak przenieść konta w Uber Eats, Pyszne.pl, Stuart, Bolt Food, Glovo i Wolt do innego partnera flotowego. Ile trwa zmiana w każdej aplikacji i kiedy wypowiedzieć starą umowę."
 icon: "article"
 date: "2026-10-31"
-lastmod: "2026-10-31"
+lastmod: "2026-11-04"
 slug: "zmiana-partnera-flotowego"
 draft: false
 toc: true
@@ -185,14 +185,14 @@ Proszę o zmianę mojego partnera flotowego na flotę Eternis, NIP: 5213807663
 
 Glovo przepina konta **tylko w poniedziałki**. To jedna z bardziej problematycznych aplikacji przy zmianie floty, więc zaplanuj ją z wyprzedzeniem.
 
-{{< media src="/images/zmiana-floty/glovo-tydzien.png" alt="Tydzień w Glovo: zgłoszenie w środę lub czwartek, w weekend BOK może nie pracować, zmiana w poniedziałek" caption="Zgłoś się w środę lub czwartek, a zmiana wejdzie w poniedziałek." size="full" >}}
+{{< media src="/images/zmiana-floty/glovo-tydzien.png" alt="Tydzień w Glovo: zgłoszenie w środę lub czwartek, w weekend support na Discordzie może nie pracować, zmiana w poniedziałek" caption="Zgłoś się w środę lub czwartek, a zmiana wejdzie w poniedziałek." size="full" >}}
 
 ### 1. Zaplanuj zmianę
 
 - Źle zaplanowana zmiana może skończyć się **odpiętą umową i nieaktywnym kontem**.
 - Najlepiej przeprowadź ją, gdy masz wolne albo jeździsz w innych aplikacjach, np. w Pyszne.pl.
 - Licz się z tym, że do przepięcia konto Glovo może być przez jakiś czas nieaktywne.
-- **Zgłoś się w środę lub czwartek.** W weekend BOK może nie pracować i możesz nie dostać odpowiedzi.
+- **Zgłoś się w środę lub czwartek.** W weekend support na Discordzie może nie pracować i możesz nie dostać odpowiedzi na ticket. BOK Eternis działa też w weekendy: w aplikacji, mailowo i na infolinii.
 
 {{< media src="/images/zmiana-floty/glovo-nieaktywna-umowa.webp" alt="Ekran logowania Glovo z błędem IAL403: Nie udało się zalogować z powodu nieaktywnej umowy. Skontaktuj się z działem obsługi" caption="Tak wygląda konto Glovo z odpiętą umową: przy logowaniu pojawia się błąd **IAL403** o nieaktywnej umowie." size="sm" >}}
 

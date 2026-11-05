@@ -4,7 +4,7 @@ title: "Aplikacja Bolt Food"
 description: "Specyfikacja aplikacji Bolt Food"
 icon: "article"
 date: "2024-04-26T13:08:32+02:00"
-lastmod: "2024-04-26T13:08:32+02:00"
+lastmod: "2026-11-05"
 draft: false
 toc: true
 ---
@@ -25,15 +25,9 @@ toc: true
 ### Czym jest Bolt Food?
 
 </center>
-Bolt Food jest jedną z najmniej znanych platform do rozwożenia jedzenia. Wynika to z okrojnej liczby współprac z restauracjami. Aplikacja ta funkcjonuje w miastach:
+Bolt Food jest jedną z najmniej znanych platform do rozwożenia jedzenia. Wynika to z okrojnej liczby współprac z restauracjami.
 
-* **Warszawa** | Działa w godzinach: 07:00 - 01:00
-* **Łódź** | Działa w godzinach: 10:00 - 23:00
-* **Kraków** | Działa w godzinach: 07:00 - 23:00
-* **Trójmiasto (Gdańsk)** | Działa w godzinach 08:00 - 23:00
-* **Poznań** | Działa w godzinach: 08:00 - 23:00
-* **Wrocław** | Działa w godzinach: 09:00 - 23:00 (jedna strefa prawdopodobnie 08:00 - 00:00)
-* **Toruń** (od 18 marca 2024r) | Działa w godzinach: 09:00 - 00:00
+Miasta tej aplikacji sprawdzisz na [mapie aplikacji](/mapa-delivery/).
 
 Kurierzy zazwyczaj tą aplikacje traktują jako dodatek ze względu na bardzo małą ilość kursów. Aplikacja swojego czasu oferowała dostawy gotówkowe, lecz się z tego wycofała.
 

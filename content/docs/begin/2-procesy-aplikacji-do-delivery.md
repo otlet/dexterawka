@@ -94,7 +94,7 @@ Następnie zarejestruj się u wybranego partnera i w aplikacji delivery, zgodnie
 Do rejestracji będziemy potrzebować:
 
 - Telefonu z internetem oraz dostępu do swojego maila i numeru telefonu.
-- Dokumentu tożsamości, a przy samochodzie lub skuterze również dokumentów pojazdu i uprawnień, o które poprosi aplikacja.
+- Dokumentu tożsamości, a przy samochodzie lub skuterze również dokumentów pojazdu i uprawnień, o które poprosi aplikacja. Cudzoziemcy potrzebują też dokumentów uprawniających do legalnej pracy.
 - Informacji o mieście, w którym chcemy jeździć, i rodzaju pojazdu.
 - Umowy z wybranym partnerem flotowym, jeżeli będziemy się przez niego rozliczać.
 - Torby termicznej. W Uber Eats trzeba będzie dodać jej zdjęcie razem z dokumentem tożsamości.

@@ -227,6 +227,9 @@ html[data-dark-mode] .main-content a:not(.btn) {
   line-height: 1;
 }
 
+/* Wide tables scroll inside the article instead of running under the page TOC. */
+.main-content > div:has(> table) { overflow-x: auto; }
+
 @media (max-width: 640px) {
   .article-image { --image-width: 100% !important; width: 100%; }
   .article-image img { border-radius: 4px; }

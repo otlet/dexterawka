@@ -21,9 +21,8 @@ toc: true
 * Nie korzystać z google map, uczyś się miasta na pamięć, do wyszukiwania konkretnych bram zainstalować inne aplikacje jak np. maps.me
 * Nawet jeśli nie masz salda gotówkowego przygotuj sobie jakieś pieniądze do wydania reszty w Glovo.
 * Jeśli klient zaznaczył, że będzie miał wyliczoną kwote, nie bierz tego za pewnik.
-* Nie płać za zamówienia na Glovo ze swoich pieniędzy!!! Jeżeli nie masz wystarczająco [salda gotówkowego](/docs/apps/8-glovo.md#saldo-gotówkowe) to zgłoś to na support!
+* Nie płać za zamówienia na Glovo ze swoich pieniędzy!!! Jeżeli nie masz wystarczająco [salda gotówkowego](/docs/apps/8-glovo-new/#saldo-gotówkowe---portfel) to zgłoś to na support!
 * Bądź cierpliwy i wyrozumiały
-* Unikaj usuwania bloków na Glovo mniej niż 24 godziny przed rozpoczęciem bloku.
 * Dobrze się ubierz na rower, miej potrzebny sprzęt w razie awari.
 * Nie korzystaj z wkładki na napoje w torbie bo i tak z tego nie skorzystasz.
 * Nerka albo saszetka na pieniądze
@@ -50,7 +49,6 @@ Jeżeli lubimy adrenalinę to możemy próbować łączyć Glovo z aplikacjami g
 ## __Co w przypadku awarii pojazdu, co zrobić, co zgłosić__?
 
 * W zależności od aplikacji, w przypadku awarii pojazdu, należy w aplikacji wybrać odpowiednią opcję z kontaktem z supportem.
-* W [Glovo](apps/8-glovo.md) podczas awarii, zrzuci wszystkie aktywne godziny grafiku.
 
 
 ## Co w przypadku gdy klient nie odbierze zamówienia?
