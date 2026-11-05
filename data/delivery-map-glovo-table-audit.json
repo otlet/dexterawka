@@ -1,0 +1,3660 @@
+{
+  "checkedAt": "2026-11-05",
+  "revision": "2026-11-05-glovo-table",
+  "previousRevision": "2026-10-21-platform-couriers",
+  "method": "Kody z tabeli (148 wierszy, 147 różnych kodów) zestawione z 148 opcjami formularza Glovo z 21.10.2026 i listą w content/docs/apps/8-glovo-new.md. Kwot z tabeli nie zapisano. Lista w 8-glovo-new.md pokrywa się z katalogiem klienta (zawiera nawet FakePoland), więc nie jest osobnym dowodem pracy kurierów.",
+  "backup": "reports/delivery-map-audit/delivery-map-before-glovo-table-audit.json",
+  "oldScope": "15 miast potwierdzonych przez BIEK: lista miast i godzin dostaw oraz FAQ wskazujące kurierów Glovo. 132 kolejne miejscowości widoczne tylko w formularzu dla kurierów są oznaczone osobno; 20 wpisów z samego katalogu klientów wymaga weryfikacji. Formularz nie gwarantuje działającej strefy ani otwartego naboru.",
+  "duplicateRows": [
+    "CZW: wiersze 19 i 20 mają ten sam kod i te same stawki"
+  ],
+  "omittedDistrict": [
+    "PBZ: Szczecin (prawobrzeże), dzielnica Szczecina, który jest już punktem na mapie"
+  ],
+  "leftUnverified": [
+    "Bielsk Podlaski",
+    "Błonie",
+    "Grójec",
+    "Głowno",
+    "Kiełczów",
+    "Kozienice",
+    "Krzeszowice",
+    "Kęty",
+    "Międzyzdroje",
+    "Nekla",
+    "Opoczno",
+    "Piastów",
+    "Radomsko",
+    "Stalowa Wola",
+    "Szklarska Poręba",
+    "Ustka",
+    "Wadowice",
+    "Łaziska Górne"
+  ],
+  "records": [
+    {
+      "city": "Warszawa",
+      "cityId": "pl-756135",
+      "codes": "WAW",
+      "basis": "already-confirmed",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Warszawa; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Warszawa; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Gdańsk",
+      "cityId": "pl-3099434",
+      "codes": "GDN",
+      "basis": "already-confirmed",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Gdańsk; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Gdańsk; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kraków",
+      "cityId": "pl-3094802",
+      "codes": "KRA",
+      "basis": "already-confirmed",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Kraków; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Kraków; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Łódź",
+      "cityId": "pl-3093133",
+      "codes": "LOD",
+      "basis": "already-confirmed",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Łódź; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Łódź; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Wrocław",
+      "cityId": "pl-3081368",
+      "codes": "WRO",
+      "basis": "already-confirmed",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Wrocław; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Wrocław; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Poznań",
+      "cityId": "pl-3088171",
+      "codes": "POZ",
+      "basis": "already-confirmed",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Poznań; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Poznań; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Bydgoszcz",
+      "cityId": "pl-3102014",
+      "codes": "BZG",
+      "basis": "already-confirmed",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Bydgoszcz; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Bydgoszcz; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Katowice",
+      "cityId": "pl-3096472",
+      "codes": "KTW",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Katowice",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod KTW. Formularz: Utwórz profil → Wybierz swoje miasto → Katowice",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Olsztyn",
+      "cityId": "pl-763166",
+      "codes": "SZY",
+      "basis": "already-confirmed",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Olsztyn; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Olsztyn; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Szczecin",
+      "cityId": "pl-3083829",
+      "codes": "SZZ",
+      "basis": "already-confirmed",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Szczecin; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Szczecin; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Lublin",
+      "cityId": "pl-765876",
+      "codes": "QLU",
+      "basis": "already-confirmed",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Lublin; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Lublin; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Białystok",
+      "cityId": "pl-776069",
+      "codes": "QYY",
+      "basis": "already-confirmed",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Białystok; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Białystok; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Rzeszów",
+      "cityId": "pl-759734",
+      "codes": "RZE",
+      "basis": "already-confirmed",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Rzeszów; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Rzeszów; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Toruń",
+      "cityId": "pl-3083271",
+      "codes": "TUN",
+      "basis": "already-confirmed",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Toruń; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Toruń; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Gliwice",
+      "cityId": "pl-3099230",
+      "codes": "QLC",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Gliwice",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod QLC. Formularz: Utwórz profil → Wybierz swoje miasto → Gliwice",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Opole",
+      "cityId": "pl-3090048",
+      "codes": "OPL",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Opole",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod OPL. Formularz: Utwórz profil → Wybierz swoje miasto → Opole",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Częstochowa",
+      "cityId": "pl-3100946",
+      "codes": "CZW",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Częstochowa",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod CZW. Formularz: Utwórz profil → Wybierz swoje miasto → Częstochowa",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Zielona Góra",
+      "cityId": "pl-3080165",
+      "codes": "IEG",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Zielona góra",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod IEG. Formularz: Utwórz profil → Wybierz swoje miasto → Zielona góra",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Bytom",
+      "cityId": "pl-3101950",
+      "codes": "BYT",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Bytom",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod BYT. Formularz: Utwórz profil → Wybierz swoje miasto → Bytom",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Rybnik",
+      "cityId": "pl-3086586",
+      "codes": "RYB",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Rybnik",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod RYB. Formularz: Utwórz profil → Wybierz swoje miasto → Rybnik",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Sosnowiec",
+      "cityId": "pl-3085128",
+      "codes": "SOS",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Sosnowiec",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod SOS. Formularz: Utwórz profil → Wybierz swoje miasto → Sosnowiec",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Legnica",
+      "cityId": "pl-3093692",
+      "codes": "LGA",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Legnica",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod LGA. Formularz: Utwórz profil → Wybierz swoje miasto → Legnica",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Tychy",
+      "cityId": "pl-3082914",
+      "codes": "TCH",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Tychy",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod TCH. Formularz: Utwórz profil → Wybierz swoje miasto → Tychy",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Elbląg",
+      "cityId": "pl-3099759",
+      "codes": "ELB",
+      "basis": "already-confirmed",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru. Starsza lista FAQ pomija to miasto, lecz sekcja 15 miast i godziny wymieniają je wprost.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Elbląg; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru. Starsza lista FAQ pomija to miasto, lecz sekcja 15 miast i godziny wymieniają je wprost.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Elbląg; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Bielsko-Biała",
+      "cityId": "pl-3103402",
+      "codes": "QEO",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Bielsko-biała",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod QEO. Formularz: Utwórz profil → Wybierz swoje miasto → Bielsko-biała",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Koszalin",
+      "cityId": "pl-3095049",
+      "codes": "OSZ",
+      "basis": "already-confirmed",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru. Starsza lista FAQ pomija to miasto, lecz sekcja 15 miast i godziny wymieniają je wprost.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Koszalin; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru. Starsza lista FAQ pomija to miasto, lecz sekcja 15 miast i godziny wymieniają je wprost.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Koszalin; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Grudziądz",
+      "cityId": "pl-3098218",
+      "codes": "GRU",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Grudziądz",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod GRU. Formularz: Utwórz profil → Wybierz swoje miasto → Grudziądz",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Piotrków Trybunalski",
+      "cityId": "pl-3088972",
+      "codes": "PTR",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Piotrków trybunalski",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod PTR. Formularz: Utwórz profil → Wybierz swoje miasto → Piotrków trybunalski",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Radom",
+      "cityId": "pl-760778",
+      "codes": "RDO",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Radom",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod RDO. Formularz: Utwórz profil → Wybierz swoje miasto → Radom",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Płock",
+      "cityId": "pl-3088825",
+      "codes": "PLK",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Płock",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod PLK. Formularz: Utwórz profil → Wybierz swoje miasto → Płock",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kalisz",
+      "cityId": "pl-3096880",
+      "codes": "KAL",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Kalisz",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod KAL. Formularz: Utwórz profil → Wybierz swoje miasto → Kalisz",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Gorzów Wielkopolski",
+      "cityId": "pl-3098722",
+      "codes": "GZW",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Gorzów wielkopolski",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod GZW. Formularz: Utwórz profil → Wybierz swoje miasto → Gorzów wielkopolski",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Słupsk",
+      "cityId": "pl-3085450",
+      "codes": "SLP",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Słupsk",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod SLP. Formularz: Utwórz profil → Wybierz swoje miasto → Słupsk",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Stargard",
+      "cityId": "pl-3084840",
+      "codes": "STA",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Stargard",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod STA. Formularz: Utwórz profil → Wybierz swoje miasto → Stargard",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Jastrzębie-Zdrój",
+      "cityId": "pl-3097391",
+      "codes": "JZJ",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Jastrzębie-zdrój",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod JZJ. Formularz: Utwórz profil → Wybierz swoje miasto → Jastrzębie-zdrój",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Ostrowiec Świętokrzyski",
+      "cityId": "pl-762863",
+      "codes": "OSR",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Ostrowiec świętokrzyski",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod OSR. Formularz: Utwórz profil → Wybierz swoje miasto → Ostrowiec świętokrzyski",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Głogów",
+      "cityId": "pl-3099213",
+      "codes": "GLO",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Głogów",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod GLO. Formularz: Utwórz profil → Wybierz swoje miasto → Głogów",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Bolesławiec",
+      "cityId": "pl-3102987",
+      "codes": "BLC",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Bolesławiec",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod BLC. Formularz: Utwórz profil → Wybierz swoje miasto → Bolesławiec",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Gniezno",
+      "cityId": "pl-3099112",
+      "codes": "GNI",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Gniezno",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod GNI. Formularz: Utwórz profil → Wybierz swoje miasto → Gniezno",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Starogard Gdański",
+      "cityId": "pl-3084826",
+      "codes": "SGD",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Starogard gdański",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod SGD. Formularz: Utwórz profil → Wybierz swoje miasto → Starogard gdański",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Włocławek",
+      "cityId": "pl-3081741",
+      "codes": "WLC",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Włocławek",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod WLC. Formularz: Utwórz profil → Wybierz swoje miasto → Włocławek",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Zamość",
+      "cityId": "pl-753866",
+      "codes": "ZMC",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Zamość",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod ZMC. Formularz: Utwórz profil → Wybierz swoje miasto → Zamość",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Dębica",
+      "cityId": "pl-773380",
+      "codes": "DBA",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Dębica",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod DBA. Formularz: Utwórz profil → Wybierz swoje miasto → Dębica",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Grodzisk Mazowiecki",
+      "cityId": "pl-771401",
+      "codes": "GRM",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Grodzisk mazowiecki",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod GRM. Formularz: Utwórz profil → Wybierz swoje miasto → Grodzisk mazowiecki",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Lubin",
+      "cityId": "pl-3092931",
+      "codes": "LUB",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Lubin",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod LUB. Formularz: Utwórz profil → Wybierz swoje miasto → Lubin",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Zgorzelec",
+      "cityId": "pl-3080231",
+      "codes": "ZGO",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Zgorzelec",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod ZGO. Formularz: Utwórz profil → Wybierz swoje miasto → Zgorzelec",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Malbork",
+      "cityId": "pl-3092472",
+      "codes": "MLK",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Malbork",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod MLK. Formularz: Utwórz profil → Wybierz swoje miasto → Malbork",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Mielno",
+      "cityId": "pl-3091913",
+      "codes": "MIN",
+      "basis": "table",
+      "previous": {
+        "status": "unverified",
+        "source": "https://glovoapp.com/pl/pl/mielno",
+        "checkedAt": "2026-10-21",
+        "note": "Katalog zamówień nie rozstrzyga, czy dostawy realizują kurierzy platformy, czy własni dostawcy lokali. Brak mocniejszego dowodu nie oznacza braku usługi.",
+        "sourceLabel": "Glovo — Mielno",
+        "sourceDetail": "Strona katalogu dla klienta zawierająca nazwę miejscowości",
+        "evidenceScope": "customer_catalog"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://glovoapp.com/pl/pl/mielno",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Kod odczytano przez eliminację. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod MIN. Katalog Glovo: strona Mielno",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Nowy Sącz",
+      "cityId": "pl-763534",
+      "codes": "NWS",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Nowy sącz",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod NWS. Formularz: Utwórz profil → Wybierz swoje miasto → Nowy sącz",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Oława",
+      "cityId": "pl-3090205",
+      "codes": "OLA",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Oława",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod OLA. Formularz: Utwórz profil → Wybierz swoje miasto → Oława",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Ostrołęka",
+      "cityId": "pl-762909",
+      "codes": "OTL",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Ostrołęka",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod OTL. Formularz: Utwórz profil → Wybierz swoje miasto → Ostrołęka",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Piła",
+      "cityId": "pl-3089033",
+      "codes": "PLI",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Piła",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod PLI. Formularz: Utwórz profil → Wybierz swoje miasto → Piła",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Tarnów",
+      "cityId": "pl-757026",
+      "codes": "TAN",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Tarnów",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod TAN. Formularz: Utwórz profil → Wybierz swoje miasto → Tarnów",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Tomaszów Mazowiecki",
+      "cityId": "pl-756867",
+      "codes": "TMZ",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Tomaszów mazowiecki",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod TMZ. Formularz: Utwórz profil → Wybierz swoje miasto → Tomaszów mazowiecki",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Żory",
+      "cityId": "pl-3080004",
+      "codes": "ZOR",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Żory",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod ZOR. Formularz: Utwórz profil → Wybierz swoje miasto → Żory",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Biała Podlaska",
+      "cityId": "pl-776175",
+      "codes": "BXP",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Biała podlaska",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod BXP. Formularz: Utwórz profil → Wybierz swoje miasto → Biała podlaska",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Chrzanów",
+      "cityId": "pl-3101547",
+      "codes": "HRZ",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Chrzanów",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod HRZ. Formularz: Utwórz profil → Wybierz swoje miasto → Chrzanów",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Mikołów",
+      "cityId": "pl-3091831",
+      "codes": "MIK",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Mikołów",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod MIK. Formularz: Utwórz profil → Wybierz swoje miasto → Mikołów",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Tczew",
+      "cityId": "pl-3083426",
+      "codes": "TCZ",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Tczew",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod TCZ. Formularz: Utwórz profil → Wybierz swoje miasto → Tczew",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Czechowice-Dziedzice",
+      "cityId": "pl-3101076",
+      "codes": "CZE",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Czechowice-dziedzice",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod CZE. Formularz: Utwórz profil → Wybierz swoje miasto → Czechowice-dziedzice",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Inowrocław",
+      "cityId": "pl-3097872",
+      "codes": "INW",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Inowrocław",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod INW. Formularz: Utwórz profil → Wybierz swoje miasto → Inowrocław",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Jelenia Góra",
+      "cityId": "pl-3097257",
+      "codes": "JEG",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Jelenia góra",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod JEG. Formularz: Utwórz profil → Wybierz swoje miasto → Jelenia góra",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kędzierzyn-Koźle",
+      "cityId": "pl-3096372",
+      "codes": "KDK",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Kędzierzyn-koźle",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod KDK. Formularz: Utwórz profil → Wybierz swoje miasto → Kędzierzyn-koźle",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Konin",
+      "cityId": "pl-3095321",
+      "codes": "KOI",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Konin",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod KOI. Formularz: Utwórz profil → Wybierz swoje miasto → Konin",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kołobrzeg",
+      "cityId": "pl-3095795",
+      "codes": "KOL",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Kołobrzeg",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod KOL. Formularz: Utwórz profil → Wybierz swoje miasto → Kołobrzeg",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Lębork",
+      "cityId": "pl-3093739",
+      "codes": "LBK",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Lębork",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod LBK. Formularz: Utwórz profil → Wybierz swoje miasto → Lębork",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Leszno",
+      "cityId": "pl-3093524",
+      "codes": "LEZ",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Leszno",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod LEZ. Formularz: Utwórz profil → Wybierz swoje miasto → Leszno",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Łomża",
+      "cityId": "pl-766027",
+      "codes": "LOZ",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Łomża",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod LOZ. Formularz: Utwórz profil → Wybierz swoje miasto → Łomża",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Ostrów Wielkopolski",
+      "cityId": "pl-3089684",
+      "codes": "OSW",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Ostrów wielkopolski",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Kod odczytano przez eliminację. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod OSW. Formularz: Utwórz profil → Wybierz swoje miasto → Ostrów wielkopolski",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Wałbrzych",
+      "cityId": "pl-3082707",
+      "codes": "WBR",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Wałbrzych",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod WBR. Formularz: Utwórz profil → Wybierz swoje miasto → Wałbrzych",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Wodzisław Śląski",
+      "cityId": "pl-3081677",
+      "codes": "WOD",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Wodzisław śląski",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod WOD. Formularz: Utwórz profil → Wybierz swoje miasto → Wodzisław śląski",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Chełm",
+      "cityId": "pl-774558",
+      "codes": "CHC",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Chełm",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Kod odczytano przez eliminację. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod CHC. Formularz: Utwórz profil → Wybierz swoje miasto → Chełm",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kutno",
+      "cityId": "pl-3094170",
+      "codes": "KTO",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Kutno",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod KTO. Formularz: Utwórz profil → Wybierz swoje miasto → Kutno",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kwidzyn",
+      "cityId": "pl-3094086",
+      "codes": "KWI",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Kwidzyn",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod KWI. Formularz: Utwórz profil → Wybierz swoje miasto → Kwidzyn",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Mrągowo",
+      "cityId": "pl-764312",
+      "codes": "MRA",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Mrągowo",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod MRA. Formularz: Utwórz profil → Wybierz swoje miasto → Mrągowo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Skierniewice",
+      "cityId": "pl-759123",
+      "codes": "SKW",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Skierniewice",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod SKW. Formularz: Utwórz profil → Wybierz swoje miasto → Skierniewice",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Sanok",
+      "cityId": "pl-759591",
+      "codes": "SOK",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Sanok",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod SOK. Formularz: Utwórz profil → Wybierz swoje miasto → Sanok",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Tarnowskie Góry",
+      "cityId": "pl-3083440",
+      "codes": "TGR",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Tarnowskie góry",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod TGR. Formularz: Utwórz profil → Wybierz swoje miasto → Tarnowskie góry",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Żary",
+      "cityId": "pl-3080644",
+      "codes": "ZRY",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Żary",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod ZRY. Formularz: Utwórz profil → Wybierz swoje miasto → Żary",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Chojnice",
+      "cityId": "pl-3101672",
+      "codes": "CHJ",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Chojnice",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod CHJ. Formularz: Utwórz profil → Wybierz swoje miasto → Chojnice",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Ełk",
+      "cityId": "pl-772621",
+      "codes": "ELK",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Ełk",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod ELK. Formularz: Utwórz profil → Wybierz swoje miasto → Ełk",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Jaworzno",
+      "cityId": "pl-3097333",
+      "codes": "JAW",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Jaworzno",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod JAW. Formularz: Utwórz profil → Wybierz swoje miasto → Jaworzno",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Krosno",
+      "cityId": "pl-767470",
+      "codes": "KNO",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Krosno",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod KNO. Formularz: Utwórz profil → Wybierz swoje miasto → Krosno",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kraśnik",
+      "cityId": "pl-767623",
+      "codes": "KRS",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Kraśnik",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod KRS. Formularz: Utwórz profil → Wybierz swoje miasto → Kraśnik",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Mława",
+      "cityId": "pl-764634",
+      "codes": "MWA",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Mława",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod MWA. Formularz: Utwórz profil → Wybierz swoje miasto → Mława",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Przemyśl",
+      "cityId": "pl-761168",
+      "codes": "PMS",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Przemyśl",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod PMS. Formularz: Utwórz profil → Wybierz swoje miasto → Przemyśl",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Słubice",
+      "cityId": "pl-3085495",
+      "codes": "SBE",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Słubice",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod SBE. Formularz: Utwórz profil → Wybierz swoje miasto → Słubice",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Szczecinek",
+      "cityId": "pl-3083826",
+      "codes": "SCK",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Szczecinek",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod SCK. Formularz: Utwórz profil → Wybierz swoje miasto → Szczecinek",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Świebodzin",
+      "cityId": "pl-3084062",
+      "codes": "SWB",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Świebodzin",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod SWB. Formularz: Utwórz profil → Wybierz swoje miasto → Świebodzin",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Tarnobrzeg",
+      "cityId": "pl-757033",
+      "codes": "TBG",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Tarnobrzeg",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod TBG. Formularz: Utwórz profil → Wybierz swoje miasto → Tarnobrzeg",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Bełchatów",
+      "cityId": "pl-3103709",
+      "codes": "BCW",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Bełchatów",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod BCW. Formularz: Utwórz profil → Wybierz swoje miasto → Bełchatów",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Dzierżoniów",
+      "cityId": "pl-3099828",
+      "codes": "DDR",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Dzierżoniów",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Kod odczytano przez eliminację. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod DDR. Formularz: Utwórz profil → Wybierz swoje miasto → Dzierżoniów",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Jarocin",
+      "cityId": "pl-3097528",
+      "codes": "JRC",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Jarocin",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod JRC. Formularz: Utwórz profil → Wybierz swoje miasto → Jarocin",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Jarosław",
+      "cityId": "pl-770380",
+      "codes": "JRS",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Jarosław",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod JRS. Formularz: Utwórz profil → Wybierz swoje miasto → Jarosław",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kościerzyna",
+      "cityId": "pl-3095126",
+      "codes": "KCR",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Kościerzyna",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod KCR. Formularz: Utwórz profil → Wybierz swoje miasto → Kościerzyna",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Lubliniec",
+      "cityId": "pl-3092906",
+      "codes": "LBC",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Lubliniec",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod LBC. Formularz: Utwórz profil → Wybierz swoje miasto → Lubliniec",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Nysa",
+      "cityId": "pl-3090436",
+      "codes": "NYS",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Nysa",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod NYS. Formularz: Utwórz profil → Wybierz swoje miasto → Nysa",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Oleśnica",
+      "cityId": "pl-3090170",
+      "codes": "OLE",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Oleśnica",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod OLE. Formularz: Utwórz profil → Wybierz swoje miasto → Oleśnica",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Ostróda",
+      "cityId": "pl-3089779",
+      "codes": "OST",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Ostróda",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod OST. Formularz: Utwórz profil → Wybierz swoje miasto → Ostróda",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Racibórz",
+      "cityId": "pl-3087584",
+      "codes": "RCB",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Racibórz",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod RCB. Formularz: Utwórz profil → Wybierz swoje miasto → Racibórz",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Świdnica",
+      "cityId": "pl-3084093",
+      "codes": "SDC",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Świdnica",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Kod odczytano przez eliminację. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod SDC. Formularz: Utwórz profil → Wybierz swoje miasto → Świdnica",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Sieradz",
+      "cityId": "pl-3085978",
+      "codes": "SRD",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Sieradz",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod SRD. Formularz: Utwórz profil → Wybierz swoje miasto → Sieradz",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Suwałki",
+      "cityId": "pl-757718",
+      "codes": "SUW",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Suwałki",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod SUW. Formularz: Utwórz profil → Wybierz swoje miasto → Suwałki",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Świnoujście",
+      "cityId": "pl-3083955",
+      "codes": "SWN",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Świnoujście",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Kod odczytano przez eliminację. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod SWN. Formularz: Utwórz profil → Wybierz swoje miasto → Świnoujście",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Wągrowiec",
+      "cityId": "pl-3082712",
+      "codes": "WAG",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Wągrowiec",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod WAG. Formularz: Utwórz profil → Wybierz swoje miasto → Wągrowiec",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Września",
+      "cityId": "pl-3081324",
+      "codes": "WRZ",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Września",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod WRZ. Formularz: Utwórz profil → Wybierz swoje miasto → Września",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Żyrardów",
+      "cityId": "pl-752967",
+      "codes": "ZRD",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Żyrardów",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod ZRD. Formularz: Utwórz profil → Wybierz swoje miasto → Żyrardów",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Iława",
+      "cityId": "pl-3097902",
+      "codes": "ILW",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Iława",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod ILW. Formularz: Utwórz profil → Wybierz swoje miasto → Iława",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Nakło nad Notecią",
+      "cityId": "pl-3091150",
+      "codes": "NNN",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Nakło nad notecią",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod NNN. Formularz: Utwórz profil → Wybierz swoje miasto → Nakło nad notecią",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Oświęcim",
+      "cityId": "pl-3089658",
+      "codes": "OCM",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Oświęcim",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Kod odczytano przez eliminację. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod OCM. Formularz: Utwórz profil → Wybierz swoje miasto → Oświęcim",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Skarżysko-Kamienna",
+      "cityId": "pl-759141",
+      "codes": "SKK",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Skarżysko-kamienna",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod SKK. Formularz: Utwórz profil → Wybierz swoje miasto → Skarżysko-kamienna",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Turek",
+      "cityId": "pl-3082998",
+      "codes": "TUK",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Turek",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod TUK. Formularz: Utwórz profil → Wybierz swoje miasto → Turek",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Zawiercie",
+      "cityId": "pl-3080526",
+      "codes": "ZAW",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Zawiercie",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod ZAW. Formularz: Utwórz profil → Wybierz swoje miasto → Zawiercie",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Zduńska Wola",
+      "cityId": "pl-3080414",
+      "codes": "ZDW",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Zduńska wola",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod ZDW. Formularz: Utwórz profil → Wybierz swoje miasto → Zduńska wola",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Żywiec",
+      "cityId": "pl-3079855",
+      "codes": "ZYW",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Żywiec",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod ZYW. Formularz: Utwórz profil → Wybierz swoje miasto → Żywiec",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Ciechanów",
+      "cityId": "pl-774208",
+      "codes": "CCH",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Ciechanów",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod CCH. Formularz: Utwórz profil → Wybierz swoje miasto → Ciechanów",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Koło",
+      "cityId": "pl-3095797",
+      "codes": "KOO",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Koło",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod KOO. Formularz: Utwórz profil → Wybierz swoje miasto → Koło",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Mińsk Mazowiecki",
+      "cityId": "pl-764679",
+      "codes": "MMZ",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Mińsk mazowiecki",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod MMZ. Formularz: Utwórz profil → Wybierz swoje miasto → Mińsk mazowiecki",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Olkusz",
+      "cityId": "pl-3090146",
+      "codes": "OLK",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Olkusz",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod OLK. Formularz: Utwórz profil → Wybierz swoje miasto → Olkusz",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Śrem",
+      "cityId": "pl-3085056",
+      "codes": "SRE",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Śrem",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod SRE. Formularz: Utwórz profil → Wybierz swoje miasto → Śrem",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Wałcz",
+      "cityId": "pl-3082704",
+      "codes": "WAL",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Wałcz",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod WAL. Formularz: Utwórz profil → Wybierz swoje miasto → Wałcz",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Zakopane",
+      "cityId": "pl-3080866",
+      "codes": "ZAK",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Zakopane",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod ZAK. Formularz: Utwórz profil → Wybierz swoje miasto → Zakopane",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Brodnica",
+      "cityId": "pl-3102627",
+      "codes": "BRD",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Brodnica",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod BRD. Formularz: Utwórz profil → Wybierz swoje miasto → Brodnica",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kłodzko",
+      "cityId": "pl-3096053",
+      "codes": "KLD",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Kłodzko",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod KLD. Formularz: Utwórz profil → Wybierz swoje miasto → Kłodzko",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Łowicz",
+      "cityId": "pl-3093066",
+      "codes": "LOW",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Łowicz",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod LOW. Formularz: Utwórz profil → Wybierz swoje miasto → Łowicz",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Łuków",
+      "cityId": "pl-765749",
+      "codes": "LUK",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Łuków",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod LUK. Formularz: Utwórz profil → Wybierz swoje miasto → Łuków",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Nowy Dwór Mazowiecki",
+      "cityId": "pl-763556",
+      "codes": "NDM",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Nowy dwór mazowiecki",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod NDM. Formularz: Utwórz profil → Wybierz swoje miasto → Nowy dwór mazowiecki",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Płońsk",
+      "cityId": "pl-762021",
+      "codes": "PSK",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Płońsk",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Kod odczytano przez eliminację. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod PSK. Formularz: Utwórz profil → Wybierz swoje miasto → Płońsk",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Puławy",
+      "cityId": "pl-760924",
+      "codes": "PUL",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Puławy",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod PUL. Formularz: Utwórz profil → Wybierz swoje miasto → Puławy",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Augustów",
+      "cityId": "pl-776597",
+      "codes": "AUG",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Augustów",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod AUG. Formularz: Utwórz profil → Wybierz swoje miasto → Augustów",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Mielec",
+      "cityId": "pl-764849",
+      "codes": "MLC",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Mielec",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod MLC. Formularz: Utwórz profil → Wybierz swoje miasto → Mielec",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Polkowice",
+      "cityId": "pl-3088435",
+      "codes": "PWC",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Polkowice",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod PWC. Formularz: Utwórz profil → Wybierz swoje miasto → Polkowice",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Sulechów",
+      "cityId": "pl-3084241",
+      "codes": "SLW",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Sulechów",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod SLW. Formularz: Utwórz profil → Wybierz swoje miasto → Sulechów",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Wyszków",
+      "cityId": "pl-754454",
+      "codes": "WYS",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Wyszków",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod WYS. Formularz: Utwórz profil → Wybierz swoje miasto → Wyszków",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Szczytno",
+      "cityId": "pl-757357",
+      "codes": "SZT",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Szczytno",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod SZT. Formularz: Utwórz profil → Wybierz swoje miasto → Szczytno",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Giżycko",
+      "cityId": "pl-772195",
+      "codes": "GZK",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Giżycko",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod GZK. Formularz: Utwórz profil → Wybierz swoje miasto → Giżycko",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Władysławowo",
+      "cityId": "pl-3081752",
+      "codes": "WLD",
+      "basis": "table",
+      "previous": null,
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/8-glovo-new/#dost%C4%99pne-miasta-w-glovo",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod WLD. Kurierpedia: Aplikacja Glovo Rider, Dostępne miasta w Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Puck",
+      "cityId": "pl-3087691",
+      "codes": "PUK",
+      "basis": "table",
+      "previous": {
+        "status": "unverified",
+        "source": "https://glovoapp.com/pl/pl/puck",
+        "checkedAt": "2026-10-21",
+        "note": "Katalog zamówień nie rozstrzyga, czy dostawy realizują kurierzy platformy, czy własni dostawcy lokali. Brak mocniejszego dowodu nie oznacza braku usługi.",
+        "sourceLabel": "Glovo — Puck",
+        "sourceDetail": "Strona katalogu dla klienta zawierająca nazwę miejscowości",
+        "evidenceScope": "customer_catalog"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://glovoapp.com/pl/pl/puck",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod PUK. Katalog Glovo: strona Puck",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Krotoszyn",
+      "cityId": "pl-3094625",
+      "codes": "KSS lub KSZ",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Krotoszyn",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Dokładny kod nie jest jednoznaczny, ale miasto wynika z formularza. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod KSS lub KSZ. Formularz: Utwórz profil → Wybierz swoje miasto → Krotoszyn",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kostrzyn nad Odrą",
+      "cityId": "pl-3095057",
+      "codes": "KSS lub KSZ",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Kostrzyn nad odrą",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Dokładny kod nie jest jednoznaczny, ale miasto wynika z formularza. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod KSS lub KSZ. Formularz: Utwórz profil → Wybierz swoje miasto → Kostrzyn nad odrą",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Sochaczew",
+      "cityId": "pl-758682",
+      "codes": "SCW lub SCH",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Sochaczew",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Dokładny kod nie jest jednoznaczny, ale miasto wynika z formularza. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod SCW lub SCH. Formularz: Utwórz profil → Wybierz swoje miasto → Sochaczew",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Starachowice",
+      "cityId": "pl-758390",
+      "codes": "SCH, SCI lub SCW",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Starachowice",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Dokładny kod nie jest jednoznaczny, ale miasto wynika z formularza. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod SCH, SCI lub SCW. Formularz: Utwórz profil → Wybierz swoje miasto → Starachowice",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Świecie",
+      "cityId": "pl-3084074",
+      "codes": "SEC lub SCI",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Świecie",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Dokładny kod nie jest jednoznaczny, ale miasto wynika z formularza. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod SEC lub SCI. Formularz: Utwórz profil → Wybierz swoje miasto → Świecie",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Siedlce",
+      "cityId": "pl-759412",
+      "codes": "SIE lub SEC",
+      "basis": "table",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Siedlce",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto ma wiersz w tabeli miast Glovo przekazanej redakcji. Tabela nie jest publiczna, więc link prowadzi do publicznego źródła z tą miejscowością. Dokładny kod nie jest jednoznaczny, ale miasto wynika z formularza. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Tabela miast Glovo (materiał redakcji)",
+        "sourceDetail": "Tabela: kod SIE lub SEC. Formularz: Utwórz profil → Wybierz swoje miasto → Siedlce",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Brzeg",
+      "cityId": "pl-3102459",
+      "codes": "",
+      "basis": "form-and-list",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Brzeg",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest w oficjalnym formularzu dla kurierów i na liście miast Glovo w Kurierpedii, ale nie ma jednoznacznego wiersza w tabeli. Uznane decyzją redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Glovo: formularz dla kurierów i lista Kurierpedii",
+        "sourceDetail": "Formularz: Utwórz profil → Wybierz swoje miasto → Brzeg. Kurierpedia: Aplikacja Glovo Rider, Dostępne miasta w Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Cieszyn",
+      "cityId": "pl-3101321",
+      "codes": "",
+      "basis": "form-and-list",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Cieszyn",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest w oficjalnym formularzu dla kurierów i na liście miast Glovo w Kurierpedii, ale nie ma jednoznacznego wiersza w tabeli. Uznane decyzją redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Glovo: formularz dla kurierów i lista Kurierpedii",
+        "sourceDetail": "Formularz: Utwórz profil → Wybierz swoje miasto → Cieszyn. Kurierpedia: Aplikacja Glovo Rider, Dostępne miasta w Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kielce",
+      "cityId": "pl-769250",
+      "codes": "",
+      "basis": "form-and-list",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Kielce",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest w oficjalnym formularzu dla kurierów i na liście miast Glovo w Kurierpedii, ale nie ma jednoznacznego wiersza w tabeli. Uznane decyzją redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Glovo: formularz dla kurierów i lista Kurierpedii",
+        "sourceDetail": "Formularz: Utwórz profil → Wybierz swoje miasto → Kielce. Kurierpedia: Aplikacja Glovo Rider, Dostępne miasta w Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Żagań",
+      "cityId": "pl-3080944",
+      "codes": "",
+      "basis": "form-and-list",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Żagań",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest w oficjalnym formularzu dla kurierów i na liście miast Glovo w Kurierpedii, ale nie ma jednoznacznego wiersza w tabeli. Uznane decyzją redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Glovo: formularz dla kurierów i lista Kurierpedii",
+        "sourceDetail": "Formularz: Utwórz profil → Wybierz swoje miasto → Żagań. Kurierpedia: Aplikacja Glovo Rider, Dostępne miasta w Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Nowa Sól",
+      "cityId": "pl-3090764",
+      "codes": "NOW?",
+      "basis": "form-and-list",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Nowa sól",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Kod NOW pasuje do Nowej Soli albo Nowego Targu. Miasto jest w oficjalnym formularzu dla kurierów i na liście miast Glovo w Kurierpedii, ale nie ma jednoznacznego wiersza w tabeli. Uznane decyzją redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Glovo: formularz dla kurierów i lista Kurierpedii",
+        "sourceDetail": "Formularz: Utwórz profil → Wybierz swoje miasto → Nowa sól. Kurierpedia: Aplikacja Glovo Rider, Dostępne miasta w Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Nowy Targ",
+      "cityId": "pl-763523",
+      "codes": "NOW?",
+      "basis": "form-and-list",
+      "previous": {
+        "status": "recruiting",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją oficjalnego formularza dla kurierów Glovo. Formularz nie potwierdza działającej strefy ani otwartego naboru. Nie wliczamy go do potwierdzonych aplikacji.",
+        "sourceLabel": "Glovo — formularz dla kurierów",
+        "sourceDetail": "Utwórz profil → Wybierz swoje miasto → Nowy targ",
+        "evidenceScope": "courier_form"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Kod NOW pasuje do Nowej Soli albo Nowego Targu. Miasto jest w oficjalnym formularzu dla kurierów i na liście miast Glovo w Kurierpedii, ale nie ma jednoznacznego wiersza w tabeli. Uznane decyzją redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Glovo: formularz dla kurierów i lista Kurierpedii",
+        "sourceDetail": "Formularz: Utwórz profil → Wybierz swoje miasto → Nowy targ. Kurierpedia: Aplikacja Glovo Rider, Dostępne miasta w Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Gdynia",
+      "cityId": "pl-3099424",
+      "codes": "GDN",
+      "basis": "tricity",
+      "previous": null,
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Formularz dla kurierów ma pozycję Trójmiasto, a tabela miast Glovo przekazana redakcji ma odpowiadający jej wiersz GDN. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Glovo: formularz dla kurierów i tabela miast",
+        "sourceDetail": "Formularz: Utwórz profil → Wybierz swoje miasto → Trójmiasto. Tabela: kod GDN",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Sopot",
+      "cityId": "pl-3085151",
+      "codes": "GDN",
+      "basis": "tricity",
+      "previous": null,
+      "current": {
+        "status": "active",
+        "source": "https://pl.rider.glovoapp.com/",
+        "checkedAt": "2026-11-05",
+        "note": "Formularz dla kurierów ma pozycję Trójmiasto, a tabela miast Glovo przekazana redakcji ma odpowiadający jej wiersz GDN. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Glovo: formularz dla kurierów i tabela miast",
+        "sourceDetail": "Formularz: Utwórz profil → Wybierz swoje miasto → Trójmiasto. Tabela: kod GDN",
+        "evidenceScope": "platform_couriers"
+      }
+    }
+  ]
+}

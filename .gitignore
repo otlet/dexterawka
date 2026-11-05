@@ -19,10 +19,5 @@ hugo.linux
 /dist/
 /.astro/
 
-# Mapa aplikacji delivery: tylko lokalnie, poza produkcją.
-# Usunięcie tej sekcji przywraca mapę do repo i na stronę.
-*delivery-map*
-/content/docs/apps/mapa-delivery.md
-/static/data/poland-map.geojson
-/INSTRUKCJA-MAPA.md
+# Python cache
 /scripts/__pycache__/

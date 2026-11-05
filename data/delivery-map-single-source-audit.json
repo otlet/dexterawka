@@ -1,0 +1,2850 @@
+{
+  "checkedAt": "2026-11-05",
+  "revision": "2026-11-05-single-source",
+  "previousRevision": "2026-11-05-fleet-mirror",
+  "method": "Decyzja właściciela serwisu: tabelka floty jest jedynym źródłem. Poprzednie odnośniki przy wpisach i aplikacjach zachowano tylko tutaj.",
+  "backup": "reports/delivery-map-audit/delivery-map-before-single-source.json",
+  "previousApps": {
+    "glovo": {
+      "source": "https://www.biek.pl/",
+      "additionalSources": [
+        "https://kurierpedia.pl/docs/apps/miasta-aplikacji/"
+      ],
+      "scope": "182 miejscowości z listy miast partnera flotowego przekazanej redakcji i opublikowanej w Kurierpedii. 15 z nich ma też publiczne potwierdzenie BIEK. Nie gwarantuje otwartego naboru."
+    },
+    "uber-eats": {
+      "source": "https://mbpartners.pl/blog/uber-eats-zarobki/",
+      "additionalSources": [
+        "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "https://cdn.biedronka.pl/__2025/dokumenty/REGULAMIN_SKLEPU_INTERNETOWEGO_BIEDRONKA_wazny_od_21.11.2025_UberEats.pdf",
+        "https://t.me/flowapps_official/500",
+        "https://kurierpedia.pl/docs/apps/miasta-aplikacji/"
+      ],
+      "scope": "129 miejscowości z listy miast partnera flotowego przekazanej redakcji i opublikowanej w Kurierpedii. 58 z nich ma też publiczne potwierdzenie: dane pracy kurierów, komunikat Biedronki z regulaminem Uber lub uruchomienie potwierdzone przez Flow Apps. Nie gwarantuje otwartego naboru."
+    },
+    "wolt": {
+      "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+      "additionalSources": [
+        "https://woltpartners.pl/opole/",
+        "https://press.wolt.com/pl-PL/262813-wolt-startuje-w-gorzowie-wielkopolskim-lokalne-restauracje-zyskuja-nowy-kanal-sprzedazy/",
+        "https://kurierpedia.pl/docs/apps/miasta-aplikacji/"
+      ],
+      "scope": "23 miasta z listy miast partnera flotowego przekazanej redakcji i opublikowanej w Kurierpedii. 22 z nich ma też publiczne potwierdzenie z FAQ dla kurierów, centrum kurierów lub komunikatu o uruchomieniu. Nie gwarantuje otwartego naboru."
+    },
+    "bolt-food": {
+      "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "additionalSources": [
+        "https://natviol.com/bolt-food-w-rzeszowie-z-natviol-zacznij-dostawy-i-odbierz-bonus-100-zl/",
+        "https://kurierpedia.pl/docs/apps/miasta-aplikacji/"
+      ],
+      "scope": "15 miast z listy miast partnera flotowego przekazanej redakcji i opublikowanej w Kurierpedii. 11 z nich ma też publiczne potwierdzenie: komunikat Auchan z 13.08.2026 lub komunikat partnera Natviol. Nie gwarantuje otwartego naboru."
+    },
+    "stuart": {
+      "source": "https://stuart.com/pl/o-nas/",
+      "additionalSources": [
+        "https://help.stuart.com/pl/articles/11737380-nowe-strefy",
+        "https://kurierpedia.pl/docs/apps/miasta-aplikacji/"
+      ],
+      "scope": "24 miejscowości z listy miast partnera flotowego przekazanej redakcji i opublikowanej w Kurierpedii. 15 z nich ma też publiczne potwierdzenie Stuart: sekcja Operujemy lub artykuł Nowe strefy!. Piątkowo jest osiedlem Poznania i nie ma osobnego punktu. Nie gwarantuje otwartego naboru."
+    },
+    "pyszne": {
+      "source": "https://www.pyszne.pl/kurier/form",
+      "additionalSources": [
+        "https://kurierpedia.pl/docs/apps/miasta-aplikacji/"
+      ],
+      "scope": "94 miast z listy miast partnera flotowego przekazanej redakcji i opublikowanej w Kurierpedii. Nie gwarantuje otwartego naboru."
+    },
+    "jush": {
+      "source": "https://riders.jush.pl/",
+      "additionalSources": [
+        "https://kurierpedia.pl/docs/apps/miasta-aplikacji/"
+      ],
+      "scope": "5 miast z listy miast partnera flotowego przekazanej redakcji i opublikowanej w Kurierpedii. Kurierzy Jush pracują w aplikacji Bink. Nie gwarantuje otwartego naboru."
+    }
+  },
+  "records": [
+    {
+      "city": "Augustów",
+      "cityId": "pl-776597",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "evidenceScope": "platform_couriers",
+        "source": "https://t.me/flowapps_official/500",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Augustów.",
+        "checkedAt": "2026-10-21"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Augustów → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Białystok",
+      "cityId": "pl-776069",
+      "app": "glovo",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Białystok; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Białystok → kolumna Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Białystok",
+      "cityId": "pl-776069",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://mbpartners.pl/blog/uber-eats-zarobki/",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "MB Partner — zarobki kurierów Uber Eats 2026",
+        "sourceDetail": "Tabela „Stawki Uber Eats w największych miastach” → Białystok. Dane kurierów z początku 2026 r.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Białystok → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Białystok",
+      "cityId": "pl-776069",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Białystok",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Białystok → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Białystok",
+      "cityId": "pl-776069",
+      "app": "bolt-food",
+      "previous": {
+        "status": "active",
+        "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło pierwotne partnera handlowego/flotowego mówi o realizacji dostaw przez kurierów platformy. Nie jest listą aktualnie otwartej rekrutacji.",
+        "sourceLabel": "Auchan — dostawy kurierami Bolt w 10 miastach",
+        "sourceDetail": "Lista 10 miast oraz akapit: zamówienia kompletowane przez Auchan, dostarczane przez kurierów Bolt",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Białystok → kolumna Bolt Food",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Bydgoszcz",
+      "cityId": "pl-3102014",
+      "app": "glovo",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Bydgoszcz; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Bydgoszcz → kolumna Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Bydgoszcz",
+      "cityId": "pl-3102014",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://mbpartners.pl/blog/uber-eats-zarobki/",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "MB Partner — zarobki kurierów Uber Eats 2026",
+        "sourceDetail": "Tabela „Stawki Uber Eats w największych miastach” → Bydgoszcz. Dane kurierów z początku 2026 r.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Bydgoszcz → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Bydgoszcz",
+      "cityId": "pl-3102014",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Bydgoszcz",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Bydgoszcz → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Chełm",
+      "cityId": "pl-774558",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://t.me/flowapps_official/500",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Chełm.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Chełm → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Cieszyn",
+      "cityId": "pl-3101321",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "evidenceScope": "platform_couriers",
+        "source": "https://t.me/flowapps_official/500",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Cieszyn.",
+        "checkedAt": "2026-10-21"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Cieszyn → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Częstochowa",
+      "cityId": "pl-3100946",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://mbpartners.pl/blog/uber-eats-zarobki/",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "MB Partner — zarobki kurierów Uber Eats 2026",
+        "sourceDetail": "Tabela „Stawki Uber Eats w największych miastach” → Częstochowa. Dane kurierów z początku 2026 r.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Częstochowa → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Częstochowa",
+      "cityId": "pl-3100946",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Częstochowa",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Częstochowa → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Elbląg",
+      "cityId": "pl-3099759",
+      "app": "glovo",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru. Starsza lista FAQ pomija to miasto, lecz sekcja 15 miast i godziny wymieniają je wprost.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Elbląg; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Elbląg → kolumna Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Gdańsk",
+      "cityId": "pl-3099434",
+      "app": "glovo",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Gdańsk; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Gdańsk → kolumna Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Gdańsk",
+      "cityId": "pl-3099434",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://mbpartners.pl/blog/uber-eats-zarobki/",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "MB Partner — zarobki kurierów Uber Eats 2026",
+        "sourceDetail": "Tabela „Stawki Uber Eats w największych miastach” → Gdańsk. Dane kurierów z początku 2026 r.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Gdańsk → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Gdańsk",
+      "cityId": "pl-3099434",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Gdańsk & Sopot",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Gdańsk → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Gdańsk",
+      "cityId": "pl-3099434",
+      "app": "bolt-food",
+      "previous": {
+        "status": "active",
+        "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło pierwotne partnera handlowego/flotowego mówi o realizacji dostaw przez kurierów platformy. Nie jest listą aktualnie otwartej rekrutacji.",
+        "sourceLabel": "Auchan — dostawy kurierami Bolt w 10 miastach",
+        "sourceDetail": "Lista 10 miast oraz akapit: zamówienia kompletowane przez Auchan, dostarczane przez kurierów Bolt",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Gdańsk → kolumna Bolt Food",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Gdańsk",
+      "cityId": "pl-3099434",
+      "app": "stuart",
+      "previous": {
+        "status": "active",
+        "source": "https://stuart.com/pl/o-nas/",
+        "checkedAt": "2026-10-21",
+        "note": "Miejscowość jest wymieniona przez Stuart na liście polskich miast. Lista nie wyznacza granic strefy. Stuart opisuje własną platformę logistyczną łączącą przedsiębiorstwa z niezależnymi kurierami; komunikat stref jest w kolekcji Courier i zawiera instrukcję zmiany strefy. Nie potwierdza to otwartej rekrutacji.",
+        "sourceLabel": "Stuart — lista miast w Polsce",
+        "sourceDetail": "Sekcja „Operujemy” → Polska → „Gdańsk”",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Gdańsk → kolumna Stuart",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Gdynia",
+      "cityId": "pl-3099424",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Gdynia. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Gdynia → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Gdynia",
+      "cityId": "pl-3099424",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Gdynia",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Gdynia → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Gliwice",
+      "cityId": "pl-3099230",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Gliwice. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Gliwice → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Gliwice",
+      "cityId": "pl-3099230",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Gliwice",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Gliwice → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Gniezno",
+      "cityId": "pl-3099112",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Gniezno. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Gniezno → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Gorzów Wielkopolski",
+      "cityId": "pl-3098722",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://press.wolt.com/pl-PL/262813-wolt-startuje-w-gorzowie-wielkopolskim-lokalne-restauracje-zyskuja-nowy-kanal-sprzedazy/",
+        "checkedAt": "2026-10-21",
+        "note": "Wolt potwierdza uruchomienie i logistykę platformy bez własnego systemu dostaw lokalu. Kwalifikacja platformowych dostaw wynika z tego akapitu; brak jawnego komunikatu naboru.",
+        "sourceLabel": "Wolt — uruchomienie dostaw w Gorzowie Wielkopolskim",
+        "sourceDetail": "Komunikat 04.03.2026: akapit bezpośrednio po wstępie o zapewnianiu logistyki bez własnego systemu dostaw",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Gorzów Wielkopolski → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Grodzisk Mazowiecki",
+      "cityId": "pl-771401",
+      "app": "stuart",
+      "previous": {
+        "status": "active",
+        "source": "https://help.stuart.com/pl/articles/11737380-nowe-strefy#h_b6b34e8fff",
+        "checkedAt": "2026-10-21",
+        "note": "Operator opisuje tę lokalizację w artykule o nowych strefach (aktualizacja 10.07.2026), ze startem 2025-09-16. Nie oznacza zasięgu całej gminy. Stuart opisuje własną platformę logistyczną łączącą przedsiębiorstwa z niezależnymi kurierami; komunikat stref jest w kolekcji Courier i zawiera instrukcję zmiany strefy. Nie potwierdza to otwartej rekrutacji.",
+        "sourceLabel": "Stuart — strefa Grodzisk Mazowiecki",
+        "sourceDetail": "Artykuł „Nowe strefy!” → „6. Grodzisk Mazowiecki”",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Grodzisk Mazowiecki → kolumna Stuart",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Grudziądz",
+      "cityId": "pl-3098218",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Grudziądz. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Grudziądz → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Jarosław",
+      "cityId": "pl-770380",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://t.me/flowapps_official/500",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Jarosław.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Jarosław → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Józefów",
+      "cityId": "pl-769981",
+      "app": "stuart",
+      "previous": {
+        "status": "active",
+        "source": "https://help.stuart.com/pl/articles/11737380-nowe-strefy#h_fa8aab62b8",
+        "checkedAt": "2026-10-21",
+        "note": "Operator opisuje tę lokalizację w artykule o nowych strefach (aktualizacja 10.07.2026), ze startem 2025-10-28. Nie oznacza zasięgu całej gminy. Stuart opisuje własną platformę logistyczną łączącą przedsiębiorstwa z niezależnymi kurierami; komunikat stref jest w kolekcji Courier i zawiera instrukcję zmiany strefy. Nie potwierdza to otwartej rekrutacji.",
+        "sourceLabel": "Stuart — strefa Józefów",
+        "sourceDetail": "Artykuł „Nowe strefy!” → „4. Warszawa: Wawer / Józefów / Otwock”",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Józefów → kolumna Stuart",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Katowice",
+      "cityId": "pl-3096472",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://mbpartners.pl/blog/uber-eats-zarobki/",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "MB Partner — zarobki kurierów Uber Eats 2026",
+        "sourceDetail": "Tabela „Stawki Uber Eats w największych miastach” → Katowice. Dane kurierów z początku 2026 r.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Katowice → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Katowice",
+      "cityId": "pl-3096472",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Aglomeracja Śląska (Katowice, Chorzów i Sosnowiec)",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Katowice → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Katowice",
+      "cityId": "pl-3096472",
+      "app": "bolt-food",
+      "previous": {
+        "status": "active",
+        "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło pierwotne partnera handlowego/flotowego mówi o realizacji dostaw przez kurierów platformy. Nie jest listą aktualnie otwartej rekrutacji.",
+        "sourceLabel": "Auchan — dostawy kurierami Bolt w 10 miastach",
+        "sourceDetail": "Lista 10 miast oraz akapit: zamówienia kompletowane przez Auchan, dostarczane przez kurierów Bolt",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Katowice → kolumna Bolt Food",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Katowice",
+      "cityId": "pl-3096472",
+      "app": "stuart",
+      "previous": {
+        "status": "active",
+        "source": "https://stuart.com/pl/o-nas/",
+        "checkedAt": "2026-10-21",
+        "note": "Miejscowość jest wymieniona przez Stuart na liście polskich miast. Lista nie wyznacza granic strefy. Stuart opisuje własną platformę logistyczną łączącą przedsiębiorstwa z niezależnymi kurierami; komunikat stref jest w kolekcji Courier i zawiera instrukcję zmiany strefy. Nie potwierdza to otwartej rekrutacji.",
+        "sourceLabel": "Stuart — lista miast w Polsce",
+        "sourceDetail": "Sekcja „Operujemy” → Polska → „Katowice”",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Katowice → kolumna Stuart",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kędzierzyn-Koźle",
+      "cityId": "pl-3096372",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://t.me/flowapps_official/500",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Kędzierzyn-Koźle.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Kędzierzyn-Koźle → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kielce",
+      "cityId": "pl-769250",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://mbpartners.pl/blog/uber-eats-zarobki/",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "MB Partner — zarobki kurierów Uber Eats 2026",
+        "sourceDetail": "Tabela „Stawki Uber Eats w największych miastach” → Kielce. Dane kurierów z początku 2026 r.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Kielce → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kołobrzeg",
+      "cityId": "pl-3095795",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Kołobrzeg. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Kołobrzeg → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Koszalin",
+      "cityId": "pl-3095049",
+      "app": "glovo",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru. Starsza lista FAQ pomija to miasto, lecz sekcja 15 miast i godziny wymieniają je wprost.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Koszalin; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Koszalin → kolumna Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Koszalin",
+      "cityId": "pl-3095049",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Koszalin. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Koszalin → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kowale",
+      "cityId": "pl-3094976",
+      "app": "stuart",
+      "previous": {
+        "status": "active",
+        "source": "https://help.stuart.com/pl/articles/11737380-nowe-strefy#h_02bd2b6967",
+        "checkedAt": "2026-10-21",
+        "note": "Operator opisuje tę lokalizację w artykule o nowych strefach (aktualizacja 10.07.2026), ze startem 2025-11-04. Nie oznacza zasięgu całej gminy. Stuart opisuje własną platformę logistyczną łączącą przedsiębiorstwa z niezależnymi kurierami; komunikat stref jest w kolekcji Courier i zawiera instrukcję zmiany strefy. Nie potwierdza to otwartej rekrutacji.",
+        "sourceLabel": "Stuart — strefa Kowale",
+        "sourceDetail": "Artykuł „Nowe strefy!” → „3. Gdańsk: Kowale”",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Kowale → kolumna Stuart",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kraków",
+      "cityId": "pl-3094802",
+      "app": "glovo",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Kraków; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Kraków → kolumna Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kraków",
+      "cityId": "pl-3094802",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://mbpartners.pl/blog/uber-eats-zarobki/",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "MB Partner — zarobki kurierów Uber Eats 2026",
+        "sourceDetail": "Tabela „Stawki Uber Eats w największych miastach” → Kraków. Dane kurierów z początku 2026 r.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Kraków → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kraków",
+      "cityId": "pl-3094802",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Kraków",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Kraków → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kraków",
+      "cityId": "pl-3094802",
+      "app": "bolt-food",
+      "previous": {
+        "status": "active",
+        "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło pierwotne partnera handlowego/flotowego mówi o realizacji dostaw przez kurierów platformy. Nie jest listą aktualnie otwartej rekrutacji.",
+        "sourceLabel": "Auchan — dostawy kurierami Bolt w 10 miastach",
+        "sourceDetail": "Lista 10 miast oraz akapit: zamówienia kompletowane przez Auchan, dostarczane przez kurierów Bolt",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Kraków → kolumna Bolt Food",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kraków",
+      "cityId": "pl-3094802",
+      "app": "stuart",
+      "previous": {
+        "status": "active",
+        "source": "https://stuart.com/pl/o-nas/",
+        "checkedAt": "2026-10-21",
+        "note": "Miejscowość jest wymieniona przez Stuart na liście polskich miast. Lista nie wyznacza granic strefy. Stuart opisuje własną platformę logistyczną łączącą przedsiębiorstwa z niezależnymi kurierami; komunikat stref jest w kolekcji Courier i zawiera instrukcję zmiany strefy. Nie potwierdza to otwartej rekrutacji.",
+        "sourceLabel": "Stuart — lista miast w Polsce",
+        "sourceDetail": "Sekcja „Operujemy” → Polska → „Kraków”",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Kraków → kolumna Stuart",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Krosno",
+      "cityId": "pl-767470",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "evidenceScope": "platform_couriers",
+        "source": "https://t.me/flowapps_official/500",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Krosno.",
+        "checkedAt": "2026-10-21"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Krosno → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Lębork",
+      "cityId": "pl-3093739",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "evidenceScope": "platform_couriers",
+        "source": "https://t.me/flowapps_official/500",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Lębork.",
+        "checkedAt": "2026-10-21"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Lębork → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Łódź",
+      "cityId": "pl-3093133",
+      "app": "glovo",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Łódź; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Łódź → kolumna Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Łódź",
+      "cityId": "pl-3093133",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://mbpartners.pl/blog/uber-eats-zarobki/",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "MB Partner — zarobki kurierów Uber Eats 2026",
+        "sourceDetail": "Tabela „Stawki Uber Eats w największych miastach” → Łódź. Dane kurierów z początku 2026 r.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Łódź → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Łódź",
+      "cityId": "pl-3093133",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Łódź",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Łódź → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Łódź",
+      "cityId": "pl-3093133",
+      "app": "bolt-food",
+      "previous": {
+        "status": "active",
+        "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło pierwotne partnera handlowego/flotowego mówi o realizacji dostaw przez kurierów platformy. Nie jest listą aktualnie otwartej rekrutacji.",
+        "sourceLabel": "Auchan — dostawy kurierami Bolt w 10 miastach",
+        "sourceDetail": "Lista 10 miast oraz akapit: zamówienia kompletowane przez Auchan, dostarczane przez kurierów Bolt",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Łódź → kolumna Bolt Food",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Łódź",
+      "cityId": "pl-3093133",
+      "app": "stuart",
+      "previous": {
+        "status": "active",
+        "source": "https://stuart.com/pl/o-nas/",
+        "checkedAt": "2026-10-21",
+        "note": "Miejscowość jest wymieniona przez Stuart na liście polskich miast. Lista nie wyznacza granic strefy. Stuart opisuje własną platformę logistyczną łączącą przedsiębiorstwa z niezależnymi kurierami; komunikat stref jest w kolekcji Courier i zawiera instrukcję zmiany strefy. Nie potwierdza to otwartej rekrutacji.",
+        "sourceLabel": "Stuart — lista miast w Polsce",
+        "sourceDetail": "Sekcja „Operujemy” → Polska → „Łódź”",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Łódź → kolumna Stuart",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Lublin",
+      "cityId": "pl-765876",
+      "app": "glovo",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Lublin; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Lublin → kolumna Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Lublin",
+      "cityId": "pl-765876",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://mbpartners.pl/blog/uber-eats-zarobki/",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "MB Partner — zarobki kurierów Uber Eats 2026",
+        "sourceDetail": "Tabela „Stawki Uber Eats w największych miastach” → Lublin. Dane kurierów z początku 2026 r.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Lublin → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Lublin",
+      "cityId": "pl-765876",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Lublin",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Lublin → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Lublin",
+      "cityId": "pl-765876",
+      "app": "bolt-food",
+      "previous": {
+        "status": "active",
+        "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło pierwotne partnera handlowego/flotowego mówi o realizacji dostaw przez kurierów platformy. Nie jest listą aktualnie otwartej rekrutacji.",
+        "sourceLabel": "Auchan — dostawy kurierami Bolt w 10 miastach",
+        "sourceDetail": "Lista 10 miast oraz akapit: zamówienia kompletowane przez Auchan, dostarczane przez kurierów Bolt",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Lublin → kolumna Bolt Food",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Malbork",
+      "cityId": "pl-3092472",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "evidenceScope": "platform_couriers",
+        "source": "https://t.me/flowapps_official/500",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Malbork.",
+        "checkedAt": "2026-10-21"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Malbork → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Mikołów",
+      "cityId": "pl-3091831",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://t.me/flowapps_official/500",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Mikołów.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Mikołów → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Nowy Sącz",
+      "cityId": "pl-763534",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Nowy Sącz. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Nowy Sącz → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Oława",
+      "cityId": "pl-3090205",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://t.me/flowapps_official/500",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Oława.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Oława → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Oleśnica",
+      "cityId": "pl-3090170",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "evidenceScope": "platform_couriers",
+        "source": "https://t.me/flowapps_official/500",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Oleśnica.",
+        "checkedAt": "2026-10-21"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Oleśnica → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Olsztyn",
+      "cityId": "pl-763166",
+      "app": "glovo",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Olsztyn; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Olsztyn → kolumna Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Olsztyn",
+      "cityId": "pl-763166",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://mbpartners.pl/blog/uber-eats-zarobki/",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "MB Partner — zarobki kurierów Uber Eats 2026",
+        "sourceDetail": "Tabela „Stawki Uber Eats w największych miastach” → Olsztyn. Dane kurierów z początku 2026 r.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Olsztyn → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Olsztyn",
+      "cityId": "pl-763166",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Olsztyn",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Olsztyn → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Opole",
+      "cityId": "pl-3090048",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://woltpartners.pl/opole/",
+        "checkedAt": "2026-10-21",
+        "note": "Centrum kurierów Wolt podaje godziny 09:00–22:00 i mapę strefy Opola. Opole jest też na liście współpracy z kurierami na stronie głównej. Brak w starszym FAQ nie neguje tego źródła.",
+        "sourceLabel": "Wolt — strefa kurierska Opole",
+        "sourceDetail": "Nagłówek Opole → Godziny działania aplikacji → Orientacyjna mapka strefy",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Opole → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Ostróda",
+      "cityId": "pl-3089779",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "evidenceScope": "platform_couriers",
+        "source": "https://t.me/flowapps_official/500",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Ostróda.",
+        "checkedAt": "2026-10-21"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Ostróda → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Ostrów Wielkopolski",
+      "cityId": "pl-3089684",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://avalon-logistics.pl/aktualnosci-pl/uber-eats-nowe-miasta/",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Avalon — program kurierów i start 27.05.2025",
+        "sourceDetail": "Katalog dla zamawiających: Ostrów Wielkopolski. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Ostrów Wielkopolski → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Otwock",
+      "cityId": "pl-762788",
+      "app": "stuart",
+      "previous": {
+        "status": "active",
+        "source": "https://help.stuart.com/pl/articles/11737380-nowe-strefy#h_fa8aab62b8",
+        "checkedAt": "2026-10-21",
+        "note": "Operator opisuje tę lokalizację w artykule o nowych strefach (aktualizacja 10.07.2026), ze startem 2025-10-28. Nie oznacza zasięgu całej gminy. Stuart opisuje własną platformę logistyczną łączącą przedsiębiorstwa z niezależnymi kurierami; komunikat stref jest w kolekcji Courier i zawiera instrukcję zmiany strefy. Nie potwierdza to otwartej rekrutacji.",
+        "sourceLabel": "Stuart — strefa Otwock",
+        "sourceDetail": "Artykuł „Nowe strefy!” → „4. Warszawa: Wawer / Józefów / Otwock”",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Otwock → kolumna Stuart",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Piła",
+      "cityId": "pl-3089033",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Piła. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Piła → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Piotrków Trybunalski",
+      "cityId": "pl-3088972",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Piotrków Trybunalski. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Piotrków Trybunalski → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Płock",
+      "cityId": "pl-3088825",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Płock. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Płock → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Poznań",
+      "cityId": "pl-3088171",
+      "app": "glovo",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Poznań; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Poznań → kolumna Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Poznań",
+      "cityId": "pl-3088171",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://mbpartners.pl/blog/uber-eats-zarobki/",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "MB Partner — zarobki kurierów Uber Eats 2026",
+        "sourceDetail": "Tabela „Stawki Uber Eats w największych miastach” → Poznań. Dane kurierów z początku 2026 r.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Poznań → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Poznań",
+      "cityId": "pl-3088171",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Poznań",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Poznań → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Poznań",
+      "cityId": "pl-3088171",
+      "app": "bolt-food",
+      "previous": {
+        "status": "active",
+        "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło pierwotne partnera handlowego/flotowego mówi o realizacji dostaw przez kurierów platformy. Nie jest listą aktualnie otwartej rekrutacji.",
+        "sourceLabel": "Auchan — dostawy kurierami Bolt w 10 miastach",
+        "sourceDetail": "Lista 10 miast oraz akapit: zamówienia kompletowane przez Auchan, dostarczane przez kurierów Bolt",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Poznań → kolumna Bolt Food",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Poznań",
+      "cityId": "pl-3088171",
+      "app": "stuart",
+      "previous": {
+        "status": "active",
+        "source": "https://stuart.com/pl/o-nas/",
+        "checkedAt": "2026-10-21",
+        "note": "Miejscowość jest wymieniona przez Stuart na liście polskich miast. Lista nie wyznacza granic strefy. Stuart opisuje własną platformę logistyczną łączącą przedsiębiorstwa z niezależnymi kurierami; komunikat stref jest w kolekcji Courier i zawiera instrukcję zmiany strefy. Nie potwierdza to otwartej rekrutacji.",
+        "sourceLabel": "Stuart — lista miast w Polsce",
+        "sourceDetail": "Sekcja „Operujemy” → Polska → „Poznań”",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Poznań → kolumna Stuart",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Przemyśl",
+      "cityId": "pl-761168",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://avalon-logistics.pl/aktualnosci-pl/uber-eats-nowe-miasta/",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Avalon — program kurierów i start 27.05.2025",
+        "sourceDetail": "Katalog dla zamawiających: Przemyśl. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Przemyśl → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Radom",
+      "cityId": "pl-760778",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Radom. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Radom → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Rybnik",
+      "cityId": "pl-3086586",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://avalon-logistics.pl/aktualnosci-pl/uber-eats-nowe-miasta/",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Avalon — program kurierów i start 27.05.2025",
+        "sourceDetail": "Katalog dla zamawiających: Rybnik. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Rybnik → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Rzeszów",
+      "cityId": "pl-759734",
+      "app": "glovo",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Rzeszów; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Rzeszów → kolumna Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Rzeszów",
+      "cityId": "pl-759734",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Rzeszów. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Rzeszów → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Rzeszów",
+      "cityId": "pl-759734",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Rzeszów",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Rzeszów → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Rzeszów",
+      "cityId": "pl-759734",
+      "app": "bolt-food",
+      "previous": {
+        "status": "active",
+        "source": "https://natviol.com/bolt-food-w-rzeszowie-z-natviol-zacznij-dostawy-i-odbierz-bonus-100-zl/",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło pierwotne partnera handlowego/flotowego mówi o realizacji dostaw przez kurierów platformy. Nie jest listą aktualnie otwartej rekrutacji.",
+        "sourceLabel": "Natviol — start dostaw Bolt Food w Rzeszowie",
+        "sourceDetail": "Komunikat startu Rzeszowa i kampania za minimum 5 dostaw 8–14.06.2026",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Rzeszów → kolumna Bolt Food",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Sanok",
+      "cityId": "pl-759591",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "evidenceScope": "platform_couriers",
+        "source": "https://t.me/flowapps_official/500",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Sanok.",
+        "checkedAt": "2026-10-21"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Sanok → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Sieradz",
+      "cityId": "pl-3085978",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "evidenceScope": "platform_couriers",
+        "source": "https://t.me/flowapps_official/500",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Sieradz.",
+        "checkedAt": "2026-10-21"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Sieradz → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Skierniewice",
+      "cityId": "pl-759123",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://t.me/flowapps_official/500",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Skierniewice.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Skierniewice → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Sochaczew",
+      "cityId": "pl-758682",
+      "app": "stuart",
+      "previous": {
+        "status": "active",
+        "source": "https://help.stuart.com/pl/articles/11737380-nowe-strefy#h_e2f1199130",
+        "checkedAt": "2026-10-21",
+        "note": "Operator opisuje tę lokalizację w artykule o nowych strefach (aktualizacja 10.07.2026), ze startem 2025-11-24. Nie oznacza zasięgu całej gminy. Stuart opisuje własną platformę logistyczną łączącą przedsiębiorstwa z niezależnymi kurierami; komunikat stref jest w kolekcji Courier i zawiera instrukcję zmiany strefy. Nie potwierdza to otwartej rekrutacji.",
+        "sourceLabel": "Stuart — strefa Sochaczew",
+        "sourceDetail": "Artykuł „Nowe strefy!” → „1. Sochaczew”",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Sochaczew → kolumna Stuart",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Sopot",
+      "cityId": "pl-3085151",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Gdańsk & Sopot",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Sopot → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Sosnowiec",
+      "cityId": "pl-3085128",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Aglomeracja Śląska (Katowice, Chorzów i Sosnowiec)",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Sosnowiec → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Starogard Gdański",
+      "cityId": "pl-3084826",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Starogard Gdański. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Starogard Gdański → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Szczecin",
+      "cityId": "pl-3083829",
+      "app": "glovo",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Szczecin; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Szczecin → kolumna Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Szczecin",
+      "cityId": "pl-3083829",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://mbpartners.pl/blog/uber-eats-zarobki/",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "MB Partner — zarobki kurierów Uber Eats 2026",
+        "sourceDetail": "Tabela „Stawki Uber Eats w największych miastach” → Szczecin. Dane kurierów z początku 2026 r.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Szczecin → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Szczecin",
+      "cityId": "pl-3083829",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Szczecin",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Szczecin → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Szczecin",
+      "cityId": "pl-3083829",
+      "app": "stuart",
+      "previous": {
+        "status": "active",
+        "source": "https://stuart.com/pl/o-nas/",
+        "checkedAt": "2026-10-21",
+        "note": "Miejscowość jest wymieniona przez Stuart na liście polskich miast. Lista nie wyznacza granic strefy. Stuart opisuje własną platformę logistyczną łączącą przedsiębiorstwa z niezależnymi kurierami; komunikat stref jest w kolekcji Courier i zawiera instrukcję zmiany strefy. Nie potwierdza to otwartej rekrutacji.",
+        "sourceLabel": "Stuart — lista miast w Polsce",
+        "sourceDetail": "Sekcja „Operujemy” → Polska → „Szczecin”",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Szczecin → kolumna Stuart",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Tarnobrzeg",
+      "cityId": "pl-757033",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "evidenceScope": "platform_couriers",
+        "source": "https://t.me/flowapps_official/500",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Tarnobrzeg.",
+        "checkedAt": "2026-10-21"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Tarnobrzeg → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Tarnów",
+      "cityId": "pl-757026",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Tarnów. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Tarnów → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Tomaszów Mazowiecki",
+      "cityId": "pl-756867",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://t.me/flowapps_official/500",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Tomaszów Mazowiecki.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Tomaszów Mazowiecki → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Toruń",
+      "cityId": "pl-3083271",
+      "app": "glovo",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Toruń; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Toruń → kolumna Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Toruń",
+      "cityId": "pl-3083271",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://mbpartners.pl/blog/uber-eats-zarobki/",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "MB Partner — zarobki kurierów Uber Eats 2026",
+        "sourceDetail": "Tabela „Stawki Uber Eats w największych miastach” → Toruń. Dane kurierów z początku 2026 r.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Toruń → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Toruń",
+      "cityId": "pl-3083271",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Toruń",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Toruń → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Toruń",
+      "cityId": "pl-3083271",
+      "app": "bolt-food",
+      "previous": {
+        "status": "active",
+        "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło pierwotne partnera handlowego/flotowego mówi o realizacji dostaw przez kurierów platformy. Nie jest listą aktualnie otwartej rekrutacji.",
+        "sourceLabel": "Auchan — dostawy kurierami Bolt w 10 miastach",
+        "sourceDetail": "Lista 10 miast oraz akapit: zamówienia kompletowane przez Auchan, dostarczane przez kurierów Bolt",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Toruń → kolumna Bolt Food",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Toruń",
+      "cityId": "pl-3083271",
+      "app": "stuart",
+      "previous": {
+        "status": "active",
+        "source": "https://stuart.com/pl/o-nas/",
+        "checkedAt": "2026-10-21",
+        "note": "Miejscowość jest wymieniona przez Stuart na liście polskich miast. Lista nie wyznacza granic strefy. Stuart opisuje własną platformę logistyczną łączącą przedsiębiorstwa z niezależnymi kurierami; komunikat stref jest w kolekcji Courier i zawiera instrukcję zmiany strefy. Nie potwierdza to otwartej rekrutacji.",
+        "sourceLabel": "Stuart — lista miast w Polsce",
+        "sourceDetail": "Sekcja „Operujemy” → Polska → „Toruń”",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Toruń → kolumna Stuart",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Wałbrzych",
+      "cityId": "pl-3082707",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Wałbrzych. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Wałbrzych → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Warszawa",
+      "cityId": "pl-756135",
+      "app": "glovo",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Warszawa; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Warszawa → kolumna Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Warszawa",
+      "cityId": "pl-756135",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://mbpartners.pl/blog/uber-eats-zarobki/",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "MB Partner — zarobki kurierów Uber Eats 2026",
+        "sourceDetail": "Tabela „Stawki Uber Eats w największych miastach” → Warszawa. Dane kurierów z początku 2026 r.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Warszawa → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Warszawa",
+      "cityId": "pl-756135",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Warszawa",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Warszawa → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Warszawa",
+      "cityId": "pl-756135",
+      "app": "bolt-food",
+      "previous": {
+        "status": "active",
+        "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło pierwotne partnera handlowego/flotowego mówi o realizacji dostaw przez kurierów platformy. Nie jest listą aktualnie otwartej rekrutacji.",
+        "sourceLabel": "Auchan — dostawy kurierami Bolt w 10 miastach",
+        "sourceDetail": "Lista 10 miast oraz akapit: zamówienia kompletowane przez Auchan, dostarczane przez kurierów Bolt",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Warszawa → kolumna Bolt Food",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Warszawa",
+      "cityId": "pl-756135",
+      "app": "stuart",
+      "previous": {
+        "status": "active",
+        "source": "https://stuart.com/pl/o-nas/",
+        "checkedAt": "2026-10-21",
+        "note": "Miejscowość jest wymieniona przez Stuart na liście polskich miast. Lista nie wyznacza granic strefy. Stuart opisuje własną platformę logistyczną łączącą przedsiębiorstwa z niezależnymi kurierami; komunikat stref jest w kolekcji Courier i zawiera instrukcję zmiany strefy. Nie potwierdza to otwartej rekrutacji.",
+        "sourceLabel": "Stuart — lista miast w Polsce",
+        "sourceDetail": "Sekcja „Operujemy” → Polska → „Warszawa”",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Warszawa → kolumna Stuart",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Wodzisław Śląski",
+      "cityId": "pl-3081677",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://t.me/flowapps_official/500",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Wodzisław Śląski.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Wodzisław Śląski → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Wołomin",
+      "cityId": "pl-754800",
+      "app": "stuart",
+      "previous": {
+        "status": "active",
+        "source": "https://help.stuart.com/pl/articles/11737380-nowe-strefy#h_827ea8b714",
+        "checkedAt": "2026-10-21",
+        "note": "Operator opisuje tę lokalizację w artykule o nowych strefach (aktualizacja 10.07.2026), ze startem 2025-10-21. Nie oznacza zasięgu całej gminy. Stuart opisuje własną platformę logistyczną łączącą przedsiębiorstwa z niezależnymi kurierami; komunikat stref jest w kolekcji Courier i zawiera instrukcję zmiany strefy. Nie potwierdza to otwartej rekrutacji.",
+        "sourceLabel": "Stuart — strefa Wołomin",
+        "sourceDetail": "Artykuł „Nowe strefy!” → „5. Warszawa: Wołomin”",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Wołomin → kolumna Stuart",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Wrocław",
+      "cityId": "pl-3081368",
+      "app": "glovo",
+      "previous": {
+        "status": "active",
+        "source": "https://www.biek.pl/",
+        "checkedAt": "2026-10-21",
+        "note": "BIEK wskazuje miasto w strefach/godzinach dostaw i w FAQ wyraźnie identyfikuje kuriera Glovo. Dotyczy wybranych stref; nie gwarantuje bieżącego naboru.",
+        "sourceLabel": "BIEK — miasta i dostawy kurierem Glovo",
+        "sourceDetail": "Strefy dostaw i godziny: Wrocław; FAQ → Kto dostarcza zakupy?",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Wrocław → kolumna Glovo",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Wrocław",
+      "cityId": "pl-3081368",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://mbpartners.pl/blog/uber-eats-zarobki/",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "MB Partner — zarobki kurierów Uber Eats 2026",
+        "sourceDetail": "Tabela „Stawki Uber Eats w największych miastach” → Wrocław. Dane kurierów z początku 2026 r.",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Wrocław → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Wrocław",
+      "cityId": "pl-3081368",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Wrocław",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Wrocław → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Wrocław",
+      "cityId": "pl-3081368",
+      "app": "bolt-food",
+      "previous": {
+        "status": "active",
+        "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło pierwotne partnera handlowego/flotowego mówi o realizacji dostaw przez kurierów platformy. Nie jest listą aktualnie otwartej rekrutacji.",
+        "sourceLabel": "Auchan — dostawy kurierami Bolt w 10 miastach",
+        "sourceDetail": "Lista 10 miast oraz akapit: zamówienia kompletowane przez Auchan, dostarczane przez kurierów Bolt",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Wrocław → kolumna Bolt Food",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Września",
+      "cityId": "pl-3081324",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "evidenceScope": "platform_couriers",
+        "source": "https://t.me/flowapps_official/500",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Września.",
+        "checkedAt": "2026-10-21"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Września → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Zakopane",
+      "cityId": "pl-3080866",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Zakopane. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Zakopane → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Zamość",
+      "cityId": "pl-753866",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Zamość. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Zamość → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Żary",
+      "cityId": "pl-3080644",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "evidenceScope": "platform_couriers",
+        "source": "https://t.me/flowapps_official/500",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Żary.",
+        "checkedAt": "2026-10-21"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Żary → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Zduńska Wola",
+      "cityId": "pl-3080414",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "evidenceScope": "platform_couriers",
+        "source": "https://t.me/flowapps_official/500",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Zduńska Wola.",
+        "checkedAt": "2026-10-21"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Zduńska Wola → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Zielona Góra",
+      "cityId": "pl-3080165",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Zielona Góra. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Zielona Góra → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Zielona Góra",
+      "cityId": "pl-3080165",
+      "app": "wolt",
+      "previous": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Zielona Góra",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Zielona Góra → kolumna Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Żyrardów",
+      "cityId": "pl-752967",
+      "app": "stuart",
+      "previous": {
+        "status": "active",
+        "source": "https://help.stuart.com/pl/articles/11737380-nowe-strefy#h_d80e619c6a",
+        "checkedAt": "2026-10-21",
+        "note": "Operator opisuje tę lokalizację w artykule o nowych strefach (aktualizacja 10.07.2026), ze startem 2025-11-13. Nie oznacza zasięgu całej gminy. Stuart opisuje własną platformę logistyczną łączącą przedsiębiorstwa z niezależnymi kurierami; komunikat stref jest w kolekcji Courier i zawiera instrukcję zmiany strefy. Nie potwierdza to otwartej rekrutacji.",
+        "sourceLabel": "Stuart — strefa Żyrardów",
+        "sourceDetail": "Artykuł „Nowe strefy!” → „2. Żyrardów”",
+        "evidenceScope": "platform_couriers"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Żyrardów → kolumna Stuart",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Żywiec",
+      "cityId": "pl-3079855",
+      "app": "uber-eats",
+      "previous": {
+        "status": "active",
+        "evidenceScope": "platform_couriers",
+        "source": "https://t.me/flowapps_official/500",
+        "sourceLabel": "Flow Apps — uruchomienie zleceń Uber Eats 27.05.2026",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceDetail": "Wiadomość Flow Apps nr 500 z 29.05.2026 → uruchomienie zleceń 27.05.2026 → Żywiec.",
+        "checkedAt": "2026-10-21"
+      },
+      "current": {
+        "status": "active",
+        "source": "https://kurierpedia.pl/docs/apps/miasta-aplikacji/",
+        "checkedAt": "2026-11-05",
+        "note": "Miasto jest na liście miast partnera flotowego przekazanej redakcji. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Lista miast partnera flotowego (materiał redakcji)",
+        "sourceDetail": "Kurierpedia: Lista miast aplikacji → wiersz Żywiec → kolumna Uber Eats",
+        "evidenceScope": "platform_couriers"
+      }
+    }
+  ]
+}

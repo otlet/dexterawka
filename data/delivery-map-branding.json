@@ -1,0 +1,53 @@
+{
+  "note": "Original website apple-touch icons, downloaded from the official platform sites. Logos identify services; no affiliation is implied.",
+  "icons": [
+    {
+      "id": "glovo",
+      "path": "assets/images/delivery-apps/glovo.png",
+      "source": "https://glovoapp.com/apple-icon.png",
+      "page": "https://glovoapp.com/pl/pl/map/cities",
+      "checkedAt": "2026-10-21",
+      "sha256": "5c9371a0e341728acd3f6849fe85fcbc83c4dceaf937e6fcd51b6ff322ece5c6"
+    },
+    {
+      "id": "wolt",
+      "path": "assets/images/delivery-apps/wolt.png",
+      "source": "https://wolt-com-static-assets.wolt.com/apple-icon-180x180.png",
+      "page": "https://wolt.com/pl/pol",
+      "checkedAt": "2026-10-21",
+      "sha256": "edd19d510eaf9e48bdba7862d1b89f9387a293a1992a7618180242d887d7f8b4"
+    },
+    {
+      "id": "uber-eats",
+      "path": "assets/images/delivery-apps/uber-eats.png",
+      "source": "https://www.ubereats.com/_static/35b3b9a3182fec82.png",
+      "page": "https://www.ubereats.com/pl/location",
+      "checkedAt": "2026-10-21",
+      "sha256": "cfb1a6e9bdd312f5e10412b207e407d53e3f493ee152657ad5cbd15683f6e75a"
+    },
+    {
+      "id": "bolt-food",
+      "path": "assets/images/delivery-apps/bolt-food.png",
+      "source": "https://food.bolt.eu/app-icon/launcher.png",
+      "page": "https://food.bolt.eu/",
+      "checkedAt": "2026-10-21",
+      "sha256": "7b064ea01702e363db8eb821adfb3ee92af48df58de8f3457cef1aa55137d1e6"
+    },
+    {
+      "id": "pyszne",
+      "path": "assets/images/delivery-apps/pyszne.png",
+      "source": "https://www.pyszne.pl/consumer-web-assets/root-static/apple-touch-icon.png?version=1",
+      "page": "https://www.pyszne.pl/",
+      "checkedAt": "2026-10-21",
+      "sha256": "fef000624f7cb1a54eeb767f48ef1f5c3f0829e460017a0edf7cf2f95d3a13bf"
+    },
+    {
+      "id": "stuart",
+      "path": "assets/images/delivery-apps/stuart.png",
+      "source": "https://stuart.com/apple-touch-icon.png",
+      "page": "https://stuart.com/pl/o-nas/",
+      "checkedAt": "2026-10-21",
+      "sha256": "db0b25c4ef6fa615756545af0eee0d7c8f6f0cae29ec167260f460ffc0490905"
+    }
+  ]
+}

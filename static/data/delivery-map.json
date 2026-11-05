@@ -1,0 +1,5035 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-05",
+  "title": "Kurierpedia — mapa delivery",
+  "apps": [
+    {
+      "id": "glovo",
+      "name": "Glovo",
+      "short": "G",
+      "color": "#c98500",
+      "source": "https://kurierpedia.pl/mapa-delivery/",
+      "scope": "",
+      "additionalSources": []
+    },
+    {
+      "id": "uber-eats",
+      "name": "Uber Eats",
+      "short": "UE",
+      "color": "#008300",
+      "source": "https://kurierpedia.pl/mapa-delivery/",
+      "scope": "",
+      "additionalSources": []
+    },
+    {
+      "id": "wolt",
+      "name": "Wolt",
+      "short": "W",
+      "color": "#3987e5",
+      "source": "https://kurierpedia.pl/mapa-delivery/",
+      "scope": "",
+      "additionalSources": []
+    },
+    {
+      "id": "bolt-food",
+      "name": "Bolt Food",
+      "short": "B",
+      "color": "#199e70",
+      "source": "https://kurierpedia.pl/mapa-delivery/",
+      "scope": "",
+      "additionalSources": []
+    },
+    {
+      "id": "stuart",
+      "name": "Stuart",
+      "short": "S",
+      "color": "#9085e9",
+      "source": "https://kurierpedia.pl/mapa-delivery/",
+      "scope": "",
+      "additionalSources": []
+    },
+    {
+      "id": "pyszne",
+      "name": "Pyszne.pl",
+      "short": "P",
+      "color": "#d55181",
+      "source": "https://kurierpedia.pl/mapa-delivery/",
+      "scope": "",
+      "additionalSources": []
+    },
+    {
+      "id": "jush",
+      "name": "Jush",
+      "short": "J",
+      "color": "#e66767",
+      "source": "https://kurierpedia.pl/mapa-delivery/",
+      "scope": "",
+      "additionalSources": []
+    }
+  ],
+  "methodology": "Mapa pokazuje miasta z listy partnera flotowego przekazanej redakcji i opublikowanej w Kurierpedii. Każdy punkt odpowiada plusowi w tej tabeli, a plus oznacza, że aplikacja jest dostępna w mieście dla kurierów flotowych. Dzielnice łączymy z miastem, które ma własny wpis. Potwierdzona strefa nie gwarantuje naboru.",
+  "geography": {
+    "coordinates": "https://www.geonames.org/",
+    "coordinatesLicense": "CC BY 4.0",
+    "boundaries": "https://www.naturalearthdata.com/",
+    "boundariesLicense": "Public domain"
+  },
+  "cities": [
+    {
+      "id": "pl-776597",
+      "name": "Augustów",
+      "region": "podlaskie",
+      "lat": 53.84321,
+      "lon": 22.97979,
+      "geonamesId": "776597",
+      "population": 29752,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3103719",
+      "name": "Będzin",
+      "region": "śląskie",
+      "lat": 50.32607,
+      "lon": 19.12565,
+      "geonamesId": "3103719",
+      "population": 58236,
+      "apps": {
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3103709",
+      "name": "Bełchatów",
+      "region": "łódzkie",
+      "lat": 51.36883,
+      "lon": 19.35671,
+      "geonamesId": "3103709",
+      "population": 62896,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-776175",
+      "name": "Biała Podlaska",
+      "region": "lubelskie",
+      "lat": 52.03238,
+      "lon": 23.11652,
+      "geonamesId": "776175",
+      "population": 57541,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-776069",
+      "name": "Białystok",
+      "region": "podlaskie",
+      "lat": 53.13333,
+      "lon": 23.16433,
+      "geonamesId": "776069",
+      "population": 295683,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "bolt-food": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-775986",
+      "name": "Bielsk Podlaski",
+      "region": "podlaskie",
+      "lat": 52.76512,
+      "lon": 23.18647,
+      "geonamesId": "775986",
+      "population": 26493,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3103402",
+      "name": "Bielsko-Biała",
+      "region": "śląskie",
+      "lat": 49.82245,
+      "lon": 19.04686,
+      "geonamesId": "3103402",
+      "population": 176515,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-775820",
+      "name": "Błonie",
+      "region": "mazowieckie",
+      "lat": 52.19849,
+      "lon": 20.61709,
+      "geonamesId": "775820",
+      "population": 12195,
+      "apps": {
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3102987",
+      "name": "Bolesławiec",
+      "region": "dolnośląskie",
+      "lat": 51.26418,
+      "lon": 15.5697,
+      "geonamesId": "3102987",
+      "population": 40682,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3102627",
+      "name": "Brodnica",
+      "region": "kujawsko-pomorskie",
+      "lat": 53.25967,
+      "lon": 19.39653,
+      "geonamesId": "3102627",
+      "population": 27341,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-775224",
+      "name": "Brwinów",
+      "region": "mazowieckie",
+      "lat": 52.14269,
+      "lon": 20.71697,
+      "geonamesId": "775224",
+      "population": 12315,
+      "apps": {
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3102459",
+      "name": "Brzeg",
+      "region": "opolskie",
+      "lat": 50.86079,
+      "lon": 17.4674,
+      "geonamesId": "3102459",
+      "population": 38259,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3102014",
+      "name": "Bydgoszcz",
+      "region": "kujawsko-pomorskie",
+      "lat": 53.1235,
+      "lon": 18.00762,
+      "geonamesId": "3102014",
+      "population": 330038,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3101950",
+      "name": "Bytom",
+      "region": "śląskie",
+      "lat": 50.34802,
+      "lon": 18.93282,
+      "geonamesId": "3101950",
+      "population": 189186,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-774558",
+      "name": "Chełm",
+      "region": "lubelskie",
+      "lat": 51.14312,
+      "lon": 23.4716,
+      "geonamesId": "774558",
+      "population": 60231,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3101672",
+      "name": "Chojnice",
+      "region": "pomorskie",
+      "lat": 53.69554,
+      "lon": 17.55701,
+      "geonamesId": "3101672",
+      "population": 38789,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3101619",
+      "name": "Chorzów",
+      "region": "śląskie",
+      "lat": 50.30582,
+      "lon": 18.9742,
+      "geonamesId": "3101619",
+      "population": 113430,
+      "apps": {
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "bolt-food": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3101547",
+      "name": "Chrzanów",
+      "region": "małopolskie",
+      "lat": 50.13546,
+      "lon": 19.40203,
+      "geonamesId": "3101547",
+      "population": 39973,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-774251",
+      "name": "Chyliczki",
+      "region": "mazowieckie",
+      "lat": 52.08518,
+      "lon": 21.07002,
+      "geonamesId": "774251",
+      "population": 672,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-774208",
+      "name": "Ciechanów",
+      "region": "mazowieckie",
+      "lat": 52.88141,
+      "lon": 20.61996,
+      "geonamesId": "774208",
+      "population": 46438,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3101321",
+      "name": "Cieszyn",
+      "region": "śląskie",
+      "lat": 49.75133,
+      "lon": 18.63213,
+      "geonamesId": "3101321",
+      "population": 35586,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3101076",
+      "name": "Czechowice-Dziedzice",
+      "region": "śląskie",
+      "lat": 49.91342,
+      "lon": 19.00479,
+      "geonamesId": "3101076",
+      "population": 34703,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3100946",
+      "name": "Częstochowa",
+      "region": "śląskie",
+      "lat": 50.79646,
+      "lon": 19.12409,
+      "geonamesId": "3100946",
+      "population": 248125,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3100796",
+      "name": "Dąbrowa Górnicza",
+      "region": "śląskie",
+      "lat": 50.33394,
+      "lon": 19.20479,
+      "geonamesId": "3100796",
+      "population": 116971,
+      "apps": {
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "bolt-food": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-773380",
+      "name": "Dębica",
+      "region": "podkarpackie",
+      "lat": 50.05146,
+      "lon": 21.41141,
+      "geonamesId": "773380",
+      "population": 47366,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3099828",
+      "name": "Dzierżoniów",
+      "region": "dolnośląskie",
+      "lat": 50.7282,
+      "lon": 16.65141,
+      "geonamesId": "3099828",
+      "population": 34168,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3099759",
+      "name": "Elbląg",
+      "region": "warmińsko-mazurskie",
+      "lat": 54.1522,
+      "lon": 19.40884,
+      "geonamesId": "3099759",
+      "population": 127558,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-772621",
+      "name": "Ełk",
+      "region": "warmińsko-mazurskie",
+      "lat": 53.82824,
+      "lon": 22.36469,
+      "geonamesId": "772621",
+      "population": 55769,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3099434",
+      "name": "Gdańsk",
+      "region": "pomorskie",
+      "lat": 54.35227,
+      "lon": 18.64912,
+      "geonamesId": "3099434",
+      "population": 487371,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "bolt-food": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3099424",
+      "name": "Gdynia",
+      "region": "pomorskie",
+      "lat": 54.51889,
+      "lon": 18.53188,
+      "geonamesId": "3099424",
+      "population": 257000,
+      "apps": {
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-772195",
+      "name": "Giżycko",
+      "region": "warmińsko-mazurskie",
+      "lat": 54.03811,
+      "lon": 21.76441,
+      "geonamesId": "772195",
+      "population": 29972,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3099230",
+      "name": "Gliwice",
+      "region": "śląskie",
+      "lat": 50.29761,
+      "lon": 18.67658,
+      "geonamesId": "3099230",
+      "population": 198835,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3099213",
+      "name": "Głogów",
+      "region": "dolnośląskie",
+      "lat": 51.66361,
+      "lon": 16.0845,
+      "geonamesId": "3099213",
+      "population": 65400,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3099112",
+      "name": "Gniezno",
+      "region": "wielkopolskie",
+      "lat": 52.53481,
+      "lon": 17.58259,
+      "geonamesId": "3099112",
+      "population": 70269,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3098722",
+      "name": "Gorzów Wielkopolski",
+      "region": "lubuskie",
+      "lat": 52.73371,
+      "lon": 15.22505,
+      "geonamesId": "3098722",
+      "population": 114567,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "bolt-food": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-771401",
+      "name": "Grodzisk Mazowiecki",
+      "region": "mazowieckie",
+      "lat": 52.10387,
+      "lon": 20.6337,
+      "geonamesId": "771401",
+      "population": 26684,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3098218",
+      "name": "Grudziądz",
+      "region": "kujawsko-pomorskie",
+      "lat": 53.48411,
+      "lon": 18.75366,
+      "geonamesId": "3098218",
+      "population": 92552,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3097902",
+      "name": "Iława",
+      "region": "warmińsko-mazurskie",
+      "lat": 53.59601,
+      "lon": 19.56849,
+      "geonamesId": "3097902",
+      "population": 32557,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3097872",
+      "name": "Inowrocław",
+      "region": "kujawsko-pomorskie",
+      "lat": 52.79886,
+      "lon": 18.26387,
+      "geonamesId": "3097872",
+      "population": 77597,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3097528",
+      "name": "Jarocin",
+      "region": "wielkopolskie",
+      "lat": 51.97266,
+      "lon": 17.50256,
+      "geonamesId": "3097528",
+      "population": 25582,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-770380",
+      "name": "Jarosław",
+      "region": "podkarpackie",
+      "lat": 50.01623,
+      "lon": 22.67776,
+      "geonamesId": "770380",
+      "population": 35475,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3097391",
+      "name": "Jastrzębie-Zdrój",
+      "region": "śląskie",
+      "lat": 49.95542,
+      "lon": 18.57479,
+      "geonamesId": "3097391",
+      "population": 95813,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3097333",
+      "name": "Jaworzno",
+      "region": "śląskie",
+      "lat": 50.20528,
+      "lon": 19.27498,
+      "geonamesId": "3097333",
+      "population": 96541,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3097257",
+      "name": "Jelenia Góra",
+      "region": "dolnośląskie",
+      "lat": 50.89973,
+      "lon": 15.72899,
+      "geonamesId": "3097257",
+      "population": 77366,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-770008",
+      "name": "Józefosław",
+      "region": "mazowieckie",
+      "lat": 52.1005,
+      "lon": 21.04629,
+      "geonamesId": "770008",
+      "population": 4484,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-769981",
+      "name": "Józefów",
+      "region": "mazowieckie",
+      "lat": 52.13707,
+      "lon": 21.23589,
+      "geonamesId": "769981",
+      "population": 17910,
+      "apps": {
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-769961",
+      "name": "Juchnowiec Kościelny",
+      "region": "podlaskie",
+      "lat": 53.01943,
+      "lon": 23.14098,
+      "geonamesId": "769961",
+      "population": 160,
+      "apps": {
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3096880",
+      "name": "Kalisz",
+      "region": "wielkopolskie",
+      "lat": 51.76109,
+      "lon": 18.09102,
+      "geonamesId": "3096880",
+      "population": 108759,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3096472",
+      "name": "Katowice",
+      "region": "śląskie",
+      "lat": 50.2597,
+      "lon": 19.02173,
+      "geonamesId": "3096472",
+      "population": 286960,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "bolt-food": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "jush": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3096372",
+      "name": "Kędzierzyn-Koźle",
+      "region": "opolskie",
+      "lat": 50.34984,
+      "lon": 18.22606,
+      "geonamesId": "3096372",
+      "population": 65636,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-769250",
+      "name": "Kielce",
+      "region": "świętokrzyskie",
+      "lat": 50.87033,
+      "lon": 20.62752,
+      "geonamesId": "769250",
+      "population": 192468,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3096053",
+      "name": "Kłodzko",
+      "region": "dolnośląskie",
+      "lat": 50.43488,
+      "lon": 16.66145,
+      "geonamesId": "3096053",
+      "population": 25717,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-768905",
+      "name": "Kobyłka",
+      "region": "mazowieckie",
+      "lat": 52.33953,
+      "lon": 21.19589,
+      "geonamesId": "768905",
+      "population": 17659,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3095797",
+      "name": "Koło",
+      "region": "wielkopolskie",
+      "lat": 52.20024,
+      "lon": 18.63865,
+      "geonamesId": "3095797",
+      "population": 23493,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3095795",
+      "name": "Kołobrzeg",
+      "region": "zachodniopomorskie",
+      "lat": 54.17565,
+      "lon": 15.58342,
+      "geonamesId": "3095795",
+      "population": 44377,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3095321",
+      "name": "Konin",
+      "region": "wielkopolskie",
+      "lat": 52.22338,
+      "lon": 18.25121,
+      "geonamesId": "3095321",
+      "population": 81258,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3095126",
+      "name": "Kościerzyna",
+      "region": "pomorskie",
+      "lat": 54.12226,
+      "lon": 17.98119,
+      "geonamesId": "3095126",
+      "population": 23327,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3095057",
+      "name": "Kostrzyn nad Odrą",
+      "region": "lubuskie",
+      "lat": 52.58713,
+      "lon": 14.64953,
+      "geonamesId": "3095057",
+      "population": 17778,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3095049",
+      "name": "Koszalin",
+      "region": "zachodniopomorskie",
+      "lat": 54.19438,
+      "lon": 16.17222,
+      "geonamesId": "3095049",
+      "population": 107450,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3094976",
+      "name": "Kowale",
+      "region": "pomorskie",
+      "lat": 54.30976,
+      "lon": 18.56149,
+      "geonamesId": "3094976",
+      "population": 1972,
+      "apps": {
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3094802",
+      "name": "Kraków",
+      "region": "małopolskie",
+      "lat": 50.06143,
+      "lon": 19.93658,
+      "geonamesId": "3094802",
+      "population": 816614,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "bolt-food": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "jush": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-767623",
+      "name": "Kraśnik",
+      "region": "lubelskie",
+      "lat": 50.9236,
+      "lon": 22.22706,
+      "geonamesId": "767623",
+      "population": 35834,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-767470",
+      "name": "Krosno",
+      "region": "podkarpackie",
+      "lat": 49.68866,
+      "lon": 21.77058,
+      "geonamesId": "767470",
+      "population": 47784,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3094625",
+      "name": "Krotoszyn",
+      "region": "wielkopolskie",
+      "lat": 51.69868,
+      "lon": 17.43738,
+      "geonamesId": "3094625",
+      "population": 29231,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3094170",
+      "name": "Kutno",
+      "region": "łódzkie",
+      "lat": 52.23064,
+      "lon": 19.36409,
+      "geonamesId": "3094170",
+      "population": 48323,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3094086",
+      "name": "Kwidzyn",
+      "region": "pomorskie",
+      "lat": 53.72495,
+      "lon": 18.93114,
+      "geonamesId": "3094086",
+      "population": 37601,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3093739",
+      "name": "Lębork",
+      "region": "pomorskie",
+      "lat": 54.53921,
+      "lon": 17.75012,
+      "geonamesId": "3093739",
+      "population": 35161,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3093692",
+      "name": "Legnica",
+      "region": "dolnośląskie",
+      "lat": 51.21006,
+      "lon": 16.1619,
+      "geonamesId": "3093692",
+      "population": 106033,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3093524",
+      "name": "Leszno",
+      "region": "wielkopolskie",
+      "lat": 51.84034,
+      "lon": 16.57494,
+      "geonamesId": "3093524",
+      "population": 63565,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3093133",
+      "name": "Łódź",
+      "region": "łódzkie",
+      "lat": 51.77058,
+      "lon": 19.47395,
+      "geonamesId": "3093133",
+      "population": 639890,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "bolt-food": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-766027",
+      "name": "Łomża",
+      "region": "podlaskie",
+      "lat": 53.17806,
+      "lon": 22.05935,
+      "geonamesId": "766027",
+      "population": 62019,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3093066",
+      "name": "Łowicz",
+      "region": "łódzkie",
+      "lat": 52.10714,
+      "lon": 19.94525,
+      "geonamesId": "3093066",
+      "population": 29809,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3092931",
+      "name": "Lubin",
+      "region": "dolnośląskie",
+      "lat": 51.40089,
+      "lon": 16.20149,
+      "geonamesId": "3092931",
+      "population": 77532,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-765876",
+      "name": "Lublin",
+      "region": "lubelskie",
+      "lat": 51.25058,
+      "lon": 22.57009,
+      "geonamesId": "765876",
+      "population": 336339,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "bolt-food": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3092906",
+      "name": "Lubliniec",
+      "region": "śląskie",
+      "lat": 50.66897,
+      "lon": 18.6844,
+      "geonamesId": "3092906",
+      "population": 23784,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-765749",
+      "name": "Łuków",
+      "region": "lubelskie",
+      "lat": 51.929,
+      "lon": 22.37956,
+      "geonamesId": "765749",
+      "population": 30465,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3092472",
+      "name": "Malbork",
+      "region": "pomorskie",
+      "lat": 54.03591,
+      "lon": 19.0266,
+      "geonamesId": "3092472",
+      "population": 36709,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-765191",
+      "name": "Marki",
+      "region": "mazowieckie",
+      "lat": 52.32065,
+      "lon": 21.10474,
+      "geonamesId": "765191",
+      "population": 23177,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-764849",
+      "name": "Mielec",
+      "region": "podkarpackie",
+      "lat": 50.28709,
+      "lon": 21.4239,
+      "geonamesId": "764849",
+      "population": 59509,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3091831",
+      "name": "Mikołów",
+      "region": "śląskie",
+      "lat": 50.17103,
+      "lon": 18.9041,
+      "geonamesId": "3091831",
+      "population": 38821,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-764749",
+      "name": "Milanówek",
+      "region": "mazowieckie",
+      "lat": 52.11879,
+      "lon": 20.67155,
+      "geonamesId": "764749",
+      "population": 15784,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-764679",
+      "name": "Mińsk Mazowiecki",
+      "region": "mazowieckie",
+      "lat": 52.17935,
+      "lon": 21.57251,
+      "geonamesId": "764679",
+      "population": 37027,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-764634",
+      "name": "Mława",
+      "region": "mazowieckie",
+      "lat": 53.11278,
+      "lon": 20.3841,
+      "geonamesId": "764634",
+      "population": 29398,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-764312",
+      "name": "Mrągowo",
+      "region": "warmińsko-mazurskie",
+      "lat": 53.86437,
+      "lon": 21.30507,
+      "geonamesId": "764312",
+      "population": 21965,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3091232",
+      "name": "Mysłowice",
+      "region": "śląskie",
+      "lat": 50.20745,
+      "lon": 19.16668,
+      "geonamesId": "3091232",
+      "population": 72124,
+      "apps": {
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3091150",
+      "name": "Nakło nad Notecią",
+      "region": "kujawsko-pomorskie",
+      "lat": 53.14214,
+      "lon": 17.60181,
+      "geonamesId": "3091150",
+      "population": 19565,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3090764",
+      "name": "Nowa Sól",
+      "region": "lubuskie",
+      "lat": 51.80333,
+      "lon": 15.71702,
+      "geonamesId": "3090764",
+      "population": 40354,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-763556",
+      "name": "Nowy Dwór Mazowiecki",
+      "region": "mazowieckie",
+      "lat": 52.43022,
+      "lon": 20.71652,
+      "geonamesId": "763556",
+      "population": 27633,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-763534",
+      "name": "Nowy Sącz",
+      "region": "małopolskie",
+      "lat": 49.62177,
+      "lon": 20.69705,
+      "geonamesId": "763534",
+      "population": 84376,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-763523",
+      "name": "Nowy Targ",
+      "region": "małopolskie",
+      "lat": 49.47783,
+      "lon": 20.03228,
+      "geonamesId": "763523",
+      "population": 33763,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3090436",
+      "name": "Nysa",
+      "region": "opolskie",
+      "lat": 50.47379,
+      "lon": 17.33437,
+      "geonamesId": "3090436",
+      "population": 47283,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3090205",
+      "name": "Oława",
+      "region": "dolnośląskie",
+      "lat": 50.9466,
+      "lon": 17.2926,
+      "geonamesId": "3090205",
+      "population": 33029,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3090170",
+      "name": "Oleśnica",
+      "region": "dolnośląskie",
+      "lat": 51.21338,
+      "lon": 17.38986,
+      "geonamesId": "3090170",
+      "population": 36956,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3090146",
+      "name": "Olkusz",
+      "region": "małopolskie",
+      "lat": 50.2813,
+      "lon": 19.56503,
+      "geonamesId": "3090146",
+      "population": 37744,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-763166",
+      "name": "Olsztyn",
+      "region": "warmińsko-mazurskie",
+      "lat": 53.78376,
+      "lon": 20.49272,
+      "geonamesId": "763166",
+      "population": 169793,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3090048",
+      "name": "Opole",
+      "region": "opolskie",
+      "lat": 50.67119,
+      "lon": 17.92604,
+      "geonamesId": "3090048",
+      "population": 127676,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3089779",
+      "name": "Ostróda",
+      "region": "warmińsko-mazurskie",
+      "lat": 53.69671,
+      "lon": 19.96486,
+      "geonamesId": "3089779",
+      "population": 33524,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-762909",
+      "name": "Ostrołęka",
+      "region": "mazowieckie",
+      "lat": 53.08621,
+      "lon": 21.57566,
+      "geonamesId": "762909",
+      "population": 53740,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3089684",
+      "name": "Ostrów Wielkopolski",
+      "region": "wielkopolskie",
+      "lat": 51.65501,
+      "lon": 17.80686,
+      "geonamesId": "3089684",
+      "population": 72898,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-762863",
+      "name": "Ostrowiec Świętokrzyski",
+      "region": "świętokrzyskie",
+      "lat": 50.92936,
+      "lon": 21.38525,
+      "geonamesId": "762863",
+      "population": 73989,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3089658",
+      "name": "Oświęcim",
+      "region": "małopolskie",
+      "lat": 50.03437,
+      "lon": 19.21037,
+      "geonamesId": "3089658",
+      "population": 34170,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-762788",
+      "name": "Otwock",
+      "region": "mazowieckie",
+      "lat": 52.10577,
+      "lon": 21.26129,
+      "geonamesId": "762788",
+      "population": 43388,
+      "apps": {
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3089578",
+      "name": "Pabianice",
+      "region": "łódzkie",
+      "lat": 51.66446,
+      "lon": 19.35473,
+      "geonamesId": "3089578",
+      "population": 70542,
+      "apps": {
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-762423",
+      "name": "Piaseczno",
+      "region": "mazowieckie",
+      "lat": 52.0814,
+      "lon": 21.02397,
+      "geonamesId": "762423",
+      "population": 36278,
+      "apps": {
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-762381",
+      "name": "Piastów",
+      "region": "mazowieckie",
+      "lat": 52.18435,
+      "lon": 20.83952,
+      "geonamesId": "762381",
+      "population": 23290,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3089033",
+      "name": "Piła",
+      "region": "wielkopolskie",
+      "lat": 53.15145,
+      "lon": 16.73782,
+      "geonamesId": "3089033",
+      "population": 75532,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3088972",
+      "name": "Piotrków Trybunalski",
+      "region": "łódzkie",
+      "lat": 51.40547,
+      "lon": 19.70321,
+      "geonamesId": "3088972",
+      "population": 80128,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3088825",
+      "name": "Płock",
+      "region": "mazowieckie",
+      "lat": 52.54682,
+      "lon": 19.70638,
+      "geonamesId": "3088825",
+      "population": 127474,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-762021",
+      "name": "Płońsk",
+      "region": "mazowieckie",
+      "lat": 52.62348,
+      "lon": 20.37552,
+      "geonamesId": "762021",
+      "population": 22217,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3088435",
+      "name": "Polkowice",
+      "region": "dolnośląskie",
+      "lat": 51.50391,
+      "lon": 16.07261,
+      "geonamesId": "3088435",
+      "population": 21565,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3088171",
+      "name": "Poznań",
+      "region": "wielkopolskie",
+      "lat": 52.40692,
+      "lon": 16.92993,
+      "geonamesId": "3088171",
+      "population": 536151,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "bolt-food": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "jush": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3088034",
+      "name": "Pruszcz Gdański",
+      "region": "pomorskie",
+      "lat": 54.26217,
+      "lon": 18.63625,
+      "geonamesId": "3088034",
+      "population": 23618,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-761228",
+      "name": "Pruszków",
+      "region": "mazowieckie",
+      "lat": 52.17072,
+      "lon": 20.81214,
+      "geonamesId": "761228",
+      "population": 55371,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-761168",
+      "name": "Przemyśl",
+      "region": "podkarpackie",
+      "lat": 49.78498,
+      "lon": 22.76728,
+      "geonamesId": "761168",
+      "population": 67013,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3087705",
+      "name": "Pszczyna",
+      "region": "śląskie",
+      "lat": 49.98037,
+      "lon": 18.95382,
+      "geonamesId": "3087705",
+      "population": 25288,
+      "apps": {
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3087691",
+      "name": "Puck",
+      "region": "pomorskie",
+      "lat": 54.7179,
+      "lon": 18.40841,
+      "geonamesId": "3087691",
+      "population": 11415,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-760924",
+      "name": "Puławy",
+      "region": "lubelskie",
+      "lat": 51.41655,
+      "lon": 21.96939,
+      "geonamesId": "760924",
+      "population": 49759,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-760917",
+      "name": "Pułtusk",
+      "region": "mazowieckie",
+      "lat": 52.7025,
+      "lon": 21.08276,
+      "geonamesId": "760917",
+      "population": 19039,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3087584",
+      "name": "Racibórz",
+      "region": "śląskie",
+      "lat": 50.09195,
+      "lon": 18.21928,
+      "geonamesId": "3087584",
+      "population": 58464,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-760778",
+      "name": "Radom",
+      "region": "mazowieckie",
+      "lat": 51.40253,
+      "lon": 21.14714,
+      "geonamesId": "760778",
+      "population": 226794,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-760607",
+      "name": "Raszyn",
+      "region": "mazowieckie",
+      "lat": 52.15603,
+      "lon": 20.9226,
+      "geonamesId": "760607",
+      "population": 7109,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3086800",
+      "name": "Ruda Śląska",
+      "region": "śląskie",
+      "lat": 50.2584,
+      "lon": 18.85632,
+      "geonamesId": "3086800",
+      "population": 146189,
+      "apps": {
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3086706",
+      "name": "Rumia",
+      "region": "pomorskie",
+      "lat": 54.57092,
+      "lon": 18.38802,
+      "geonamesId": "3086706",
+      "population": 44791,
+      "apps": {
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3086586",
+      "name": "Rybnik",
+      "region": "śląskie",
+      "lat": 50.09713,
+      "lon": 18.54179,
+      "geonamesId": "3086586",
+      "population": 142510,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-759734",
+      "name": "Rzeszów",
+      "region": "podkarpackie",
+      "lat": 50.04132,
+      "lon": 21.99901,
+      "geonamesId": "759734",
+      "population": 198317,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "bolt-food": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-759591",
+      "name": "Sanok",
+      "region": "podkarpackie",
+      "lat": 49.55573,
+      "lon": 22.2056,
+      "geonamesId": "759591",
+      "population": 39684,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-759412",
+      "name": "Siedlce",
+      "region": "mazowieckie",
+      "lat": 52.16772,
+      "lon": 22.29006,
+      "geonamesId": "759412",
+      "population": 77185,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3086024",
+      "name": "Siemianowice Śląskie",
+      "region": "śląskie",
+      "lat": 50.32738,
+      "lon": 19.02901,
+      "geonamesId": "3086024",
+      "population": 73121,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3085978",
+      "name": "Sieradz",
+      "region": "łódzkie",
+      "lat": 51.59584,
+      "lon": 18.73023,
+      "geonamesId": "3085978",
+      "population": 44436,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3085941",
+      "name": "Sierpc",
+      "region": "mazowieckie",
+      "lat": 52.8568,
+      "lon": 19.66913,
+      "geonamesId": "3085941",
+      "population": 18866,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-759141",
+      "name": "Skarżysko-Kamienna",
+      "region": "świętokrzyskie",
+      "lat": 51.11311,
+      "lon": 20.87162,
+      "geonamesId": "759141",
+      "population": 49410,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-759123",
+      "name": "Skierniewice",
+      "region": "łódzkie",
+      "lat": 51.95485,
+      "lon": 20.15837,
+      "geonamesId": "759123",
+      "population": 49042,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3085495",
+      "name": "Słubice",
+      "region": "lubuskie",
+      "lat": 52.35088,
+      "lon": 14.56065,
+      "geonamesId": "3085495",
+      "population": 17567,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3085450",
+      "name": "Słupsk",
+      "region": "pomorskie",
+      "lat": 54.46405,
+      "lon": 17.02872,
+      "geonamesId": "3085450",
+      "population": 98608,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-758682",
+      "name": "Sochaczew",
+      "region": "mazowieckie",
+      "lat": 52.22944,
+      "lon": 20.23838,
+      "geonamesId": "758682",
+      "population": 38267,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3085151",
+      "name": "Sopot",
+      "region": "pomorskie",
+      "lat": 54.4418,
+      "lon": 18.56003,
+      "geonamesId": "3085151",
+      "population": 35049,
+      "apps": {
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3085128",
+      "name": "Sosnowiec",
+      "region": "śląskie",
+      "lat": 50.28682,
+      "lon": 19.10385,
+      "geonamesId": "3085128",
+      "population": 227295,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "bolt-food": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3085056",
+      "name": "Śrem",
+      "region": "wielkopolskie",
+      "lat": 52.08868,
+      "lon": 17.01508,
+      "geonamesId": "3085056",
+      "population": 30404,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-758445",
+      "name": "Stalowa Wola",
+      "region": "podkarpackie",
+      "lat": 50.58286,
+      "lon": 22.05334,
+      "geonamesId": "758445",
+      "population": 66495,
+      "apps": {
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-758390",
+      "name": "Starachowice",
+      "region": "świętokrzyskie",
+      "lat": 51.0374,
+      "lon": 21.07126,
+      "geonamesId": "758390",
+      "population": 53739,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3084840",
+      "name": "Stargard",
+      "region": "zachodniopomorskie",
+      "lat": 53.33672,
+      "lon": 15.0499,
+      "geonamesId": "3084840",
+      "population": 71224,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3084826",
+      "name": "Starogard Gdański",
+      "region": "pomorskie",
+      "lat": 53.96396,
+      "lon": 18.52638,
+      "geonamesId": "3084826",
+      "population": 47272,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-758282",
+      "name": "Stary Sącz",
+      "region": "małopolskie",
+      "lat": 49.56364,
+      "lon": 20.63496,
+      "geonamesId": "758282",
+      "population": 8959,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3084258",
+      "name": "Suchy Las",
+      "region": "wielkopolskie",
+      "lat": 52.47308,
+      "lon": 16.87745,
+      "geonamesId": "3084258",
+      "population": 4367,
+      "apps": {
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3084241",
+      "name": "Sulechów",
+      "region": "lubuskie",
+      "lat": 52.08362,
+      "lon": 15.62513,
+      "geonamesId": "3084241",
+      "population": 18055,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-757809",
+      "name": "Sulejówek",
+      "region": "mazowieckie",
+      "lat": 52.25221,
+      "lon": 21.26902,
+      "geonamesId": "757809",
+      "population": 18414,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-757718",
+      "name": "Suwałki",
+      "region": "podlaskie",
+      "lat": 54.11175,
+      "lon": 22.93087,
+      "geonamesId": "757718",
+      "population": 69222,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3084130",
+      "name": "Swarzędz",
+      "region": "wielkopolskie",
+      "lat": 52.41289,
+      "lon": 17.08503,
+      "geonamesId": "3084130",
+      "population": 29010,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3084093",
+      "name": "Świdnica",
+      "region": "dolnośląskie",
+      "lat": 50.84378,
+      "lon": 16.48859,
+      "geonamesId": "3084093",
+      "population": 60351,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-757692",
+      "name": "Świdnik",
+      "region": "lubelskie",
+      "lat": 51.21898,
+      "lon": 22.69621,
+      "geonamesId": "757692",
+      "population": 40050,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3084062",
+      "name": "Świebodzin",
+      "region": "lubuskie",
+      "lat": 52.24751,
+      "lon": 15.53355,
+      "geonamesId": "3084062",
+      "population": 21757,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3084074",
+      "name": "Świecie",
+      "region": "kujawsko-pomorskie",
+      "lat": 53.40953,
+      "lon": 18.44742,
+      "geonamesId": "3084074",
+      "population": 25843,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3083988",
+      "name": "Świętochłowice",
+      "region": "śląskie",
+      "lat": 50.29636,
+      "lon": 18.91726,
+      "geonamesId": "3083988",
+      "population": 55600,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3083955",
+      "name": "Świnoujście",
+      "region": "zachodniopomorskie",
+      "lat": 53.91053,
+      "lon": 14.24712,
+      "geonamesId": "3083955",
+      "population": 40919,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3083829",
+      "name": "Szczecin",
+      "region": "zachodniopomorskie",
+      "lat": 53.42894,
+      "lon": 14.55302,
+      "geonamesId": "3083829",
+      "population": 395513,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3083826",
+      "name": "Szczecinek",
+      "region": "zachodniopomorskie",
+      "lat": 53.70791,
+      "lon": 16.69937,
+      "geonamesId": "3083826",
+      "population": 38496,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-757357",
+      "name": "Szczytno",
+      "region": "warmińsko-mazurskie",
+      "lat": 53.56259,
+      "lon": 20.98747,
+      "geonamesId": "757357",
+      "population": 26044,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-757033",
+      "name": "Tarnobrzeg",
+      "region": "podkarpackie",
+      "lat": 50.57304,
+      "lon": 21.67937,
+      "geonamesId": "757033",
+      "population": 50459,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-757026",
+      "name": "Tarnów",
+      "region": "małopolskie",
+      "lat": 50.01381,
+      "lon": 20.98698,
+      "geonamesId": "757026",
+      "population": 117799,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3083440",
+      "name": "Tarnowskie Góry",
+      "region": "śląskie",
+      "lat": 50.44548,
+      "lon": 18.86147,
+      "geonamesId": "3083440",
+      "population": 60938,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3083426",
+      "name": "Tczew",
+      "region": "pomorskie",
+      "lat": 54.09242,
+      "lon": 18.77787,
+      "geonamesId": "3083426",
+      "population": 60133,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-756867",
+      "name": "Tomaszów Mazowiecki",
+      "region": "łódzkie",
+      "lat": 51.53131,
+      "lon": 20.00855,
+      "geonamesId": "756867",
+      "population": 67197,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3083271",
+      "name": "Toruń",
+      "region": "kujawsko-pomorskie",
+      "lat": 53.01375,
+      "lon": 18.59814,
+      "geonamesId": "3083271",
+      "population": 196935,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "bolt-food": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3082998",
+      "name": "Turek",
+      "region": "wielkopolskie",
+      "lat": 52.01548,
+      "lon": 18.50055,
+      "geonamesId": "3082998",
+      "population": 29533,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3082914",
+      "name": "Tychy",
+      "region": "śląskie",
+      "lat": 50.13717,
+      "lon": 18.96641,
+      "geonamesId": "3082914",
+      "population": 130000,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3082712",
+      "name": "Wągrowiec",
+      "region": "wielkopolskie",
+      "lat": 52.80842,
+      "lon": 17.19961,
+      "geonamesId": "3082712",
+      "population": 25648,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3082707",
+      "name": "Wałbrzych",
+      "region": "dolnośląskie",
+      "lat": 50.77141,
+      "lon": 16.28432,
+      "geonamesId": "3082707",
+      "population": 127431,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3082704",
+      "name": "Wałcz",
+      "region": "zachodniopomorskie",
+      "lat": 53.27787,
+      "lon": 16.47122,
+      "geonamesId": "3082704",
+      "population": 25971,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-756135",
+      "name": "Warszawa",
+      "region": "mazowieckie",
+      "lat": 52.22977,
+      "lon": 21.01178,
+      "geonamesId": "756135",
+      "population": 1702139,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "bolt-food": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "jush": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3082473",
+      "name": "Wejherowo",
+      "region": "pomorskie",
+      "lat": 54.60568,
+      "lon": 18.23559,
+      "geonamesId": "3082473",
+      "population": 46820,
+      "apps": {
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-755889",
+      "name": "Wieliczka",
+      "region": "małopolskie",
+      "lat": 49.98738,
+      "lon": 20.06473,
+      "geonamesId": "755889",
+      "population": 18677,
+      "apps": {
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3081752",
+      "name": "Władysławowo",
+      "region": "pomorskie",
+      "lat": 54.79086,
+      "lon": 18.4009,
+      "geonamesId": "3081752",
+      "population": 14889,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3081741",
+      "name": "Włocławek",
+      "region": "kujawsko-pomorskie",
+      "lat": 52.64817,
+      "lon": 19.0678,
+      "geonamesId": "3081741",
+      "population": 120339,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3081677",
+      "name": "Wodzisław Śląski",
+      "region": "śląskie",
+      "lat": 50.00377,
+      "lon": 18.47205,
+      "geonamesId": "3081677",
+      "population": 49521,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-754800",
+      "name": "Wołomin",
+      "region": "mazowieckie",
+      "lat": 52.34006,
+      "lon": 21.24207,
+      "geonamesId": "754800",
+      "population": 36592,
+      "apps": {
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3081368",
+      "name": "Wrocław",
+      "region": "dolnośląskie",
+      "lat": 51.10286,
+      "lon": 17.03006,
+      "geonamesId": "3081368",
+      "population": 672545,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "bolt-food": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "jush": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3081324",
+      "name": "Września",
+      "region": "wielkopolskie",
+      "lat": 52.32512,
+      "lon": 17.56519,
+      "geonamesId": "3081324",
+      "population": 28703,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-754454",
+      "name": "Wyszków",
+      "region": "mazowieckie",
+      "lat": 52.59278,
+      "lon": 21.4584,
+      "geonamesId": "754454",
+      "population": 26500,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-754351",
+      "name": "Ząbki",
+      "region": "mazowieckie",
+      "lat": 52.29271,
+      "lon": 21.10539,
+      "geonamesId": "754351",
+      "population": 23473,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3080985",
+      "name": "Zabrze",
+      "region": "śląskie",
+      "lat": 50.32492,
+      "lon": 18.78576,
+      "geonamesId": "3080985",
+      "population": 192177,
+      "apps": {
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3080944",
+      "name": "Żagań",
+      "region": "lubuskie",
+      "lat": 51.61759,
+      "lon": 15.31486,
+      "geonamesId": "3080944",
+      "population": 25731,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3080866",
+      "name": "Zakopane",
+      "region": "małopolskie",
+      "lat": 49.29899,
+      "lon": 19.94885,
+      "geonamesId": "3080866",
+      "population": 27266,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-753866",
+      "name": "Zamość",
+      "region": "lubelskie",
+      "lat": 50.72314,
+      "lon": 23.25196,
+      "geonamesId": "753866",
+      "population": 66034,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3080644",
+      "name": "Żary",
+      "region": "lubuskie",
+      "lat": 51.64205,
+      "lon": 15.13727,
+      "geonamesId": "3080644",
+      "population": 38779,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3080526",
+      "name": "Zawiercie",
+      "region": "śląskie",
+      "lat": 50.48766,
+      "lon": 19.41679,
+      "geonamesId": "3080526",
+      "population": 53159,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3080414",
+      "name": "Zduńska Wola",
+      "region": "łódzkie",
+      "lat": 51.59915,
+      "lon": 18.93974,
+      "geonamesId": "3080414",
+      "population": 44515,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3080251",
+      "name": "Zgierz",
+      "region": "łódzkie",
+      "lat": 51.85561,
+      "lon": 19.40623,
+      "geonamesId": "3080251",
+      "population": 58036,
+      "apps": {
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3080231",
+      "name": "Zgorzelec",
+      "region": "dolnośląskie",
+      "lat": 51.14942,
+      "lon": 15.00835,
+      "geonamesId": "3080231",
+      "population": 33247,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3080165",
+      "name": "Zielona Góra",
+      "region": "lubuskie",
+      "lat": 51.93548,
+      "lon": 15.50643,
+      "geonamesId": "3080165",
+      "population": 118433,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "wolt": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-753276",
+      "name": "Zielonka",
+      "region": "mazowieckie",
+      "lat": 52.30376,
+      "lon": 21.16018,
+      "geonamesId": "753276",
+      "population": 17518,
+      "apps": {
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3080004",
+      "name": "Żory",
+      "region": "śląskie",
+      "lat": 50.04523,
+      "lon": 18.70062,
+      "geonamesId": "3080004",
+      "population": 63174,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-752967",
+      "name": "Żyrardów",
+      "region": "mazowieckie",
+      "lat": 52.0488,
+      "lon": 20.44599,
+      "geonamesId": "752967",
+      "population": 41179,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "stuart": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    },
+    {
+      "id": "pl-3079855",
+      "name": "Żywiec",
+      "region": "śląskie",
+      "lat": 49.68529,
+      "lon": 19.19243,
+      "geonamesId": "3079855",
+      "population": 32132,
+      "apps": {
+        "glovo": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "pyszne": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        },
+        "uber-eats": {
+          "status": "active",
+          "source": "https://kurierpedia.pl/mapa-delivery/",
+          "checkedAt": "2026-11-05",
+          "evidenceScope": "platform_couriers"
+        }
+      }
+    }
+  ],
+  "revision": "2026-11-05-map-colors"
+}

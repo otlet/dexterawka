@@ -1,0 +1,66 @@
+{{- /* Edytor bazy, kopie robocze i eksporty istnieją tylko lokalnie. Build produkcyjny ich nie zawiera. */ -}}
+{{- $editable := eq hugo.Environment "development" -}}
+<!doctype html>
+<html lang="pl" data-dark-mode>
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mapa aplikacji delivery w Polsce — Kurierpedia</title>
+  <meta name="description" content="Sprawdź, w których miastach działają Glovo, Uber Eats, Wolt, Bolt Food, Stuart, Pyszne.pl i Jush. Interaktywna mapa dla kurierów.">
+  {{/* This shared layer is plain CSS; retain its native min()/clamp() expressions. */}}
+  {{ $shared := resources.FromString "docs/css/kurierpedia-shared.css" (resources.Get "docs/scss/kurierska.scss").Content }}
+  {{ $mapCSS := resources.Get "docs/css/delivery-map.css" | resources.ExecuteAsTemplate "docs/css/delivery-map.generated.css" . }}
+  {{ $css := slice $shared $mapCSS | resources.Concat "docs/css/delivery-map-bundle.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+  {{ partial "google-fonts.html" . }}
+  {{ $icons := dict }}
+  {{ range (index site.Data "delivery-map-branding").icons }}
+    {{ $icon := resources.Get (strings.TrimPrefix "assets/" .path) }}
+    {{ $small := $icon.Resize "96x png" }}
+    {{ $icons = merge $icons (dict .id (printf "data:image/png;base64,%s" ($small.Content | base64Encode))) }}
+  {{ end }}
+  <script type="application/json" id="delivery-map-icons">{{ $icons | jsonify | safeJS }}</script>
+</head>
+<body data-delivery-map data-base="{{ "data/" | relURL }}">
+  <a class="skip-link" href="#city-search">Przejdź do wyszukiwarki</a>
+  <header class="topbar">
+    <a class="brand" href="{{ "docs/" | relURL }}"><span class="brand-mark" aria-hidden="true">{{ with resources.Get "images/logos/logo.svg" }}{{ .Content | replaceRE `<\?xml[^>]*>` "" | safeHTML }}{{ end }}</span><span>Kurierpedia<small>MAPA DELIVERY</small></span></a>
+    <div class="top-context"><span class="live-dot"></span> Polska <span class="separator">/</span> <span id="data-date">Wczytywanie bazy…</span></div>
+    {{ if $editable }}<nav aria-label="Narzędzia mapy"><button id="editor-open" class="outline-button"><span aria-hidden="true">✎</span> Edytuj bazę</button></nav>{{ end }}
+  </header>
+  <main>
+    <div class="intro"><div><p class="eyebrow">SIEDEM APLIKACJI. JEDNA MAPA.</p><h1>Gdzie możesz dostarczać<span>?</span></h1><p>Sprawdź miasta obsługiwane przez kurierów platformowych.</p></div><div class="intro-stats"><div><strong id="total-cities">—</strong><span>miejscowości w bazie</span></div><div><strong id="total-apps">7</strong><span>aplikacji delivery</span></div></div></div>
+    {{ if $editable }}<div id="draft-banner" class="draft-banner" hidden><span id="draft-message">Oglądasz kopię roboczą na tym urządzeniu. Zmiany nie są opublikowane.</span> <button id="draft-editor">Otwórz edytor</button></div>{{ end }}
+    <div id="load-error" class="error-banner" role="alert" hidden></div>
+    <div class="workspace">
+      <aside class="filters" aria-label="Filtry mapy">
+        <div class="filter-top"><h2>Znajdź swoje miasto</h2><label class="search-box"><span aria-hidden="true">⌕</span><input id="city-search" type="search" placeholder="np. Warszawa, Łódź…" aria-label="Szukaj miejscowości" autocomplete="off"><kbd>/</kbd></label>
+        <label class="sr-only" for="region-filter">Województwo</label><select id="region-filter"><option value="">Wszystkie województwa</option></select></div>
+        <div class="filter-heading"><span>APLIKACJE</span><button id="all-apps">Wszystkie</button></div>
+        <div id="app-filters" class="app-filters"></div>
+        <div class="match-mode" aria-label="Sposób łączenia aplikacji"><button data-mode="any" aria-pressed="true">Dowolna z wybranych</button><button data-mode="all" aria-pressed="false">Wszystkie</button></div>
+        <label class="recruiting-toggle"><input id="include-recruiting" type="checkbox"><span>Uwzględnij formularze kurierskie<small>Formularz nie gwarantuje otwartego naboru</small></span></label>
+        <div class="results-heading"><h2>Miejscowości <span id="result-count">—</span></h2><button id="clear-filters" title="Wyczyść filtry">Wyczyść</button></div>
+        <div id="city-list" class="city-list" aria-label="Wyniki wyszukiwania"></div><div id="results-announcement" class="sr-only" aria-live="polite"></div>
+      </aside>
+      <section class="map-panel" aria-label="Interaktywna mapa Polski">
+        <div class="map-caption"><span class="eyebrow">POLSKA / DELIVERY</span><p id="map-subtitle">Wybierz punkt na mapie</p></div>
+        <svg id="poland-map" viewBox="0 0 920 900" aria-label="Mapa miejscowości z aplikacjami delivery"><title>Mapa aplikacji delivery w Polsce</title><defs><pattern id="map-grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="var(--kp-rule)" stroke-width=".4" opacity=".4"/></pattern></defs><rect x="-5000" y="-5000" width="10000" height="10000" fill="var(--kp-map-water)"/><g id="map-geography"></g><rect x="-5000" y="-5000" width="10000" height="10000" fill="url(#map-grid)" pointer-events="none"/><g id="map-country-labels" aria-hidden="true"></g><g id="map-markers"></g><g id="map-labels" aria-hidden="true" pointer-events="none"></g></svg>
+        <div class="map-controls"><button id="zoom-in" aria-label="Powiększ mapę">+</button><button id="zoom-out" aria-label="Pomniejsz mapę">−</button><button id="zoom-reset" aria-label="Pokaż całą Polskę" title="Cała Polska">⌖</button></div>
+        <div class="map-legend"><span>Kilka kolorów = kilka aplikacji w mieście</span><div id="map-legend-apps" class="legend-apps"></div><div class="legend-forms"><i class="recruitment-dot"></i><span>formularz</span></div></div>
+        <div class="map-attribution"><a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a> · <a href="https://www.geonames.org/" target="_blank" rel="noopener">GeoNames, CC BY 4.0</a></div>
+      </section>
+      <aside id="city-details" class="city-details" aria-label="Szczegóły miejscowości"><p class="eyebrow">TWOJA MIEJSCOWOŚĆ</p><h2>Wybierz punkt</h2><p>Kliknij miejscowość na mapie lub skorzystaj z wyszukiwarki.</p></aside>
+    </div>
+  </main>
+  {{ if $editable }}<dialog id="editor-dialog" class="editor-dialog" aria-labelledby="editor-title"><div class="dialog-header"><div><p class="eyebrow">AKTUALIZACJA MAPY</p><h2 id="editor-title">Edytor bazy miejscowości</h2></div><button class="icon-button" data-close aria-label="Zamknij edytor">×</button></div><div class="dialog-content">
+    <div class="editor-notice"><b>Kopia robocza na tym urządzeniu.</b> Zapis zmienia podgląd i pamięć tej przeglądarki. Aby opublikować, pobierz JSON, zastąp plik <code>static/data/delivery-map.json</code> w projekcie i opublikuj stronę.</div>
+    <p class="editor-notice">Status „Kurierzy platformowi” wymaga źródła o zleceniach dla kurierów w tej miejscowości, np. strefy w aplikacji kurierskiej, komunikatu operatora lub partnera flotowego. Sam katalog restauracji nie wystarcza. Formularz kurierski oznacz osobno.</p><div class="editor-toolbar"><label class="outline-button" for="import-json">Wczytaj JSON<input id="import-json" type="file" accept=".json,application/json" class="sr-only"></label><button id="export-json" class="primary-button">Pobierz bazę JSON ↓</button><button id="export-csv" type="button" class="outline-button">Pobierz CSV</button><button id="restore-published" class="quiet-button">Przywróć bazę strony</button></div>
+    <form id="city-form"><div class="edit-picker"><label for="edit-city">Edytowana miejscowość</label><select id="edit-city"></select><button type="button" id="new-city" class="outline-button">+ Nowa miejscowość</button></div>
+      <div class="city-fields"><label>Nazwa<input name="name" required maxlength="100"></label><label>Województwo<select name="region" required></select></label><label>Szerokość geogr.<input name="lat" type="number" step="any" min="48.9" max="55" required></label><label>Długość geogr.<input name="lon" type="number" step="any" min="14" max="24.3" required></label></div>
+      <div id="edit-apps"></div><div class="editor-bottom"><p id="editor-message" role="status"></p><button type="submit" class="primary-button">Zapisz kopię roboczą</button></div>
+    </form>
+  </div></dialog>{{ end }}
+  <noscript><p class="error-banner">Mapa wymaga JavaScript.{{ if $editable }} <a href="{{ "data/delivery-map.json" | relURL }}">Pobierz bazę miejscowości w JSON.</a>{{ end }}</p></noscript>
+  {{ $js := resources.Get "docs/js/delivery-map.js" | js.Build (dict "target" "es2020" "minify" true "defines" (dict "__DELIVERY_MAP_EDITABLE__" (cond $editable "true" "false"))) | minify | fingerprint }}<script src="{{ $js.RelPermalink }}" defer></script>
+</body>
+</html>

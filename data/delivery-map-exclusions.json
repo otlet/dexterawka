@@ -1,0 +1,258 @@
+{
+  "checkedAt": "2026-10-21",
+  "entries": [
+    {
+      "app": "glovo",
+      "name": "Dziekanowice",
+      "source": "https://glovoapp.com/pl/pl/dziekanowice",
+      "reason": "Wpis techniczny, obszar zbiorczy, dzielnica lub niejednoznaczna miejscowość."
+    },
+    {
+      "app": "glovo",
+      "name": "FakePoland",
+      "source": "https://glovoapp.com/pl/pl/fakepoland",
+      "reason": "Wpis techniczny, obszar zbiorczy, dzielnica lub niejednoznaczna miejscowość."
+    },
+    {
+      "app": "glovo",
+      "name": "Krakow okolice",
+      "source": "https://glovoapp.com/pl/pl/krakow-okolice",
+      "reason": "Wpis techniczny, obszar zbiorczy, dzielnica lub niejednoznaczna miejscowość."
+    },
+    {
+      "app": "glovo",
+      "name": "Okolice Łodzi",
+      "source": "https://glovoapp.com/pl/pl/okolice-lodzi",
+      "reason": "Wpis techniczny, obszar zbiorczy, dzielnica lub niejednoznaczna miejscowość."
+    },
+    {
+      "app": "glovo",
+      "name": "Prawobrzeże",
+      "source": "https://glovoapp.com/pl/pl/prawobrzeze",
+      "reason": "Wpis techniczny, obszar zbiorczy, dzielnica lub niejednoznaczna miejscowość."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Boleslawiec gmina",
+      "source": "https://www.ubereats.com/pl/city/boleslawiec-gmina-dolnoslaskie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Glogów gmina",
+      "source": "https://www.ubereats.com/pl/city/glogów-gmina-dolnoslaskie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Siechnice gmina",
+      "source": "https://www.ubereats.com/pl/city/siechnice-gmina-dolnoslaskie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Swiecie gmina",
+      "source": "https://www.ubereats.com/pl/city/swiecie-gmina-kujawsko-pomorskie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Blonie gmina",
+      "source": "https://www.ubereats.com/pl/city/blonie-gmina-mazowieckie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Gmina Grodzisk Mazowiecki",
+      "source": "https://www.ubereats.com/pl/city/grodzisk-mazowiecki-gmina-mazowieckie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Halinów gmina",
+      "source": "https://www.ubereats.com/pl/city/halinów-gmina-mazowieckie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Konstancin-Jeziorna gmina",
+      "source": "https://www.ubereats.com/pl/city/konstancin-jeziorna-gmina-mazowieckie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Mszczonów gmina",
+      "source": "https://www.ubereats.com/pl/city/mszczonów-gmina-mazowieckie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Wolomin gmina",
+      "source": "https://www.ubereats.com/pl/city/wolomin-gmina-mazowieckie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "gmina Mińsk Mazowiecki",
+      "source": "https://www.ubereats.com/pl/city/minsk-mazowiecki-gmina-mazowieckie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "gmina Ożarów Mazowiecki",
+      "source": "https://www.ubereats.com/pl/city/ozarów-mazowiecki-gmina-mazowieckie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "gmina Piaseczno",
+      "source": "https://www.ubereats.com/pl/city/piaseczno-gmina-mazowieckie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "gmina Siedlce",
+      "source": "https://www.ubereats.com/pl/city/siedlce-gmina-mazowieckie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "gmina Sochaczew",
+      "source": "https://www.ubereats.com/pl/city/sochaczew-gmina-mazowieckie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "lomianki-gmina-mazowieckie-pl",
+      "source": "https://www.ubereats.com/pl/city/lomianki-gmina-mazowieckie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Myslenice gmina",
+      "source": "https://www.ubereats.com/pl/city/myslenice-gmina-malopolskie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Oswiecim gmina",
+      "source": "https://www.ubereats.com/pl/city/oswiecim-gmina-malopolskie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Tarnów gmina",
+      "source": "https://www.ubereats.com/pl/city/tarnów-gmina-malopolskie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Wieliczka gmina",
+      "source": "https://www.ubereats.com/pl/city/wieliczka-gmina-malopolskie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Chojnice gmina",
+      "source": "https://www.ubereats.com/pl/city/chojnice-gmina-pomorskie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Tczew gmina",
+      "source": "https://www.ubereats.com/pl/city/tczew-gmina-pomorskie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Wejherowo gmina",
+      "source": "https://www.ubereats.com/pl/city/wejherowo-gmina-pomorskie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "gmina Pruszcz Gdański",
+      "source": "https://www.ubereats.com/pl/city/pruszcz-gdanski-gmina-pomorskie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Elk gmina",
+      "source": "https://www.ubereats.com/pl/city/elk-gmina-warminsko-mazurskie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Osieczna gmina",
+      "source": "https://www.ubereats.com/pl/city/osieczna-gmina-wielkopolskie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "gmina Swarzędz",
+      "source": "https://www.ubereats.com/pl/city/swarzedz-gmina-wielkopolskie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Kolobrzeg gmina",
+      "source": "https://www.ubereats.com/pl/city/kolobrzeg-gmina-zachodniopomorskie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Stargard gmina",
+      "source": "https://www.ubereats.com/pl/city/stargard-gmina-zachodniopomorskie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Nowosolna gmina",
+      "source": "https://www.ubereats.com/pl/city/nowosolna-gmina-lódzkie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "gmina Aleksandrów Łódzki",
+      "source": "https://www.ubereats.com/pl/city/aleksandrów-lódzki-gmina-lódzkie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Morawica gmina",
+      "source": "https://www.ubereats.com/pl/city/morawica-gmina-swietokrzyskie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "uber-eats",
+      "name": "Sitkówka-Nowiny",
+      "source": "https://www.ubereats.com/pl/city/sitkówka-nowiny-swietokrzyskie",
+      "reason": "Gmina: nie przenosimy zasięgu na wszystkie miejscowości."
+    },
+    {
+      "app": "wolt",
+      "name": "Szczecin-Prawobrzeże",
+      "reason": "Dzielnica; Szczecin jest już osobnym punktem."
+    },
+    {
+      "app": "glovo",
+      "name": "Czeczewo",
+      "reason": "Tylko starsza lista w 8-glovo-new.md. Brak w katalogu i formularzu z 21.10.2026 oraz w tabeli miast z 5.11.2026."
+    },
+    {
+      "app": "glovo",
+      "name": "Luboń",
+      "reason": "Tylko starsza lista w 8-glovo-new.md. Brak w katalogu i formularzu z 21.10.2026 oraz w tabeli miast z 5.11.2026."
+    },
+    {
+      "app": "glovo",
+      "name": "Łask",
+      "reason": "Tylko starsza lista w 8-glovo-new.md. Brak w katalogu i formularzu z 21.10.2026 oraz w tabeli miast z 5.11.2026."
+    },
+    {
+      "app": "glovo",
+      "name": "Środa Wielkopolska",
+      "reason": "Tylko starsza lista w 8-glovo-new.md. Brak w katalogu i formularzu z 21.10.2026 oraz w tabeli miast z 5.11.2026."
+    }
+  ]
+}

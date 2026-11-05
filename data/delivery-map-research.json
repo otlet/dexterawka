@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-10-21",
+  "apps": [
+    {
+      "id": "bolt-food",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "status": "active",
+      "checkedAt": "2026-10-21",
+      "note": "Oficjalna sekcja Bolt Food dla kurierów: 55 odsyłaczy do innych miast oraz strona Poznania. Lista dotyczy dostaw Food, nie zbiorczej listy usług Bolt. Operator zaznacza zmienną dostępność lokalną. Brak daty publikacji. Nie potwierdza granic dostaw ani otwartej rekrutacji w każdym mieście.",
+      "cities": ["Augustów", "Biała Podlaska", "Białystok", "Bielsko-Biała", "Bydgoszcz", "Chełm", "Ciechanów", "Częstochowa", "Elbląg", "Ełk", "Gdańsk", "Gdynia", "Giżycko", "Gorzów Wielkopolski", "Jelenia Góra", "Katowice", "Kędzierzyn-Koźle", "Kielce", "Konin", "Koszalin", "Kraków", "Krosno", "Legnica", "Leszno", "Lublin", "Łomża", "Łódź", "Mrągowo", "Nowy Sącz", "Olsztyn", "Opole", "Ostrołęka", "Ostrowiec Świętokrzyski", "Ostrów Wielkopolski", "Płock", "Poznań", "Puławy", "Radom", "Rzeszów", "Sanok", "Siedlce", "Skarżysko-Kamienna", "Sopot", "Stalowa Wola", "Starachowice", "Suwałki", "Szczecin", "Świdnik", "Tarnów", "Toruń", "Wałbrzych", "Warszawa", "Włocławek", "Wrocław", "Zamość", "Zielona Góra"]
+    },
+    {
+      "id": "stuart",
+      "source": "https://stuart.com/pl/o-nas/",
+      "additionalSources": ["https://help.stuart.com/pl/articles/11737380-nowe-strefy"],
+      "status": "active",
+      "checkedAt": "2026-10-21",
+      "note": "Dziewięć miast z oficjalnej sekcji Operujemy oraz siedem miejscowości z artykułu Nowe strefy! (aktualizacja 10.07.2026). Kowale to wieś koło Gdańska. Wawer jest dzielnicą Warszawy i nie otrzymuje osobnego punktu. Józefów, Otwock i Wołomin są osobnymi miastami w strefie warszawskiej. Lista stanowi sumę potwierdzonych miejscowości tych dwóch źródeł, nie deklarację pełnego zasięgu wszystkich adresów. Nie dodano Gdyni, Sopotu ani Wrocławia tylko na podstawie ofert partnerów.",
+      "cities": ["Toruń", "Szczecin", "Warszawa", "Kraków", "Katowice", "Łódź", "Gdańsk", "Sosnowiec", "Poznań", "Sochaczew", "Żyrardów", "Kowale", "Józefów", "Otwock", "Wołomin", "Grodzisk Mazowiecki"],
+      "citySources": {
+        "Sochaczew": "https://help.stuart.com/pl/articles/11737380-nowe-strefy",
+        "Żyrardów": "https://help.stuart.com/pl/articles/11737380-nowe-strefy",
+        "Kowale": "https://help.stuart.com/pl/articles/11737380-nowe-strefy",
+        "Józefów": "https://help.stuart.com/pl/articles/11737380-nowe-strefy",
+        "Otwock": "https://help.stuart.com/pl/articles/11737380-nowe-strefy",
+        "Wołomin": "https://help.stuart.com/pl/articles/11737380-nowe-strefy",
+        "Grodzisk Mazowiecki": "https://help.stuart.com/pl/articles/11737380-nowe-strefy"
+      },
+      "launchDates": {
+        "Sochaczew": "2025-11-24",
+        "Żyrardów": "2025-11-13",
+        "Kowale": "2025-11-04",
+        "Józefów": "2025-10-28",
+        "Otwock": "2025-10-28",
+        "Wołomin": "2025-10-21",
+        "Grodzisk Mazowiecki": "2025-09-16"
+      }
+    },
+    {
+      "id": "pyszne",
+      "source": "https://www.pyszne.pl/kurier/form",
+      "status": "recruiting",
+      "checkedAt": "2026-10-21",
+      "note": "Oficjalny formularz rekrutacji przez Partnerów Flotowych. Odczyt widocznego pola wyboru miasta: 93 opcje; Rumia & Reda rozdzielone na 2 miasta (łącznie 94). Jest to dowód obecności miasta w formularzu kurierskim, nie zapewnienie otwartej rekrutacji, dostaw pod każdy adres ani lista wszystkich miast restauracji Pyszne.pl z własną dostawą. Znormalizowano polskie znaki i literówkę Ostrłęka do Ostrołęka. Data publikacji niepodana.",
+      "cities": ["Bełchatów", "Biała Podlaska", "Białystok", "Bielsko-Biała", "Bolesławiec", "Bydgoszcz", "Bytom", "Chełm", "Chorzów", "Częstochowa", "Dąbrowa Górnicza", "Elbląg", "Ełk", "Gdańsk", "Gdynia", "Gliwice", "Głogów", "Gniezno", "Gorzów Wielkopolski", "Grudziądz", "Inowrocław", "Jastrzębie-Zdrój", "Jaworzno", "Jelenia Góra", "Kalisz", "Katowice", "Kędzierzyn-Koźle", "Kielce", "Kołobrzeg", "Konin", "Koszalin", "Kraków", "Legnica", "Leszno", "Łódź", "Łomża", "Lubin", "Lublin", "Mielec", "Mińsk Mazowiecki", "Mysłowice", "Nowy Sącz", "Nysa", "Olsztyn", "Opole", "Ostrołęka", "Ostrów Wielkopolski", "Ostrowiec Świętokrzyski", "Pabianice", "Piaseczno", "Piekary Śląskie", "Piła", "Piotrków Trybunalski", "Płock", "Poznań", "Pruszków", "Przemyśl", "Puławy", "Racibórz", "Radom", "Ruda Śląska", "Rumia", "Reda", "Rybnik", "Rzeszów", "Siedlce", "Słupsk", "Sosnowiec", "Stalowa Wola", "Stargard", "Starogard Gdański", "Suwałki", "Świdnica", "Szczecin", "Tarnów", "Tarnowskie Góry", "Tczew", "Tomaszów Mazowiecki", "Toruń", "Tychy", "Wałbrzych", "Warszawa", "Wejherowo", "Włocławek", "Wodzisław Śląski", "Wrocław", "Zabrze", "Zakopane", "Zamość", "Zawiercie", "Zgierz", "Zielona Góra", "Żory", "Żywiec"]
+    }
+  ]
+}

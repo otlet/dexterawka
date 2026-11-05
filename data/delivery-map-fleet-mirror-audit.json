@@ -1,0 +1,2592 @@
+{
+  "checkedAt": "2026-11-05",
+  "revision": "2026-11-05-fleet-mirror",
+  "previousRevision": "2026-11-05-fleet-table",
+  "method": "Decyzja właściciela serwisu: tabelka floty jest jedynym źródłem zasięgu. Usunięto każdy wpis bez plusa, także potwierdzony wcześniej publicznym źródłem, oraz miejscowości bez żadnego wpisu.",
+  "backup": "reports/delivery-map-audit/delivery-map-before-fleet-mirror.json",
+  "removedCities": [
+    "Aleksandrów Łódzki",
+    "Andrespol",
+    "Bieruń",
+    "Biesiekierz",
+    "Brzeszcze",
+    "Brzeziny",
+    "Choroszcz",
+    "Czeladź",
+    "Czernica",
+    "Dobra",
+    "Dopiewo",
+    "Długołęka",
+    "Grójec",
+    "Głowno",
+    "Głusk",
+    "Imielin",
+    "Jabłonna",
+    "Jaktorów",
+    "Karczew",
+    "Kiełczów",
+    "Knurów",
+    "Kobierzyce",
+    "Kolbudy",
+    "Komorniki",
+    "Konstancin-Jeziorna",
+    "Konstantynów Łódzki",
+    "Kosakowo",
+    "Kozienice",
+    "Kołbaskowo",
+    "Kramsk",
+    "Krzeszowice",
+    "Ksawerów",
+    "Kąty Wrocławskie",
+    "Kęty",
+    "Legionowo",
+    "Legnickie Pole",
+    "Lesznowola",
+    "Luboń",
+    "Luzino",
+    "Lędziny",
+    "Michałowice",
+    "Mielno",
+    "Międzyzdroje",
+    "Mogilany",
+    "Morawica",
+    "Mykanów",
+    "Nadarzyn",
+    "Nekla",
+    "Nieporęt",
+    "Opatówek",
+    "Opoczno",
+    "Ożarów Mazowiecki",
+    "Pawłowice",
+    "Piekary Śląskie",
+    "Podkowa Leśna",
+    "Poronin",
+    "Przodkowo",
+    "Radomsko",
+    "Radzanowo",
+    "Radzionków",
+    "Radzymin",
+    "Reda",
+    "Rzgów",
+    "Skarszewy",
+    "Skaryszew",
+    "Skawina",
+    "Stara Biała",
+    "Stare Babice",
+    "Stare Miasto",
+    "Stawiguda",
+    "Szczawno-Zdrój",
+    "Szklarska Poręba",
+    "Tarnowo Podgórne",
+    "Turawa",
+    "Turośń Kościelna",
+    "Ustka",
+    "Wadowice",
+    "Wasilków",
+    "Wieliszew",
+    "Wisznia Mała",
+    "Wiązowna",
+    "Zakroczym",
+    "Zapolice",
+    "Zbrosławice",
+    "Zielonki",
+    "Ząbkowice Śląskie",
+    "Łaziska Górne",
+    "Łomianki",
+    "Święciechowa"
+  ],
+  "removed": [
+    {
+      "city": "Aleksandrów Łódzki",
+      "cityId": "pl-3104132",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/aleksandrów-lódzki-lódzkie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Aleksandrów Łódzki. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Andrespol",
+      "cityId": "pl-3104116",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/andrespol-lódzkie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Andrespol. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Augustów",
+      "cityId": "pl-776597",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/augustow/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Augustów",
+        "sourceDetail": "Strona informacyjna dla miasta: Augustów.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Biała Podlaska",
+      "cityId": "pl-776175",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/biala-podlaska/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Biała Podlaska",
+        "sourceDetail": "Strona informacyjna dla miasta: Biała Podlaska.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Bielsko-Biała",
+      "cityId": "pl-3103402",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/bielsko-biala/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Bielsko-Biała",
+        "sourceDetail": "Strona informacyjna dla miasta: Bielsko-Biała.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Bieruń",
+      "cityId": "pl-3103365",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/bierun-slaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Bieruń. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Biesiekierz",
+      "cityId": "pl-3103346",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/biesiekierz-zachodniopomorskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Biesiekierz. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Błonie",
+      "cityId": "pl-775820",
+      "app": "glovo",
+      "record": {
+        "status": "unverified",
+        "source": "https://glovoapp.com/pl/pl/blonie",
+        "checkedAt": "2026-10-21",
+        "note": "Katalog zamówień nie rozstrzyga, czy dostawy realizują kurierzy platformy, czy własni dostawcy lokali. Brak mocniejszego dowodu nie oznacza braku usługi.",
+        "sourceLabel": "Glovo — Błonie",
+        "sourceDetail": "Strona katalogu dla klienta zawierająca nazwę miejscowości",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Brzeszcze",
+      "cityId": "pl-3102444",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/brzeszcze-malopolskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Brzeszcze. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Brzeziny",
+      "cityId": "pl-3102390",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/brzeziny-lódzkie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Brzeziny. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Bydgoszcz",
+      "cityId": "pl-3102014",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/bydgoszcz/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Bydgoszcz",
+        "sourceDetail": "Strona informacyjna dla miasta: Bydgoszcz.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Chełm",
+      "cityId": "pl-774558",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/chela/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Chełm",
+        "sourceDetail": "Strona informacyjna dla miasta: Chełm.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Choroszcz",
+      "cityId": "pl-774393",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/choroszcz-podlaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Choroszcz. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Chorzów",
+      "cityId": "pl-3101619",
+      "app": "wolt",
+      "record": {
+        "status": "active",
+        "source": "https://explore.wolt.com/pl/pol/couriers/learning-center#2pfXg1b40CLtcNMpCZj6bR",
+        "checkedAt": "2026-10-21",
+        "note": "Operator wprost wymienia miasto jako lokalizację realizacji zamówień przez kuriera-partnera. Aktywacja nowych kont jest odrębną kwestią.",
+        "sourceLabel": "Wolt — FAQ dla kurierów: miasta realizacji zamówień",
+        "sourceDetail": "Rozwiń „W jakich miastach mogę realizować zamówienia?” → Aglomeracja Śląska (Katowice, Chorzów i Sosnowiec)",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Ciechanów",
+      "cityId": "pl-774208",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/ciechanow/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Ciechanów",
+        "sourceDetail": "Strona informacyjna dla miasta: Ciechanów.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Czechowice-Dziedzice",
+      "cityId": "pl-3101076",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/czechowice-dziedzice-slaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Czechowice-Dziedzice. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Czeladź",
+      "cityId": "pl-3101057",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/czeladz-slaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Czeladź. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Czernica",
+      "cityId": "pl-3101017",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/czernica-dolnoslaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Czernica. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Częstochowa",
+      "cityId": "pl-3100946",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/czestochowa/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Częstochowa",
+        "sourceDetail": "Strona informacyjna dla miasta: Częstochowa.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Dąbrowa Górnicza",
+      "cityId": "pl-3100796",
+      "app": "pyszne",
+      "record": {
+        "status": "recruiting",
+        "source": "https://www.pyszne.pl/kurier/form",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją w formularzu kurierskim. To nie potwierdza otwartego naboru ani dostępności dostaw pod każdym adresem.",
+        "sourceLabel": "Pyszne.pl — formularz miast",
+        "sourceDetail": "Pole „Wybierz miasto, w którym chcesz pracować” → „Dąbrowa Górnicza”",
+        "evidenceScope": "courier_form"
+      }
+    },
+    {
+      "city": "Dębica",
+      "cityId": "pl-773380",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/debica-podkarpackie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Dębica. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Długołęka",
+      "cityId": "pl-3100421",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/dlugoleka-dolnoslaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Długołęka. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Dobra",
+      "cityId": "pl-3100364",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/dobra-(szczecinska)-zachodniopomorskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Dobra. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Dopiewo",
+      "cityId": "pl-3100171",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/dopiewo-wielkopolskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Dopiewo. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Dzierżoniów",
+      "cityId": "pl-3099828",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/dzierzoniów-dolnoslaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Dzierżoniów. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Elbląg",
+      "cityId": "pl-3099759",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/elblag/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Elbląg",
+        "sourceDetail": "Strona informacyjna dla miasta: Elbląg.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Ełk",
+      "cityId": "pl-772621",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/elk/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Ełk",
+        "sourceDetail": "Strona informacyjna dla miasta: Ełk.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Gdynia",
+      "cityId": "pl-3099424",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/gdynia/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Gdynia",
+        "sourceDetail": "Strona informacyjna dla miasta: Gdynia.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Giżycko",
+      "cityId": "pl-772195",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/gizycko/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Giżycko",
+        "sourceDetail": "Strona informacyjna dla miasta: Giżycko.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Głowno",
+      "cityId": "pl-3099180",
+      "app": "glovo",
+      "record": {
+        "status": "unverified",
+        "source": "https://glovoapp.com/pl/pl/glowno",
+        "checkedAt": "2026-10-21",
+        "note": "Katalog zamówień nie rozstrzyga, czy dostawy realizują kurierzy platformy, czy własni dostawcy lokali. Brak mocniejszego dowodu nie oznacza braku usługi.",
+        "sourceLabel": "Glovo — Głowno",
+        "sourceDetail": "Strona katalogu dla klienta zawierająca nazwę miejscowości",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Głusk",
+      "cityId": "pl-772055",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/glusk-lubelskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Głusk. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Grodzisk Mazowiecki",
+      "cityId": "pl-771401",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/grodzisk-mazowiecki-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Grodzisk Mazowiecki. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Grójec",
+      "cityId": "pl-771384",
+      "app": "glovo",
+      "record": {
+        "status": "unverified",
+        "source": "https://glovoapp.com/pl/pl/grojec",
+        "checkedAt": "2026-10-21",
+        "note": "Katalog zamówień nie rozstrzyga, czy dostawy realizują kurierzy platformy, czy własni dostawcy lokali. Brak mocniejszego dowodu nie oznacza braku usługi.",
+        "sourceLabel": "Glovo — Grójec",
+        "sourceDetail": "Strona katalogu dla klienta zawierająca nazwę miejscowości",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Imielin",
+      "cityId": "pl-3097886",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/imielin-slaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Imielin. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Jabłonna",
+      "cityId": "pl-770706",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/jablonna-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Jabłonna. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Jaktorów",
+      "cityId": "pl-770615",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/jaktorów-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Jaktorów. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Jelenia Góra",
+      "cityId": "pl-3097257",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/jelenia-gora/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Jelenia Góra",
+        "sourceDetail": "Strona informacyjna dla miasta: Jelenia Góra.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Józefów",
+      "cityId": "pl-769981",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/józefów-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Józefów. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Karczew",
+      "cityId": "pl-769539",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/karczew-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Karczew. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Kąty Wrocławskie",
+      "cityId": "pl-3096444",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/katy-wroclawskie-dolnoslaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Kąty Wrocławskie. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Kędzierzyn-Koźle",
+      "cityId": "pl-3096372",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/kedzierzyn-kozle/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Kędzierzyn-Koźle",
+        "sourceDetail": "Strona informacyjna dla miasta: Kędzierzyn-Koźle.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Kęty",
+      "cityId": "pl-3096328",
+      "app": "glovo",
+      "record": {
+        "status": "unverified",
+        "source": "https://glovoapp.com/pl/pl/kety",
+        "checkedAt": "2026-10-21",
+        "note": "Katalog zamówień nie rozstrzyga, czy dostawy realizują kurierzy platformy, czy własni dostawcy lokali. Brak mocniejszego dowodu nie oznacza braku usługi.",
+        "sourceLabel": "Glovo — Kęty",
+        "sourceDetail": "Strona katalogu dla klienta zawierająca nazwę miejscowości",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Kielce",
+      "cityId": "pl-769250",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/kielce/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Kielce",
+        "sourceDetail": "Strona informacyjna dla miasta: Kielce.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Kiełczów",
+      "cityId": "pl-3096292",
+      "app": "glovo",
+      "record": {
+        "status": "unverified",
+        "source": "https://glovoapp.com/pl/pl/kielczow-okolice-wroclawia",
+        "checkedAt": "2026-10-21",
+        "note": "Katalog zamówień nie rozstrzyga, czy dostawy realizują kurierzy platformy, czy własni dostawcy lokali. Brak mocniejszego dowodu nie oznacza braku usługi.",
+        "sourceLabel": "Glovo — Kiełczów",
+        "sourceDetail": "Strona katalogu dla klienta zawierająca nazwę miejscowości",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Knurów",
+      "cityId": "pl-3095971",
+      "app": "uber-eats",
+      "record": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Knurów. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Kobierzyce",
+      "cityId": "pl-3095961",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/kobierzyce-dolnoslaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Kobierzyce. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Kobyłka",
+      "cityId": "pl-768905",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/kobylka-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Kobyłka. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Kołbaskowo",
+      "cityId": "pl-3095834",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/kolbaskowo-zachodniopomorskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Kołbaskowo. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Kolbudy",
+      "cityId": "pl-3095833",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/kolbudy-pomorskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Kolbudy. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Komorniki",
+      "cityId": "pl-3095396",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/komorniki-wielkopolskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Komorniki. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Konin",
+      "cityId": "pl-3095321",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/konin/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Konin",
+        "sourceDetail": "Strona informacyjna dla miasta: Konin.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Konstancin-Jeziorna",
+      "cityId": "pl-768216",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/konstancin-jeziorna-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Konstancin-Jeziorna. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Konstancin-Jeziorna",
+      "cityId": "pl-768216",
+      "app": "wolt",
+      "record": {
+        "status": "unverified",
+        "source": "https://wolt.com/pl/pol/konstancin-jeziorna",
+        "checkedAt": "2026-10-21",
+        "note": "W katalogu klienta oraz konsumenckim FAQ Wolt są miasto i godziny. Nie znaleziono jawnego potwierdzenia operatora dla kurierów. Strona Avalon wymienia rejon dostaw, lecz pozostaje pomocniczym twierdzeniem floty.",
+        "sourceLabel": "Wolt — Konstancin-Jeziorna",
+        "sourceDetail": "Strona katalogu dla klienta zawierająca nazwę miejscowości",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Konstantynów Łódzki",
+      "cityId": "pl-3095277",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/konstantynów-lódzki-lódzkie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Konstantynów Łódzki. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Kosakowo",
+      "cityId": "pl-3095153",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/kosakowo-pomorskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Kosakowo. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Koszalin",
+      "cityId": "pl-3095049",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/koszalin/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Koszalin",
+        "sourceDetail": "Strona informacyjna dla miasta: Koszalin.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Kozienice",
+      "cityId": "pl-767814",
+      "app": "glovo",
+      "record": {
+        "status": "unverified",
+        "source": "https://glovoapp.com/pl/pl/kozienice",
+        "checkedAt": "2026-10-21",
+        "note": "Katalog zamówień nie rozstrzyga, czy dostawy realizują kurierzy platformy, czy własni dostawcy lokali. Brak mocniejszego dowodu nie oznacza braku usługi.",
+        "sourceLabel": "Glovo — Kozienice",
+        "sourceDetail": "Strona katalogu dla klienta zawierająca nazwę miejscowości",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Kramsk",
+      "cityId": "pl-3094794",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/kramsk-wielkopolskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Kramsk. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Krosno",
+      "cityId": "pl-767470",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/krosno/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Krosno",
+        "sourceDetail": "Strona informacyjna dla miasta: Krosno.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Krzeszowice",
+      "cityId": "pl-3094490",
+      "app": "glovo",
+      "record": {
+        "status": "unverified",
+        "source": "https://glovoapp.com/pl/pl/krzeszowice",
+        "checkedAt": "2026-10-21",
+        "note": "Katalog zamówień nie rozstrzyga, czy dostawy realizują kurierzy platformy, czy własni dostawcy lokali. Brak mocniejszego dowodu nie oznacza braku usługi.",
+        "sourceLabel": "Glovo — Krzeszowice",
+        "sourceDetail": "Strona katalogu dla klienta zawierająca nazwę miejscowości",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Ksawerów",
+      "cityId": "pl-3094370",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/ksawerów-lódzkie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Ksawerów. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Łaziska Górne",
+      "cityId": "pl-3093785",
+      "app": "glovo",
+      "record": {
+        "status": "unverified",
+        "source": "https://glovoapp.com/pl/pl/laziska-gorne",
+        "checkedAt": "2026-10-21",
+        "note": "Katalog zamówień nie rozstrzyga, czy dostawy realizują kurierzy platformy, czy własni dostawcy lokali. Brak mocniejszego dowodu nie oznacza braku usługi.",
+        "sourceLabel": "Glovo — Łaziska Górne",
+        "sourceDetail": "Strona katalogu dla klienta zawierająca nazwę miejscowości",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Lędziny",
+      "cityId": "pl-3093708",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/ledziny-slaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Lędziny. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Legionowo",
+      "cityId": "pl-766555",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/legionowo-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Legionowo. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Legnica",
+      "cityId": "pl-3093692",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/legnica/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Legnica",
+        "sourceDetail": "Strona informacyjna dla miasta: Legnica.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Legnickie Pole",
+      "cityId": "pl-3093691",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/legnickie-pole-dolnoslaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Legnickie Pole. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Leszno",
+      "cityId": "pl-3093524",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/leszno/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Leszno",
+        "sourceDetail": "Strona informacyjna dla miasta: Leszno.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Lesznowola",
+      "cityId": "pl-766369",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/lesznowola-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Lesznowola. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Łomianki",
+      "cityId": "pl-766042",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/lomianki-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Łomianki. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Łomża",
+      "cityId": "pl-766027",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/lomza/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Łomża",
+        "sourceDetail": "Strona informacyjna dla miasta: Łomża.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Luboń",
+      "cityId": "pl-3092856",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/lubon-wielkopolskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Luboń. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Luzino",
+      "cityId": "pl-3092643",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/luzino-pomorskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Luzino. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Marki",
+      "cityId": "pl-765191",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/marki-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Marki. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Michałowice",
+      "cityId": "pl-764947",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/michalowice-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Michałowice. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Międzyzdroje",
+      "cityId": "pl-3091961",
+      "app": "glovo",
+      "record": {
+        "status": "unverified",
+        "source": "https://glovoapp.com/pl/pl/miedzyzdroje",
+        "checkedAt": "2026-10-21",
+        "note": "Katalog zamówień nie rozstrzyga, czy dostawy realizują kurierzy platformy, czy własni dostawcy lokali. Brak mocniejszego dowodu nie oznacza braku usługi.",
+        "sourceLabel": "Glovo — Międzyzdroje",
+        "sourceDetail": "Strona katalogu dla klienta zawierająca nazwę miejscowości",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Mielno",
+      "cityId": "pl-3091913",
+      "app": "glovo",
+      "record": {
+        "status": "unverified",
+        "source": "https://glovoapp.com/pl/pl/mielno",
+        "checkedAt": "2026-10-21",
+        "note": "Katalog zamówień nie rozstrzyga, czy dostawy realizują kurierzy platformy, czy własni dostawcy lokali. Brak mocniejszego dowodu nie oznacza braku usługi.",
+        "sourceLabel": "Glovo — Mielno",
+        "sourceDetail": "Strona katalogu dla klienta zawierająca nazwę miejscowości",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Milanówek",
+      "cityId": "pl-764749",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/milanówek-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Milanówek. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Mińsk Mazowiecki",
+      "cityId": "pl-764679",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/minsk-mazowiecki-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Mińsk Mazowiecki. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Mogilany",
+      "cityId": "pl-3091528",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/mogilany-malopolskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Mogilany. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Morawica",
+      "cityId": "pl-764414",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/morawica-swietokrzyskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Morawica. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Mrągowo",
+      "cityId": "pl-764312",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/mragowo/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Mrągowo",
+        "sourceDetail": "Strona informacyjna dla miasta: Mrągowo.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Mykanów",
+      "cityId": "pl-3091269",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/mykanów-slaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Mykanów. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Mysłowice",
+      "cityId": "pl-3091232",
+      "app": "pyszne",
+      "record": {
+        "status": "recruiting",
+        "source": "https://www.pyszne.pl/kurier/form",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją w formularzu kurierskim. To nie potwierdza otwartego naboru ani dostępności dostaw pod każdym adresem.",
+        "sourceLabel": "Pyszne.pl — formularz miast",
+        "sourceDetail": "Pole „Wybierz miasto, w którym chcesz pracować” → „Myslowice”",
+        "evidenceScope": "courier_form"
+      }
+    },
+    {
+      "city": "Nadarzyn",
+      "cityId": "pl-764194",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/nadarzyn-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Nadarzyn. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Nekla",
+      "cityId": "pl-3091089",
+      "app": "glovo",
+      "record": {
+        "status": "unverified",
+        "source": "https://glovoapp.com/pl/pl/nekla",
+        "checkedAt": "2026-10-21",
+        "note": "Katalog zamówień nie rozstrzyga, czy dostawy realizują kurierzy platformy, czy własni dostawcy lokali. Brak mocniejszego dowodu nie oznacza braku usługi.",
+        "sourceLabel": "Glovo — Nekla",
+        "sourceDetail": "Strona katalogu dla klienta zawierająca nazwę miejscowości",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Nieporęt",
+      "cityId": "pl-763901",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/nieporet-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Nieporęt. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Nowy Dwór Mazowiecki",
+      "cityId": "pl-763556",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/nowy-dwór-mazowiecki-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Nowy Dwór Mazowiecki. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Nowy Sącz",
+      "cityId": "pl-763534",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/nowy-sacz/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Nowy Sącz",
+        "sourceDetail": "Strona informacyjna dla miasta: Nowy Sącz.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Nowy Targ",
+      "cityId": "pl-763523",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/nowy-targ-malopolskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Nowy Targ. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Olsztyn",
+      "cityId": "pl-763166",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/olsztyn/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Olsztyn",
+        "sourceDetail": "Strona informacyjna dla miasta: Olsztyn.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Opatówek",
+      "cityId": "pl-3090066",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/opatówek-wielkopolskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Opatówek. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Opoczno",
+      "cityId": "pl-763111",
+      "app": "glovo",
+      "record": {
+        "status": "unverified",
+        "source": "https://glovoapp.com/pl/pl/opoczno",
+        "checkedAt": "2026-10-21",
+        "note": "Katalog zamówień nie rozstrzyga, czy dostawy realizują kurierzy platformy, czy własni dostawcy lokali. Brak mocniejszego dowodu nie oznacza braku usługi.",
+        "sourceLabel": "Glovo — Opoczno",
+        "sourceDetail": "Strona katalogu dla klienta zawierająca nazwę miejscowości",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Opole",
+      "cityId": "pl-3090048",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/opole/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Opole",
+        "sourceDetail": "Strona informacyjna dla miasta: Opole.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Ostrołęka",
+      "cityId": "pl-762909",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/ostroleka/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Ostrołęka",
+        "sourceDetail": "Strona informacyjna dla miasta: Ostrołęka.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Ostrów Wielkopolski",
+      "cityId": "pl-3089684",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/ostrow-wielkopolski/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Ostrów Wielkopolski",
+        "sourceDetail": "Strona informacyjna dla miasta: Ostrów Wielkopolski.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Ostrowiec Świętokrzyski",
+      "cityId": "pl-762863",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/ostrowiec-swietokrzyski-swietokrzyskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Ostrowiec Świętokrzyski. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Ostrowiec Świętokrzyski",
+      "cityId": "pl-762863",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/ostrowiec-swietokrzyski/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Ostrowiec Świętokrzyski",
+        "sourceDetail": "Strona informacyjna dla miasta: Ostrowiec Świętokrzyski.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Oświęcim",
+      "cityId": "pl-3089658",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/oswiecim-malopolskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Oświęcim. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Otwock",
+      "cityId": "pl-762788",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/otwock-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Otwock. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Ożarów Mazowiecki",
+      "cityId": "pl-762769",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/ozarów-mazowiecki-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Ożarów Mazowiecki. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Pawłowice",
+      "cityId": "pl-3089340",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/pawlowice-slaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Pawłowice. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Piaseczno",
+      "cityId": "pl-762423",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/piaseczno-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Piaseczno. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Piaseczno",
+      "cityId": "pl-762423",
+      "app": "wolt",
+      "record": {
+        "status": "active",
+        "source": "https://press.wolt.com/pl-PL/245821-mieszkancy-piaseczna-skorzystaja-z-szybkich-dostaw-wolt/",
+        "checkedAt": "2026-10-21",
+        "note": "Pierwotny komunikat Wolt wskazuje lokalne dostawy oraz flotę kurierską. Data publikacji nie jest datą bieżącego naboru.",
+        "sourceLabel": "Wolt — uruchomienie dostaw w Piasecznie",
+        "sourceDetail": "Komunikat 22.05.2024: wstęp o lokalnych kurierach oraz wypowiedź restauracji Gaumarjos o flocie Wolt",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Piastów",
+      "cityId": "pl-762381",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/piastów-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Piastów. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Piekary Śląskie",
+      "cityId": "pl-3089125",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/piekary-slaskie-slaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Piekary Śląskie. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Piekary Śląskie",
+      "cityId": "pl-3089125",
+      "app": "pyszne",
+      "record": {
+        "status": "recruiting",
+        "source": "https://www.pyszne.pl/kurier/form",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją w formularzu kurierskim. To nie potwierdza otwartego naboru ani dostępności dostaw pod każdym adresem.",
+        "sourceLabel": "Pyszne.pl — formularz miast",
+        "sourceDetail": "Pole „Wybierz miasto, w którym chcesz pracować” → „Piekary Śląskie”",
+        "evidenceScope": "courier_form"
+      }
+    },
+    {
+      "city": "Płock",
+      "cityId": "pl-3088825",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/plock/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Płock",
+        "sourceDetail": "Strona informacyjna dla miasta: Płock.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Podkowa Leśna",
+      "cityId": "pl-761878",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/podkowa-lesna-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Podkowa Leśna. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Poronin",
+      "cityId": "pl-761437",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/poronin-malopolskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Poronin. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Pruszcz Gdański",
+      "cityId": "pl-3088034",
+      "app": "uber-eats",
+      "record": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Pruszcz Gdański. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Pruszków",
+      "cityId": "pl-761228",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/pruszków-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Pruszków. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Pruszków",
+      "cityId": "pl-761228",
+      "app": "pyszne",
+      "record": {
+        "status": "recruiting",
+        "source": "https://www.pyszne.pl/kurier/form",
+        "checkedAt": "2026-10-21",
+        "note": "Miasto jest opcją w formularzu kurierskim. To nie potwierdza otwartego naboru ani dostępności dostaw pod każdym adresem.",
+        "sourceLabel": "Pyszne.pl — formularz miast",
+        "sourceDetail": "Pole „Wybierz miasto, w którym chcesz pracować” → „Pruszków”",
+        "evidenceScope": "courier_form"
+      }
+    },
+    {
+      "city": "Przodkowo",
+      "cityId": "pl-3087906",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/przodkowo-pomorskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Przodkowo. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Puławy",
+      "cityId": "pl-760924",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/pulawy-lubelskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Puławy. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Puławy",
+      "cityId": "pl-760924",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/pulawy/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Puławy",
+        "sourceDetail": "Strona informacyjna dla miasta: Puławy.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Radom",
+      "cityId": "pl-760778",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/radom/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Radom",
+        "sourceDetail": "Strona informacyjna dla miasta: Radom.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Radomsko",
+      "cityId": "pl-3087497",
+      "app": "glovo",
+      "record": {
+        "status": "unverified",
+        "source": "https://glovoapp.com/pl/pl/radomsko",
+        "checkedAt": "2026-10-21",
+        "note": "Katalog zamówień nie rozstrzyga, czy dostawy realizują kurierzy platformy, czy własni dostawcy lokali. Brak mocniejszego dowodu nie oznacza braku usługi.",
+        "sourceLabel": "Glovo — Radomsko",
+        "sourceDetail": "Strona katalogu dla klienta zawierająca nazwę miejscowości",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Radzanowo",
+      "cityId": "pl-3087440",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/radzanowo-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Radzanowo. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Radzionków",
+      "cityId": "pl-3087418",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/radzionków-slaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Radzionków. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Radzymin",
+      "cityId": "pl-760684",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/radzymin-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Radzymin. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Raszyn",
+      "cityId": "pl-760607",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/raszyn-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Raszyn. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Reda",
+      "cityId": "pl-3087281",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/reda-pomorskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Reda. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Reda",
+      "cityId": "pl-3087281",
+      "app": "pyszne",
+      "record": {
+        "status": "recruiting",
+        "source": "https://www.pyszne.pl/kurier/form",
+        "checkedAt": "2026-10-21",
+        "note": "Wspólna opcja „Rumia & Reda” w formularzu kurierskim, pokazana na mapie jako dwie miejscowości. Nie gwarantuje otwartego naboru.",
+        "sourceLabel": "Pyszne.pl — formularz miast",
+        "sourceDetail": "Pole „Wybierz miasto, w którym chcesz pracować” → „Rumia & Reda”",
+        "evidenceScope": "courier_form"
+      }
+    },
+    {
+      "city": "Rumia",
+      "cityId": "pl-3086706",
+      "app": "uber-eats",
+      "record": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Rumia. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Rzgów",
+      "cityId": "pl-7302565",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/rzgów-lódzkie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Rzgów. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Sanok",
+      "cityId": "pl-759591",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/sanok/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Sanok",
+        "sourceDetail": "Strona informacyjna dla miasta: Sanok.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Siedlce",
+      "cityId": "pl-759412",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/siedlce/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Siedlce",
+        "sourceDetail": "Strona informacyjna dla miasta: Siedlce.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Siemianowice Śląskie",
+      "cityId": "pl-3086024",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/siemianowice-slaskie-slaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Siemianowice Śląskie. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Skarszewy",
+      "cityId": "pl-3085826",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/location",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Skarszewy. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Skaryszew",
+      "cityId": "pl-759151",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/skaryszew-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Skaryszew. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Skarżysko-Kamienna",
+      "cityId": "pl-759141",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/skarzysko-kamienna/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Skarżysko-Kamienna",
+        "sourceDetail": "Strona informacyjna dla miasta: Skarżysko-Kamienna.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Skawina",
+      "cityId": "pl-3085807",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/skawina-malopolskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Skawina. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Sochaczew",
+      "cityId": "pl-758682",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/sochaczew-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Sochaczew. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Sopot",
+      "cityId": "pl-3085151",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/sopot/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Sopot",
+        "sourceDetail": "Strona informacyjna dla miasta: Sopot.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Sosnowiec",
+      "cityId": "pl-3085128",
+      "app": "stuart",
+      "record": {
+        "status": "active",
+        "source": "https://stuart.com/pl/o-nas/",
+        "checkedAt": "2026-10-21",
+        "note": "Miejscowość jest wymieniona przez Stuart na liście polskich miast. Lista nie wyznacza granic strefy. Stuart opisuje własną platformę logistyczną łączącą przedsiębiorstwa z niezależnymi kurierami; komunikat stref jest w kolekcji Courier i zawiera instrukcję zmiany strefy. Nie potwierdza to otwartej rekrutacji.",
+        "sourceLabel": "Stuart — lista miast w Polsce",
+        "sourceDetail": "Sekcja „Operujemy” → Polska → „Sosnowiec”",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Stalowa Wola",
+      "cityId": "pl-758445",
+      "app": "glovo",
+      "record": {
+        "status": "unverified",
+        "source": "https://glovoapp.com/pl/pl/stalowa-wola",
+        "checkedAt": "2026-10-21",
+        "note": "Katalog zamówień nie rozstrzyga, czy dostawy realizują kurierzy platformy, czy własni dostawcy lokali. Brak mocniejszego dowodu nie oznacza braku usługi.",
+        "sourceLabel": "Glovo — Stalowa Wola",
+        "sourceDetail": "Strona katalogu dla klienta zawierająca nazwę miejscowości",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Stalowa Wola",
+      "cityId": "pl-758445",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/stalowa-wola/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Stalowa Wola",
+        "sourceDetail": "Strona informacyjna dla miasta: Stalowa Wola.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Stara Biała",
+      "cityId": "pl-3084967",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/stara-biala-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Stara Biała. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Starachowice",
+      "cityId": "pl-758390",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/starachowice/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Starachowice",
+        "sourceDetail": "Strona informacyjna dla miasta: Starachowice.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Stare Babice",
+      "cityId": "pl-758343",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/stare-babice-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Stare Babice. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Stare Miasto",
+      "cityId": "pl-3084870",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/stare-miasto-wielkopolskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Stare Miasto. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Stary Sącz",
+      "cityId": "pl-758282",
+      "app": "uber-eats",
+      "record": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Stary Sącz. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Stawiguda",
+      "cityId": "pl-758242",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/stawiguda-warminsko-mazurskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Stawiguda. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Suchy Las",
+      "cityId": "pl-3084258",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/suchy-las-wielkopolskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Suchy Las. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Sulejówek",
+      "cityId": "pl-757809",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/sulejówek-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Sulejówek. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Suwałki",
+      "cityId": "pl-757718",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/suwalki/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Suwałki",
+        "sourceDetail": "Strona informacyjna dla miasta: Suwałki.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Swarzędz",
+      "cityId": "pl-3084130",
+      "app": "uber-eats",
+      "record": {
+        "status": "active",
+        "source": "https://media.biedronka.pl/448003-od-metropolii-po-mniejsze-miasta-biedronka-i-uber-eats-rozszerzaja-wspolprace",
+        "checkedAt": "2026-10-21",
+        "note": "Źródło potwierdza wskazane miasto w kontekście dostaw kurierów platformy. Nie wyznacza granic zasięgu ani nie zapewnia bieżących zleceń lub otwartej rekrutacji.",
+        "sourceLabel": "Biedronka — dostawy Uber Eats, 24.02.2026",
+        "sourceDetail": "Komunikat 24.02.2026 → lista miast → Swarzędz. Model dostaw Uber potwierdza regulamin Biedronki (§1, strona 2).",
+        "evidenceScope": "platform_couriers"
+      }
+    },
+    {
+      "city": "Świdnik",
+      "cityId": "pl-757692",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/swidnik-lubelskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Świdnik. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Świdnik",
+      "cityId": "pl-757692",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/swidnik/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Świdnik",
+        "sourceDetail": "Strona informacyjna dla miasta: Świdnik.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Święciechowa",
+      "cityId": "pl-3084071",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/swieciechowa-wielkopolskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Święciechowa. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Świętochłowice",
+      "cityId": "pl-3083988",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/swietochlowice-slaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Świętochłowice. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Szczawno-Zdrój",
+      "cityId": "pl-3083835",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/szczawno-zdrój-dolnoslaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Szczawno-Zdrój. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Szczecin",
+      "cityId": "pl-3083829",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/szczecin/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Szczecin",
+        "sourceDetail": "Strona informacyjna dla miasta: Szczecin.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Szklarska Poręba",
+      "cityId": "pl-3083677",
+      "app": "glovo",
+      "record": {
+        "status": "unverified",
+        "source": "https://glovoapp.com/pl/pl/szklarska-poreba",
+        "checkedAt": "2026-10-21",
+        "note": "Katalog zamówień nie rozstrzyga, czy dostawy realizują kurierzy platformy, czy własni dostawcy lokali. Brak mocniejszego dowodu nie oznacza braku usługi.",
+        "sourceLabel": "Glovo — Szklarska Poręba",
+        "sourceDetail": "Strona katalogu dla klienta zawierająca nazwę miejscowości",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Tarnów",
+      "cityId": "pl-757026",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/tarnow/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Tarnów",
+        "sourceDetail": "Strona informacyjna dla miasta: Tarnów.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Tarnowo Podgórne",
+      "cityId": "pl-3083442",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/tarnowo-podgórne-wielkopolskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Tarnowo Podgórne. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Turawa",
+      "cityId": "pl-3083001",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/turawa-opolskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Turawa. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Turośń Kościelna",
+      "cityId": "pl-756567",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/turosn-koscielna-podlaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Turośń Kościelna. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Ustka",
+      "cityId": "pl-3082756",
+      "app": "glovo",
+      "record": {
+        "status": "unverified",
+        "source": "https://glovoapp.com/pl/pl/ustka",
+        "checkedAt": "2026-10-21",
+        "note": "Katalog zamówień nie rozstrzyga, czy dostawy realizują kurierzy platformy, czy własni dostawcy lokali. Brak mocniejszego dowodu nie oznacza braku usługi.",
+        "sourceLabel": "Glovo — Ustka",
+        "sourceDetail": "Strona katalogu dla klienta zawierająca nazwę miejscowości",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Wadowice",
+      "cityId": "pl-3082722",
+      "app": "glovo",
+      "record": {
+        "status": "unverified",
+        "source": "https://glovoapp.com/pl/pl/wadowice",
+        "checkedAt": "2026-10-21",
+        "note": "Katalog zamówień nie rozstrzyga, czy dostawy realizują kurierzy platformy, czy własni dostawcy lokali. Brak mocniejszego dowodu nie oznacza braku usługi.",
+        "sourceLabel": "Glovo — Wadowice",
+        "sourceDetail": "Strona katalogu dla klienta zawierająca nazwę miejscowości",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Wałbrzych",
+      "cityId": "pl-3082707",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/walbrzych/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Wałbrzych",
+        "sourceDetail": "Strona informacyjna dla miasta: Wałbrzych.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Wasilków",
+      "cityId": "pl-756120",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/wasilków-podlaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Wasilków. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Wejherowo",
+      "cityId": "pl-3082473",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/wejherowo-pomorskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Wejherowo. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Wiązowna",
+      "cityId": "pl-755964",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/wiazowna-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Wiązowna. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Wieliczka",
+      "cityId": "pl-755889",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/wieliczka-malopolskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Wieliczka. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Wieliszew",
+      "cityId": "pl-755886",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/wieliszew-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Wieliszew. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Wisznia Mała",
+      "cityId": "pl-7534786",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/wisznia-mala-dolnoslaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Wisznia Mała. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Włocławek",
+      "cityId": "pl-3081741",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/wloclawek/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Włocławek",
+        "sourceDetail": "Strona informacyjna dla miasta: Włocławek.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Wołomin",
+      "cityId": "pl-754800",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/wolomin-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Wołomin. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Ząbki",
+      "cityId": "pl-754351",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/zabki-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Ząbki. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Ząbkowice Śląskie",
+      "cityId": "pl-3081046",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/zabkowice-slaskie-dolnoslaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Ząbkowice Śląskie. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Zakroczym",
+      "cityId": "pl-754069",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/zakroczym-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Zakroczym. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Zamość",
+      "cityId": "pl-753866",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/zamosc/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Zamość",
+        "sourceDetail": "Strona informacyjna dla miasta: Zamość.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Zapolice",
+      "cityId": "pl-3080696",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/zapolice-lódzkie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Zapolice. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Zbrosławice",
+      "cityId": "pl-3080457",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/zbroslawice-slaskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Zbrosławice. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Zielona Góra",
+      "cityId": "pl-3080165",
+      "app": "bolt-food",
+      "record": {
+        "status": "unverified",
+        "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/zielona-gora/",
+        "checkedAt": "2026-10-21",
+        "note": "Nie znaleziono wystarczającego potwierdzenia realizowanych dostaw. Wpis nie jest wliczany do dostępności. Brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Bolt Food — Zielona Góra",
+        "sourceDetail": "Strona informacyjna dla miasta: Zielona Góra.",
+        "evidenceScope": "unknown"
+      }
+    },
+    {
+      "city": "Zielonka",
+      "cityId": "pl-753276",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/zielonka-mazowieckie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Zielonka. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    },
+    {
+      "city": "Zielonki",
+      "cityId": "pl-3080156",
+      "app": "uber-eats",
+      "record": {
+        "status": "unverified",
+        "source": "https://www.ubereats.com/pl/city/zielonki-malopolskie",
+        "checkedAt": "2026-10-21",
+        "note": "Zachowano wpis z katalogu klientów. Nie znaleziono w zbadanych źródłach dostatecznej podstawy dla pracy kurierów Uber w tej miejscowości; brak potwierdzenia nie oznacza braku usługi.",
+        "sourceLabel": "Uber Eats — katalog klienta; kurierzy niepotwierdzeni",
+        "sourceDetail": "Katalog dla zamawiających: Zielonki. Nie potwierdza modelu dostaw ani pracy kurierów platformy.",
+        "evidenceScope": "customer_catalog"
+      }
+    }
+  ]
+}

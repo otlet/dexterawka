@@ -1,0 +1,1830 @@
+{
+  "app": "bolt-food",
+  "checkedAt": "2026-10-21",
+  "generatedAt": "2026-10-21T10:15:55.732263+00:00",
+  "scope": "All 56 Bolt Food records present in static/data/delivery-map.json. No deletion; no guessed city slugs.",
+  "summary": {
+    "audited": 56,
+    "directHttp200": 56,
+    "confirmed": 11,
+    "unverified": 45,
+    "confirmedPrimaryMerchant": 10,
+    "confirmedPrimaryFleetWithSecondaryCorroboration": 1,
+    "unavailable": 0,
+    "confirmedCities": [
+      "Białystok",
+      "Gdańsk",
+      "Katowice",
+      "Kraków",
+      "Łódź",
+      "Lublin",
+      "Poznań",
+      "Rzeszów",
+      "Toruń",
+      "Warszawa",
+      "Wrocław"
+    ],
+    "unverifiedCities": [
+      "Augustów",
+      "Biała Podlaska",
+      "Bielsko-Biala",
+      "Bydgoszcz",
+      "Chełm",
+      "Ciechanów",
+      "Częstochowa",
+      "Elbląg",
+      "Ełk",
+      "Gdynia",
+      "Giżycko",
+      "Gorzów Wielkopolski",
+      "Jelenia Góra",
+      "Kędzierzyn-Koźle",
+      "Kielce",
+      "Konin",
+      "Koszalin",
+      "Krosno",
+      "Legnica",
+      "Leszno",
+      "Łomża",
+      "Mrągowo",
+      "Nowy Sącz",
+      "Olsztyn",
+      "Opole",
+      "Ostrołęka",
+      "Ostrów Wielkopolski",
+      "Ostrowiec Świętokrzyski",
+      "Płock",
+      "Puławy",
+      "Radom",
+      "Sanok",
+      "Siedlce",
+      "Skarżysko-Kamienna",
+      "Sopot",
+      "Stalowa Wola",
+      "Starachowice",
+      "Suwałki",
+      "Świdnik",
+      "Szczecin",
+      "Tarnów",
+      "Wałbrzych",
+      "Włocławek",
+      "Zamość",
+      "Zielona Góra"
+    ]
+  },
+  "methodology": [
+    "Odczytano 55 odsyłaczy do miast z istniejącej strony Poznania i dodano sam Poznań. Każdy rzeczywisty docelowy URL pobrano; zachowano HTML, status, datę, SHA256, title, h1 i tekst. Chełm prowadzi do /chela/, Warszawa do /warsaw/.",
+    "Wszystkie 56 celów zwraca HTTP 200 i zawiera treść Bolt Food z nazwą miasta. Nie są pustymi stronami, ale wspólny ogólny szablon marketingowy nie został przyjęty samodzielnie jako potwierdzenie działania.",
+    "Katalog stron earn Food oraz earn przejazdów ma dokładnie identyczny zestaw 56 nazw. To sygnał do ostrożności, nie dowód pomyłki operatora ani niedostępności Food.",
+    "Potwierdzenie active wymaga osobnego konkretnego komunikatu o uruchomionej usłudze: 10 miast z komunikatu handlowca Auchan, Rzeszów z komunikatu partnera flotowego Natviol i wspierającej publikacji branżowej.",
+    "Nie uznano samej sekcji Food na ogólnych stronach miast, ogólnych ogłoszeń wielu platform ani błędów web-cache za potwierdzenie/wykluczenie działalności.",
+    "Daty źródeł są odrębne od daty pobrania. Wynik nie jest testem adresowym, zasięgiem administracyjnym miasta ani gwarancją otwartej rekrutacji. Nie znaleziono kompletnej silnej listy operacyjnej operatora dla wszystkich 56 miast."
+  ],
+  "templateComparison": {
+    "foodUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/",
+    "driverUrl": "https://bolt.eu/pl-pl/driver/earn/poland/",
+    "foodCount": 56,
+    "driverCount": 56,
+    "identicalCityNameSets": true,
+    "foodOnly": [],
+    "driverOnly": [],
+    "cities": [
+      "Augustów",
+      "Biała Podlaska",
+      "Białystok",
+      "Bielsko-Biała",
+      "Bydgoszcz",
+      "Chełm",
+      "Ciechanów",
+      "Częstochowa",
+      "Elbląg",
+      "Ełk",
+      "Gdańsk",
+      "Gdynia",
+      "Giżycko",
+      "Gorzów Wielkopolski",
+      "Jelenia Góra",
+      "Katowice",
+      "Kędzierzyn-Koźle",
+      "Kielce",
+      "Konin",
+      "Koszalin",
+      "Kraków",
+      "Krosno",
+      "Legnica",
+      "Leszno",
+      "Lublin",
+      "Mrągowo",
+      "Nowy Sącz",
+      "Olsztyn",
+      "Opole",
+      "Ostrowiec Świętokrzyski",
+      "Ostrołęka",
+      "Ostrów Wielkopolski",
+      "Poznań",
+      "Puławy",
+      "Płock",
+      "Radom",
+      "Rzeszów",
+      "Sanok",
+      "Siedlce",
+      "Skarżysko Kamienna",
+      "Sopot",
+      "Stalowa Wola",
+      "Starachowice",
+      "Suwałki",
+      "Szczecin",
+      "Tarnów",
+      "Toruń",
+      "Warszawa",
+      "Wałbrzych",
+      "Wrocław",
+      "Włocławek",
+      "Zamość",
+      "Zielona Góra",
+      "Łomża",
+      "Łódź",
+      "Świdnik"
+    ],
+    "conclusion": "Identyczna lista 56 miast Food i przejazdów jest sygnałem wspólnego katalogu marketingowego. Sama zgodność nie dowodzi niedostępności Food; lista nie została przyjęta jako samodzielny dowód operacyjny."
+  },
+  "sources": [
+    {
+      "id": "auchan-2026",
+      "url": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "sourceType": "primary-merchant-press-release",
+      "publishedAt": "2026-08-13",
+      "fetchedAt": "2026-10-21T10:14:39.085353+00:00",
+      "httpStatus": 200,
+      "title": "Sklepy Auchan dostępne w aplikacji Bolt Food",
+      "summary": "Auchan potwierdza uruchomione od 11.08.2026 dostawy Bolt Food z 48 sklepów w wymienionych 10 miastach. Komunikat opisuje zamówienia klientów i dostawę przez kurierów Bolt. To źródło partnera handlowego, nie własna lista operatora; nie wyznacza pełnych granic obsługi.",
+      "cities": [
+        "Białystok",
+        "Lublin",
+        "Wrocław",
+        "Kraków",
+        "Warszawa",
+        "Katowice",
+        "Łódź",
+        "Poznań",
+        "Toruń",
+        "Gdańsk"
+      ],
+      "snapshot": "reports/delivery-map-audit/bolt/source-auchan-2026.html",
+      "parsedProof": "reports/delivery-map-audit/bolt/source-auchan-2026.parsed.json",
+      "sha256": "f71d6b3a6528e1a0e0d5e7f9f8c907778bf671325466d301ed437fd4dadc6a44"
+    },
+    {
+      "id": "rzeszow-natviol",
+      "url": "https://natviol.com/bolt-food-w-rzeszowie-z-natviol-zacznij-dostawy-i-odbierz-bonus-100-zl/",
+      "sourceType": "primary-fleet-partner-announcement",
+      "publishedAt": "2026-06-01",
+      "fetchedAt": "2026-10-21T10:14:39.086212+00:00",
+      "httpStatus": 200,
+      "title": "Bolt Food w Rzeszowie z Natviol: zacznij dostawy i odbierz bonus 100 zł",
+      "summary": "Natviol informuje o starcie Bolt Food w Rzeszowie i konkretnej akcji za dostawy 8–14 czerwca 2026. Źródło własne partnera flotowego, nie Bolt. Przyjęte jako konkretne potwierdzenie uruchomienia, ze wsparciem publikacji branżowej. Nie jest dowodem dostępności rekrutacji w dniu audytu.",
+      "cities": [
+        "Rzeszów"
+      ],
+      "snapshot": "reports/delivery-map-audit/bolt/source-rzeszow-natviol.html",
+      "parsedProof": "reports/delivery-map-audit/bolt/source-rzeszow-natviol.parsed.json",
+      "sha256": "0fe2e66a554a473bb1ec34c161fe68271652a6b3ec08e4cf0bf0793eb2839533"
+    },
+    {
+      "id": "rzeszow-press",
+      "url": "https://omnichannelnews.pl/2026/06/15/bolt-food-z-setka-restauracji-w-rzeszowie/",
+      "sourceType": "secondary-trade-press",
+      "publishedAt": "2026-06-15",
+      "fetchedAt": "2026-10-21T10:14:39.424676+00:00",
+      "httpStatus": 200,
+      "title": "Bolt Food z setką restauracji w Rzeszowie",
+      "summary": "Publikacja z wypowiedzią menedżera Bolt opisuje rozpoczęcie dostaw 15.06.2026, ponad 100 restauracji i godziny 11–23. Wspiera komunikat floty, lecz nie jest źródłem pierwotnym operatora. Daty rozpoczęcia kampanii floty i premiery konsumenckiej są różne; audyt nie rozstrzyga dokładnego dnia startu.",
+      "cities": [
+        "Rzeszów"
+      ],
+      "snapshot": "reports/delivery-map-audit/bolt/source-rzeszow-press-secondary.html",
+      "parsedProof": "reports/delivery-map-audit/bolt/source-rzeszow-press-secondary.parsed.json",
+      "sha256": "721fce2b6fb0f0fbff032e1c9639399e0707b80903b85fdd8d015c517bb9c2a0"
+    }
+  ],
+  "supplementaryChecks": [
+    {
+      "url": "https://bolt.eu/pl-pl/support/articles/360021486019/",
+      "result": "Oficjalna pomoc odsyła do sprawdzenia miasta/adresu; brak kompletnej listy.",
+      "parsedProof": "reports/delivery-map-audit/bolt/source-food-availability-help.parsed.json"
+    },
+    {
+      "url": "https://media.carrefour.pl/pr/szybka-dostawa-zakupow-pod-same-drzwi-carrefour-polska-nawiazuje-wspolprace-z-bolt-food/861509",
+      "result": "Wyszukiwarka odczytała komunikat 28.11.2025 i 7 dużych miast; bezpośredni fetch HTTP403. Nie jest potrzebny do klasyfikacji, bo te same miasta obejmuje nowszy komunikat Auchan.",
+      "parsedProof": "reports/delivery-map-audit/bolt/source-carrefour-2025.parsed.json"
+    }
+  ],
+  "records": [
+    {
+      "city": "Augustów",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/augustow/",
+      "fetchedAt": "2026-10-21T10:09:55.229999+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając zamówienia w Augustowie",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Augustowie"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Augustów",
+        "snapshot": "reports/delivery-map-audit/bolt/augustow.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/augustow.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/augustow/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/augustow/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/augustow/",
+      "publishedAt": null
+    },
+    {
+      "city": "Biała Podlaska",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/biala-podlaska/",
+      "fetchedAt": "2026-10-21T10:09:55.230240+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Białej Podlaskiej, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Białej Podlaskiej"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Biała Podlaska",
+        "snapshot": "reports/delivery-map-audit/bolt/biala-podlaska.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/biala-podlaska.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/biala-podlaska/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/biala-podlaska/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/biala-podlaska/",
+      "publishedAt": null
+    },
+    {
+      "city": "Białystok",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/bialystok/",
+      "fetchedAt": "2026-10-21T10:09:55.230783+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Białymstoku, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Białymstoku"
+      ],
+      "proposedStatus": "active",
+      "sourceLabel": "Auchan — komunikat o dostawach Bolt Food (13.08.2026)",
+      "note": "Potwierdzone komunikatem Auchan; dostępność pod konkretnym adresem zależy od strefy.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Białystok",
+        "snapshot": "reports/delivery-map-audit/bolt/bialystok.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/bialystok.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": [
+          "auchan-2026"
+        ]
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/bialystok/",
+      "recommendedSource": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "confirmedAsOf": "2026-08-13",
+      "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "publishedAt": "2026-08-13"
+    },
+    {
+      "city": "Bielsko-Biala",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/bielsko-biala/",
+      "fetchedAt": "2026-10-21T10:09:55.231204+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając zamówienia w Bielsku-Białej",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Bielsku-Białej"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Bielsko-Biała",
+        "snapshot": "reports/delivery-map-audit/bolt/bielsko-biala.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/bielsko-biala.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/bielsko-biala/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/bielsko-biala/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/bielsko-biala/",
+      "publishedAt": null
+    },
+    {
+      "city": "Bydgoszcz",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/bydgoszcz/",
+      "fetchedAt": "2026-10-21T10:09:55.231786+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Bydgoszczy, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Bydgoszczy"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Bydgoszcz",
+        "snapshot": "reports/delivery-map-audit/bolt/bydgoszcz.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/bydgoszcz.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/bydgoszcz/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/bydgoszcz/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/bydgoszcz/",
+      "publishedAt": null
+    },
+    {
+      "city": "Chełm",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/chela/",
+      "fetchedAt": "2026-10-21T10:09:56.050675+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Chełmie, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Chełmie"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Chełm",
+        "snapshot": "reports/delivery-map-audit/bolt/chela.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/chela.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/chela/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/chela/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/chela/",
+      "publishedAt": null
+    },
+    {
+      "city": "Ciechanów",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/ciechanow/",
+      "fetchedAt": "2026-10-21T10:09:56.132873+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Ciechanowie, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Ciechanowie"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Bezpośrednia strona /ciechanow/ działa (HTTP 200); wcześniejszy Cache miss wyszukiwarki nie był błędem 404. Jej treść to ten sam ogólny szablon co pozostałe miasta. Sekcja Food na ogólnej stronie miasta i ogłoszenia floty wymieniające wiele platform nie potwierdzają działania Food w Ciechanowie. Brak rozstrzygającego źródła; status niepotwierdzone, nie niedostępne.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Ciechanów",
+        "snapshot": "reports/delivery-map-audit/bolt/ciechanow.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/ciechanow.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": [],
+        "additionalParsedProof": [
+          "reports/delivery-map-audit/bolt/cities-ciechanow.parsed.json",
+          "reports/delivery-map-audit/bolt/cities-poznan.parsed.json"
+        ]
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/ciechanow/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/ciechanow/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/ciechanow/",
+      "publishedAt": null
+    },
+    {
+      "city": "Częstochowa",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/czestochowa/",
+      "fetchedAt": "2026-10-21T10:09:56.185442+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając zamówienia w Częstochowie",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Częstochowie"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Częstochowa",
+        "snapshot": "reports/delivery-map-audit/bolt/czestochowa.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/czestochowa.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/czestochowa/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/czestochowa/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/czestochowa/",
+      "publishedAt": null
+    },
+    {
+      "city": "Elbląg",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/elblag/",
+      "fetchedAt": "2026-10-21T10:09:56.228750+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Elblągu, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Elblągu"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Elbląg",
+        "snapshot": "reports/delivery-map-audit/bolt/elblag.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/elblag.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/elblag/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/elblag/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/elblag/",
+      "publishedAt": null
+    },
+    {
+      "city": "Ełk",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/elk/",
+      "fetchedAt": "2026-10-21T10:09:56.244089+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Ełku, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Ełku"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Ełk",
+        "snapshot": "reports/delivery-map-audit/bolt/elk.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/elk.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/elk/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/elk/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/elk/",
+      "publishedAt": null
+    },
+    {
+      "city": "Gdańsk",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/gdansk/",
+      "fetchedAt": "2026-10-21T10:09:56.811497+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Gdańsku",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Gdańsku"
+      ],
+      "proposedStatus": "active",
+      "sourceLabel": "Auchan — komunikat o dostawach Bolt Food (13.08.2026)",
+      "note": "Potwierdzone komunikatem Auchan; dostępność pod konkretnym adresem zależy od strefy.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Gdańsk",
+        "snapshot": "reports/delivery-map-audit/bolt/gdansk.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/gdansk.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": [
+          "auchan-2026"
+        ]
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/gdansk/",
+      "recommendedSource": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "confirmedAsOf": "2026-08-13",
+      "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "publishedAt": "2026-08-13"
+    },
+    {
+      "city": "Gdynia",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/gdynia/",
+      "fetchedAt": "2026-10-21T10:09:56.892000+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Gdyni, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Gdyni"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Gdynia",
+        "snapshot": "reports/delivery-map-audit/bolt/gdynia.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/gdynia.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/gdynia/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/gdynia/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/gdynia/",
+      "publishedAt": null
+    },
+    {
+      "city": "Giżycko",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/gizycko/",
+      "fetchedAt": "2026-10-21T10:09:57.037509+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Giżycku, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Giżycku"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Giżycko",
+        "snapshot": "reports/delivery-map-audit/bolt/gizycko.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/gizycko.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/gizycko/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/gizycko/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/gizycko/",
+      "publishedAt": null
+    },
+    {
+      "city": "Gorzów Wielkopolski",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/gorzow-wielkopolski/",
+      "fetchedAt": "2026-10-21T10:09:57.070646+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając zamówienia w Gorzowie Wielkopolskim",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Gorzowie Wielkopolskim"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Gorzów Wielkopolski",
+        "snapshot": "reports/delivery-map-audit/bolt/gorzow-wielkopolski.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/gorzow-wielkopolski.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/gorzow-wielkopolski/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/gorzow-wielkopolski/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/gorzow-wielkopolski/",
+      "publishedAt": null
+    },
+    {
+      "city": "Jelenia Góra",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/jelenia-gora/",
+      "fetchedAt": "2026-10-21T10:09:57.192310+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając jedzenie w Jeleniej Górze, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Jeleniej Górze"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Jelenia Góra",
+        "snapshot": "reports/delivery-map-audit/bolt/jelenia-gora.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/jelenia-gora.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/jelenia-gora/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/jelenia-gora/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/jelenia-gora/",
+      "publishedAt": null
+    },
+    {
+      "city": "Katowice",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/katowice/",
+      "fetchedAt": "2026-10-21T10:09:57.448282+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Katowicach, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Katowicach"
+      ],
+      "proposedStatus": "active",
+      "sourceLabel": "Auchan — komunikat o dostawach Bolt Food (13.08.2026)",
+      "note": "Potwierdzone komunikatem Auchan; dostępność pod konkretnym adresem zależy od strefy.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Katowice",
+        "snapshot": "reports/delivery-map-audit/bolt/katowice.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/katowice.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": [
+          "auchan-2026"
+        ]
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/katowice/",
+      "recommendedSource": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "confirmedAsOf": "2026-08-13",
+      "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "publishedAt": "2026-08-13"
+    },
+    {
+      "city": "Kędzierzyn-Koźle",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/kedzierzyn-kozle/",
+      "fetchedAt": "2026-10-21T10:09:57.615497+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając zamówienia w Kędzierzynie-Koźlu, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Kędzierzynie-Koźlu"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Kędzierzyn-Koźle",
+        "snapshot": "reports/delivery-map-audit/bolt/kedzierzyn-kozle.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/kedzierzyn-kozle.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/kedzierzyn-kozle/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/kedzierzyn-kozle/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/kedzierzyn-kozle/",
+      "publishedAt": null
+    },
+    {
+      "city": "Kielce",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/kielce/",
+      "fetchedAt": "2026-10-21T10:09:57.633351+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Kielcach, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Kielcach"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Kielce",
+        "snapshot": "reports/delivery-map-audit/bolt/kielce.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/kielce.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/kielce/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/kielce/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/kielce/",
+      "publishedAt": null
+    },
+    {
+      "city": "Konin",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/konin/",
+      "fetchedAt": "2026-10-21T10:09:57.839813+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Koninie, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Koninie"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Konin",
+        "snapshot": "reports/delivery-map-audit/bolt/konin.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/konin.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/konin/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/konin/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/konin/",
+      "publishedAt": null
+    },
+    {
+      "city": "Koszalin",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/koszalin/",
+      "fetchedAt": "2026-10-21T10:09:57.912852+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Koszalinie, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Koszalinie"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Koszalin",
+        "snapshot": "reports/delivery-map-audit/bolt/koszalin.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/koszalin.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/koszalin/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/koszalin/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/koszalin/",
+      "publishedAt": null
+    },
+    {
+      "city": "Kraków",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/krakow/",
+      "fetchedAt": "2026-10-21T10:09:58.087159+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Krakowie, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Krakowie"
+      ],
+      "proposedStatus": "active",
+      "sourceLabel": "Auchan — komunikat o dostawach Bolt Food (13.08.2026)",
+      "note": "Potwierdzone komunikatem Auchan; dostępność pod konkretnym adresem zależy od strefy.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Kraków",
+        "snapshot": "reports/delivery-map-audit/bolt/krakow.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/krakow.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": [
+          "auchan-2026"
+        ]
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/krakow/",
+      "recommendedSource": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "confirmedAsOf": "2026-08-13",
+      "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "publishedAt": "2026-08-13"
+    },
+    {
+      "city": "Krosno",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/krosno/",
+      "fetchedAt": "2026-10-21T10:09:58.447712+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Krośnie, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Krośnie"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Krosno",
+        "snapshot": "reports/delivery-map-audit/bolt/krosno.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/krosno.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/krosno/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/krosno/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/krosno/",
+      "publishedAt": null
+    },
+    {
+      "city": "Legnica",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/legnica/",
+      "fetchedAt": "2026-10-21T10:09:58.511337+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Legnicy, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Legnicy"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Legnica",
+        "snapshot": "reports/delivery-map-audit/bolt/legnica.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/legnica.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/legnica/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/legnica/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/legnica/",
+      "publishedAt": null
+    },
+    {
+      "city": "Leszno",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/leszno/",
+      "fetchedAt": "2026-10-21T10:09:58.669255+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Lesznie, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Lesznie"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Leszno",
+        "snapshot": "reports/delivery-map-audit/bolt/leszno.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/leszno.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/leszno/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/leszno/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/leszno/",
+      "publishedAt": null
+    },
+    {
+      "city": "Łódź",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/lodz/",
+      "fetchedAt": "2026-10-21T10:09:58.797718+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Łodzi, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Łodzi"
+      ],
+      "proposedStatus": "active",
+      "sourceLabel": "Auchan — komunikat o dostawach Bolt Food (13.08.2026)",
+      "note": "Potwierdzone komunikatem Auchan; dostępność pod konkretnym adresem zależy od strefy.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Łódź",
+        "snapshot": "reports/delivery-map-audit/bolt/lodz.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/lodz.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": [
+          "auchan-2026"
+        ]
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/lodz/",
+      "recommendedSource": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "confirmedAsOf": "2026-08-13",
+      "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "publishedAt": "2026-08-13"
+    },
+    {
+      "city": "Łomża",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/lomza/",
+      "fetchedAt": "2026-10-21T10:09:58.950037+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Łomży, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Łomży"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Łomża",
+        "snapshot": "reports/delivery-map-audit/bolt/lomza.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/lomza.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/lomza/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/lomza/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/lomza/",
+      "publishedAt": null
+    },
+    {
+      "city": "Lublin",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/lublin/",
+      "fetchedAt": "2026-10-21T10:09:59.421080+00:00",
+      "status": 200,
+      "title": "Zarabiaj na dostawach w Lublinie w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Lublinie"
+      ],
+      "proposedStatus": "active",
+      "sourceLabel": "Auchan — komunikat o dostawach Bolt Food (13.08.2026)",
+      "note": "Potwierdzone komunikatem Auchan; dostępność pod konkretnym adresem zależy od strefy.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Lublin",
+        "snapshot": "reports/delivery-map-audit/bolt/lublin.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/lublin.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": [
+          "auchan-2026"
+        ]
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/lublin/",
+      "recommendedSource": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "confirmedAsOf": "2026-08-13",
+      "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "publishedAt": "2026-08-13"
+    },
+    {
+      "city": "Mrągowo",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/mragowo/",
+      "fetchedAt": "2026-10-21T10:09:59.521324+00:00",
+      "status": 200,
+      "title": "Zarabiaj na dostawach w Mrągowie, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Mrągowie"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Mrągowo",
+        "snapshot": "reports/delivery-map-audit/bolt/mragowo.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/mragowo.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/mragowo/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/mragowo/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/mragowo/",
+      "publishedAt": null
+    },
+    {
+      "city": "Nowy Sącz",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/nowy-sacz/",
+      "fetchedAt": "2026-10-21T10:09:59.556219+00:00",
+      "status": 200,
+      "title": "Zarabiaj na dostawach w Nowym Sączu, w Polsce",
+      "h1": [
+        "Zarabiaj na dostarczaniu jedzenia w Nowym Sączu"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Nowy Sącz",
+        "snapshot": "reports/delivery-map-audit/bolt/nowy-sacz.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/nowy-sacz.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": false,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/nowy-sacz/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/nowy-sacz/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/nowy-sacz/",
+      "publishedAt": null
+    },
+    {
+      "city": "Olsztyn",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/olsztyn/",
+      "fetchedAt": "2026-10-21T10:09:59.677616+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Olsztynie, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Olsztynie"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Olsztyn",
+        "snapshot": "reports/delivery-map-audit/bolt/olsztyn.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/olsztyn.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/olsztyn/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/olsztyn/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/olsztyn/",
+      "publishedAt": null
+    },
+    {
+      "city": "Opole",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/opole/",
+      "fetchedAt": "2026-10-21T10:09:59.970903+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Opolu, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Opolu"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Opole",
+        "snapshot": "reports/delivery-map-audit/bolt/opole.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/opole.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/opole/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/opole/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/opole/",
+      "publishedAt": null
+    },
+    {
+      "city": "Ostrołęka",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/ostroleka/",
+      "fetchedAt": "2026-10-21T10:10:00.366531+00:00",
+      "status": 200,
+      "title": "Zarabiaj na dostawach w Ostrołęce, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Ostrołęce"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Ostrołęka",
+        "snapshot": "reports/delivery-map-audit/bolt/ostroleka.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/ostroleka.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/ostroleka/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/ostroleka/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/ostroleka/",
+      "publishedAt": null
+    },
+    {
+      "city": "Ostrów Wielkopolski",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/ostrow-wielkopolski/",
+      "fetchedAt": "2026-10-21T10:10:00.652555+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając zamówienia w Ostrowie Wielkopolskim, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Ostrowie Wielkopolskim"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Ostrów Wielkopolski",
+        "snapshot": "reports/delivery-map-audit/bolt/ostrow-wielkopolski.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/ostrow-wielkopolski.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/ostrow-wielkopolski/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/ostrow-wielkopolski/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/ostrow-wielkopolski/",
+      "publishedAt": null
+    },
+    {
+      "city": "Ostrowiec Świętokrzyski",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/ostrowiec-swietokrzyski/",
+      "fetchedAt": "2026-10-21T10:10:00.677743+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Ostrowcu Świętokrzyskim, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Ostrowcu Świętokrzyskim"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Ostrowiec Świętokrzyski",
+        "snapshot": "reports/delivery-map-audit/bolt/ostrowiec-swietokrzyski.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/ostrowiec-swietokrzyski.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/ostrowiec-swietokrzyski/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/ostrowiec-swietokrzyski/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/ostrowiec-swietokrzyski/",
+      "publishedAt": null
+    },
+    {
+      "city": "Płock",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/plock/",
+      "fetchedAt": "2026-10-21T10:10:00.735697+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Płocku w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Płocku"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Płock",
+        "snapshot": "reports/delivery-map-audit/bolt/plock.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/plock.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/plock/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/plock/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/plock/",
+      "publishedAt": null
+    },
+    {
+      "city": "Poznań",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "fetchedAt": "2026-10-21T10:09:54.926630+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Poznaniu, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Poznaniu"
+      ],
+      "proposedStatus": "active",
+      "sourceLabel": "Auchan — komunikat o dostawach Bolt Food (13.08.2026)",
+      "note": "Potwierdzone komunikatem Auchan; dostępność pod konkretnym adresem zależy od strefy.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Poznań",
+        "snapshot": "reports/delivery-map-audit/bolt/poznan.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/poznan.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": [
+          "auchan-2026"
+        ]
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "recommendedSource": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "confirmedAsOf": "2026-08-13",
+      "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "publishedAt": "2026-08-13"
+    },
+    {
+      "city": "Puławy",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/pulawy/",
+      "fetchedAt": "2026-10-21T10:10:01.081024+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Puławach, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Puławach"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Puławy",
+        "snapshot": "reports/delivery-map-audit/bolt/pulawy.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/pulawy.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/pulawy/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/pulawy/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/pulawy/",
+      "publishedAt": null
+    },
+    {
+      "city": "Radom",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/radom/",
+      "fetchedAt": "2026-10-21T10:10:01.384590+00:00",
+      "status": 200,
+      "title": "Zarabiaj na dostawach w Radomiu, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Radomiu"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Radom",
+        "snapshot": "reports/delivery-map-audit/bolt/radom.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/radom.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/radom/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/radom/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/radom/",
+      "publishedAt": null
+    },
+    {
+      "city": "Rzeszów",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/rzeszow/",
+      "fetchedAt": "2026-10-21T10:10:01.767816+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Rzeszowie, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Rzeszowie"
+      ],
+      "proposedStatus": "active",
+      "sourceLabel": "Natviol — start dostaw Bolt Food w Rzeszowie (01.06.2026)",
+      "note": "Konkretny komunikat partnera flotowego o rozpoczęciu dostaw; wsparty publikacją branżową z wypowiedzią Bolt z 15.06.2026. Nie jest to komunikat na domenie Bolt ani potwierdzenie naboru na dziś.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Rzeszów",
+        "snapshot": "reports/delivery-map-audit/bolt/rzeszow.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/rzeszow.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": [
+          "rzeszow-natviol",
+          "rzeszow-press"
+        ]
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/rzeszow/",
+      "recommendedSource": "https://natviol.com/bolt-food-w-rzeszowie-z-natviol-zacznij-dostawy-i-odbierz-bonus-100-zl/",
+      "confirmedAsOf": "2026-06-15",
+      "source": "https://natviol.com/bolt-food-w-rzeszowie-z-natviol-zacznij-dostawy-i-odbierz-bonus-100-zl/",
+      "publishedAt": "2026-06-01"
+    },
+    {
+      "city": "Sanok",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/sanok/",
+      "fetchedAt": "2026-10-21T10:10:01.811627+00:00",
+      "status": 200,
+      "title": "Zarabiaj na dostawach w Sanoku w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Sanoku"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Sanok",
+        "snapshot": "reports/delivery-map-audit/bolt/sanok.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/sanok.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/sanok/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/sanok/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/sanok/",
+      "publishedAt": null
+    },
+    {
+      "city": "Siedlce",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/siedlce/",
+      "fetchedAt": "2026-10-21T10:10:01.843307+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Siedlcach, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Siedlcach"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Siedlce",
+        "snapshot": "reports/delivery-map-audit/bolt/siedlce.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/siedlce.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/siedlce/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/siedlce/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/siedlce/",
+      "publishedAt": null
+    },
+    {
+      "city": "Skarżysko-Kamienna",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/skarzysko-kamienna/",
+      "fetchedAt": "2026-10-21T10:10:02.218830+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając zamówienia w Skarżysku Kamiennej",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Skarżysku Kamiennej"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Skarżysko Kamienna",
+        "snapshot": "reports/delivery-map-audit/bolt/skarzysko-kamienna.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/skarzysko-kamienna.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/skarzysko-kamienna/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/skarzysko-kamienna/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/skarzysko-kamienna/",
+      "publishedAt": null
+    },
+    {
+      "city": "Sopot",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/sopot/",
+      "fetchedAt": "2026-10-21T10:10:02.291652+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Sopocie",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Sopocie"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Sopot",
+        "snapshot": "reports/delivery-map-audit/bolt/sopot.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/sopot.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/sopot/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/sopot/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/sopot/",
+      "publishedAt": null
+    },
+    {
+      "city": "Stalowa Wola",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/stalowa-wola/",
+      "fetchedAt": "2026-10-21T10:10:02.859364+00:00",
+      "status": 200,
+      "title": "Zarabiaj na dostawach w Stalowej Woli w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Stalowej Woli"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Stalowa Wola",
+        "snapshot": "reports/delivery-map-audit/bolt/stalowa-wola.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/stalowa-wola.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/stalowa-wola/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/stalowa-wola/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/stalowa-wola/",
+      "publishedAt": null
+    },
+    {
+      "city": "Starachowice",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/starachowice/",
+      "fetchedAt": "2026-10-21T10:10:02.891053+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Starachowicach w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Starachowicach"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Starachowice",
+        "snapshot": "reports/delivery-map-audit/bolt/starachowice.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/starachowice.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/starachowice/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/starachowice/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/starachowice/",
+      "publishedAt": null
+    },
+    {
+      "city": "Suwałki",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/suwalki/",
+      "fetchedAt": "2026-10-21T10:10:02.943301+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Suwałkach, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Suwałkach"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Suwałki",
+        "snapshot": "reports/delivery-map-audit/bolt/suwalki.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/suwalki.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/suwalki/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/suwalki/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/suwalki/",
+      "publishedAt": null
+    },
+    {
+      "city": "Świdnik",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/swidnik/",
+      "fetchedAt": "2026-10-21T10:10:03.128099+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Świdniku, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Świdniku"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Świdnik",
+        "snapshot": "reports/delivery-map-audit/bolt/swidnik.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/swidnik.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/swidnik/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/swidnik/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/swidnik/",
+      "publishedAt": null
+    },
+    {
+      "city": "Szczecin",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/szczecin/",
+      "fetchedAt": "2026-10-21T10:10:03.255802+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Szczecinie w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Szczecinie"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Szczecin",
+        "snapshot": "reports/delivery-map-audit/bolt/szczecin.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/szczecin.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/szczecin/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/szczecin/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/szczecin/",
+      "publishedAt": null
+    },
+    {
+      "city": "Tarnów",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/tarnow/",
+      "fetchedAt": "2026-10-21T10:10:03.905124+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Tarnowie",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Tarnowie"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Tarnów",
+        "snapshot": "reports/delivery-map-audit/bolt/tarnow.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/tarnow.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/tarnow/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/tarnow/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/tarnow/",
+      "publishedAt": null
+    },
+    {
+      "city": "Toruń",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/torun/",
+      "fetchedAt": "2026-10-21T10:10:03.934324+00:00",
+      "status": 200,
+      "title": "Zarabiaj na dostawach w Toruniu, Polska",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Toruniu"
+      ],
+      "proposedStatus": "active",
+      "sourceLabel": "Auchan — komunikat o dostawach Bolt Food (13.08.2026)",
+      "note": "Potwierdzone komunikatem Auchan; dostępność pod konkretnym adresem zależy od strefy.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Toruń",
+        "snapshot": "reports/delivery-map-audit/bolt/torun.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/torun.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": [
+          "auchan-2026"
+        ]
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/torun/",
+      "recommendedSource": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "confirmedAsOf": "2026-08-13",
+      "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "publishedAt": "2026-08-13"
+    },
+    {
+      "city": "Wałbrzych",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/walbrzych/",
+      "fetchedAt": "2026-10-21T10:10:03.964552+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Wałbrzychu",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Wałbrzychu"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Wałbrzych",
+        "snapshot": "reports/delivery-map-audit/bolt/walbrzych.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/walbrzych.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/walbrzych/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/walbrzych/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/walbrzych/",
+      "publishedAt": null
+    },
+    {
+      "city": "Warszawa",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/warsaw/",
+      "fetchedAt": "2026-10-21T10:10:04.230982+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Warszawie",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Warszawie"
+      ],
+      "proposedStatus": "active",
+      "sourceLabel": "Auchan — komunikat o dostawach Bolt Food (13.08.2026)",
+      "note": "Potwierdzone komunikatem Auchan; dostępność pod konkretnym adresem zależy od strefy.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Warszawa",
+        "snapshot": "reports/delivery-map-audit/bolt/warsaw.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/warsaw.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": [
+          "auchan-2026"
+        ]
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/warsaw/",
+      "recommendedSource": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "confirmedAsOf": "2026-08-13",
+      "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "publishedAt": "2026-08-13"
+    },
+    {
+      "city": "Włocławek",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/wloclawek/",
+      "fetchedAt": "2026-10-21T10:10:04.384021+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając we Włocławku, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie we Włocławku"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Włocławek",
+        "snapshot": "reports/delivery-map-audit/bolt/wloclawek.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/wloclawek.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/wloclawek/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/wloclawek/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/wloclawek/",
+      "publishedAt": null
+    },
+    {
+      "city": "Wrocław",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/wroclaw/",
+      "fetchedAt": "2026-10-21T10:10:05.006964+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając we Wrocławiu, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie we Wrocławiu"
+      ],
+      "proposedStatus": "active",
+      "sourceLabel": "Auchan — komunikat o dostawach Bolt Food (13.08.2026)",
+      "note": "Potwierdzone komunikatem Auchan; dostępność pod konkretnym adresem zależy od strefy.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Wrocław",
+        "snapshot": "reports/delivery-map-audit/bolt/wroclaw.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/wroclaw.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": [
+          "auchan-2026"
+        ]
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/wroclaw/",
+      "recommendedSource": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "confirmedAsOf": "2026-08-13",
+      "source": "https://media.auchan.pl/komunikaty-prasowe/sklepy-auchan-dostepne-w-aplikacji-bolt-food",
+      "publishedAt": "2026-08-13"
+    },
+    {
+      "city": "Zamość",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/zamosc/",
+      "fetchedAt": "2026-10-21T10:10:05.034737+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając w Zamościu w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Zamościu"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Zamość",
+        "snapshot": "reports/delivery-map-audit/bolt/zamosc.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/zamosc.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/zamosc/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/zamosc/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/zamosc/",
+      "publishedAt": null
+    },
+    {
+      "city": "Zielona Góra",
+      "originalSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+      "directSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/zielona-gora/",
+      "fetchedAt": "2026-10-21T10:10:05.156190+00:00",
+      "status": 200,
+      "title": "Zarabiaj, dostarczając zamówienia w Zielonej Górze, w Polsce",
+      "h1": [
+        "Zarabiaj, dostarczając jedzenie w Zielonej Górze"
+      ],
+      "proposedStatus": "unverified",
+      "sourceLabel": "Bolt Food — strona marketingowa miasta (niepotwierdzone)",
+      "note": "Własna strona miasta odpowiada HTTP 200 i opisuje Bolt Food, ale ma ogólny szablon marketingowy. Nie znaleziono mocniejszego potwierdzenia operacyjnego w przejrzanych źródłach. Nie oznacza to, że usługa jest niedostępna.",
+      "evidence": {
+        "discoveredFrom": "https://bolt.eu/pl-pl/food/courier/earn/poland/poznan/",
+        "anchorText": "Zielona Góra",
+        "snapshot": "reports/delivery-map-audit/bolt/zielona-gora.html",
+        "parsedProof": "reports/delivery-map-audit/bolt/zielona-gora.parsed.json",
+        "assessment": "marketing-template-not-accepted-as-sole-operational-proof",
+        "foodDriverComparison": "reports/delivery-map-audit/bolt/food-driver-comparison.json",
+        "directPageHasFoodCityH1": true,
+        "corroboratingSourceIds": []
+      },
+      "resolvedUrl": "https://bolt.eu/pl-pl/food/courier/earn/poland/zielona-gora/",
+      "recommendedSource": "https://bolt.eu/pl-pl/food/courier/earn/poland/zielona-gora/",
+      "source": "https://bolt.eu/pl-pl/food/courier/earn/poland/zielona-gora/",
+      "publishedAt": null
+    }
+  ]
+}
